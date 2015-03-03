@@ -1,0 +1,158 @@
+<?xml version="1.0"?>
+<array>
+  <item>
+    <object>
+      <kind><![CDATA[iteration]]></kind>
+      <number>17</number>
+      <project_id>1127324</project_id>
+      <team_strength>1</team_strength>
+      <stories>
+        <array>
+          <item>
+            <object>
+              <kind><![CDATA[story]]></kind>
+              <id>84929340</id>
+              <project_id>1127324</project_id>
+              <name><![CDATA[Update mock portal with Create recovery host dialog]]></name>
+              <story_type><![CDATA[chore]]></story_type>
+              <current_state><![CDATA[started]]></current_state>
+              <requested_by_id>1392724</requested_by_id>
+              <owned_by_id>1392724</owned_by_id>
+              <owner_ids>
+                <array>
+                  <item>1392724</item>
+                </array>
+              </owner_ids>
+              <labels>
+                <array/>
+              </labels>
+              <created_at><![CDATA[2014-12-19T15:35:32Z]]></created_at>
+              <updated_at><![CDATA[2014-12-19T15:35:38Z]]></updated_at>
+              <url><![CDATA[https://www.pivotaltracker.com/story/show/84929340]]></url>
+            </object>
+          </item>
+          <item>
+            <object>
+              <kind><![CDATA[story]]></kind>
+              <id>84328430</id>
+              <project_id>1127324</project_id>
+              <name><![CDATA[Automated conversion from S3 appliance image to VHD]]></name>
+              <description><![CDATA[**Acceptance**
+Ability to run an automated script (or similar) which will pull appliance endpoint backup image from S3 and convert into VHD format using paragon SDK
+
+Does not include booting a VM from that VHD (that is separate story)]]></description>
+              <story_type><![CDATA[feature]]></story_type>
+              <current_state><![CDATA[started]]></current_state>
+              <estimate>5</estimate>
+              <requested_by_id>1404594</requested_by_id>
+              <owned_by_id>1395448</owned_by_id>
+              <owner_ids>
+                <array>
+                  <item>1395448</item>
+                </array>
+              </owner_ids>
+              <labels>
+                <array>
+                  <item>
+                    <object>
+                      <kind><![CDATA[label]]></kind>
+                      <id>10393346</id>
+                      <project_id>1127324</project_id>
+                      <name><![CDATA[bmr]]></name>
+                      <created_at><![CDATA[2015-01-06T14:36:34Z]]></created_at>
+                      <updated_at><![CDATA[2015-01-06T14:36:34Z]]></updated_at>
+                    </object>
+                  </item>
+                </array>
+              </labels>
+              <created_at><![CDATA[2014-12-10T20:12:09Z]]></created_at>
+              <updated_at><![CDATA[2015-01-06T15:13:39Z]]></updated_at>
+              <url><![CDATA[https://www.pivotaltracker.com/story/show/84328430]]></url>
+            </object>
+          </item>
+          <item>
+            <object>
+              <kind><![CDATA[story]]></kind>
+              <id>83879786</id>
+              <project_id>1127324</project_id>
+              <name><![CDATA[Esoteric WebDAV protocol features]]></name>
+              <description><![CDATA[Provide a complete PROPFIND function which
+
+**Acceptance Criteria**
+Passing tests]]></description>
+              <story_type><![CDATA[feature]]></story_type>
+              <current_state><![CDATA[started]]></current_state>
+              <estimate>5</estimate>
+              <requested_by_id>1392724</requested_by_id>
+              <owned_by_id>1395454</owned_by_id>
+              <owner_ids>
+                <array>
+                  <item>1395454</item>
+                  <item>1392724</item>
+                </array>
+              </owner_ids>
+              <labels>
+                <array>
+                  <item>
+                    <object>
+                      <kind><![CDATA[label]]></kind>
+                      <id>9703240</id>
+                      <project_id>1127324</project_id>
+                      <name><![CDATA[api]]></name>
+                      <created_at><![CDATA[2014-10-14T13:37:06Z]]></created_at>
+                      <updated_at><![CDATA[2014-10-14T13:37:06Z]]></updated_at>
+                    </object>
+                  </item>
+                </array>
+              </labels>
+              <created_at><![CDATA[2014-12-03T20:12:22Z]]></created_at>
+              <updated_at><![CDATA[2015-02-26T15:46:16Z]]></updated_at>
+              <url><![CDATA[https://www.pivotaltracker.com/story/show/83879786]]></url>
+            </object>
+          </item>
+          <item>
+            <object>
+              <kind><![CDATA[story]]></kind>
+              <id>83128614</id>
+              <project_id>1127324</project_id>
+              <name><![CDATA[Add accept handling for application/json+ld]]></name>
+              <description><![CDATA[This format will be the real supported JSON interface.  The plain JSON interface story is just for demo purposes and provides the code in conductor to generically handle accept header transformations.
+
+**Deliverable**: conductor xslt transform, and conductor repo test
+**Acceptance**: test passing]]></description>
+              <story_type><![CDATA[feature]]></story_type>
+              <current_state><![CDATA[started]]></current_state>
+              <estimate>2</estimate>
+              <requested_by_id>1392724</requested_by_id>
+              <owned_by_id>1392724</owned_by_id>
+              <owner_ids>
+                <array>
+                  <item>1392724</item>
+                </array>
+              </owner_ids>
+              <labels>
+                <array>
+                  <item>
+                    <object>
+                      <kind><![CDATA[label]]></kind>
+                      <id>9703240</id>
+                      <project_id>1127324</project_id>
+                      <name><![CDATA[api]]></name>
+                      <created_at><![CDATA[2014-10-14T13:37:06Z]]></created_at>
+                      <updated_at><![CDATA[2014-10-14T13:37:06Z]]></updated_at>
+                    </object>
+                  </item>
+                </array>
+              </labels>
+              <created_at><![CDATA[2014-11-20T16:03:01Z]]></created_at>
+              <updated_at><![CDATA[2015-02-26T15:40:16Z]]></updated_at>
+              <url><![CDATA[https://www.pivotaltracker.com/story/show/83128614]]></url>
+            </object>
+          </item>
+        </array>
+      </stories>
+      <start><![CDATA[2015-02-26T05:00:00Z]]></start>
+      <finish><![CDATA[2015-03-12T04:00:00Z]]></finish>
+    </object>
+  </item>
+</array>

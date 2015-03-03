@@ -1,0 +1,124 @@
+%PDF-1.0
+%%Creator: Karl Redgate
+%%Title: Example PDF
+%%EndComments
+% Manual creation of PDF
+% End of the header
+
+% Start of the body
+% Each object is "obj# generation# obj"
+% When the object is referenced use: "obj# gen# R"
+%
+% Object 1 is the Info object
+% The trailer points at this object
+1 0 obj
+<<
+/Author(Karl Redgate)
+/Creator(Karl Redgate)
+/CreationDate(D:20150301104239) 
+/ModDate(D:20150301104239) 
+/Producer(Karl Redgate)
+>>
+
+2 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+>>
+endobj
+
+3 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica-Bold
+>>
+endobj
+
+% Object 4 is the Root object
+% - references the Pages object (object 5)
+4 0 obj
+<<
+/Type /Catalog
+%/OpenAction
+/Pages 5 0 R
+>>
+endobj
+
+5 0 obj
+<<
+/Type /Pages
+/Count 1
+/Kids [6 0 R]
+>>
+endobj
+
+6 0 obj
+<<
+/Type /Page
+/Parent 5 0 R
+/Resources <<
+    /Font <<
+        /F1 2 0 R
+        /F2 3 0 R
+    >>
+>>
+/MediaBox [0 0 612 792]
+/Contents 7 0 R
+>>
+endobj
+
+% object 7 is a stream object
+% The byte length starting right after 'stream' to just before 'endstream'
+% BT = begin text
+% /F1 is the symbol for the font we defined in object 4
+% 24 is the font size
+% Tf = ?? font
+% 250 700 are the x and y distance from the bottom right of the page
+% ET = end text
+7 0 obj
+<< /Length 141 >>
+stream
+BT
+/F2 11 Tf % selectfont
+24 750 Td % move text position
+(This is the title) Tj % show
+
+/F1 11 Tf % selectfont
+0 -11 Td % move text position
+(Hello, World!) Tj % show
+0 -11 Td % move text position
+(Goodbye, World!) Tj % show
+0 -11 Td % move text position
+(this is a test of a very long line to see if it goes off the end of the screen) Tj % show
+ET
+endstream
+endobj
+
+8 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+>>
+endobj
+
+% This is start of the cross reference table and trailer
+% The integer in the line following startxref is the byte
+% position if the 'x' in 'xref'
+%
+% 9 objects in this document including the 'xref'
+xref
+0 9
+
+% The /Root points to the Catalog object
+trailer
+<<
+/Size 9
+/Root 4 0 R
+/Info 1 0 R
+>>
+startxref
+
+%%EOF

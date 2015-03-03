@@ -1,0 +1,22 @@
+#!/bin/bash
+
+( cat <<END
+From: KRedgate@carbonite.com
+To: KRedgate@carbonite.com
+Subject: DRaaS Iterations
+Content-type: multipart/alternative; boundary="DEADBEEF-CAFEBABE"
+
+This is a MIME Message
+
+--DEADBEEF-CAFEBABE
+Content-type: text/html
+
+END
+
+cat bl.html
+
+cat <<END
+
+--DEADBEEF-CAFEBABE--
+END
+) | sendmail -t

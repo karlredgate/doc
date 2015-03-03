@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<array>
+  <item>
+    <object>
+      <id>1127324</id>
+      <kind><![CDATA[project]]></kind>
+      <name><![CDATA[DRaaS]]></name>
+      <version>1824</version>
+      <iteration_length>2</iteration_length>
+      <week_start_day><![CDATA[Thursday]]></week_start_day>
+      <point_scale><![CDATA[0,1,2,3,5,8]]></point_scale>
+      <point_scale_is_custom>false</point_scale_is_custom>
+      <bugs_and_chores_are_estimatable>false</bugs_and_chores_are_estimatable>
+      <automatic_planning>true</automatic_planning>
+      <enable_tasks>true</enable_tasks>
+      <time_zone>
+        <object>
+          <kind><![CDATA[time_zone]]></kind>
+          <olson_name><![CDATA[America/New_York]]></olson_name>
+          <offset><![CDATA[-05:00]]></offset>
+        </object>
+      </time_zone>
+      <velocity_averaged_over>3</velocity_averaged_over>
+      <number_of_done_iterations_to_show>12</number_of_done_iterations_to_show>
+      <has_google_domain>false</has_google_domain>
+      <description><![CDATA[Disaster Recovery]]></description>
+      <enable_incoming_emails>true</enable_incoming_emails>
+      <initial_velocity>10</initial_velocity>
+      <public>false</public>
+      <atom_enabled>true</atom_enabled>
+      <start_date><![CDATA[2014-07-17]]></start_date>
+      <start_time><![CDATA[2014-07-17T04:00:00Z]]></start_time>
+      <created_at><![CDATA[2014-07-21T21:28:57Z]]></created_at>
+      <updated_at><![CDATA[2015-01-13T05:55:39Z]]></updated_at>
+      <account_id>668198</account_id>
+      <current_iteration_number>17</current_iteration_number>
+      <enable_following>true</enable_following>
+    </object>
+  </item>
+</array>

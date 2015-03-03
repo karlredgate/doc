@@ -1,0 +1,3297 @@
+<?xml version="1.0"?>
+<array>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>75398498</id>
+      <created_at><![CDATA[2014-07-21T21:54:50Z]]></created_at>
+      <updated_at><![CDATA[2014-08-05T15:57:33Z]]></updated_at>
+      <accepted_at><![CDATA[2014-08-05T15:57:33Z]]></accepted_at>
+      <story_type><![CDATA[chore]]></story_type>
+      <name><![CDATA[Bootstrap git doc repo with wiki content]]></name>
+      <description><![CDATA[The [wiki]( http://github.carboniteinc.com/DRaaS/doc/wiki ) for the doc repo needs to be populated with notes from investigations.  This will be used to produce specs in the future.]]></description>
+      <current_state><![CDATA[accepted]]></current_state>
+      <requested_by_id>1392724</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/75398498]]></url>
+      <owner_ids>
+        <array>
+          <item>1392724</item>
+        </array>
+      </owner_ids>
+      <labels>
+        <array/>
+      </labels>
+      <owned_by_id>1392724</owned_by_id>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>77312014</id>
+      <created_at><![CDATA[2014-08-20T18:13:30Z]]></created_at>
+      <updated_at><![CDATA[2014-08-20T18:19:16Z]]></updated_at>
+      <accepted_at><![CDATA[2014-08-20T18:19:17Z]]></accepted_at>
+      <story_type><![CDATA[chore]]></story_type>
+      <name><![CDATA[Review secret server interface for possible DRaaS use]]></name>
+      <description><![CDATA[DRaaS will require some set of credentials that we may need to protect.  Since we have a service in Carbonite's data center, we should understand its applicability.]]></description>
+      <current_state><![CDATA[accepted]]></current_state>
+      <requested_by_id>1392724</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/77312014]]></url>
+      <owner_ids>
+        <array>
+          <item>1392724</item>
+        </array>
+      </owner_ids>
+      <labels>
+        <array/>
+      </labels>
+      <owned_by_id>1392724</owned_by_id>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>75546126</id>
+      <created_at><![CDATA[2014-07-23T20:15:36Z]]></created_at>
+      <updated_at><![CDATA[2014-08-28T12:54:59Z]]></updated_at>
+      <accepted_at><![CDATA[2014-08-20T18:58:01Z]]></accepted_at>
+      <estimate>5</estimate>
+      <story_type><![CDATA[feature]]></story_type>
+      <name><![CDATA[Identify customer data access for CSB & implement scripts]]></name>
+      <description><![CDATA[This includes customer information and actual customer data sets.  There is some reluctance from the Zmanda folks to provide access.  The definition of the customer data is not well defined yet.
+
+----
+**Deliverable**: 
+ * Wiki page in DRaaS/doc repo describing access and nature of CSB customer data.
+ * Tools to access the customer data in StarForge
+
+**Acceptance Criteria**: Person other than author of doc successfully accessing customer data.]]></description>
+      <current_state><![CDATA[accepted]]></current_state>
+      <requested_by_id>1392724</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/75546126]]></url>
+      <owner_ids>
+        <array>
+          <item>1392724</item>
+          <item>1395442</item>
+        </array>
+      </owner_ids>
+      <labels>
+        <array>
+          <item>
+            <object>
+              <id>9020300</id>
+              <project_id>1127324</project_id>
+              <kind><![CDATA[label]]></kind>
+              <name><![CDATA[spike]]></name>
+              <created_at><![CDATA[2014-07-24T14:25:26Z]]></created_at>
+              <updated_at><![CDATA[2014-07-24T14:25:26Z]]></updated_at>
+            </object>
+          </item>
+        </array>
+      </labels>
+      <owned_by_id>1392724</owned_by_id>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>75430188</id>
+      <created_at><![CDATA[2014-07-22T12:14:22Z]]></created_at>
+      <updated_at><![CDATA[2014-08-26T20:14:19Z]]></updated_at>
+      <accepted_at><![CDATA[2014-08-26T20:14:19Z]]></accepted_at>
+      <estimate>3</estimate>
+      <story_type><![CDATA[feature]]></story_type>
+      <name><![CDATA[Investigate CSB SQL server backup format and location]]></name>
+      <description><![CDATA[We need to know the format of the backup archives, their location on Google, and how to locate them for a specific customer.
+
+**Deliverable**: A wiki page in the doc repo that describes the how to access/download a customers data.
+**Acceptance Criteria**: 
+ * Someone other than the author of the wiki page successfully downloading archive and found that it is the same format as the one documented]]></description>
+      <current_state><![CDATA[accepted]]></current_state>
+      <requested_by_id>1392724</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/75430188]]></url>
+      <owner_ids>
+        <array>
+          <item>1395454</item>
+        </array>
+      </owner_ids>
+      <labels>
+        <array>
+          <item>
+            <object>
+              <id>9020300</id>
+              <project_id>1127324</project_id>
+              <kind><![CDATA[label]]></kind>
+              <name><![CDATA[spike]]></name>
+              <created_at><![CDATA[2014-07-24T14:25:26Z]]></created_at>
+              <updated_at><![CDATA[2014-07-24T14:25:26Z]]></updated_at>
+            </object>
+          </item>
+        </array>
+      </labels>
+      <owned_by_id>1395454</owned_by_id>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>75591062</id>
+      <created_at><![CDATA[2014-07-24T14:09:44Z]]></created_at>
+      <updated_at><![CDATA[2014-08-29T17:41:00Z]]></updated_at>
+      <accepted_at><![CDATA[2014-08-29T17:40:06Z]]></accepted_at>
+      <deadline><![CDATA[2014-08-27T16:00:00Z]]></deadline>
+      <story_type><![CDATA[release]]></story_type>
+      <name><![CDATA[Making a VM and then using script assisted recovery of the database]]></name>
+      <description><![CDATA[While Zmanda folks say this can be done, we need to walk through this process ourselves to understand the process in order to automate it.]]></description>
+      <current_state><![CDATA[accepted]]></current_state>
+      <requested_by_id>1392724</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/75591062]]></url>
+      <owner_ids>
+        <array/>
+      </owner_ids>
+      <labels>
+        <array/>
+      </labels>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>76958376</id>
+      <created_at><![CDATA[2014-08-14T15:22:46Z]]></created_at>
+      <updated_at><![CDATA[2014-09-03T18:01:55Z]]></updated_at>
+      <accepted_at><![CDATA[2014-09-03T18:01:54Z]]></accepted_at>
+      <estimate>2</estimate>
+      <story_type><![CDATA[feature]]></story_type>
+      <name><![CDATA[Review recovery options with AWS solutions architect]]></name>
+      <description><![CDATA[We need to know about what kind of BMR style recovery is possible in AWS.  On the surface there are none, but we know that some companies are providing recovery in AWS - and need to determine what AWS provides.
+Questions for the solutions architect should be in the tasks list of this story.]]></description>
+      <current_state><![CDATA[accepted]]></current_state>
+      <requested_by_id>1392724</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/76958376]]></url>
+      <owner_ids>
+        <array>
+          <item>1404594</item>
+        </array>
+      </owner_ids>
+      <labels>
+        <array>
+          <item>
+            <object>
+              <id>9020300</id>
+              <project_id>1127324</project_id>
+              <kind><![CDATA[label]]></kind>
+              <name><![CDATA[spike]]></name>
+              <created_at><![CDATA[2014-07-24T14:25:26Z]]></created_at>
+              <updated_at><![CDATA[2014-07-24T14:25:26Z]]></updated_at>
+            </object>
+          </item>
+        </array>
+      </labels>
+      <owned_by_id>1404594</owned_by_id>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>75546210</id>
+      <created_at><![CDATA[2014-07-23T20:16:36Z]]></created_at>
+      <updated_at><![CDATA[2014-09-10T14:51:06Z]]></updated_at>
+      <accepted_at><![CDATA[2014-09-08T15:01:57Z]]></accepted_at>
+      <estimate>2</estimate>
+      <story_type><![CDATA[feature]]></story_type>
+      <name><![CDATA[Identify process to automatically restore CSB data to SQL Server]]></name>
+      <description><![CDATA[Identify the available methods of importing data to a SQL server instance, and which ones are possible with the data format of CSB customer backups.
+
+**Deliverable**: Wiki page describing methods available and method chosen.
+**Acceptance**: Successful import of SQL server data from someone other than the author.]]></description>
+      <current_state><![CDATA[accepted]]></current_state>
+      <requested_by_id>1392724</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/75546210]]></url>
+      <owner_ids>
+        <array>
+          <item>1395454</item>
+        </array>
+      </owner_ids>
+      <labels>
+        <array>
+          <item>
+            <object>
+              <id>9020300</id>
+              <project_id>1127324</project_id>
+              <kind><![CDATA[label]]></kind>
+              <name><![CDATA[spike]]></name>
+              <created_at><![CDATA[2014-07-24T14:25:26Z]]></created_at>
+              <updated_at><![CDATA[2014-07-24T14:25:26Z]]></updated_at>
+            </object>
+          </item>
+        </array>
+      </labels>
+      <owned_by_id>1395454</owned_by_id>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>75964806</id>
+      <created_at><![CDATA[2014-07-30T12:23:48Z]]></created_at>
+      <updated_at><![CDATA[2014-09-08T19:54:00Z]]></updated_at>
+      <accepted_at><![CDATA[2014-09-08T19:54:00Z]]></accepted_at>
+      <estimate>3</estimate>
+      <story_type><![CDATA[feature]]></story_type>
+      <name><![CDATA[Investigate AWS EC2 init script]]></name>
+      <description><![CDATA[AWS has some process by which when an EC2 instance is created, a script can be passed to run in the instance to initialize the VM with additional configuration. We need this for both Linux and Windows VMs.
+
+We need:
+ 1. How to pass these scripts to VM creation command
+ 2. Limitations on where the scripts must live (eg - S3?)
+ 3. What are the limitations/requirements of the contents of the scripts.
+
+**Deliverable**: Wiki page describing how to use the init scripts in AWS.
+**Acceptance**: Successful reproduction of commands in wiki by someone other than the author.]]></description>
+      <current_state><![CDATA[accepted]]></current_state>
+      <requested_by_id>1392724</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/75964806]]></url>
+      <owner_ids>
+        <array>
+          <item>1392724</item>
+        </array>
+      </owner_ids>
+      <labels>
+        <array/>
+      </labels>
+      <owned_by_id>1392724</owned_by_id>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>75546090</id>
+      <created_at><![CDATA[2014-07-23T20:15:03Z]]></created_at>
+      <updated_at><![CDATA[2014-09-08T20:00:58Z]]></updated_at>
+      <accepted_at><![CDATA[2014-09-08T20:00:58Z]]></accepted_at>
+      <estimate>5</estimate>
+      <story_type><![CDATA[feature]]></story_type>
+      <name><![CDATA[Investigate WinRM access to Windows from Linux]]></name>
+      <description><![CDATA[On a linux EC2 instance a customer will be able to launch a windows server 2012 EC2 instance running SQL Server 2008 standard and install CSB. 
+
+The Windows EC2/VM will be accessed using WinRM and PowerShell commands. This story is to identify the best solution for access (perhaps more than one).
+
+**Deliverable**: Wiki page describing the tools and their usage.
+**Acceptance**: Successful use of wiki page information from someone other than the author]]></description>
+      <current_state><![CDATA[accepted]]></current_state>
+      <requested_by_id>1392724</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/75546090]]></url>
+      <owner_ids>
+        <array>
+          <item>1392724</item>
+        </array>
+      </owner_ids>
+      <labels>
+        <array>
+          <item>
+            <object>
+              <id>9020300</id>
+              <project_id>1127324</project_id>
+              <kind><![CDATA[label]]></kind>
+              <name><![CDATA[spike]]></name>
+              <created_at><![CDATA[2014-07-24T14:25:26Z]]></created_at>
+              <updated_at><![CDATA[2014-07-24T14:25:26Z]]></updated_at>
+            </object>
+          </item>
+        </array>
+      </labels>
+      <owned_by_id>1392724</owned_by_id>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>75964778</id>
+      <created_at><![CDATA[2014-07-30T12:23:26Z]]></created_at>
+      <updated_at><![CDATA[2014-09-10T15:04:06Z]]></updated_at>
+      <accepted_at><![CDATA[2014-09-09T16:00:00Z]]></accepted_at>
+      <estimate>3</estimate>
+      <story_type><![CDATA[feature]]></story_type>
+      <name><![CDATA[Automate CSB unattended install]]></name>
+      <description><![CDATA[CSB needs to be installed on the EC2 recovery VM as an unattended install - since it will be scripted.
+
+----
+**Deliverable**:
+ * Wiki page describing process
+ * Script to perform the install (targeted to the AWS init script)
+
+**Acceptance**: Successful silent install by someone other than the author.]]></description>
+      <current_state><![CDATA[accepted]]></current_state>
+      <requested_by_id>1392724</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/75964778]]></url>
+      <owner_ids>
+        <array>
+          <item>1392724</item>
+        </array>
+      </owner_ids>
+      <labels>
+        <array/>
+      </labels>
+      <owned_by_id>1392724</owned_by_id>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>78743582</id>
+      <created_at><![CDATA[2014-09-12T19:16:00Z]]></created_at>
+      <updated_at><![CDATA[2014-09-16T14:44:44Z]]></updated_at>
+      <accepted_at><![CDATA[2014-09-16T14:44:44Z]]></accepted_at>
+      <estimate>1</estimate>
+      <story_type><![CDATA[feature]]></story_type>
+      <name><![CDATA[Update S3 CSB version to 4.12]]></name>
+      <description><![CDATA[**deliverable**: S3 updated
+**Acceptance**: verify prepare script gets version 4.12 via the VM CSB UI]]></description>
+      <current_state><![CDATA[accepted]]></current_state>
+      <requested_by_id>1392724</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/78743582]]></url>
+      <owner_ids>
+        <array>
+          <item>1392724</item>
+        </array>
+      </owner_ids>
+      <labels>
+        <array/>
+      </labels>
+      <owned_by_id>1392724</owned_by_id>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>76957888</id>
+      <created_at><![CDATA[2014-08-14T15:17:58Z]]></created_at>
+      <updated_at><![CDATA[2014-09-16T15:57:55Z]]></updated_at>
+      <accepted_at><![CDATA[2014-09-16T15:57:55Z]]></accepted_at>
+      <deadline><![CDATA[2014-09-17T16:00:00Z]]></deadline>
+      <story_type><![CDATA[release]]></story_type>
+      <name><![CDATA[Scripted recover of a "customer" SQL server backup in an EC2 instance]]></name>
+      <description><![CDATA[This milestone is consists of running a script in the orchestration VM that:
+
+ 1. Creates a customer recovery VM
+ 2. Loads CSB
+ 3. Recovers the SQL server backup set
+ 4. Loads the SQL server backup set into SQL server
+ 5. Reports the SQL server connection info required for the client.
+
+The SQL server client VM will already be present - but will need to be configured to talk to the new recovery VM.]]></description>
+      <current_state><![CDATA[accepted]]></current_state>
+      <requested_by_id>1392724</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/76957888]]></url>
+      <owner_ids>
+        <array/>
+      </owner_ids>
+      <labels>
+        <array/>
+      </labels>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>78564264</id>
+      <created_at><![CDATA[2014-09-10T14:48:36Z]]></created_at>
+      <updated_at><![CDATA[2014-09-18T18:59:46Z]]></updated_at>
+      <accepted_at><![CDATA[2014-09-18T15:50:53Z]]></accepted_at>
+      <estimate>1</estimate>
+      <story_type><![CDATA[feature]]></story_type>
+      <name><![CDATA[Create reference *dev* customer with SQL server data]]></name>
+      <description><![CDATA[Create a CSB account, create data in a SQL server backup, back up the SQL server data to the cloud, and delete the source VM.
+
+This data should then be treated as read-only and used for recovery testing.
+
+**Deliverable**: account email for reference data
+**Acceptance**: successful recovery of data in a new VM]]></description>
+      <current_state><![CDATA[accepted]]></current_state>
+      <requested_by_id>1392724</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/78564264]]></url>
+      <owner_ids>
+        <array>
+          <item>1395454</item>
+        </array>
+      </owner_ids>
+      <labels>
+        <array/>
+      </labels>
+      <owned_by_id>1395454</owned_by_id>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>78562852</id>
+      <created_at><![CDATA[2014-09-10T14:38:42Z]]></created_at>
+      <updated_at><![CDATA[2014-09-18T15:51:47Z]]></updated_at>
+      <accepted_at><![CDATA[2014-09-18T15:51:48Z]]></accepted_at>
+      <estimate>2</estimate>
+      <story_type><![CDATA[feature]]></story_type>
+      <name><![CDATA[Automate install of cloud certificate for CSB]]></name>
+      <description><![CDATA[This is split from the automate CSB install story.  It involves installing the cloud certificate from StarForge for a customer to the recovery VM in AWS.  The installation requires decoding the base64 data and storing it in a specific location in the recovery VM filesystem.
+
+**Deliverable**: cloud certificate installation command in powershell module
+**Acceptance**: validation of CSB running on the VM console without popping up the "load cloud certificate" dialog]]></description>
+      <current_state><![CDATA[accepted]]></current_state>
+      <requested_by_id>1392724</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/78562852]]></url>
+      <owner_ids>
+        <array>
+          <item>1392724</item>
+        </array>
+      </owner_ids>
+      <labels>
+        <array/>
+      </labels>
+      <owned_by_id>1392724</owned_by_id>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>77373942</id>
+      <created_at><![CDATA[2014-08-21T13:57:48Z]]></created_at>
+      <updated_at><![CDATA[2014-09-18T17:35:06Z]]></updated_at>
+      <accepted_at><![CDATA[2014-09-18T17:35:05Z]]></accepted_at>
+      <estimate>2</estimate>
+      <story_type><![CDATA[feature]]></story_type>
+      <name><![CDATA[Create installer for DRaaS powershell cmdlets and scripts]]></name>
+      <description><![CDATA[This is an NSIS installer that is built on Linux and pushed to S3.  It is tied to customer restore VMs via the *cloud-init* configuration script. The installer - installs a PowerShell module that is used by the conductor service (or related cmd line tools) on the orchestration server.
+
+**Deliverable**: Windows installer executable
+**Acceptance**: successful demo to team]]></description>
+      <current_state><![CDATA[accepted]]></current_state>
+      <requested_by_id>1392724</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/77373942]]></url>
+      <owner_ids>
+        <array>
+          <item>1392724</item>
+        </array>
+      </owner_ids>
+      <labels>
+        <array/>
+      </labels>
+      <owned_by_id>1392724</owned_by_id>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>75546398</id>
+      <created_at><![CDATA[2014-07-23T20:18:58Z]]></created_at>
+      <updated_at><![CDATA[2014-09-18T17:35:28Z]]></updated_at>
+      <accepted_at><![CDATA[2014-09-18T17:35:28Z]]></accepted_at>
+      <estimate>5</estimate>
+      <story_type><![CDATA[feature]]></story_type>
+      <name><![CDATA[Design Windows powershell command set for recovery VM]]></name>
+      <description><![CDATA[This is a PowerShell module that contains the command set needed for the scripted demo milestone. It includes download/install of Java, vcruntime, and CSB, the cloud certificate, and customer data restore. It does not include the validation cmdlets - that will be for another story.
+
+**Deliverable**: powershell module to be installed by the windows installer
+**Acceptance**: successful demo]]></description>
+      <current_state><![CDATA[accepted]]></current_state>
+      <requested_by_id>1392724</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/75546398]]></url>
+      <owner_ids>
+        <array>
+          <item>1392724</item>
+        </array>
+      </owner_ids>
+      <labels>
+        <array/>
+      </labels>
+      <owned_by_id>1392724</owned_by_id>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>77738856</id>
+      <created_at><![CDATA[2014-08-27T17:47:32Z]]></created_at>
+      <updated_at><![CDATA[2014-09-18T17:35:52Z]]></updated_at>
+      <accepted_at><![CDATA[2014-09-18T17:35:51Z]]></accepted_at>
+      <estimate>5</estimate>
+      <story_type><![CDATA[feature]]></story_type>
+      <name><![CDATA[Write WinRM script for CSB SQL Server restore]]></name>
+      <description><![CDATA[**Deliverable**: Power shell commandlets that recover CSB data for a customer
+**Acceptance**: Someone other than the author successfully executes the power shell commandlets and verifies that the data is present]]></description>
+      <current_state><![CDATA[accepted]]></current_state>
+      <requested_by_id>1404594</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/77738856]]></url>
+      <owner_ids>
+        <array>
+          <item>1395454</item>
+        </array>
+      </owner_ids>
+      <labels>
+        <array/>
+      </labels>
+      <owned_by_id>1395454</owned_by_id>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>78563934</id>
+      <created_at><![CDATA[2014-09-10T14:45:00Z]]></created_at>
+      <updated_at><![CDATA[2014-09-18T17:36:19Z]]></updated_at>
+      <accepted_at><![CDATA[2014-09-18T17:36:19Z]]></accepted_at>
+      <estimate>2</estimate>
+      <story_type><![CDATA[feature]]></story_type>
+      <name><![CDATA[Implement wrapper script to setup a recovery VM with customer data]]></name>
+      <description><![CDATA[This should primarily be repackaging the existing POC scripts, but also needs to including identifying a method to determine readiness of the Windows VM in AWS.  Arguments to the script should be customer email and StarForge encoded customer cloud certificate.
+
+It is expected this will use a *dev* customer account - perhaps Kris's existing account.
+
+**Deliverable**: script that generates a complete recovery VM with customer data
+**Acceptance**: successful run of the script resulting in a VM accessible with SQL data]]></description>
+      <current_state><![CDATA[accepted]]></current_state>
+      <requested_by_id>1392724</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/78563934]]></url>
+      <owner_ids>
+        <array>
+          <item>1392724</item>
+          <item>1395438</item>
+        </array>
+      </owner_ids>
+      <labels>
+        <array/>
+      </labels>
+      <owned_by_id>1392724</owned_by_id>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>77889322</id>
+      <created_at><![CDATA[2014-08-29T17:05:25Z]]></created_at>
+      <updated_at><![CDATA[2014-09-18T17:37:06Z]]></updated_at>
+      <accepted_at><![CDATA[2014-09-18T17:37:06Z]]></accepted_at>
+      <estimate>1</estimate>
+      <story_type><![CDATA[feature]]></story_type>
+      <name><![CDATA[Create packaging for conductor service]]></name>
+      <description><![CDATA[The conductor service requires an rpm to install it on the orchestration server. This story is the initial creation of the spec file and testing the install process.
+
+**Deliverable**: rpm generated from the conductor workspace
+** Acceptance**: test the install by someone other than the author]]></description>
+      <current_state><![CDATA[accepted]]></current_state>
+      <requested_by_id>1392724</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/77889322]]></url>
+      <owner_ids>
+        <array>
+          <item>1392724</item>
+        </array>
+      </owner_ids>
+      <labels>
+        <array/>
+      </labels>
+      <owned_by_id>1392724</owned_by_id>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>79117006</id>
+      <created_at><![CDATA[2014-09-18T16:13:18Z]]></created_at>
+      <updated_at><![CDATA[2014-09-24T15:53:16Z]]></updated_at>
+      <accepted_at><![CDATA[2014-09-24T15:53:16Z]]></accepted_at>
+      <story_type><![CDATA[chore]]></story_type>
+      <name><![CDATA[Qi to become familiar with AWS/EC2 etc]]></name>
+      <current_state><![CDATA[accepted]]></current_state>
+      <requested_by_id>1392724</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/79117006]]></url>
+      <owner_ids>
+        <array>
+          <item>1395438</item>
+        </array>
+      </owner_ids>
+      <labels>
+        <array/>
+      </labels>
+      <owned_by_id>1395438</owned_by_id>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>76438762</id>
+      <created_at><![CDATA[2014-08-06T12:23:54Z]]></created_at>
+      <updated_at><![CDATA[2014-09-25T15:06:22Z]]></updated_at>
+      <accepted_at><![CDATA[2014-09-25T15:06:29Z]]></accepted_at>
+      <story_type><![CDATA[chore]]></story_type>
+      <name><![CDATA[Identify strategy and priority of database versions (SQL2000, SQL2005, MySQL, etc) we need to support]]></name>
+      <description><![CDATA[CSB currently supports MS SQL server 2000, 2005, 2008, 2012, 2014 and MySQL. 
+For this story, identify which elements we should be supporting for an initial release. 
+
+**Deliverable**: Document (presumably in the decision log) what versions we will support. Notify team
+Acceptance Criteria : Team can recite, from memory (to prove complete understanding), which versions we will support. ]]></description>
+      <current_state><![CDATA[accepted]]></current_state>
+      <requested_by_id>1404594</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/76438762]]></url>
+      <owner_ids>
+        <array>
+          <item>1404594</item>
+        </array>
+      </owner_ids>
+      <labels>
+        <array/>
+      </labels>
+      <owned_by_id>1404594</owned_by_id>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>76959688</id>
+      <created_at><![CDATA[2014-08-14T15:35:20Z]]></created_at>
+      <updated_at><![CDATA[2014-09-26T17:34:17Z]]></updated_at>
+      <accepted_at><![CDATA[2014-09-26T17:34:16Z]]></accepted_at>
+      <estimate>1</estimate>
+      <story_type><![CDATA[feature]]></story_type>
+      <name><![CDATA[Determine Portal integration/design requirements]]></name>
+      <description><![CDATA[This story is minimally a meeting with the SaaS team to determine what they require and how to schedule the integration. The result of this should be a wiki page describing the requirements and stories for the work that needs to be done.
+
+Let's start this by sending an email to SaaS team describing what we expect the basic interface to be.
+
+**Deliverable**: wiki page describing requirements
+**Acceptance**: Review of findings by the team]]></description>
+      <current_state><![CDATA[accepted]]></current_state>
+      <requested_by_id>1392724</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/76959688]]></url>
+      <owner_ids>
+        <array>
+          <item>1392724</item>
+          <item>1404594</item>
+        </array>
+      </owner_ids>
+      <labels>
+        <array>
+          <item>
+            <object>
+              <id>9020300</id>
+              <project_id>1127324</project_id>
+              <kind><![CDATA[label]]></kind>
+              <name><![CDATA[spike]]></name>
+              <created_at><![CDATA[2014-07-24T14:25:26Z]]></created_at>
+              <updated_at><![CDATA[2014-07-24T14:25:26Z]]></updated_at>
+            </object>
+          </item>
+        </array>
+      </labels>
+      <owned_by_id>1392724</owned_by_id>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>77889424</id>
+      <created_at><![CDATA[2014-08-29T17:07:30Z]]></created_at>
+      <updated_at><![CDATA[2014-10-08T17:13:31Z]]></updated_at>
+      <accepted_at><![CDATA[2014-10-07T16:00:00Z]]></accepted_at>
+      <estimate>2</estimate>
+      <story_type><![CDATA[feature]]></story_type>
+      <name><![CDATA[Create sample client for REST api]]></name>
+      <description><![CDATA[This will allow testing of the real API. This could be a command line tool or a simple web app.
+
+**Deliverable**: command line or web page that calls the actual REST API
+**Acceptance**: testing by someone other than the author]]></description>
+      <current_state><![CDATA[accepted]]></current_state>
+      <requested_by_id>1392724</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/77889424]]></url>
+      <owner_ids>
+        <array>
+          <item>1392724</item>
+        </array>
+      </owner_ids>
+      <labels>
+        <array/>
+      </labels>
+      <owned_by_id>1392724</owned_by_id>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>79541800</id>
+      <created_at><![CDATA[2014-09-25T17:53:43Z]]></created_at>
+      <updated_at><![CDATA[2014-10-08T17:13:44Z]]></updated_at>
+      <accepted_at><![CDATA[2014-10-07T16:00:00Z]]></accepted_at>
+      <estimate>1</estimate>
+      <story_type><![CDATA[feature]]></story_type>
+      <name><![CDATA[Create File System sample user]]></name>
+      <description><![CDATA[We need a sample user with file system backup sets much like the sample SQL backup user.
+Acceptance criteria: Present demo to team]]></description>
+      <current_state><![CDATA[accepted]]></current_state>
+      <requested_by_id>1395454</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/79541800]]></url>
+      <owner_ids>
+        <array>
+          <item>1395454</item>
+        </array>
+      </owner_ids>
+      <labels>
+        <array/>
+      </labels>
+      <owned_by_id>1395454</owned_by_id>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>76881270</id>
+      <created_at><![CDATA[2014-08-13T15:38:05Z]]></created_at>
+      <updated_at><![CDATA[2014-10-08T17:14:01Z]]></updated_at>
+      <accepted_at><![CDATA[2014-10-07T16:00:00Z]]></accepted_at>
+      <story_type><![CDATA[chore]]></story_type>
+      <name><![CDATA[Discuss MVP feature list]]></name>
+      <current_state><![CDATA[accepted]]></current_state>
+      <requested_by_id>1395456</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/76881270]]></url>
+      <owner_ids>
+        <array>
+          <item>1404594</item>
+          <item>1392724</item>
+        </array>
+      </owner_ids>
+      <labels>
+        <array/>
+      </labels>
+      <owned_by_id>1404594</owned_by_id>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>77889378</id>
+      <created_at><![CDATA[2014-08-29T17:06:39Z]]></created_at>
+      <updated_at><![CDATA[2014-10-08T17:43:11Z]]></updated_at>
+      <accepted_at><![CDATA[2014-10-07T16:00:00Z]]></accepted_at>
+      <estimate>1</estimate>
+      <story_type><![CDATA[feature]]></story_type>
+      <name><![CDATA[Identify web server and requirements for conductor service]]></name>
+      <description><![CDATA[Determine the http service infrastructure to use.  This is targeted at providing an API server that can handle security and dynamic content without blocking.
+
+**Non-Goal**: general HTTP service
+**Deliverable**: wiki page describing the service and reasoning
+**Acceptance**: review of page by team]]></description>
+      <current_state><![CDATA[accepted]]></current_state>
+      <requested_by_id>1392724</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/77889378]]></url>
+      <owner_ids>
+        <array>
+          <item>1392724</item>
+        </array>
+      </owner_ids>
+      <labels>
+        <array/>
+      </labels>
+      <owned_by_id>1392724</owned_by_id>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>75696368</id>
+      <created_at><![CDATA[2014-07-25T12:38:23Z]]></created_at>
+      <updated_at><![CDATA[2014-10-08T18:36:41Z]]></updated_at>
+      <accepted_at><![CDATA[2014-10-07T16:00:00Z]]></accepted_at>
+      <estimate>3</estimate>
+      <story_type><![CDATA[feature]]></story_type>
+      <name><![CDATA[Investigate AWS services - SQS & SNS]]></name>
+      <description><![CDATA[There are services like SQS & SNS that are probably useful if not necessary for setting up a customer environment.  This spike is to determine functionality and usage.
+
+This should provide input to the design of the prototype Notification service and should feed into the story for determining metrics for AWS.
+
+**Deliverable**: Wiki doc describing usage and recommendations
+**Acceptance**: Review of findings by the team]]></description>
+      <current_state><![CDATA[accepted]]></current_state>
+      <requested_by_id>1392724</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/75696368]]></url>
+      <owner_ids>
+        <array>
+          <item>1395438</item>
+          <item>1435976</item>
+        </array>
+      </owner_ids>
+      <labels>
+        <array>
+          <item>
+            <object>
+              <id>9020300</id>
+              <project_id>1127324</project_id>
+              <kind><![CDATA[label]]></kind>
+              <name><![CDATA[spike]]></name>
+              <created_at><![CDATA[2014-07-24T14:25:26Z]]></created_at>
+              <updated_at><![CDATA[2014-07-24T14:25:26Z]]></updated_at>
+            </object>
+          </item>
+        </array>
+      </labels>
+      <owned_by_id>1395438</owned_by_id>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>75546328</id>
+      <created_at><![CDATA[2014-07-23T20:18:08Z]]></created_at>
+      <updated_at><![CDATA[2014-10-08T20:00:17Z]]></updated_at>
+      <accepted_at><![CDATA[2014-10-07T16:00:00Z]]></accepted_at>
+      <estimate>5</estimate>
+      <story_type><![CDATA[feature]]></story_type>
+      <name><![CDATA[Design REST API architecture]]></name>
+      <description><![CDATA[The goal here is to provide an architectural description of the external REST API of the Orchestration server.
+
+**Deliverable**: specification in the doc repo
+**Acceptance**: review by the team]]></description>
+      <current_state><![CDATA[accepted]]></current_state>
+      <requested_by_id>1392724</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/75546328]]></url>
+      <owner_ids>
+        <array>
+          <item>1392724</item>
+        </array>
+      </owner_ids>
+      <labels>
+        <array/>
+      </labels>
+      <owned_by_id>1392724</owned_by_id>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>78572516</id>
+      <created_at><![CDATA[2014-09-10T16:13:42Z]]></created_at>
+      <updated_at><![CDATA[2014-10-08T20:00:22Z]]></updated_at>
+      <accepted_at><![CDATA[2014-10-07T16:00:00Z]]></accepted_at>
+      <estimate>3</estimate>
+      <story_type><![CDATA[feature]]></story_type>
+      <name><![CDATA[Investigate AWS services (CloudFormation)]]></name>
+      <description><![CDATA[There are services like CloudFormation that are probably useful if not necessary for setting up a customer environment.  This spike is to determine functionality and usage.
+
+**Deliverable**: Wiki doc describing usage and recommendations
+**Acceptance**: Review of findings by the team]]></description>
+      <current_state><![CDATA[accepted]]></current_state>
+      <requested_by_id>1395456</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/78572516]]></url>
+      <owner_ids>
+        <array>
+          <item>1395438</item>
+        </array>
+      </owner_ids>
+      <labels>
+        <array>
+          <item>
+            <object>
+              <id>9020300</id>
+              <project_id>1127324</project_id>
+              <kind><![CDATA[label]]></kind>
+              <name><![CDATA[spike]]></name>
+              <created_at><![CDATA[2014-07-24T14:25:26Z]]></created_at>
+              <updated_at><![CDATA[2014-07-24T14:25:26Z]]></updated_at>
+            </object>
+          </item>
+        </array>
+      </labels>
+      <owned_by_id>1395438</owned_by_id>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>79117490</id>
+      <created_at><![CDATA[2014-09-18T16:19:40Z]]></created_at>
+      <updated_at><![CDATA[2014-10-22T15:37:50Z]]></updated_at>
+      <accepted_at><![CDATA[2014-10-21T16:00:00Z]]></accepted_at>
+      <story_type><![CDATA[bug]]></story_type>
+      <name><![CDATA[Identify UI problem with CSB 4.12]]></name>
+      <description><![CDATA[The update from 4.11 to 4.12 has introduced a bug in the CSB UI.  Kris has started an investigation with Zmanda team to determine the cause.]]></description>
+      <current_state><![CDATA[accepted]]></current_state>
+      <requested_by_id>1392724</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/79117490]]></url>
+      <owner_ids>
+        <array>
+          <item>1395454</item>
+        </array>
+      </owner_ids>
+      <labels>
+        <array/>
+      </labels>
+      <owned_by_id>1395454</owned_by_id>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>79117616</id>
+      <created_at><![CDATA[2014-09-18T16:21:47Z]]></created_at>
+      <updated_at><![CDATA[2014-10-22T15:37:59Z]]></updated_at>
+      <accepted_at><![CDATA[2014-10-21T16:00:00Z]]></accepted_at>
+      <story_type><![CDATA[bug]]></story_type>
+      <name><![CDATA[Identify problem with recovery cmdlet returning 500 errors]]></name>
+      <description><![CDATA[The cmdlet successfully restores the customer data, but the WinRM command returns a failure (500 error).  We need to resolve the problem.
+
+Kris is investigating. Refer to the github issue for updates and checkins related to this bug.]]></description>
+      <current_state><![CDATA[accepted]]></current_state>
+      <requested_by_id>1392724</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/79117616]]></url>
+      <owner_ids>
+        <array>
+          <item>1395454</item>
+        </array>
+      </owner_ids>
+      <labels>
+        <array/>
+      </labels>
+      <owned_by_id>1395454</owned_by_id>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>81188074</id>
+      <created_at><![CDATA[2014-10-22T13:32:43Z]]></created_at>
+      <updated_at><![CDATA[2014-10-22T15:38:37Z]]></updated_at>
+      <accepted_at><![CDATA[2014-10-21T16:00:00Z]]></accepted_at>
+      <estimate>5</estimate>
+      <story_type><![CDATA[feature]]></story_type>
+      <name><![CDATA[Document Conductor implementation design]]></name>
+      <description><![CDATA[Generate document describing design of Conductor service implementation.  The goal being to enable multiple developers to contribute.
+
+**Deliverable**: Wiki page describing design
+**Acceptance**: Review by team]]></description>
+      <current_state><![CDATA[accepted]]></current_state>
+      <requested_by_id>1392724</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/81188074]]></url>
+      <owner_ids>
+        <array>
+          <item>1392724</item>
+        </array>
+      </owner_ids>
+      <labels>
+        <array/>
+      </labels>
+      <owned_by_id>1392724</owned_by_id>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>80327728</id>
+      <created_at><![CDATA[2014-10-08T19:46:00Z]]></created_at>
+      <updated_at><![CDATA[2014-10-22T20:37:10Z]]></updated_at>
+      <accepted_at><![CDATA[2014-10-21T16:00:00Z]]></accepted_at>
+      <estimate>1</estimate>
+      <story_type><![CDATA[feature]]></story_type>
+      <name><![CDATA[API: implement customer GET]]></name>
+      <description><![CDATA[Refer to the [implementation spec]( http://github.carboniteinc.com/DRaaS/doc/blob/master/api/Implementation.md ) for details.
+
+**Deliverable**: API call functioning and code checked in to conductor repo
+**Acceptance**: Passing unit test on mock portal]]></description>
+      <current_state><![CDATA[accepted]]></current_state>
+      <requested_by_id>1392724</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/80327728]]></url>
+      <owner_ids>
+        <array>
+          <item>1392724</item>
+        </array>
+      </owner_ids>
+      <labels>
+        <array>
+          <item>
+            <object>
+              <id>9703240</id>
+              <project_id>1127324</project_id>
+              <kind><![CDATA[label]]></kind>
+              <name><![CDATA[api]]></name>
+              <created_at><![CDATA[2014-10-14T13:37:06Z]]></created_at>
+              <updated_at><![CDATA[2014-10-14T13:37:06Z]]></updated_at>
+            </object>
+          </item>
+        </array>
+      </labels>
+      <owned_by_id>1392724</owned_by_id>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>80327738</id>
+      <created_at><![CDATA[2014-10-08T19:46:12Z]]></created_at>
+      <updated_at><![CDATA[2014-10-22T20:37:33Z]]></updated_at>
+      <accepted_at><![CDATA[2014-10-21T16:00:00Z]]></accepted_at>
+      <estimate>2</estimate>
+      <story_type><![CDATA[feature]]></story_type>
+      <name><![CDATA[API: implement customer collection GET]]></name>
+      <description><![CDATA[Refer to the [implementation spec]( http://github.carboniteinc.com/DRaaS/doc/blob/master/api/Implementation.md ) for details.
+
+**Deliverable**: API call functioning and code checked in to conductor repo
+**Acceptance**: Passing unit test on mock portal]]></description>
+      <current_state><![CDATA[accepted]]></current_state>
+      <requested_by_id>1392724</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/80327738]]></url>
+      <owner_ids>
+        <array>
+          <item>1392724</item>
+        </array>
+      </owner_ids>
+      <labels>
+        <array>
+          <item>
+            <object>
+              <id>9703240</id>
+              <project_id>1127324</project_id>
+              <kind><![CDATA[label]]></kind>
+              <name><![CDATA[api]]></name>
+              <created_at><![CDATA[2014-10-14T13:37:06Z]]></created_at>
+              <updated_at><![CDATA[2014-10-14T13:37:06Z]]></updated_at>
+            </object>
+          </item>
+        </array>
+      </labels>
+      <owned_by_id>1392724</owned_by_id>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>77890092</id>
+      <created_at><![CDATA[2014-08-29T17:18:32Z]]></created_at>
+      <updated_at><![CDATA[2014-11-05T16:37:48Z]]></updated_at>
+      <accepted_at><![CDATA[2014-11-04T17:00:00Z]]></accepted_at>
+      <estimate>2</estimate>
+      <story_type><![CDATA[feature]]></story_type>
+      <name><![CDATA[Identify method of gathering metering stats from AWS]]></name>
+      <description><![CDATA[Identify how to get the metrics for each. 
+Output of this story will likely be additional granular user stories for actually doing the work. 
+The technical details (i.e. API, configuration of AWS service, etc will be identified and clarified during this story). 
+
+Requirements on github; 
+http://github.carboniteinc.com/DRaaS/doc/wiki/Metering-Requirements
+
+**Deliverable: **
+Documented way to gather statistics from running EC2 instances for display on a webpage. 
+Create additional user stories to actually do this work. 
+
+**Acceptance Criteria** 
+Review document by team
+
+
+]]></description>
+      <current_state><![CDATA[accepted]]></current_state>
+      <requested_by_id>1392724</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/77890092]]></url>
+      <owner_ids>
+        <array>
+          <item>1395438</item>
+        </array>
+      </owner_ids>
+      <labels>
+        <array>
+          <item>
+            <object>
+              <id>9020300</id>
+              <project_id>1127324</project_id>
+              <kind><![CDATA[label]]></kind>
+              <name><![CDATA[spike]]></name>
+              <created_at><![CDATA[2014-07-24T14:25:26Z]]></created_at>
+              <updated_at><![CDATA[2014-07-24T14:25:26Z]]></updated_at>
+            </object>
+          </item>
+        </array>
+      </labels>
+      <owned_by_id>1395438</owned_by_id>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>80327834</id>
+      <created_at><![CDATA[2014-10-08T19:47:31Z]]></created_at>
+      <updated_at><![CDATA[2014-11-05T16:40:07Z]]></updated_at>
+      <accepted_at><![CDATA[2014-11-04T17:00:00Z]]></accepted_at>
+      <estimate>2</estimate>
+      <story_type><![CDATA[feature]]></story_type>
+      <name><![CDATA[API: implement protected host GET]]></name>
+      <description><![CDATA[Refer to the [implementation spec]( http://github.carboniteinc.com/DRaaS/doc/blob/master/api/Implementation.md ) for details.
+
+**Deliverable**: API call functioning and code checked in to conductor repo
+**Acceptance**: Passing unit test on mock portal]]></description>
+      <current_state><![CDATA[accepted]]></current_state>
+      <requested_by_id>1392724</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/80327834]]></url>
+      <owner_ids>
+        <array>
+          <item>1392724</item>
+        </array>
+      </owner_ids>
+      <labels>
+        <array>
+          <item>
+            <object>
+              <id>9703240</id>
+              <project_id>1127324</project_id>
+              <kind><![CDATA[label]]></kind>
+              <name><![CDATA[api]]></name>
+              <created_at><![CDATA[2014-10-14T13:37:06Z]]></created_at>
+              <updated_at><![CDATA[2014-10-14T13:37:06Z]]></updated_at>
+            </object>
+          </item>
+        </array>
+      </labels>
+      <owned_by_id>1392724</owned_by_id>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>79119408</id>
+      <created_at><![CDATA[2014-09-18T16:48:11Z]]></created_at>
+      <updated_at><![CDATA[2014-11-19T18:49:44Z]]></updated_at>
+      <accepted_at><![CDATA[2014-11-18T17:00:00Z]]></accepted_at>
+      <estimate>2</estimate>
+      <story_type><![CDATA[feature]]></story_type>
+      <name><![CDATA[Test recovery of CSB file server backup]]></name>
+      <description><![CDATA[**Deliverable**
+VM which has a recovered CSB file system backup. This should be done through CLI and not just through the UI. Document the CLI commands any any anomalies used. 
+
+**Acceptance Criteria**
+Successful demo to team (can be demo'd during the iteration). ]]></description>
+      <current_state><![CDATA[accepted]]></current_state>
+      <requested_by_id>1392724</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/79119408]]></url>
+      <owner_ids>
+        <array>
+          <item>1395454</item>
+        </array>
+      </owner_ids>
+      <labels>
+        <array/>
+      </labels>
+      <owned_by_id>1395454</owned_by_id>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>80327754</id>
+      <created_at><![CDATA[2014-10-08T19:46:25Z]]></created_at>
+      <updated_at><![CDATA[2014-11-19T18:50:19Z]]></updated_at>
+      <accepted_at><![CDATA[2014-11-18T17:00:00Z]]></accepted_at>
+      <estimate>3</estimate>
+      <story_type><![CDATA[feature]]></story_type>
+      <name><![CDATA[API: implement customer PUT for create]]></name>
+      <description><![CDATA[Refer to the [implementation spec]( http://github.carboniteinc.com/DRaaS/doc/blob/master/api/Implementation.md ) for details.
+
+**Deliverable**: API call functioning and code checked in to conductor repo
+**Acceptance**: Passing unit test on mock portal]]></description>
+      <current_state><![CDATA[accepted]]></current_state>
+      <requested_by_id>1392724</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/80327754]]></url>
+      <owner_ids>
+        <array>
+          <item>1395454</item>
+        </array>
+      </owner_ids>
+      <labels>
+        <array>
+          <item>
+            <object>
+              <id>9703240</id>
+              <project_id>1127324</project_id>
+              <kind><![CDATA[label]]></kind>
+              <name><![CDATA[api]]></name>
+              <created_at><![CDATA[2014-10-14T13:37:06Z]]></created_at>
+              <updated_at><![CDATA[2014-10-14T13:37:06Z]]></updated_at>
+            </object>
+          </item>
+        </array>
+      </labels>
+      <owned_by_id>1395454</owned_by_id>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>80327784</id>
+      <created_at><![CDATA[2014-10-08T19:46:43Z]]></created_at>
+      <updated_at><![CDATA[2014-11-19T18:50:57Z]]></updated_at>
+      <accepted_at><![CDATA[2014-11-18T17:00:00Z]]></accepted_at>
+      <estimate>1</estimate>
+      <story_type><![CDATA[feature]]></story_type>
+      <name><![CDATA[Prototype Modulerized conductor node script]]></name>
+      <description><![CDATA[Refer to the [implementation spec]( http://github.carboniteinc.com/DRaaS/doc/blob/master/api/Implementation.md ) for details.
+
+**Deliverable**: API call functioning and code checked in to conductor repo
+**Acceptance**: Passing unit test on mock portal]]></description>
+      <current_state><![CDATA[accepted]]></current_state>
+      <requested_by_id>1395438</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/80327784]]></url>
+      <owner_ids>
+        <array>
+          <item>1395438</item>
+          <item>1392724</item>
+        </array>
+      </owner_ids>
+      <labels>
+        <array>
+          <item>
+            <object>
+              <id>9703240</id>
+              <project_id>1127324</project_id>
+              <kind><![CDATA[label]]></kind>
+              <name><![CDATA[api]]></name>
+              <created_at><![CDATA[2014-10-14T13:37:06Z]]></created_at>
+              <updated_at><![CDATA[2014-10-14T13:37:06Z]]></updated_at>
+            </object>
+          </item>
+        </array>
+      </labels>
+      <owned_by_id>1395438</owned_by_id>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>82500936</id>
+      <created_at><![CDATA[2014-11-11T18:26:52Z]]></created_at>
+      <updated_at><![CDATA[2014-11-19T18:51:29Z]]></updated_at>
+      <accepted_at><![CDATA[2014-11-18T17:00:00Z]]></accepted_at>
+      <estimate>1</estimate>
+      <story_type><![CDATA[feature]]></story_type>
+      <name><![CDATA[Update AWS AMI version for recovery machines]]></name>
+      <description><![CDATA[The AMI we were using has become out of date, and so amazon discontinued it and released a new AMI
+**Acceptance Criteria**: Code change in conductor to point to the new AMI.  Machine brought up and recovery performed ]]></description>
+      <current_state><![CDATA[accepted]]></current_state>
+      <requested_by_id>1395454</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/82500936]]></url>
+      <owner_ids>
+        <array>
+          <item>1395454</item>
+        </array>
+      </owner_ids>
+      <labels>
+        <array/>
+      </labels>
+      <owned_by_id>1395454</owned_by_id>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>81591928</id>
+      <created_at><![CDATA[2014-10-28T15:09:25Z]]></created_at>
+      <updated_at><![CDATA[2014-11-19T19:06:14Z]]></updated_at>
+      <accepted_at><![CDATA[2014-11-18T17:00:00Z]]></accepted_at>
+      <estimate>1</estimate>
+      <story_type><![CDATA[feature]]></story_type>
+      <name><![CDATA[propagate cross-site scripting header from wilhelm to conductor]]></name>
+      <description><![CDATA[The header that needs to be added on the API server is:
+
+Access-Control-Allow-Origin: *]]></description>
+      <current_state><![CDATA[accepted]]></current_state>
+      <requested_by_id>1404594</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/81591928]]></url>
+      <owner_ids>
+        <array>
+          <item>1392724</item>
+          <item>1395454</item>
+        </array>
+      </owner_ids>
+      <labels>
+        <array/>
+      </labels>
+      <owned_by_id>1392724</owned_by_id>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>83127396</id>
+      <created_at><![CDATA[2014-11-20T15:49:15Z]]></created_at>
+      <updated_at><![CDATA[2014-12-03T18:55:22Z]]></updated_at>
+      <accepted_at><![CDATA[2014-12-02T17:00:00Z]]></accepted_at>
+      <estimate>1</estimate>
+      <story_type><![CDATA[feature]]></story_type>
+      <name><![CDATA[Add accept header handling for application/json to enable mock-portal]]></name>
+      <description><![CDATA[Angular.JS easily handles JSON objects.  All javascript will also handle XML/RDF, but just to ease creation of the mock portal.  This is only necessary for the GET interface.
+
+**Deliverable**: update to conductor, and test in the conductor repo
+**Acceptance**: test passing]]></description>
+      <current_state><![CDATA[accepted]]></current_state>
+      <requested_by_id>1392724</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/83127396]]></url>
+      <owner_ids>
+        <array>
+          <item>1392724</item>
+        </array>
+      </owner_ids>
+      <labels>
+        <array/>
+      </labels>
+      <owned_by_id>1392724</owned_by_id>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>81675170</id>
+      <created_at><![CDATA[2014-10-29T14:07:58Z]]></created_at>
+      <updated_at><![CDATA[2014-12-03T20:51:13Z]]></updated_at>
+      <accepted_at><![CDATA[2014-12-02T17:00:00Z]]></accepted_at>
+      <estimate>3</estimate>
+      <story_type><![CDATA[feature]]></story_type>
+      <name><![CDATA[API: implement recovery host PROPFIND for state requests]]></name>
+      <description><![CDATA[Refer to the [implementation spec]( http://github.carboniteinc.com/DRaaS/doc/blob/master/api/Implementation.md ) for details.
+
+**Deliverable**: API call functioning and code checked in to conductor repo
+**Acceptance**: Passing unit test on mock portal]]></description>
+      <current_state><![CDATA[accepted]]></current_state>
+      <requested_by_id>1392724</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/81675170]]></url>
+      <owner_ids>
+        <array>
+          <item>1392724</item>
+        </array>
+      </owner_ids>
+      <labels>
+        <array>
+          <item>
+            <object>
+              <id>9703240</id>
+              <project_id>1127324</project_id>
+              <kind><![CDATA[label]]></kind>
+              <name><![CDATA[api]]></name>
+              <created_at><![CDATA[2014-10-14T13:37:06Z]]></created_at>
+              <updated_at><![CDATA[2014-10-14T13:37:06Z]]></updated_at>
+            </object>
+          </item>
+        </array>
+      </labels>
+      <owned_by_id>1392724</owned_by_id>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>83067380</id>
+      <created_at><![CDATA[2014-11-19T19:58:05Z]]></created_at>
+      <updated_at><![CDATA[2014-12-03T20:51:23Z]]></updated_at>
+      <accepted_at><![CDATA[2014-12-02T17:00:00Z]]></accepted_at>
+      <estimate>2</estimate>
+      <story_type><![CDATA[feature]]></story_type>
+      <name><![CDATA[Implement PUT validation and links for recovery-hosts]]></name>
+      <current_state><![CDATA[accepted]]></current_state>
+      <requested_by_id>1392724</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/83067380]]></url>
+      <owner_ids>
+        <array>
+          <item>1395454</item>
+        </array>
+      </owner_ids>
+      <labels>
+        <array/>
+      </labels>
+      <owned_by_id>1395454</owned_by_id>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>83067334</id>
+      <created_at><![CDATA[2014-11-19T19:57:41Z]]></created_at>
+      <updated_at><![CDATA[2014-12-03T20:51:34Z]]></updated_at>
+      <accepted_at><![CDATA[2014-12-02T17:00:00Z]]></accepted_at>
+      <estimate>2</estimate>
+      <story_type><![CDATA[feature]]></story_type>
+      <name><![CDATA[Implement PUT validation and links for protected-hosts]]></name>
+      <current_state><![CDATA[accepted]]></current_state>
+      <requested_by_id>1392724</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/83067334]]></url>
+      <owner_ids>
+        <array>
+          <item>1395454</item>
+        </array>
+      </owner_ids>
+      <labels>
+        <array/>
+      </labels>
+      <owned_by_id>1395454</owned_by_id>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>83137108</id>
+      <created_at><![CDATA[2014-11-20T17:33:06Z]]></created_at>
+      <updated_at><![CDATA[2014-12-17T21:08:07Z]]></updated_at>
+      <accepted_at><![CDATA[2014-12-11T17:00:00Z]]></accepted_at>
+      <deadline><![CDATA[2014-12-11T17:00:00Z]]></deadline>
+      <story_type><![CDATA[release]]></story_type>
+      <name><![CDATA[Creation of recovery VM through API]]></name>
+      <description><![CDATA[Ability to create a recovery VM which will install CSB and do a SQL server recovery of a customer's database by calling the API (either from mock portal or from CLI)]]></description>
+      <current_state><![CDATA[accepted]]></current_state>
+      <requested_by_id>1392724</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/83137108]]></url>
+      <owner_ids>
+        <array/>
+      </owner_ids>
+      <labels>
+        <array/>
+      </labels>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>83067650</id>
+      <created_at><![CDATA[2014-11-19T20:00:22Z]]></created_at>
+      <updated_at><![CDATA[2014-12-17T20:13:07Z]]></updated_at>
+      <accepted_at><![CDATA[2014-12-16T17:00:00Z]]></accepted_at>
+      <estimate>2</estimate>
+      <story_type><![CDATA[feature]]></story_type>
+      <name><![CDATA[Implement generic DELETE]]></name>
+      <current_state><![CDATA[accepted]]></current_state>
+      <requested_by_id>1392724</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/83067650]]></url>
+      <owner_ids>
+        <array>
+          <item>1392724</item>
+        </array>
+      </owner_ids>
+      <labels>
+        <array/>
+      </labels>
+      <owned_by_id>1392724</owned_by_id>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>83068936</id>
+      <created_at><![CDATA[2014-11-19T20:17:09Z]]></created_at>
+      <updated_at><![CDATA[2014-12-17T20:13:20Z]]></updated_at>
+      <accepted_at><![CDATA[2014-12-16T17:00:00Z]]></accepted_at>
+      <estimate>2</estimate>
+      <story_type><![CDATA[feature]]></story_type>
+      <name><![CDATA[Cron job for creating links as a failsafe]]></name>
+      <description><![CDATA[If the conductor fails to create the symlinks for a resource, we want the cron job to come after the fact and rectify the configuration.
+
+**Deliverable**: cron job/script added to conductor
+**Acceptance**: manual test and verify by someone other than the author]]></description>
+      <current_state><![CDATA[accepted]]></current_state>
+      <requested_by_id>1392724</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/83068936]]></url>
+      <owner_ids>
+        <array/>
+      </owner_ids>
+      <labels>
+        <array/>
+      </labels>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>83135516</id>
+      <created_at><![CDATA[2014-11-20T17:16:50Z]]></created_at>
+      <updated_at><![CDATA[2015-01-06T14:44:27Z]]></updated_at>
+      <accepted_at><![CDATA[2014-12-16T17:00:00Z]]></accepted_at>
+      <estimate>1</estimate>
+      <story_type><![CDATA[feature]]></story_type>
+      <name><![CDATA[Identify source format from appliance]]></name>
+      <description><![CDATA[Current plan of record is to use existing pVHD (base and incremental) with Paragon tools to convert to a VHD.  This changes in the event that the Paragon software is unable to function.
+
+There are also licensing concerns with the Paragon software.
+
+**Deliverable**: 
+**Acceptance**: ]]></description>
+      <current_state><![CDATA[accepted]]></current_state>
+      <requested_by_id>1392724</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/83135516]]></url>
+      <owner_ids>
+        <array>
+          <item>1395448</item>
+        </array>
+      </owner_ids>
+      <labels>
+        <array>
+          <item>
+            <object>
+              <id>10393346</id>
+              <project_id>1127324</project_id>
+              <kind><![CDATA[label]]></kind>
+              <name><![CDATA[bmr]]></name>
+              <created_at><![CDATA[2015-01-06T14:36:34Z]]></created_at>
+              <updated_at><![CDATA[2015-01-06T14:36:34Z]]></updated_at>
+            </object>
+          </item>
+        </array>
+      </labels>
+      <owned_by_id>1395448</owned_by_id>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>84929278</id>
+      <created_at><![CDATA[2014-12-19T15:34:43Z]]></created_at>
+      <updated_at><![CDATA[2015-01-06T14:44:27Z]]></updated_at>
+      <accepted_at><![CDATA[2014-12-29T18:35:29Z]]></accepted_at>
+      <story_type><![CDATA[chore]]></story_type>
+      <name><![CDATA[Gather appliance storage info from logs on S3]]></name>
+      <current_state><![CDATA[accepted]]></current_state>
+      <requested_by_id>1392724</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/84929278]]></url>
+      <owner_ids>
+        <array>
+          <item>1392724</item>
+        </array>
+      </owner_ids>
+      <labels>
+        <array>
+          <item>
+            <object>
+              <id>10393346</id>
+              <project_id>1127324</project_id>
+              <kind><![CDATA[label]]></kind>
+              <name><![CDATA[bmr]]></name>
+              <created_at><![CDATA[2015-01-06T14:36:34Z]]></created_at>
+              <updated_at><![CDATA[2015-01-06T14:36:34Z]]></updated_at>
+            </object>
+          </item>
+        </array>
+      </labels>
+      <owned_by_id>1392724</owned_by_id>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>84330822</id>
+      <created_at><![CDATA[2014-12-10T20:40:08Z]]></created_at>
+      <updated_at><![CDATA[2015-01-06T14:44:45Z]]></updated_at>
+      <accepted_at><![CDATA[2014-12-31T17:00:00Z]]></accepted_at>
+      <story_type><![CDATA[chore]]></story_type>
+      <name><![CDATA[Get multi-drive images]]></name>
+      <description><![CDATA[Get multi-drive images from our backup source 
+
+**Deliverable**: 
+**Acceptance**: ]]></description>
+      <current_state><![CDATA[accepted]]></current_state>
+      <requested_by_id>1435976</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/84330822]]></url>
+      <owner_ids>
+        <array>
+          <item>1395448</item>
+        </array>
+      </owner_ids>
+      <labels>
+        <array>
+          <item>
+            <object>
+              <id>10393346</id>
+              <project_id>1127324</project_id>
+              <kind><![CDATA[label]]></kind>
+              <name><![CDATA[bmr]]></name>
+              <created_at><![CDATA[2015-01-06T14:36:34Z]]></created_at>
+              <updated_at><![CDATA[2015-01-06T14:36:34Z]]></updated_at>
+            </object>
+          </item>
+        </array>
+      </labels>
+      <owned_by_id>1395448</owned_by_id>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>83067712</id>
+      <created_at><![CDATA[2014-11-19T20:01:06Z]]></created_at>
+      <updated_at><![CDATA[2015-01-06T14:44:27Z]]></updated_at>
+      <accepted_at><![CDATA[2014-12-31T17:00:00Z]]></accepted_at>
+      <estimate>5</estimate>
+      <story_type><![CDATA[feature]]></story_type>
+      <name><![CDATA[Test PPR VHD translation to VHD and AWS import]]></name>
+      <description><![CDATA[Validate that the currently licensed software does 
+ANSWER: it does not, so see the description below
+
+Brad requested that we make 100% sure that the following flow works:
+creating Backups on the appliance
+Uploading images to S3 (Base and incremental)
+Paragon Hard disk 15 Ultimate  running in a Windows EC2 image.
+Attach the backup images  to the PAragon Windows instance.
+Convert the images from pVHD to VHD
+Push the new VHD images into S3
+Create a VM instance based on the VHD images
+Boot the VM
+Login to it.]]></description>
+      <current_state><![CDATA[accepted]]></current_state>
+      <requested_by_id>1392724</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/83067712]]></url>
+      <owner_ids>
+        <array>
+          <item>1395448</item>
+        </array>
+      </owner_ids>
+      <labels>
+        <array>
+          <item>
+            <object>
+              <id>10393346</id>
+              <project_id>1127324</project_id>
+              <kind><![CDATA[label]]></kind>
+              <name><![CDATA[bmr]]></name>
+              <created_at><![CDATA[2015-01-06T14:36:34Z]]></created_at>
+              <updated_at><![CDATA[2015-01-06T14:36:34Z]]></updated_at>
+            </object>
+          </item>
+        </array>
+      </labels>
+      <owned_by_id>1395448</owned_by_id>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>83129826</id>
+      <created_at><![CDATA[2014-11-20T16:15:30Z]]></created_at>
+      <updated_at><![CDATA[2014-12-31T19:10:42Z]]></updated_at>
+      <accepted_at><![CDATA[2014-12-31T19:10:42Z]]></accepted_at>
+      <estimate>5</estimate>
+      <story_type><![CDATA[feature]]></story_type>
+      <name><![CDATA[Cron job for handling recovery-host state change requests]]></name>
+      <description><![CDATA[A PROPPATCH request will change the target-state property of a recovery-host, but not make a request to AWS/cloud provider to change the VM instance.  A PUT request creates the recovery-host configuration information/metadata, but does not create the cloud VM.  The cron job will review the current state of recovery-host configuration and create/modify the cloud VMs asynchronously.
+
+The VM creation and modify processing may take a while, so an additional job will be necessary to track that the change to the cloud VM has completed.  This may be another story - TBD
+
+The test for this may take a long time, so it may want to be outside of the current `make test` process in the conductor repo.
+
+**Deliverable**: script and cron config added to conductor repo, test that checks state changes
+**Acceptance**: passing test]]></description>
+      <current_state><![CDATA[accepted]]></current_state>
+      <requested_by_id>1392724</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/83129826]]></url>
+      <owner_ids>
+        <array>
+          <item>1392724</item>
+          <item>1395454</item>
+        </array>
+      </owner_ids>
+      <labels>
+        <array/>
+      </labels>
+      <owned_by_id>1392724</owned_by_id>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>83881180</id>
+      <created_at><![CDATA[2014-12-03T20:29:25Z]]></created_at>
+      <updated_at><![CDATA[2015-01-06T14:44:27Z]]></updated_at>
+      <accepted_at><![CDATA[2014-12-31T19:16:25Z]]></accepted_at>
+      <story_type><![CDATA[chore]]></story_type>
+      <name><![CDATA[Get access to Maytag images for team members]]></name>
+      <description><![CDATA[Make sure the entire team has access to the Maytag images which are stored in the cloud. 
+]]></description>
+      <current_state><![CDATA[accepted]]></current_state>
+      <requested_by_id>1505070</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/83881180]]></url>
+      <owner_ids>
+        <array>
+          <item>1392724</item>
+          <item>1395448</item>
+        </array>
+      </owner_ids>
+      <labels>
+        <array>
+          <item>
+            <object>
+              <id>10393346</id>
+              <project_id>1127324</project_id>
+              <kind><![CDATA[label]]></kind>
+              <name><![CDATA[bmr]]></name>
+              <created_at><![CDATA[2015-01-06T14:36:34Z]]></created_at>
+              <updated_at><![CDATA[2015-01-06T14:36:34Z]]></updated_at>
+            </object>
+          </item>
+        </array>
+      </labels>
+      <owned_by_id>1392724</owned_by_id>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>83136206</id>
+      <created_at><![CDATA[2014-11-20T17:24:13Z]]></created_at>
+      <updated_at><![CDATA[2015-01-08T13:51:31Z]]></updated_at>
+      <accepted_at><![CDATA[2015-01-08T13:50:58Z]]></accepted_at>
+      <story_type><![CDATA[chore]]></story_type>
+      <name><![CDATA[Talk to stakeholders about access to BMR customer data]]></name>
+      <current_state><![CDATA[accepted]]></current_state>
+      <requested_by_id>1392724</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/83136206]]></url>
+      <owner_ids>
+        <array>
+          <item>1404594</item>
+        </array>
+      </owner_ids>
+      <labels>
+        <array>
+          <item>
+            <object>
+              <id>10393346</id>
+              <project_id>1127324</project_id>
+              <kind><![CDATA[label]]></kind>
+              <name><![CDATA[bmr]]></name>
+              <created_at><![CDATA[2015-01-06T14:36:34Z]]></created_at>
+              <updated_at><![CDATA[2015-01-06T14:36:34Z]]></updated_at>
+            </object>
+          </item>
+        </array>
+      </labels>
+      <owned_by_id>1404594</owned_by_id>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>83704152</id>
+      <created_at><![CDATA[2014-12-01T20:52:37Z]]></created_at>
+      <updated_at><![CDATA[2015-01-15T14:05:12Z]]></updated_at>
+      <accepted_at><![CDATA[2015-01-14T17:00:00Z]]></accepted_at>
+      <story_type><![CDATA[release]]></story_type>
+      <name><![CDATA[Demonstrate Appliance image manual import into EC2]]></name>
+      <description><![CDATA[Manually demonstrate that we can take an appliance image, combine full+incremental backups, and spin up in EC2 instance. 
+This will use a real appliance pVHD image. 
+
+Includes demo of multi-drive support ]]></description>
+      <current_state><![CDATA[accepted]]></current_state>
+      <requested_by_id>1404594</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/83704152]]></url>
+      <owner_ids>
+        <array/>
+      </owner_ids>
+      <labels>
+        <array>
+          <item>
+            <object>
+              <id>10393346</id>
+              <project_id>1127324</project_id>
+              <kind><![CDATA[label]]></kind>
+              <name><![CDATA[bmr]]></name>
+              <created_at><![CDATA[2015-01-06T14:36:34Z]]></created_at>
+              <updated_at><![CDATA[2015-01-06T14:36:34Z]]></updated_at>
+            </object>
+          </item>
+        </array>
+      </labels>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>83880012</id>
+      <created_at><![CDATA[2014-12-03T20:15:20Z]]></created_at>
+      <updated_at><![CDATA[2015-01-15T15:17:59Z]]></updated_at>
+      <accepted_at><![CDATA[2015-01-14T17:00:00Z]]></accepted_at>
+      <estimate>5</estimate>
+      <story_type><![CDATA[feature]]></story_type>
+      <name><![CDATA[Test infrastructure for API]]></name>
+      <description><![CDATA[Some features already have minimal tests but need more complete. 
+
+**Acceptance Criteria**
+At least 2 tests for feature of the API that is currently implemented]]></description>
+      <current_state><![CDATA[accepted]]></current_state>
+      <requested_by_id>1392724</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/83880012]]></url>
+      <owner_ids>
+        <array>
+          <item>1392724</item>
+          <item>1395454</item>
+        </array>
+      </owner_ids>
+      <labels>
+        <array>
+          <item>
+            <object>
+              <id>9703240</id>
+              <project_id>1127324</project_id>
+              <kind><![CDATA[label]]></kind>
+              <name><![CDATA[api]]></name>
+              <created_at><![CDATA[2014-10-14T13:37:06Z]]></created_at>
+              <updated_at><![CDATA[2014-10-14T13:37:06Z]]></updated_at>
+            </object>
+          </item>
+        </array>
+      </labels>
+      <owned_by_id>1392724</owned_by_id>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>86059698</id>
+      <created_at><![CDATA[2015-01-13T21:55:00Z]]></created_at>
+      <updated_at><![CDATA[2015-01-21T16:09:34Z]]></updated_at>
+      <accepted_at><![CDATA[2015-01-21T16:09:33Z]]></accepted_at>
+      <estimate>1</estimate>
+      <story_type><![CDATA[feature]]></story_type>
+      <name><![CDATA[Add charset handling to accept header processing]]></name>
+      <description><![CDATA[The Accept header in an HTTP request defines the types of responses that a client is willing to receive.  This can be just a MIME type:
+```
+Accept: application/json
+```
+but might also include a "charset":
+```
+Accept: application/json; charset=utf-8
+```
+Currently Conductor will incorrectly include the charset in the MIME type filter lookup and return a `406 Unacceptable` response.  This story is to fix Accept header handling to not include the charset when looking up the Accept filter.
+
+**Deliverable**: Change to conductor that fixes the issue
+**Acceptance**: Manual curl test against conductor, and automated test in `conductor-test` repo
+```
+curl --header 'Accept:application/json;charset=utf-8' -v http://localhost:4001/customer/
+```]]></description>
+      <current_state><![CDATA[accepted]]></current_state>
+      <requested_by_id>1392724</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/86059698]]></url>
+      <owner_ids>
+        <array>
+          <item>1392724</item>
+        </array>
+      </owner_ids>
+      <labels>
+        <array/>
+      </labels>
+      <owned_by_id>1392724</owned_by_id>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>80327872</id>
+      <created_at><![CDATA[2014-10-08T19:48:11Z]]></created_at>
+      <updated_at><![CDATA[2015-01-28T17:23:39Z]]></updated_at>
+      <accepted_at><![CDATA[2015-01-28T17:23:39Z]]></accepted_at>
+      <estimate>3</estimate>
+      <story_type><![CDATA[feature]]></story_type>
+      <name><![CDATA[API: implement recovery host PROPPATCH for state requests]]></name>
+      <description><![CDATA[Refer to the [implementation spec]( http://github.carboniteinc.com/DRaaS/doc/blob/master/api/Implementation.md ) for details.
+
+**Deliverable**: API call functioning and code checked in to conductor repo
+**Acceptance**: Passing unit test on mock portal]]></description>
+      <current_state><![CDATA[accepted]]></current_state>
+      <requested_by_id>1392724</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/80327872]]></url>
+      <owner_ids>
+        <array>
+          <item>1395454</item>
+        </array>
+      </owner_ids>
+      <labels>
+        <array>
+          <item>
+            <object>
+              <id>9703240</id>
+              <project_id>1127324</project_id>
+              <kind><![CDATA[label]]></kind>
+              <name><![CDATA[api]]></name>
+              <created_at><![CDATA[2014-10-14T13:37:06Z]]></created_at>
+              <updated_at><![CDATA[2014-10-14T13:37:06Z]]></updated_at>
+            </object>
+          </item>
+        </array>
+      </labels>
+      <owned_by_id>1395454</owned_by_id>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>86701094</id>
+      <created_at><![CDATA[2015-01-22T14:01:09Z]]></created_at>
+      <updated_at><![CDATA[2015-01-28T17:33:39Z]]></updated_at>
+      <accepted_at><![CDATA[2015-01-28T17:33:38Z]]></accepted_at>
+      <estimate>1</estimate>
+      <story_type><![CDATA[feature]]></story_type>
+      <name><![CDATA[Rename backup-set collection to recovery-point]]></name>
+      <description><![CDATA[And related XSLTs etc]]></description>
+      <current_state><![CDATA[accepted]]></current_state>
+      <requested_by_id>1392724</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/86701094]]></url>
+      <owner_ids>
+        <array>
+          <item>1395454</item>
+        </array>
+      </owner_ids>
+      <labels>
+        <array/>
+      </labels>
+      <owned_by_id>1395454</owned_by_id>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>86617282</id>
+      <created_at><![CDATA[2015-01-21T15:03:13Z]]></created_at>
+      <updated_at><![CDATA[2015-01-28T17:50:45Z]]></updated_at>
+      <accepted_at><![CDATA[2015-01-28T17:50:46Z]]></accepted_at>
+      <story_type><![CDATA[bug]]></story_type>
+      <name><![CDATA[Conductor errors are not showing up in the log anymore]]></name>
+      <description><![CDATA[When Conductor hits an exception, it reports the error and a stack trace to syslog and then exits. Sometime recently this behavior broke.]]></description>
+      <current_state><![CDATA[accepted]]></current_state>
+      <requested_by_id>1392724</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/86617282]]></url>
+      <owner_ids>
+        <array>
+          <item>1392724</item>
+        </array>
+      </owner_ids>
+      <labels>
+        <array/>
+      </labels>
+      <owned_by_id>1392724</owned_by_id>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>84929340</id>
+      <created_at><![CDATA[2014-12-19T15:35:32Z]]></created_at>
+      <updated_at><![CDATA[2014-12-19T15:35:38Z]]></updated_at>
+      <story_type><![CDATA[chore]]></story_type>
+      <name><![CDATA[Update mock portal with Create recovery host dialog]]></name>
+      <current_state><![CDATA[started]]></current_state>
+      <requested_by_id>1392724</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/84929340]]></url>
+      <owner_ids>
+        <array>
+          <item>1392724</item>
+        </array>
+      </owner_ids>
+      <labels>
+        <array/>
+      </labels>
+      <owned_by_id>1392724</owned_by_id>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>84328430</id>
+      <created_at><![CDATA[2014-12-10T20:12:09Z]]></created_at>
+      <updated_at><![CDATA[2015-01-06T15:13:39Z]]></updated_at>
+      <estimate>5</estimate>
+      <story_type><![CDATA[feature]]></story_type>
+      <name><![CDATA[Automated conversion from S3 appliance image to VHD]]></name>
+      <description><![CDATA[**Acceptance**
+Ability to run an automated script (or similar) which will pull appliance endpoint backup image from S3 and convert into VHD format using paragon SDK
+
+Does not include booting a VM from that VHD (that is separate story)]]></description>
+      <current_state><![CDATA[started]]></current_state>
+      <requested_by_id>1404594</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/84328430]]></url>
+      <owner_ids>
+        <array>
+          <item>1395448</item>
+        </array>
+      </owner_ids>
+      <labels>
+        <array>
+          <item>
+            <object>
+              <id>10393346</id>
+              <project_id>1127324</project_id>
+              <kind><![CDATA[label]]></kind>
+              <name><![CDATA[bmr]]></name>
+              <created_at><![CDATA[2015-01-06T14:36:34Z]]></created_at>
+              <updated_at><![CDATA[2015-01-06T14:36:34Z]]></updated_at>
+            </object>
+          </item>
+        </array>
+      </labels>
+      <owned_by_id>1395448</owned_by_id>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>83879786</id>
+      <created_at><![CDATA[2014-12-03T20:12:22Z]]></created_at>
+      <updated_at><![CDATA[2015-02-26T15:46:16Z]]></updated_at>
+      <estimate>5</estimate>
+      <story_type><![CDATA[feature]]></story_type>
+      <name><![CDATA[Esoteric WebDAV protocol features]]></name>
+      <description><![CDATA[Provide a complete PROPFIND function which
+
+**Acceptance Criteria**
+Passing tests]]></description>
+      <current_state><![CDATA[started]]></current_state>
+      <requested_by_id>1392724</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/83879786]]></url>
+      <owner_ids>
+        <array>
+          <item>1395454</item>
+          <item>1392724</item>
+        </array>
+      </owner_ids>
+      <labels>
+        <array>
+          <item>
+            <object>
+              <id>9703240</id>
+              <project_id>1127324</project_id>
+              <kind><![CDATA[label]]></kind>
+              <name><![CDATA[api]]></name>
+              <created_at><![CDATA[2014-10-14T13:37:06Z]]></created_at>
+              <updated_at><![CDATA[2014-10-14T13:37:06Z]]></updated_at>
+            </object>
+          </item>
+        </array>
+      </labels>
+      <owned_by_id>1395454</owned_by_id>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>83128614</id>
+      <created_at><![CDATA[2014-11-20T16:03:01Z]]></created_at>
+      <updated_at><![CDATA[2015-02-26T15:40:16Z]]></updated_at>
+      <estimate>2</estimate>
+      <story_type><![CDATA[feature]]></story_type>
+      <name><![CDATA[Add accept handling for application/json+ld]]></name>
+      <description><![CDATA[This format will be the real supported JSON interface.  The plain JSON interface story is just for demo purposes and provides the code in conductor to generically handle accept header transformations.
+
+**Deliverable**: conductor xslt transform, and conductor repo test
+**Acceptance**: test passing]]></description>
+      <current_state><![CDATA[started]]></current_state>
+      <requested_by_id>1392724</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/83128614]]></url>
+      <owner_ids>
+        <array>
+          <item>1392724</item>
+        </array>
+      </owner_ids>
+      <labels>
+        <array>
+          <item>
+            <object>
+              <id>9703240</id>
+              <project_id>1127324</project_id>
+              <kind><![CDATA[label]]></kind>
+              <name><![CDATA[api]]></name>
+              <created_at><![CDATA[2014-10-14T13:37:06Z]]></created_at>
+              <updated_at><![CDATA[2014-10-14T13:37:06Z]]></updated_at>
+            </object>
+          </item>
+        </array>
+      </labels>
+      <owned_by_id>1392724</owned_by_id>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>85316662</id>
+      <created_at><![CDATA[2014-12-31T19:10:26Z]]></created_at>
+      <updated_at><![CDATA[2015-01-29T16:01:34Z]]></updated_at>
+      <estimate>5</estimate>
+      <story_type><![CDATA[feature]]></story_type>
+      <name><![CDATA[Update "dr" command line tools to use new API rdf files]]></name>
+      <description><![CDATA[The "dr" command line tools are the backend implementation behind the API server that performs VM setup/changes.  Currently these tools are using the AWS JSON data to manage API usage.  They need to change to use the new data that is stored by the API service.
+
+**Deliverable**: API server functions with modified "dr" commands, and test that validates end to end VM creation
+**Acceptance**: Passing validation test]]></description>
+      <current_state><![CDATA[unstarted]]></current_state>
+      <requested_by_id>1392724</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/85316662]]></url>
+      <owner_ids>
+        <array/>
+      </owner_ids>
+      <labels>
+        <array/>
+      </labels>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>77739322</id>
+      <created_at><![CDATA[2014-08-27T17:53:38Z]]></created_at>
+      <updated_at><![CDATA[2015-01-14T17:05:25Z]]></updated_at>
+      <deadline><![CDATA[2014-12-30T17:00:00Z]]></deadline>
+      <story_type><![CDATA[release]]></story_type>
+      <name><![CDATA[Internally accessible API for the orchestration server]]></name>
+      <description><![CDATA[Internally available API which will be able to execute the functions of the orchestration server (i.e. get customer info, create EC2, install csb, restore database, etc)
+This API will ultimately be called by SaaS team web portal, Jedi, and potentially others. ]]></description>
+      <current_state><![CDATA[unstarted]]></current_state>
+      <requested_by_id>1404594</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/77739322]]></url>
+      <owner_ids>
+        <array/>
+      </owner_ids>
+      <labels>
+        <array/>
+      </labels>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>86651424</id>
+      <created_at><![CDATA[2015-01-21T20:44:06Z]]></created_at>
+      <updated_at><![CDATA[2015-02-24T16:44:52Z]]></updated_at>
+      <estimate>2</estimate>
+      <story_type><![CDATA[feature]]></story_type>
+      <name><![CDATA[Update API to accept appliance customer configuration ]]></name>
+      <description><![CDATA[The current customer information in the conductor is only for CSB.  The customer information needs to be augmented to include all necessary information to recover a customer's appliance protected host.  This may include gathering information from the appliance API server.
+
+**Acceptance Criteria:**
+API call which accepts a customer's configuration ]]></description>
+      <current_state><![CDATA[unstarted]]></current_state>
+      <requested_by_id>1404594</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/86651424]]></url>
+      <owner_ids>
+        <array/>
+      </owner_ids>
+      <labels>
+        <array>
+          <item>
+            <object>
+              <id>9703240</id>
+              <project_id>1127324</project_id>
+              <kind><![CDATA[label]]></kind>
+              <name><![CDATA[api]]></name>
+              <created_at><![CDATA[2014-10-14T13:37:06Z]]></created_at>
+              <updated_at><![CDATA[2014-10-14T13:37:06Z]]></updated_at>
+            </object>
+          </item>
+          <item>
+            <object>
+              <id>10393346</id>
+              <project_id>1127324</project_id>
+              <kind><![CDATA[label]]></kind>
+              <name><![CDATA[bmr]]></name>
+              <created_at><![CDATA[2015-01-06T14:36:34Z]]></created_at>
+              <updated_at><![CDATA[2015-01-06T14:36:34Z]]></updated_at>
+            </object>
+          </item>
+        </array>
+      </labels>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>86651464</id>
+      <created_at><![CDATA[2015-01-21T20:44:40Z]]></created_at>
+      <updated_at><![CDATA[2015-01-21T20:53:30Z]]></updated_at>
+      <estimate>8</estimate>
+      <story_type><![CDATA[feature]]></story_type>
+      <name><![CDATA[Update conductor to fetch appliance server and recovery point information ]]></name>
+      <description><![CDATA[The conductor should access the servers (endpoints) and recovery points which the appliance has backed up. ]]></description>
+      <current_state><![CDATA[unstarted]]></current_state>
+      <requested_by_id>1404594</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/86651464]]></url>
+      <owner_ids>
+        <array/>
+      </owner_ids>
+      <labels>
+        <array>
+          <item>
+            <object>
+              <id>9703240</id>
+              <project_id>1127324</project_id>
+              <kind><![CDATA[label]]></kind>
+              <name><![CDATA[api]]></name>
+              <created_at><![CDATA[2014-10-14T13:37:06Z]]></created_at>
+              <updated_at><![CDATA[2014-10-14T13:37:06Z]]></updated_at>
+            </object>
+          </item>
+          <item>
+            <object>
+              <id>10393346</id>
+              <project_id>1127324</project_id>
+              <kind><![CDATA[label]]></kind>
+              <name><![CDATA[bmr]]></name>
+              <created_at><![CDATA[2015-01-06T14:36:34Z]]></created_at>
+              <updated_at><![CDATA[2015-01-06T14:36:34Z]]></updated_at>
+            </object>
+          </item>
+        </array>
+      </labels>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>86651518</id>
+      <created_at><![CDATA[2015-01-21T20:45:32Z]]></created_at>
+      <updated_at><![CDATA[2015-01-21T20:55:17Z]]></updated_at>
+      <estimate>2</estimate>
+      <story_type><![CDATA[feature]]></story_type>
+      <name><![CDATA[Update conductor to periodically update servers (endpoints) and recovery points]]></name>
+      <description><![CDATA[Conductor gets new endpoints which are added and any new recovery points. 
+To be determined is whether this is event based from something being added to S3 bucket or if it is a schedule-based job. ]]></description>
+      <current_state><![CDATA[unstarted]]></current_state>
+      <requested_by_id>1404594</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/86651518]]></url>
+      <owner_ids>
+        <array/>
+      </owner_ids>
+      <labels>
+        <array>
+          <item>
+            <object>
+              <id>9703240</id>
+              <project_id>1127324</project_id>
+              <kind><![CDATA[label]]></kind>
+              <name><![CDATA[api]]></name>
+              <created_at><![CDATA[2014-10-14T13:37:06Z]]></created_at>
+              <updated_at><![CDATA[2014-10-14T13:37:06Z]]></updated_at>
+            </object>
+          </item>
+          <item>
+            <object>
+              <id>10393346</id>
+              <project_id>1127324</project_id>
+              <kind><![CDATA[label]]></kind>
+              <name><![CDATA[bmr]]></name>
+              <created_at><![CDATA[2015-01-06T14:36:34Z]]></created_at>
+              <updated_at><![CDATA[2015-01-06T14:36:34Z]]></updated_at>
+            </object>
+          </item>
+        </array>
+      </labels>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>86651816</id>
+      <created_at><![CDATA[2015-01-21T20:49:07Z]]></created_at>
+      <updated_at><![CDATA[2015-01-21T20:52:06Z]]></updated_at>
+      <story_type><![CDATA[feature]]></story_type>
+      <name><![CDATA[API call to refresh server/endpoint and recovery point list for a given customer on demand]]></name>
+      <description><![CDATA[On demand (at the time this call is made), immediately go and refresh the servers/endpoints and the recovery points for those servers. ]]></description>
+      <current_state><![CDATA[unstarted]]></current_state>
+      <requested_by_id>1404594</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/86651816]]></url>
+      <owner_ids>
+        <array/>
+      </owner_ids>
+      <labels>
+        <array>
+          <item>
+            <object>
+              <id>9703240</id>
+              <project_id>1127324</project_id>
+              <kind><![CDATA[label]]></kind>
+              <name><![CDATA[api]]></name>
+              <created_at><![CDATA[2014-10-14T13:37:06Z]]></created_at>
+              <updated_at><![CDATA[2014-10-14T13:37:06Z]]></updated_at>
+            </object>
+          </item>
+          <item>
+            <object>
+              <id>10393346</id>
+              <project_id>1127324</project_id>
+              <kind><![CDATA[label]]></kind>
+              <name><![CDATA[bmr]]></name>
+              <created_at><![CDATA[2015-01-06T14:36:34Z]]></created_at>
+              <updated_at><![CDATA[2015-01-06T14:36:34Z]]></updated_at>
+            </object>
+          </item>
+        </array>
+      </labels>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>84328314</id>
+      <created_at><![CDATA[2014-12-10T20:10:50Z]]></created_at>
+      <updated_at><![CDATA[2015-01-21T20:06:36Z]]></updated_at>
+      <estimate>3</estimate>
+      <story_type><![CDATA[feature]]></story_type>
+      <name><![CDATA[Automated booting of EC2 image from VHD]]></name>
+      <description><![CDATA[Single drive system for this story
+
+**Acceptance**
+Given a VHD (which was made from previous story from an appliance endpoint image), boot an EC2 instance from that VHD
+]]></description>
+      <current_state><![CDATA[unstarted]]></current_state>
+      <requested_by_id>1435976</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/84328314]]></url>
+      <owner_ids>
+        <array/>
+      </owner_ids>
+      <labels>
+        <array>
+          <item>
+            <object>
+              <id>10393346</id>
+              <project_id>1127324</project_id>
+              <kind><![CDATA[label]]></kind>
+              <name><![CDATA[bmr]]></name>
+              <created_at><![CDATA[2015-01-06T14:36:34Z]]></created_at>
+              <updated_at><![CDATA[2015-01-06T14:36:34Z]]></updated_at>
+            </object>
+          </item>
+        </array>
+      </labels>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>89013966</id>
+      <created_at><![CDATA[2015-02-24T16:31:18Z]]></created_at>
+      <updated_at><![CDATA[2015-02-24T16:31:23Z]]></updated_at>
+      <story_type><![CDATA[feature]]></story_type>
+      <name><![CDATA[Create conversion VM]]></name>
+      <description><![CDATA[Create an AWS VM providing the pVHD to VHD conversion service, with WinRM/PowerShell API.  This server will be called by the Orchestration server as part of the creation of the recovery host.]]></description>
+      <current_state><![CDATA[unstarted]]></current_state>
+      <requested_by_id>1392724</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/89013966]]></url>
+      <owner_ids>
+        <array/>
+      </owner_ids>
+      <labels>
+        <array/>
+      </labels>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>85697578</id>
+      <created_at><![CDATA[2015-01-08T13:56:53Z]]></created_at>
+      <updated_at><![CDATA[2015-02-24T16:21:37Z]]></updated_at>
+      <story_type><![CDATA[feature]]></story_type>
+      <name><![CDATA[Paragon SDK Integration ]]></name>
+      <description><![CDATA[Integration of Paragon SDK. Includes various back and forth conversations with Paragon team to get this as we need. 
+
+This story requires clarification:
+ 1. integration into what - probably conversion server
+ 2. process for calling conversions]]></description>
+      <current_state><![CDATA[unstarted]]></current_state>
+      <requested_by_id>1404594</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/85697578]]></url>
+      <owner_ids>
+        <array/>
+      </owner_ids>
+      <labels>
+        <array>
+          <item>
+            <object>
+              <id>10393346</id>
+              <project_id>1127324</project_id>
+              <kind><![CDATA[label]]></kind>
+              <name><![CDATA[bmr]]></name>
+              <created_at><![CDATA[2015-01-06T14:36:34Z]]></created_at>
+              <updated_at><![CDATA[2015-01-06T14:36:34Z]]></updated_at>
+            </object>
+          </item>
+        </array>
+      </labels>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>89014254</id>
+      <created_at><![CDATA[2015-02-24T16:34:47Z]]></created_at>
+      <updated_at><![CDATA[2015-02-24T16:36:07Z]]></updated_at>
+      <story_type><![CDATA[feature]]></story_type>
+      <name><![CDATA[Update recovery host creation process for Paragon recovery]]></name>
+      <description><![CDATA[Current recovery host creation understands CSB only - need to make it understand ]]></description>
+      <current_state><![CDATA[unstarted]]></current_state>
+      <requested_by_id>1392724</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/89014254]]></url>
+      <owner_ids>
+        <array/>
+      </owner_ids>
+      <labels>
+        <array/>
+      </labels>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>89013308</id>
+      <created_at><![CDATA[2015-02-24T16:24:54Z]]></created_at>
+      <updated_at><![CDATA[2015-02-24T16:25:15Z]]></updated_at>
+      <estimate>1</estimate>
+      <story_type><![CDATA[feature]]></story_type>
+      <name><![CDATA[Prototype interface for customer notification of VM readiness]]></name>
+      <description><![CDATA[After some timeout change the state of the recovery host in the mock portal to represent that the VM is ready.  This is sized at 1 point to make it clear that this should be the simplest possible solution to allow demonstration.]]></description>
+      <current_state><![CDATA[unstarted]]></current_state>
+      <requested_by_id>1392724</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/89013308]]></url>
+      <owner_ids>
+        <array/>
+      </owner_ids>
+      <labels>
+        <array/>
+      </labels>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>83880986</id>
+      <created_at><![CDATA[2014-12-03T20:28:05Z]]></created_at>
+      <updated_at><![CDATA[2015-02-18T21:13:45Z]]></updated_at>
+      <story_type><![CDATA[release]]></story_type>
+      <name><![CDATA[Basic automated appliance image restore into EC2]]></name>
+      <description><![CDATA[Automated recovery of single drive machine from appliance image into EC2. 
+No incremental backup. 
+]]></description>
+      <current_state><![CDATA[unstarted]]></current_state>
+      <requested_by_id>1404594</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/83880986]]></url>
+      <owner_ids>
+        <array/>
+      </owner_ids>
+      <labels>
+        <array>
+          <item>
+            <object>
+              <id>10393346</id>
+              <project_id>1127324</project_id>
+              <kind><![CDATA[label]]></kind>
+              <name><![CDATA[bmr]]></name>
+              <created_at><![CDATA[2015-01-06T14:36:34Z]]></created_at>
+              <updated_at><![CDATA[2015-01-06T14:36:34Z]]></updated_at>
+            </object>
+          </item>
+        </array>
+      </labels>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>80328912</id>
+      <created_at><![CDATA[2014-10-08T20:00:03Z]]></created_at>
+      <updated_at><![CDATA[2015-02-24T16:06:31Z]]></updated_at>
+      <story_type><![CDATA[chore]]></story_type>
+      <name><![CDATA[API: define security model]]></name>
+      <description><![CDATA[This is likely to be client cert SSL security, but it needs to be documented.  (Karl has already researched this and needs to document findings and the approach).]]></description>
+      <current_state><![CDATA[unstarted]]></current_state>
+      <requested_by_id>1392724</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/80328912]]></url>
+      <owner_ids>
+        <array/>
+      </owner_ids>
+      <labels>
+        <array>
+          <item>
+            <object>
+              <id>9703240</id>
+              <project_id>1127324</project_id>
+              <kind><![CDATA[label]]></kind>
+              <name><![CDATA[api]]></name>
+              <created_at><![CDATA[2014-10-14T13:37:06Z]]></created_at>
+              <updated_at><![CDATA[2014-10-14T13:37:06Z]]></updated_at>
+            </object>
+          </item>
+        </array>
+      </labels>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>84329042</id>
+      <created_at><![CDATA[2014-12-10T20:21:26Z]]></created_at>
+      <updated_at><![CDATA[2015-02-24T16:06:34Z]]></updated_at>
+      <story_type><![CDATA[feature]]></story_type>
+      <name><![CDATA[create RDP connection and windows credentials file ]]></name>
+      <current_state><![CDATA[unstarted]]></current_state>
+      <requested_by_id>1435976</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/84329042]]></url>
+      <owner_ids>
+        <array/>
+      </owner_ids>
+      <labels>
+        <array>
+          <item>
+            <object>
+              <id>10437424</id>
+              <project_id>1127324</project_id>
+              <kind><![CDATA[label]]></kind>
+              <name><![CDATA[move]]></name>
+              <created_at><![CDATA[2015-01-09T17:19:44Z]]></created_at>
+              <updated_at><![CDATA[2015-01-09T17:19:44Z]]></updated_at>
+            </object>
+          </item>
+        </array>
+      </labels>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>88651466</id>
+      <created_at><![CDATA[2015-02-18T21:12:48Z]]></created_at>
+      <updated_at><![CDATA[2015-02-24T16:06:39Z]]></updated_at>
+      <story_type><![CDATA[release]]></story_type>
+      <name><![CDATA[Basic connectivity]]></name>
+      <description><![CDATA[RDP access to VM console]]></description>
+      <current_state><![CDATA[unstarted]]></current_state>
+      <requested_by_id>1553896</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/88651466]]></url>
+      <owner_ids>
+        <array/>
+      </owner_ids>
+      <labels>
+        <array/>
+      </labels>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>84796384</id>
+      <created_at><![CDATA[2014-12-17T20:12:43Z]]></created_at>
+      <updated_at><![CDATA[2015-02-20T13:00:07Z]]></updated_at>
+      <estimate>3</estimate>
+      <story_type><![CDATA[feature]]></story_type>
+      <name><![CDATA[Incremental + full BMR backup support ]]></name>
+      <description><![CDATA[Single drive system. 
+
+**Acceptance**
+Ability to pull incremental + full backup image from S3 and combine/convert into a single VHD image. ]]></description>
+      <current_state><![CDATA[unstarted]]></current_state>
+      <requested_by_id>1404594</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/84796384]]></url>
+      <owner_ids>
+        <array/>
+      </owner_ids>
+      <labels>
+        <array>
+          <item>
+            <object>
+              <id>10393346</id>
+              <project_id>1127324</project_id>
+              <kind><![CDATA[label]]></kind>
+              <name><![CDATA[bmr]]></name>
+              <created_at><![CDATA[2015-01-06T14:36:34Z]]></created_at>
+              <updated_at><![CDATA[2015-01-06T14:36:34Z]]></updated_at>
+            </object>
+          </item>
+        </array>
+      </labels>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>83134606</id>
+      <created_at><![CDATA[2014-11-20T17:07:56Z]]></created_at>
+      <updated_at><![CDATA[2015-02-20T13:00:04Z]]></updated_at>
+      <story_type><![CDATA[chore]]></story_type>
+      <name><![CDATA[Identify issues with recovery from incremental BMR backup]]></name>
+      <description><![CDATA[Identify if there are any issues with recovering from incremental image such as identifying drives, changes, combining full + incremental, etc. 
+
+If issues are identified, stories should be created to handle fixing the issues. If all works and no issues are expected, then chore should be closed. ]]></description>
+      <current_state><![CDATA[unstarted]]></current_state>
+      <requested_by_id>1392724</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/83134606]]></url>
+      <owner_ids>
+        <array/>
+      </owner_ids>
+      <labels>
+        <array>
+          <item>
+            <object>
+              <id>10393346</id>
+              <project_id>1127324</project_id>
+              <kind><![CDATA[label]]></kind>
+              <name><![CDATA[bmr]]></name>
+              <created_at><![CDATA[2015-01-06T14:36:34Z]]></created_at>
+              <updated_at><![CDATA[2015-01-06T14:36:34Z]]></updated_at>
+            </object>
+          </item>
+        </array>
+      </labels>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>84330378</id>
+      <created_at><![CDATA[2014-12-10T20:34:21Z]]></created_at>
+      <updated_at><![CDATA[2015-02-20T12:59:51Z]]></updated_at>
+      <story_type><![CDATA[release]]></story_type>
+      <name><![CDATA[Automated appliance incremental BMR image booted into EC2 ]]></name>
+      <description><![CDATA[single disk
+Pick any incremental (latest or previous) and boot into EC2]]></description>
+      <current_state><![CDATA[unstarted]]></current_state>
+      <requested_by_id>1435976</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/84330378]]></url>
+      <owner_ids>
+        <array/>
+      </owner_ids>
+      <labels>
+        <array>
+          <item>
+            <object>
+              <id>10393346</id>
+              <project_id>1127324</project_id>
+              <kind><![CDATA[label]]></kind>
+              <name><![CDATA[bmr]]></name>
+              <created_at><![CDATA[2015-01-06T14:36:34Z]]></created_at>
+              <updated_at><![CDATA[2015-01-06T14:36:34Z]]></updated_at>
+            </object>
+          </item>
+        </array>
+      </labels>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>85697894</id>
+      <created_at><![CDATA[2015-01-08T14:01:23Z]]></created_at>
+      <updated_at><![CDATA[2015-02-20T12:59:54Z]]></updated_at>
+      <estimate>8</estimate>
+      <story_type><![CDATA[feature]]></story_type>
+      <name><![CDATA[Provision recovery host instance size]]></name>
+      <description><![CDATA[For each image we import, provision the final EC2 instance for the customer. This includes identifying the right size drive for that image and ensuring we are using that size instance. ]]></description>
+      <current_state><![CDATA[unstarted]]></current_state>
+      <requested_by_id>1404594</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/85697894]]></url>
+      <owner_ids>
+        <array/>
+      </owner_ids>
+      <labels>
+        <array>
+          <item>
+            <object>
+              <id>10393346</id>
+              <project_id>1127324</project_id>
+              <kind><![CDATA[label]]></kind>
+              <name><![CDATA[bmr]]></name>
+              <created_at><![CDATA[2015-01-06T14:36:34Z]]></created_at>
+              <updated_at><![CDATA[2015-01-06T14:36:34Z]]></updated_at>
+            </object>
+          </item>
+        </array>
+      </labels>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>86127346</id>
+      <created_at><![CDATA[2015-01-14T16:55:52Z]]></created_at>
+      <updated_at><![CDATA[2015-02-20T13:01:06Z]]></updated_at>
+      <story_type><![CDATA[feature]]></story_type>
+      <name><![CDATA[Poweroff cloud VM]]></name>
+      <current_state><![CDATA[unstarted]]></current_state>
+      <requested_by_id>1404594</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/86127346]]></url>
+      <owner_ids>
+        <array/>
+      </owner_ids>
+      <labels>
+        <array>
+          <item>
+            <object>
+              <id>10489116</id>
+              <project_id>1127324</project_id>
+              <kind><![CDATA[label]]></kind>
+              <name><![CDATA[export]]></name>
+              <created_at><![CDATA[2015-01-14T16:52:02Z]]></created_at>
+              <updated_at><![CDATA[2015-01-14T16:52:02Z]]></updated_at>
+            </object>
+          </item>
+        </array>
+      </labels>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>83133066</id>
+      <created_at><![CDATA[2014-11-20T16:53:04Z]]></created_at>
+      <updated_at><![CDATA[2015-02-20T13:01:09Z]]></updated_at>
+      <story_type><![CDATA[feature]]></story_type>
+      <name><![CDATA[Export cloud VM image ]]></name>
+      <description><![CDATA[Use AWS export API to export the entire machine to S3. 
+User can specify VHD, VMDK, or OVF format
+
+**Deliverable**: 
+**Acceptance**: ]]></description>
+      <current_state><![CDATA[unstarted]]></current_state>
+      <requested_by_id>1392724</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/83133066]]></url>
+      <owner_ids>
+        <array/>
+      </owner_ids>
+      <labels>
+        <array>
+          <item>
+            <object>
+              <id>10489116</id>
+              <project_id>1127324</project_id>
+              <kind><![CDATA[label]]></kind>
+              <name><![CDATA[export]]></name>
+              <created_at><![CDATA[2015-01-14T16:52:02Z]]></created_at>
+              <updated_at><![CDATA[2015-01-14T16:52:02Z]]></updated_at>
+            </object>
+          </item>
+        </array>
+      </labels>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>86127332</id>
+      <created_at><![CDATA[2015-01-14T16:55:45Z]]></created_at>
+      <updated_at><![CDATA[2015-02-20T13:01:02Z]]></updated_at>
+      <story_type><![CDATA[feature]]></story_type>
+      <name><![CDATA[Shutdown cloud VM]]></name>
+      <current_state><![CDATA[unstarted]]></current_state>
+      <requested_by_id>1404594</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/86127332]]></url>
+      <owner_ids>
+        <array/>
+      </owner_ids>
+      <labels>
+        <array>
+          <item>
+            <object>
+              <id>10489116</id>
+              <project_id>1127324</project_id>
+              <kind><![CDATA[label]]></kind>
+              <name><![CDATA[export]]></name>
+              <created_at><![CDATA[2015-01-14T16:52:02Z]]></created_at>
+              <updated_at><![CDATA[2015-01-14T16:52:02Z]]></updated_at>
+            </object>
+          </item>
+        </array>
+      </labels>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>86127310</id>
+      <created_at><![CDATA[2015-01-14T16:55:35Z]]></created_at>
+      <updated_at><![CDATA[2015-02-20T13:04:19Z]]></updated_at>
+      <story_type><![CDATA[feature]]></story_type>
+      <name><![CDATA[Stop/start cloud VM ]]></name>
+      <description><![CDATA[API which the portal/jedi will call to stop a cloud VM. Additionally, this may be called when a customer runs out of time and we terminate their instance. This will need to integrate with exporting a cloud VM image of this server. ]]></description>
+      <current_state><![CDATA[unstarted]]></current_state>
+      <requested_by_id>1404594</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/86127310]]></url>
+      <owner_ids>
+        <array/>
+      </owner_ids>
+      <labels>
+        <array>
+          <item>
+            <object>
+              <id>10489116</id>
+              <project_id>1127324</project_id>
+              <kind><![CDATA[label]]></kind>
+              <name><![CDATA[export]]></name>
+              <created_at><![CDATA[2015-01-14T16:52:02Z]]></created_at>
+              <updated_at><![CDATA[2015-01-14T16:52:02Z]]></updated_at>
+            </object>
+          </item>
+        </array>
+      </labels>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>85697550</id>
+      <created_at><![CDATA[2015-01-08T13:56:06Z]]></created_at>
+      <updated_at><![CDATA[2015-02-20T13:14:39Z]]></updated_at>
+      <estimate>8</estimate>
+      <story_type><![CDATA[feature]]></story_type>
+      <name><![CDATA[Notify customer when cloud VM is ready]]></name>
+      <description><![CDATA[Notify customer (at least via email) when the cloud VM is ready. ]]></description>
+      <current_state><![CDATA[unstarted]]></current_state>
+      <requested_by_id>1404594</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/85697550]]></url>
+      <owner_ids>
+        <array/>
+      </owner_ids>
+      <labels>
+        <array>
+          <item>
+            <object>
+              <id>10393346</id>
+              <project_id>1127324</project_id>
+              <kind><![CDATA[label]]></kind>
+              <name><![CDATA[bmr]]></name>
+              <created_at><![CDATA[2015-01-06T14:36:34Z]]></created_at>
+              <updated_at><![CDATA[2015-01-06T14:36:34Z]]></updated_at>
+            </object>
+          </item>
+        </array>
+      </labels>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>84329004</id>
+      <created_at><![CDATA[2014-12-10T20:20:53Z]]></created_at>
+      <updated_at><![CDATA[2015-02-20T13:05:42Z]]></updated_at>
+      <estimate>2</estimate>
+      <story_type><![CDATA[feature]]></story_type>
+      <name><![CDATA[ability to stop vm]]></name>
+      <current_state><![CDATA[unstarted]]></current_state>
+      <requested_by_id>1435976</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/84329004]]></url>
+      <owner_ids>
+        <array/>
+      </owner_ids>
+      <labels>
+        <array/>
+      </labels>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>79130942</id>
+      <created_at><![CDATA[2014-09-18T18:43:22Z]]></created_at>
+      <updated_at><![CDATA[2015-02-20T13:16:08Z]]></updated_at>
+      <estimate>2</estimate>
+      <story_type><![CDATA[feature]]></story_type>
+      <name><![CDATA[Add event from recovery VM that reports that it is ready for use]]></name>
+      <description><![CDATA[This may be complicated.  The general idea is to add to the *cloud-init* script for recovery VM creation such that at the end it "pokes" the orchestration server to update the state of the VM so it can continue.
+This may not actually report that the VM is really ready.  We may need to check some other status of the VM to determine its readiness.  This might be by installing an `AT` job that checks after the *cloud-init* script completes.
+
+**Deliverable**: Demonstrable event reporting Windows EC2 VM readiness (the implementation is specifically not specified to allow for any implementation)
+**Acceptance**: Demonstration that a VM prepare does not fail after the VM is ready.]]></description>
+      <current_state><![CDATA[unstarted]]></current_state>
+      <requested_by_id>1392724</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/79130942]]></url>
+      <owner_ids>
+        <array/>
+      </owner_ids>
+      <labels>
+        <array/>
+      </labels>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>88651290</id>
+      <created_at><![CDATA[2015-02-18T21:10:16Z]]></created_at>
+      <updated_at><![CDATA[2015-02-18T21:11:59Z]]></updated_at>
+      <story_type><![CDATA[release]]></story_type>
+      <name><![CDATA[Server provisioning ]]></name>
+      <description><![CDATA[Initial sizing of VMs based on what the customer is currently using
+Ability to stop VM from API
+]]></description>
+      <current_state><![CDATA[unstarted]]></current_state>
+      <requested_by_id>1553896</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/88651290]]></url>
+      <owner_ids>
+        <array/>
+      </owner_ids>
+      <labels>
+        <array/>
+      </labels>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>84796488</id>
+      <created_at><![CDATA[2014-12-17T20:14:05Z]]></created_at>
+      <updated_at><![CDATA[2015-02-20T12:58:32Z]]></updated_at>
+      <estimate>3</estimate>
+      <story_type><![CDATA[feature]]></story_type>
+      <name><![CDATA[Automated List of BMR recovery points for a given computer]]></name>
+      <description><![CDATA[This story is jut the ability to list the available recovery points. Next story will be to select a specific point and use that point for a full recovery. 
+
+**Acceptance**
+Ability to get the list of recovery points for a given server. ]]></description>
+      <current_state><![CDATA[unstarted]]></current_state>
+      <requested_by_id>1404594</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/84796488]]></url>
+      <owner_ids>
+        <array/>
+      </owner_ids>
+      <labels>
+        <array>
+          <item>
+            <object>
+              <id>10393346</id>
+              <project_id>1127324</project_id>
+              <kind><![CDATA[label]]></kind>
+              <name><![CDATA[bmr]]></name>
+              <created_at><![CDATA[2015-01-06T14:36:34Z]]></created_at>
+              <updated_at><![CDATA[2015-01-06T14:36:34Z]]></updated_at>
+            </object>
+          </item>
+        </array>
+      </labels>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>84328570</id>
+      <created_at><![CDATA[2014-12-10T20:14:23Z]]></created_at>
+      <updated_at><![CDATA[2015-02-20T12:58:29Z]]></updated_at>
+      <estimate>5</estimate>
+      <story_type><![CDATA[feature]]></story_type>
+      <name><![CDATA[Automate BMR multi-drive import into EC2]]></name>
+      <description><![CDATA[Given a multi-drive system, boot an EC2 instance and attach the volumes that a customer had. 
+Drive letters should match the original system. 
+2+ drive system (solution should be scalable to many drives)
+TODO: Should we have a separate story for 2 and then another story for 3+??
+
+**Acceptance**
+Ability to identify a server with multiple drives, specify a recovery points, have all drives pulled from S3, converted to VHD, and EC2 instance booted with all drives. ]]></description>
+      <current_state><![CDATA[unstarted]]></current_state>
+      <requested_by_id>1435976</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/84328570]]></url>
+      <owner_ids>
+        <array/>
+      </owner_ids>
+      <labels>
+        <array>
+          <item>
+            <object>
+              <id>10393346</id>
+              <project_id>1127324</project_id>
+              <kind><![CDATA[label]]></kind>
+              <name><![CDATA[bmr]]></name>
+              <created_at><![CDATA[2015-01-06T14:36:34Z]]></created_at>
+              <updated_at><![CDATA[2015-01-06T14:36:34Z]]></updated_at>
+            </object>
+          </item>
+        </array>
+      </labels>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>84328700</id>
+      <created_at><![CDATA[2014-12-10T20:16:37Z]]></created_at>
+      <updated_at><![CDATA[2015-02-20T13:13:24Z]]></updated_at>
+      <story_type><![CDATA[feature]]></story_type>
+      <name><![CDATA[Select restore point from paragon backup tree]]></name>
+      <description><![CDATA[For this story, you should be able to select any recovery point (providing this list is a separate story) and specify that point for a recovery to be performed. 
+
+**Acceptance**
+Scripted (or similar) ability to boot an EC2 instance from an incremental backup. This includes the ability to pull incremental from S3, combine with previous incrementals + full, convert to VHD, and boot EC2 instance. ]]></description>
+      <current_state><![CDATA[unstarted]]></current_state>
+      <requested_by_id>1435976</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/84328700]]></url>
+      <owner_ids>
+        <array/>
+      </owner_ids>
+      <labels>
+        <array>
+          <item>
+            <object>
+              <id>10393346</id>
+              <project_id>1127324</project_id>
+              <kind><![CDATA[label]]></kind>
+              <name><![CDATA[bmr]]></name>
+              <created_at><![CDATA[2015-01-06T14:36:34Z]]></created_at>
+              <updated_at><![CDATA[2015-01-06T14:36:34Z]]></updated_at>
+            </object>
+          </item>
+        </array>
+      </labels>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>83133094</id>
+      <created_at><![CDATA[2014-11-20T16:53:19Z]]></created_at>
+      <updated_at><![CDATA[2015-02-20T13:00:55Z]]></updated_at>
+      <story_type><![CDATA[chore]]></story_type>
+      <name><![CDATA[Identify issues with multiple BMR disk support]]></name>
+      <description><![CDATA[Get multi-drive VMs from the cloud to provide multi-drive archive for failback (my guess is this is what we are looking for).  In this case the format of the export should be an OVA with VHDs as the individual drives within the archive.
+
+**Deliverable**: Stories for implementing multiple disk support
+**Acceptance**: Review and accept by team]]></description>
+      <current_state><![CDATA[unstarted]]></current_state>
+      <requested_by_id>1392724</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/83133094]]></url>
+      <owner_ids>
+        <array>
+          <item>1395448</item>
+        </array>
+      </owner_ids>
+      <labels>
+        <array>
+          <item>
+            <object>
+              <id>10393346</id>
+              <project_id>1127324</project_id>
+              <kind><![CDATA[label]]></kind>
+              <name><![CDATA[bmr]]></name>
+              <created_at><![CDATA[2015-01-06T14:36:34Z]]></created_at>
+              <updated_at><![CDATA[2015-01-06T14:36:34Z]]></updated_at>
+            </object>
+          </item>
+        </array>
+      </labels>
+      <owned_by_id>1395448</owned_by_id>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>88651754</id>
+      <created_at><![CDATA[2015-02-18T21:15:10Z]]></created_at>
+      <updated_at><![CDATA[2015-02-18T21:15:15Z]]></updated_at>
+      <story_type><![CDATA[release]]></story_type>
+      <name><![CDATA[Advanced failover capabilities]]></name>
+      <description><![CDATA[Automated recovery of server image with multiple drives
+Tune recovery process to meet customer RTO objectives
+Ability to stop VM from portal]]></description>
+      <current_state><![CDATA[unstarted]]></current_state>
+      <requested_by_id>1553896</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/88651754]]></url>
+      <owner_ids>
+        <array/>
+      </owner_ids>
+      <labels>
+        <array/>
+      </labels>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>85795034</id>
+      <created_at><![CDATA[2015-01-09T17:19:14Z]]></created_at>
+      <updated_at><![CDATA[2015-02-20T13:28:46Z]]></updated_at>
+      <story_type><![CDATA[chore]]></story_type>
+      <name><![CDATA[Can an exported image from EC2 run on physical hardware?]]></name>
+      <description><![CDATA[If you boot a physical server into winPE (or similar), is it possible to then import a VHD/VMDK which has been exported from AWS and have it run on physical hardware. This details whether we can use the export image to failback to physical or only to virtual. 
+
+At least, can we restore back to the original hardware? Ideally, can we also restore back to dissimilar hardware using Paragon to replace drivers? 
+
+
+From AWS: When an image is imported into AWS, the existing drivers are de-activated and AWS drivers are installed/activated. When an image is exported, the AWS drivers are de-activated and original drivers are re-activated? ]]></description>
+      <current_state><![CDATA[unstarted]]></current_state>
+      <requested_by_id>1404594</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/85795034]]></url>
+      <owner_ids>
+        <array/>
+      </owner_ids>
+      <labels>
+        <array>
+          <item>
+            <object>
+              <id>10393346</id>
+              <project_id>1127324</project_id>
+              <kind><![CDATA[label]]></kind>
+              <name><![CDATA[bmr]]></name>
+              <created_at><![CDATA[2015-01-06T14:36:34Z]]></created_at>
+              <updated_at><![CDATA[2015-01-06T14:36:34Z]]></updated_at>
+            </object>
+          </item>
+          <item>
+            <object>
+              <id>10489116</id>
+              <project_id>1127324</project_id>
+              <kind><![CDATA[label]]></kind>
+              <name><![CDATA[export]]></name>
+              <created_at><![CDATA[2015-01-14T16:52:02Z]]></created_at>
+              <updated_at><![CDATA[2015-01-14T16:52:02Z]]></updated_at>
+            </object>
+          </item>
+        </array>
+      </labels>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>86127688</id>
+      <created_at><![CDATA[2015-01-14T16:59:17Z]]></created_at>
+      <updated_at><![CDATA[2015-02-20T13:28:58Z]]></updated_at>
+      <story_type><![CDATA[feature]]></story_type>
+      <name><![CDATA[Provide link to exported image]]></name>
+      <description><![CDATA[Provide a link to the customer (via portal) as to where their cloud VM is stored on S3. The customer can download multiple times. ]]></description>
+      <current_state><![CDATA[unstarted]]></current_state>
+      <requested_by_id>1404594</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/86127688]]></url>
+      <owner_ids>
+        <array/>
+      </owner_ids>
+      <labels>
+        <array>
+          <item>
+            <object>
+              <id>10489116</id>
+              <project_id>1127324</project_id>
+              <kind><![CDATA[label]]></kind>
+              <name><![CDATA[export]]></name>
+              <created_at><![CDATA[2015-01-14T16:52:02Z]]></created_at>
+              <updated_at><![CDATA[2015-01-14T16:52:02Z]]></updated_at>
+            </object>
+          </item>
+        </array>
+      </labels>
+    </object>
+  </item>
+  <item>
+    <object>
+      <kind><![CDATA[story]]></kind>
+      <id>86127850</id>
+      <created_at><![CDATA[2015-01-14T17:00:54Z]]></created_at>
+      <updated_at><![CDATA[2015-02-20T13:29:12Z]]></updated_at>
+      <story_type><![CDATA[feature]]></story_type>
+      <name><![CDATA[Auto delete export image from S3 after 30 days]]></name>
+      <description><![CDATA[automatically delete the export image from S3 after 30 days. 
+
+separte story to allow CS to specify a longer range to keep this (ad-hoc basis)]]></description>
+      <current_state><![CDATA[unstarted]]></current_state>
+      <requested_by_id>1404594</requested_by_id>
+      <project_id>1127324</project_id>
+      <url><![CDATA[https://www.pivotaltracker.com/story/show/86127850]]></url>
+      <owner_ids>
+        <array/>
+      </owner_ids>
+      <labels>
+        <array>
+          <item>
+            <object>
+              <id>10489116</id>
+              <project_id>1127324</project_id>
+              <kind><![CDATA[label]]></kind>
+              <name><![CDATA[export]]></name>
+              <created_at><![CDATA[2015-01-14T16:52:02Z]]></created_at>
+              <updated_at><![CDATA[2015-01-14T16:52:02Z]]></updated_at>
+            </object>
+          </item>
+        </array>
+      </labels>
+    </object>
+  </item>
+</array>

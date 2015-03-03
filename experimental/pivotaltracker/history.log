@@ -1,0 +1,34 @@
+  593  export TOKEN=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+  594  curl --silent -X GET -H "X-TrackerToken: $TOKEN" "https://www.pivotaltracker.com/services/v5/me" |     ~/ws/automation/tools/json2xml  | xmllint --format -
+  595  curl --silent -X GET -H "X-TrackerToken: $TOKEN" "https://www.pivotaltracker.com/services/v5/me" 
+  596  curl http://www.pivotaltracker.com/
+  597  curl http://www.pivotaltracker.com/
+  598  curl -v http://www.pivotaltracker.com/
+  599  curl -v http://www.google.com/
+  600  ifconfig -a
+  601  curl -v http://www.google.com/
+  602  man curl
+  603  curl --ipv4 -v http://www.google.com/
+  604  curl --ipv4 --silent -X GET -H "X-TrackerToken: $TOKEN" "https://www.pivotaltracker.com/services/v5/me" |     ~/ws/automation/tools/json2xml  | xmllint --format -
+  605  curl -X GET -H "X-TrackerToken: $TOKEN" "https://www.pivotaltracker.com/services/v5/projects/
+  606  curl -X GET -H "X-TrackerToken: $TOKEN" "https://www.pivotaltracker.com/services/v5/projects/"
+  607  curl --ipv4 -X GET -H "X-TrackerToken: $TOKEN" "https://www.pivotaltracker.com/services/v5/projects/"
+  608  curl --ipv4 -X GET -H "X-TrackerToken: $TOKEN" "https://www.pivotaltracker.com/services/v5/projects/" | ~/ws/automation/tools/json2xml | xmllint --format - > projects.xml
+  609  less projects.xml 
+  610  cat projects.xml 
+  611  curl --ipv4 -X GET -H "X-TrackerToken: $TOKEN" "https://www.pivotaltracker.com/services/v5/projects/1127324/stories/" | ~/ws/automation/tools/json2xml | xmllint --format - > stories.xml
+  612  less stories.xml 
+  613  history
+  614  ls
+  615  ls -ltr
+  616  less stories.xml 
+  617  curl --ipv4 -X GET -H "X-TrackerToken: $TOKEN" "https://www.pivotaltracker.com/services/v5/projects/1127324/iterations/" | ~/ws/automation/tools/json2xml | xmllint --format - > iterations.xml
+  618  less iterations.xml 
+  619  grep number iterations.xml 
+  620  curl --ipv4 -X GET -H "X-TrackerToken: $TOKEN" "https://www.pivotaltracker.com/services/v5/projects/1127324/iterations/?scope=current" | ~/ws/automation/tools/json2xml | xmllint --format - > current_iterations.xml
+  621  less current_iterations.xml 
+  622  curl --ipv4 -X GET -H "X-TrackerToken: $TOKEN" "https://www.pivotaltracker.com/services/v5/projects/1127324/iterations/?scope=current_backlog" | ~/ws/automation/tools/json2xml | xmllint --format - > current_backlog_iterations.xml
+  623  less current_backlog_iterations.xml 
+  624  curl --ipv4 -X GET -H "X-TrackerToken: $TOKEN" "https://www.pivotaltracker.com/services/v5/projects/1127324/iterations/?scope=icebox" | ~/ws/automation/tools/json2xml 
+  625  curl --ipv4 -X GET -H "X-TrackerToken: $TOKEN" "https://www.pivotaltracker.com/services/v5/projects/1127324/iterations/?scope=current_backlog&limit=20" | ~/ws/automation/tools/json2xml | xmllint --format - > current_backlog_iterations.xml
+  626  less current_backlog_iterations.xml 

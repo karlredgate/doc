@@ -1,0 +1,5 @@
+
+exports = Example;
+
+function Example() {
+}
