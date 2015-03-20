@@ -1,0 +1,7077 @@
+{
+  "type": "FeatureCollection",
+  "id": "venkatvedam.i1295a93",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Beverly Farms",
+        "stop_url": "",
+        "stop_name": "Beverly Farms",
+        "stop_id": "Beverly Farms",
+        "stop_desc": "",
+        "description": "Beverly Farms",
+        "id": "marker-hu68urbf3s",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.812745,
+          42.561403
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Alewife Station",
+        "stop_url": "",
+        "stop_name": "Alewife Station",
+        "stop_id": "place-alfcl",
+        "stop_desc": "",
+        "description": "Alewife Station",
+        "id": "marker-hu68urbe0",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.142483,
+          42.395428
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Andrew Station",
+        "stop_url": "",
+        "stop_name": "Andrew Station",
+        "stop_id": "place-andrw",
+        "stop_desc": "",
+        "description": "Andrew Station",
+        "id": "marker-hu68urbe2",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.057655,
+          42.330154
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Airport Station",
+        "stop_url": "",
+        "stop_name": "Airport Station",
+        "stop_id": "place-aport",
+        "stop_desc": "",
+        "description": "Airport Station",
+        "id": "marker-hu68urbe3",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.030395,
+          42.374262
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Aquarium Station",
+        "stop_url": "",
+        "stop_name": "Aquarium Station",
+        "stop_id": "place-aqucl",
+        "stop_desc": "",
+        "description": "Aquarium Station",
+        "id": "marker-hu68urbe4",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.051652,
+          42.359784
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Arlington Station",
+        "stop_url": "",
+        "stop_name": "Arlington Station",
+        "stop_id": "place-armnl",
+        "stop_desc": "",
+        "description": "Arlington Station",
+        "id": "marker-hu68urbe5",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.070893,
+          42.351902
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Ashmont Station",
+        "stop_url": "",
+        "stop_name": "Ashmont Station",
+        "stop_id": "place-asmnl",
+        "stop_desc": "",
+        "description": "Ashmont Station",
+        "id": "marker-hu68urbe6",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.064489,
+          42.284652
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Babcock St. Station",
+        "stop_url": "",
+        "stop_name": "Babcock St. Station",
+        "stop_id": "place-babck",
+        "stop_desc": "",
+        "description": "Babcock St. Station",
+        "id": "marker-hu68urbe7",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.12165,
+          42.35182
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Back Bay Station",
+        "stop_url": "",
+        "stop_name": "Back Bay Station",
+        "stop_id": "place-bbsta",
+        "stop_desc": "",
+        "description": "Back Bay Station",
+        "id": "marker-hu68urbe8",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.075727,
+          42.34735
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Back of the Hill Station",
+        "stop_url": "",
+        "stop_name": "Back of the Hill Station",
+        "stop_id": "place-bckhl",
+        "stop_desc": "",
+        "description": "Back of the Hill Station",
+        "id": "marker-hu68urbe9",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.111313,
+          42.330139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Beaconsfield Station",
+        "stop_url": "",
+        "stop_name": "Beaconsfield Station",
+        "stop_id": "place-bcnfd",
+        "stop_desc": "",
+        "description": "Beaconsfield Station",
+        "id": "marker-hu68urbea",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.140823,
+          42.335846
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Washington Sq. Station",
+        "stop_url": "",
+        "stop_name": "Washington Sq. Station",
+        "stop_id": "place-bcnwa",
+        "stop_desc": "",
+        "description": "Washington Sq. Station",
+        "id": "marker-hu68urbeb",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.13533,
+          42.339394
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Blandford St. Station",
+        "stop_url": "",
+        "stop_name": "Blandford St. Station",
+        "stop_id": "place-bland",
+        "stop_desc": "",
+        "description": "Blandford St. Station",
+        "id": "marker-hu68urbec",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.100258,
+          42.349293
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Beachmont Station",
+        "stop_url": "",
+        "stop_name": "Beachmont Station",
+        "stop_id": "place-bmmnl",
+        "stop_desc": "",
+        "description": "Beachmont Station",
+        "id": "marker-hu68urbed",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.99231944,
+          42.39754234
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Brandon Hall Station",
+        "stop_url": "",
+        "stop_name": "Brandon Hall Station",
+        "stop_id": "place-bndhl",
+        "stop_desc": "",
+        "description": "Brandon Hall Station",
+        "id": "marker-hu68urbee",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.129082,
+          42.340023
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Bowdoin Station",
+        "stop_url": "",
+        "stop_name": "Bowdoin Station",
+        "stop_id": "place-bomnl",
+        "stop_desc": "",
+        "description": "Bowdoin Station",
+        "id": "marker-hu68urbef",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.062037,
+          42.361365
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Boylston Station",
+        "stop_url": "",
+        "stop_name": "Boylston Station",
+        "stop_id": "place-boyls",
+        "stop_desc": "",
+        "description": "Boylston Station",
+        "id": "marker-hu68urbeg",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.06459,
+          42.35302
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Broadway Station",
+        "stop_url": "",
+        "stop_name": "Broadway Station",
+        "stop_id": "place-brdwy",
+        "stop_desc": "",
+        "description": "Broadway Station",
+        "id": "marker-hu68urbeh",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.056967,
+          42.342622
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Packards Corner Station",
+        "stop_url": "",
+        "stop_name": "Packards Corner Station",
+        "stop_id": "place-brico",
+        "stop_desc": "",
+        "description": "Packards Corner Station",
+        "id": "marker-hu68urbei",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.125031,
+          42.351967
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Brookline Hills Station",
+        "stop_url": "",
+        "stop_name": "Brookline Hills Station",
+        "stop_id": "place-brkhl",
+        "stop_desc": "",
+        "description": "Brookline Hills Station",
+        "id": "marker-hu68urbej",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.126999,
+          42.331333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Brigham Circle Station",
+        "stop_url": "",
+        "stop_name": "Brigham Circle Station",
+        "stop_id": "place-brmnl",
+        "stop_desc": "",
+        "description": "Brigham Circle Station",
+        "id": "marker-hu68urbek",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.104609,
+          42.334229
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Braintree Station",
+        "stop_url": "",
+        "stop_name": "Braintree Station",
+        "stop_id": "place-brntn",
+        "stop_desc": "",
+        "description": "Braintree Station",
+        "id": "marker-hu68urbel",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0011385,
+          42.2078543
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Boston Univ. Central Station",
+        "stop_url": "",
+        "stop_name": "Boston Univ. Central Station",
+        "stop_id": "place-bucen",
+        "stop_desc": "",
+        "description": "Boston Univ. Central Station",
+        "id": "marker-hu68urbem",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.106865,
+          42.350082
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Boston Univ. East Station",
+        "stop_url": "",
+        "stop_name": "Boston Univ. East Station",
+        "stop_id": "place-buest",
+        "stop_desc": "",
+        "description": "Boston Univ. East Station",
+        "id": "marker-hu68urben",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.103889,
+          42.349735
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Butler Station",
+        "stop_url": "",
+        "stop_name": "Butler Station",
+        "stop_id": "place-butlr",
+        "stop_desc": "",
+        "description": "Butler Station",
+        "id": "marker-hu68urbeo",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.062584,
+          42.272343
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Boston Univ. West Station",
+        "stop_url": "",
+        "stop_name": "Boston Univ. West Station",
+        "stop_id": "place-buwst",
+        "stop_desc": "",
+        "description": "Boston Univ. West Station",
+        "id": "marker-hu68urbep",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.113876,
+          42.350941
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Brookline Village Station",
+        "stop_url": "",
+        "stop_name": "Brookline Village Station",
+        "stop_id": "place-bvmnl",
+        "stop_desc": "",
+        "description": "Brookline Village Station",
+        "id": "marker-hu68urbeq",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.116296,
+          42.332774
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Capen St. Station",
+        "stop_url": "",
+        "stop_name": "Capen St. Station",
+        "stop_id": "place-capst",
+        "stop_desc": "",
+        "description": "Capen St. Station",
+        "id": "marker-hu68urber",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.087753,
+          42.267712
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Community College Station",
+        "stop_url": "",
+        "stop_name": "Community College Station",
+        "stop_id": "place-ccmnl",
+        "stop_desc": "",
+        "description": "Community College Station",
+        "id": "marker-hu68urbes",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.069533,
+          42.373622
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Cedar Grove Station",
+        "stop_url": "",
+        "stop_name": "Cedar Grove Station",
+        "stop_id": "place-cedgr",
+        "stop_desc": "",
+        "description": "Cedar Grove Station",
+        "id": "marker-hu68urbet",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.060432,
+          42.279682
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Central Ave. Station",
+        "stop_url": "",
+        "stop_name": "Central Ave. Station",
+        "stop_id": "place-cenav",
+        "stop_desc": "",
+        "description": "Central Ave. Station",
+        "id": "marker-hu68urbeu",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.073334,
+          42.270027
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Chestnut Hill Station",
+        "stop_url": "",
+        "stop_name": "Chestnut Hill Station",
+        "stop_id": "place-chhil",
+        "stop_desc": "",
+        "description": "Chestnut Hill Station",
+        "id": "marker-hu68urbev",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.165314,
+          42.326653
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Chestnut Hill Ave. Station",
+        "stop_url": "",
+        "stop_name": "Chestnut Hill Ave. Station",
+        "stop_id": "place-chill",
+        "stop_desc": "",
+        "description": "Chestnut Hill Ave. Station",
+        "id": "marker-hu68urbew",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.15316,
+          42.338169
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Charles/MGH Station",
+        "stop_url": "",
+        "stop_name": "Charles/MGH Station",
+        "stop_id": "place-chmnl",
+        "stop_desc": "",
+        "description": "Charles/MGH Station",
+        "id": "marker-hu68urbex",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.070628,
+          42.361166
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Chinatown Station",
+        "stop_url": "",
+        "stop_name": "Chinatown Station",
+        "stop_id": "place-chncl",
+        "stop_desc": "",
+        "description": "Chinatown Station",
+        "id": "marker-hu68urbey",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.062752,
+          42.352547
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Chiswick Rd. Station",
+        "stop_url": "",
+        "stop_name": "Chiswick Rd. Station",
+        "stop_id": "place-chswk",
+        "stop_desc": "",
+        "description": "Chiswick Rd. Station",
+        "id": "marker-hu68urbez",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.150711,
+          42.340805
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Cleveland Circle Station",
+        "stop_url": "",
+        "stop_name": "Cleveland Circle Station",
+        "stop_id": "place-clmnl",
+        "stop_desc": "",
+        "description": "Cleveland Circle Station",
+        "id": "marker-hu68urbe10",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.149326,
+          42.336142
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Central Square Station",
+        "stop_url": "",
+        "stop_name": "Central Square Station",
+        "stop_id": "place-cntsq",
+        "stop_desc": "",
+        "description": "Central Square Station",
+        "id": "marker-hu68urbe11",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.103802,
+          42.365486
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Copley Station",
+        "stop_url": "",
+        "stop_name": "Copley Station",
+        "stop_id": "place-coecl",
+        "stop_desc": "",
+        "description": "Copley Station",
+        "id": "marker-hu68urbe12",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.077447,
+          42.349974
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Coolidge Corner Station",
+        "stop_url": "",
+        "stop_name": "Coolidge Corner Station",
+        "stop_id": "place-cool",
+        "stop_desc": "",
+        "description": "Coolidge Corner Station",
+        "id": "marker-hu68urbe13",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.121201,
+          42.342213
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Court House Station",
+        "stop_url": "",
+        "stop_name": "Court House Station",
+        "stop_id": "place-crtst",
+        "stop_desc": "",
+        "description": "Court House Station",
+        "id": "marker-hu68urbe14",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.04685,
+          42.35245
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Davis Station",
+        "stop_url": "",
+        "stop_name": "Davis Station",
+        "stop_id": "place-davis",
+        "stop_desc": "",
+        "description": "Davis Station",
+        "id": "marker-hu68urbe15",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.121815,
+          42.39674
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Dean Rd. Station",
+        "stop_url": "",
+        "stop_name": "Dean Rd. Station",
+        "stop_id": "place-denrd",
+        "stop_desc": "",
+        "description": "Dean Rd. Station",
+        "id": "marker-hu68urbe16",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.141853,
+          42.337807
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Downtown Crossing Station",
+        "stop_url": "",
+        "stop_name": "Downtown Crossing Station",
+        "stop_id": "place-dwnxg",
+        "stop_desc": "",
+        "description": "Downtown Crossing Station",
+        "id": "marker-hu68urbe17",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.060225,
+          42.355518
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Eliot Station",
+        "stop_url": "",
+        "stop_name": "Eliot Station",
+        "stop_id": "place-eliot",
+        "stop_desc": "",
+        "description": "Eliot Station",
+        "id": "marker-hu68urbe18",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.216713,
+          42.319023
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Englewood Ave. Station",
+        "stop_url": "",
+        "stop_name": "Englewood Ave. Station",
+        "stop_id": "place-engav",
+        "stop_desc": "",
+        "description": "Englewood Ave. Station",
+        "id": "marker-hu68urbe19",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.14566,
+          42.336971
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Fairbanks St. Station",
+        "stop_url": "",
+        "stop_name": "Fairbanks St. Station",
+        "stop_id": "place-fbkst",
+        "stop_desc": "",
+        "description": "Fairbanks St. Station",
+        "id": "marker-hu68urbe1a",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.131073,
+          42.339725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Fenwood Rd. Station",
+        "stop_url": "",
+        "stop_name": "Fenwood Rd. Station",
+        "stop_id": "place-fenwd",
+        "stop_desc": "",
+        "description": "Fenwood Rd. Station",
+        "id": "marker-hu68urbe1b",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.105728,
+          42.333706
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Fenway Station",
+        "stop_url": "",
+        "stop_name": "Fenway Station",
+        "stop_id": "place-fenwy",
+        "stop_desc": "",
+        "description": "Fenway Station",
+        "id": "marker-hu68urbe1c",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.104187,
+          42.345394
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Fields Corner Station",
+        "stop_url": "",
+        "stop_name": "Fields Corner Station",
+        "stop_id": "place-fldcr",
+        "stop_desc": "",
+        "description": "Fields Corner Station",
+        "id": "marker-hu68urbe1d",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.061667,
+          42.300093
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Forest Hills Station",
+        "stop_url": "",
+        "stop_name": "Forest Hills Station",
+        "stop_id": "place-forhl",
+        "stop_desc": "",
+        "description": "Forest Hills Station",
+        "id": "marker-hu68urbe1e",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.113686,
+          42.300523
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Government Center Station",
+        "stop_url": "",
+        "stop_name": "Government Center Station",
+        "stop_id": "place-gover",
+        "stop_desc": "",
+        "description": "Government Center Station",
+        "id": "marker-hu68urbe1f",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.059215,
+          42.359705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Griggs St. Station",
+        "stop_url": "",
+        "stop_name": "Griggs St. Station",
+        "stop_id": "place-grigg",
+        "stop_desc": "",
+        "description": "Griggs St. Station",
+        "id": "marker-hu68urbe1g",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.134949,
+          42.348545
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Green St. Station",
+        "stop_url": "",
+        "stop_name": "Green St. Station",
+        "stop_id": "place-grnst",
+        "stop_desc": "",
+        "description": "Green St. Station",
+        "id": "marker-hu68urbe1h",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.107414,
+          42.310525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Haymarket Station",
+        "stop_url": "",
+        "stop_name": "Haymarket Station",
+        "stop_id": "place-haecl",
+        "stop_desc": "",
+        "description": "Haymarket Station",
+        "id": "marker-hu68urbe1i",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.05829,
+          42.363021
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Harvard Square Station",
+        "stop_url": "",
+        "stop_name": "Harvard Square Station",
+        "stop_id": "place-harsq",
+        "stop_desc": "",
+        "description": "Harvard Square Station",
+        "id": "marker-hu68urbe1j",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.118956,
+          42.373362
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Harvard Ave. Station",
+        "stop_url": "",
+        "stop_name": "Harvard Ave. Station",
+        "stop_id": "place-harvd",
+        "stop_desc": "",
+        "description": "Harvard Ave. Station",
+        "id": "marker-hu68urbe1k",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.131355,
+          42.350243
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Heath St. Station",
+        "stop_url": "",
+        "stop_name": "Heath St. Station",
+        "stop_id": "place-hsmnl",
+        "stop_desc": "",
+        "description": "Heath St. Station",
+        "id": "marker-hu68urbe1l",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.110559,
+          42.328681
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Hawes St. Station",
+        "stop_url": "",
+        "stop_name": "Hawes St. Station",
+        "stop_id": "place-hwsst",
+        "stop_desc": "",
+        "description": "Hawes St. Station",
+        "id": "marker-hu68urbe1m",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.111145,
+          42.344906
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Hynes Convention Center Station",
+        "stop_url": "",
+        "stop_name": "Hynes Convention Center Station",
+        "stop_id": "place-hymnl",
+        "stop_desc": "",
+        "description": "Hynes Convention Center Station",
+        "id": "marker-hu68urbe1n",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.087903,
+          42.347888
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Jackson Square Station",
+        "stop_url": "",
+        "stop_name": "Jackson Square Station",
+        "stop_id": "place-jaksn",
+        "stop_desc": "",
+        "description": "Jackson Square Station",
+        "id": "marker-hu68urbe1o",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.099592,
+          42.323132
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "JFK/UMass Station",
+        "stop_url": "",
+        "stop_name": "JFK/UMass Station",
+        "stop_id": "place-jfk",
+        "stop_desc": "",
+        "description": "JFK/UMass Station",
+        "id": "marker-hu68urbe1p",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.052391,
+          42.320685
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Kenmore Station",
+        "stop_url": "",
+        "stop_name": "Kenmore Station",
+        "stop_id": "place-kencl",
+        "stop_desc": "",
+        "description": "Kenmore Station",
+        "id": "marker-hu68urbe1q",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.095169,
+          42.348949
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Kendall/MIT Station",
+        "stop_url": "",
+        "stop_name": "Kendall/MIT Station",
+        "stop_id": "place-knncl",
+        "stop_desc": "",
+        "description": "Kendall/MIT Station",
+        "id": "marker-hu68urbe1r",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.08617653,
+          42.36249079
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Kent St. Station",
+        "stop_url": "",
+        "stop_name": "Kent St. Station",
+        "stop_id": "place-kntst",
+        "stop_desc": "",
+        "description": "Kent St. Station",
+        "id": "marker-hu68urbe1s",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.114197,
+          42.344074
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Boston College Station",
+        "stop_url": "",
+        "stop_name": "Boston College Station",
+        "stop_id": "place-lake",
+        "stop_desc": "",
+        "description": "Boston College Station",
+        "id": "marker-hu68urbe1t",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.166769,
+          42.340081
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Lechmere Station",
+        "stop_url": "",
+        "stop_name": "Lechmere Station",
+        "stop_id": "place-lech",
+        "stop_desc": "",
+        "description": "Lechmere Station",
+        "id": "marker-hu68urbe1u",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.076536,
+          42.370772
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Longwood Medical Area Station",
+        "stop_url": "",
+        "stop_name": "Longwood Medical Area Station",
+        "stop_id": "place-lngmd",
+        "stop_desc": "",
+        "description": "Longwood Medical Area Station",
+        "id": "marker-hu68urbe1v",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.100052,
+          42.33596
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Longwood Station",
+        "stop_url": "",
+        "stop_name": "Longwood Station",
+        "stop_id": "place-longw",
+        "stop_desc": "",
+        "description": "Longwood Station",
+        "id": "marker-hu68urbe1w",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.110451,
+          42.341145
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Massachusetts Ave. Station",
+        "stop_url": "",
+        "stop_name": "Massachusetts Ave. Station",
+        "stop_id": "place-masta",
+        "stop_desc": "",
+        "description": "Massachusetts Ave. Station",
+        "id": "marker-hu68urbe1x",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.083423,
+          42.341512
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Mattapan Station",
+        "stop_url": "",
+        "stop_name": "Mattapan Station",
+        "stop_id": "place-matt",
+        "stop_desc": "",
+        "description": "Mattapan Station",
+        "id": "marker-hu68urbe1y",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.092241,
+          42.267762
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Museum of Fine Arts Station",
+        "stop_url": "",
+        "stop_name": "Museum of Fine Arts Station",
+        "stop_id": "place-mfa",
+        "stop_desc": "",
+        "description": "Museum of Fine Arts Station",
+        "id": "marker-hu68urbe1z",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.095512,
+          42.337711
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Milton Station",
+        "stop_url": "",
+        "stop_name": "Milton Station",
+        "stop_id": "place-miltt",
+        "stop_desc": "",
+        "description": "Milton Station",
+        "id": "marker-hu68urbe20",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.067673,
+          42.270306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Mission Park Station",
+        "stop_url": "",
+        "stop_name": "Mission Park Station",
+        "stop_id": "place-mispk",
+        "stop_desc": "",
+        "description": "Mission Park Station",
+        "id": "marker-hu68urbe21",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.109756,
+          42.333195
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Malden Center Station",
+        "stop_url": "",
+        "stop_name": "Malden Center Station",
+        "stop_id": "place-mlmnl",
+        "stop_desc": "",
+        "description": "Malden Center Station",
+        "id": "marker-hu68urbe22",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.07411,
+          42.426632
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Maverick Station",
+        "stop_url": "",
+        "stop_name": "Maverick Station",
+        "stop_id": "place-mvbcl",
+        "stop_desc": "",
+        "description": "Maverick Station",
+        "id": "marker-hu68urbe23",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.03952958,
+          42.36911856
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Newton Highlands Station",
+        "stop_url": "",
+        "stop_name": "Newton Highlands Station",
+        "stop_id": "place-newtn",
+        "stop_desc": "",
+        "description": "Newton Highlands Station",
+        "id": "marker-hu68urbe24",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.206116,
+          42.321735
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Newton Centre Station",
+        "stop_url": "",
+        "stop_name": "Newton Centre Station",
+        "stop_id": "place-newto",
+        "stop_desc": "",
+        "description": "Newton Centre Station",
+        "id": "marker-hu68urbe25",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.192429,
+          42.329391
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "North Station",
+        "stop_url": "",
+        "stop_name": "North Station",
+        "stop_id": "place-north",
+        "stop_desc": "",
+        "description": "North Station",
+        "id": "marker-hu68urbf26",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.06129,
+          42.365577
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "North Quincy Station",
+        "stop_url": "",
+        "stop_name": "North Quincy Station",
+        "stop_id": "place-nqncy",
+        "stop_desc": "",
+        "description": "North Quincy Station",
+        "id": "marker-hu68urbf27",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.029583,
+          42.275275
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Northeastern University Station",
+        "stop_url": "",
+        "stop_name": "Northeastern University Station",
+        "stop_id": "place-nuniv",
+        "stop_desc": "",
+        "description": "Northeastern University Station",
+        "id": "marker-hu68urbf28",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.088806,
+          42.340401
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Oak Grove Station",
+        "stop_url": "",
+        "stop_name": "Oak Grove Station",
+        "stop_id": "place-ogmnl",
+        "stop_desc": "",
+        "description": "Oak Grove Station",
+        "id": "marker-hu68urbf29",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.071097,
+          42.43668
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Orient Heights Station",
+        "stop_url": "",
+        "stop_name": "Orient Heights Station",
+        "stop_id": "place-orhte",
+        "stop_desc": "",
+        "description": "Orient Heights Station",
+        "id": "marker-hu68urbf2a",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.004736,
+          42.386867
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Park St. Station",
+        "stop_url": "",
+        "stop_name": "Park St. Station",
+        "stop_id": "place-pktrm",
+        "stop_desc": "",
+        "description": "Park St. Station",
+        "id": "marker-hu68urbf2b",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0624242,
+          42.35639457
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Pleasant St. Station",
+        "stop_url": "",
+        "stop_name": "Pleasant St. Station",
+        "stop_id": "place-plsgr",
+        "stop_desc": "",
+        "description": "Pleasant St. Station",
+        "id": "marker-hu68urbf2c",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.118889,
+          42.351521
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Porter Square Station",
+        "stop_url": "",
+        "stop_name": "Porter Square Station",
+        "stop_id": "place-portr",
+        "stop_desc": "",
+        "description": "Porter Square Station",
+        "id": "marker-hu68urbf2d",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.119149,
+          42.3884
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Prudential Station",
+        "stop_url": "",
+        "stop_name": "Prudential Station",
+        "stop_id": "place-prmnl",
+        "stop_desc": "",
+        "description": "Prudential Station",
+        "id": "marker-hu68urbf2e",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.081696,
+          42.34557
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Quincy Adams Station",
+        "stop_url": "",
+        "stop_name": "Quincy Adams Station",
+        "stop_id": "place-qamnl",
+        "stop_desc": "",
+        "description": "Quincy Adams Station",
+        "id": "marker-hu68urbf2f",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.007153,
+          42.233391
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Quincy Center Station",
+        "stop_url": "",
+        "stop_name": "Quincy Center Station",
+        "stop_id": "place-qnctr",
+        "stop_desc": "",
+        "description": "Quincy Center Station",
+        "id": "marker-hu68urbf2g",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.005409,
+          42.251809
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Revere Beach Station",
+        "stop_url": "",
+        "stop_name": "Revere Beach Station",
+        "stop_id": "place-rbmnl",
+        "stop_desc": "",
+        "description": "Revere Beach Station",
+        "id": "marker-hu68urbf2h",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.99253321,
+          42.40784254
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Roxbury Crossing Station",
+        "stop_url": "",
+        "stop_name": "Roxbury Crossing Station",
+        "stop_id": "place-rcmnl",
+        "stop_desc": "",
+        "description": "Roxbury Crossing Station",
+        "id": "marker-hu68urbf2i",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.095451,
+          42.331397
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Riverside Station",
+        "stop_url": "",
+        "stop_name": "Riverside Station",
+        "stop_id": "place-river",
+        "stop_desc": "",
+        "description": "Riverside Station",
+        "id": "marker-hu68urbf2j",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.251742,
+          42.337059
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Reservoir Station",
+        "stop_url": "",
+        "stop_name": "Reservoir Station",
+        "stop_id": "place-rsmnl",
+        "stop_desc": "",
+        "description": "Reservoir Station",
+        "id": "marker-hu68urbf2k",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.148952,
+          42.335027
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Ruggles Station",
+        "stop_url": "",
+        "stop_name": "Ruggles Station",
+        "stop_id": "place-rugg",
+        "stop_desc": "",
+        "description": "Ruggles Station",
+        "id": "marker-hu68urbf2l",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.088961,
+          42.336377
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Riverway Station",
+        "stop_url": "",
+        "stop_name": "Riverway Station",
+        "stop_id": "place-rvrwy",
+        "stop_desc": "",
+        "description": "Riverway Station",
+        "id": "marker-hu68urbf2m",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.111931,
+          42.331684
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Stony Brook Station",
+        "stop_url": "",
+        "stop_name": "Stony Brook Station",
+        "stop_id": "place-sbmnl",
+        "stop_desc": "",
+        "description": "Stony Brook Station",
+        "id": "marker-hu68urbf2n",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.104248,
+          42.317062
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Suffolk Downs Station",
+        "stop_url": "",
+        "stop_name": "Suffolk Downs Station",
+        "stop_id": "place-sdmnl",
+        "stop_desc": "",
+        "description": "Suffolk Downs Station",
+        "id": "marker-hu68urbf2o",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.99712259,
+          42.39050067
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Savin Hill Station",
+        "stop_url": "",
+        "stop_name": "Savin Hill Station",
+        "stop_id": "place-shmnl",
+        "stop_desc": "",
+        "description": "Savin Hill Station",
+        "id": "marker-hu68urbf2p",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.053331,
+          42.31129
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Saint Mary St. Station",
+        "stop_url": "",
+        "stop_name": "Saint Mary St. Station",
+        "stop_id": "place-smary",
+        "stop_desc": "",
+        "description": "Saint Mary St. Station",
+        "id": "marker-hu68urbf2q",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.107353,
+          42.345974
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Shawmut Station",
+        "stop_url": "",
+        "stop_name": "Shawmut Station",
+        "stop_id": "place-smmnl",
+        "stop_desc": "",
+        "description": "Shawmut Station",
+        "id": "marker-hu68urbf2r",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.06573796,
+          42.29312583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "South St. Station",
+        "stop_url": "",
+        "stop_name": "South St. Station",
+        "stop_id": "place-sougr",
+        "stop_desc": "",
+        "description": "South St. Station",
+        "id": "marker-hu68urbf2s",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.157661,
+          42.3396
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Science Park Station",
+        "stop_url": "",
+        "stop_name": "Science Park Station",
+        "stop_id": "place-spmnl",
+        "stop_desc": "",
+        "description": "Science Park Station",
+        "id": "marker-hu68urbf2t",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.067666,
+          42.366664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "South Station",
+        "stop_url": "",
+        "stop_name": "South Station",
+        "stop_id": "place-sstat",
+        "stop_desc": "",
+        "description": "South Station",
+        "id": "marker-hu68urbf2u",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.055242,
+          42.352271
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "State St. Station",
+        "stop_url": "",
+        "stop_name": "State St. Station",
+        "stop_id": "place-state",
+        "stop_desc": "",
+        "description": "State St. Station",
+        "id": "marker-hu68urbf2v",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.057598,
+          42.358978
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Sutherland Rd. Station",
+        "stop_url": "",
+        "stop_name": "Sutherland Rd. Station",
+        "stop_id": "place-sthld",
+        "stop_desc": "",
+        "description": "Sutherland Rd. Station",
+        "id": "marker-hu68urbf2w",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.146202,
+          42.341614
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Saint Paul St. Station",
+        "stop_url": "",
+        "stop_name": "Saint Paul St. Station",
+        "stop_id": "place-stplb",
+        "stop_desc": "",
+        "description": "Saint Paul St. Station",
+        "id": "marker-hu68urbf2x",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.116104,
+          42.3512
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Saint Paul St. Station",
+        "stop_url": "",
+        "stop_name": "Saint Paul St. Station",
+        "stop_id": "place-stpul",
+        "stop_desc": "",
+        "description": "Saint Paul St. Station",
+        "id": "marker-hu68urbf2y",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.116997,
+          42.343327
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Sullivan Station",
+        "stop_url": "",
+        "stop_name": "Sullivan Station",
+        "stop_id": "place-sull",
+        "stop_desc": "",
+        "description": "Sullivan Station",
+        "id": "marker-hu68urbf2z",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.076994,
+          42.383975
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Summit Ave. Station",
+        "stop_url": "",
+        "stop_name": "Summit Ave. Station",
+        "stop_id": "place-sumav",
+        "stop_desc": "",
+        "description": "Summit Ave. Station",
+        "id": "marker-hu68urbf30",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.12561,
+          42.34111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Symphony Station",
+        "stop_url": "",
+        "stop_name": "Symphony Station",
+        "stop_id": "place-symcl",
+        "stop_desc": "",
+        "description": "Symphony Station",
+        "id": "marker-hu68urbf31",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.085056,
+          42.342687
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Tappan St. Station",
+        "stop_url": "",
+        "stop_name": "Tappan St. Station",
+        "stop_id": "place-tapst",
+        "stop_desc": "",
+        "description": "Tappan St. Station",
+        "id": "marker-hu68urbf32",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.138702,
+          42.338459
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Tufts Medical Center Station",
+        "stop_url": "",
+        "stop_name": "Tufts Medical Center Station",
+        "stop_id": "place-tumnl",
+        "stop_desc": "",
+        "description": "Tufts Medical Center Station",
+        "id": "marker-hu68urbf33",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.063917,
+          42.349662
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Valley Rd. Station",
+        "stop_url": "",
+        "stop_name": "Valley Rd. Station",
+        "stop_id": "place-valrd",
+        "stop_desc": "",
+        "description": "Valley Rd. Station",
+        "id": "marker-hu68urbf34",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.081566,
+          42.268322
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Waban Station",
+        "stop_url": "",
+        "stop_name": "Waban Station",
+        "stop_id": "place-waban",
+        "stop_desc": "",
+        "description": "Waban Station",
+        "id": "marker-hu68urbf35",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.230728,
+          42.325943
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Washington St. Station",
+        "stop_url": "",
+        "stop_name": "Washington St. Station",
+        "stop_id": "place-wascm",
+        "stop_desc": "",
+        "description": "Washington St. Station",
+        "id": "marker-hu68urbf36",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.142853,
+          42.343864
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Wellington Station",
+        "stop_url": "",
+        "stop_name": "Wellington Station",
+        "stop_id": "place-welln",
+        "stop_desc": "",
+        "description": "Wellington Station",
+        "id": "marker-hu68urbf37",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.077082,
+          42.40237
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Wood Island Station",
+        "stop_url": "",
+        "stop_name": "Wood Island Station",
+        "stop_id": "place-wimnl",
+        "stop_desc": "",
+        "description": "Wood Island Station",
+        "id": "marker-hu68urbf38",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.02286539,
+          42.3796403
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Wollaston Station",
+        "stop_url": "",
+        "stop_name": "Wollaston Station",
+        "stop_id": "place-wlsta",
+        "stop_desc": "",
+        "description": "Wollaston Station",
+        "id": "marker-hu68urbf39",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0203369,
+          42.2665139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Wonderland Station",
+        "stop_url": "",
+        "stop_name": "Wonderland Station",
+        "stop_id": "place-wondl",
+        "stop_desc": "",
+        "description": "Wonderland Station",
+        "id": "marker-hu68urbf3a",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.991648,
+          42.41342
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Woodland Station",
+        "stop_url": "",
+        "stop_name": "Woodland Station",
+        "stop_id": "place-woodl",
+        "stop_desc": "",
+        "description": "Woodland Station",
+        "id": "marker-hu68urbf3b",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.244301,
+          42.333374
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Warren St. Station",
+        "stop_url": "",
+        "stop_name": "Warren St. Station",
+        "stop_id": "place-wrnst",
+        "stop_desc": "",
+        "description": "Warren St. Station",
+        "id": "marker-hu68urbf3c",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.140457,
+          42.348343
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "World Trade Center Station",
+        "stop_url": "",
+        "stop_name": "World Trade Center Station",
+        "stop_id": "place-wtcst",
+        "stop_desc": "",
+        "description": "World Trade Center Station",
+        "id": "marker-hu68urbf3d",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.04246,
+          42.34863
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Wickford Junction",
+        "stop_url": "",
+        "stop_name": "Wickford Junction",
+        "stop_id": "Wickford Junction",
+        "stop_desc": "",
+        "description": "Wickford Junction",
+        "id": "marker-hu68urbf3e",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.4914,
+          41.5808
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Talbot Avenue",
+        "stop_url": "",
+        "stop_name": "Talbot Avenue",
+        "stop_id": "Talbot Avenue",
+        "stop_desc": "",
+        "description": "Talbot Avenue",
+        "id": "marker-hu68urbf3f",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.07814,
+          42.292246
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Abington",
+        "stop_url": "",
+        "stop_name": "Abington",
+        "stop_id": "Abington",
+        "stop_desc": "",
+        "description": "Abington",
+        "id": "marker-hu68urbf3g",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.935296,
+          42.108034
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Anderson/ Woburn",
+        "stop_url": "",
+        "stop_name": "Anderson/ Woburn",
+        "stop_id": "Anderson/ Woburn",
+        "stop_desc": "",
+        "description": "Anderson/ Woburn",
+        "id": "marker-hu68urbf3h",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.13865,
+          42.518082
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Andover",
+        "stop_url": "",
+        "stop_name": "Andover",
+        "stop_id": "Andover",
+        "stop_desc": "",
+        "description": "Andover",
+        "id": "marker-hu68urbf3i",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.144513,
+          42.657798
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Ashland",
+        "stop_url": "",
+        "stop_name": "Ashland",
+        "stop_id": "Ashland",
+        "stop_desc": "",
+        "description": "Ashland",
+        "id": "marker-hu68urbf3j",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.478813,
+          42.261694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Attleboro",
+        "stop_url": "",
+        "stop_name": "Attleboro",
+        "stop_id": "Attleboro",
+        "stop_desc": "",
+        "description": "Attleboro",
+        "id": "marker-hu68urbf3k",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.284897,
+          41.942097
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Auburndale",
+        "stop_url": "",
+        "stop_name": "Auburndale",
+        "stop_id": "Auburndale",
+        "stop_desc": "",
+        "description": "Auburndale",
+        "id": "marker-hu68urbf3l",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.246658,
+          42.346087
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Ayer",
+        "stop_url": "",
+        "stop_name": "Ayer",
+        "stop_id": "Ayer",
+        "stop_desc": "",
+        "description": "Ayer",
+        "id": "marker-hu68urbf3m",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.590117,
+          42.560047
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Back Bay",
+        "stop_url": "",
+        "stop_name": "Back Bay",
+        "stop_id": "Back Bay",
+        "stop_desc": "",
+        "description": "Back Bay",
+        "id": "marker-hu68urbf3n",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "place-bbsta",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.075769,
+          42.347158
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Ballardvale",
+        "stop_url": "",
+        "stop_name": "Ballardvale",
+        "stop_id": "Ballardvale",
+        "stop_desc": "",
+        "description": "Ballardvale",
+        "id": "marker-hu68urbf3o",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.159653,
+          42.626449
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Bellevue",
+        "stop_url": "",
+        "stop_name": "Bellevue",
+        "stop_id": "Bellevue",
+        "stop_desc": "",
+        "description": "Bellevue",
+        "id": "marker-hu68urbf3p",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.14606,
+          42.287138
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Belmont",
+        "stop_url": "",
+        "stop_name": "Belmont",
+        "stop_id": "Belmont",
+        "stop_desc": "",
+        "description": "Belmont",
+        "id": "marker-hu68urbf3q",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.17619,
+          42.395896
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Beverly",
+        "stop_url": "",
+        "stop_name": "Beverly",
+        "stop_id": "Beverly",
+        "stop_desc": "",
+        "description": "Beverly",
+        "id": "marker-hu68urbf3r",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.885168,
+          42.546907
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Allston St. Station",
+        "stop_url": "",
+        "stop_name": "Allston St. Station",
+        "stop_id": "place-alsgr",
+        "stop_desc": "",
+        "description": "Allston St. Station",
+        "id": "marker-hu68urbe1",
+        "location_type": "1",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.137955,
+          42.348701
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Bradford",
+        "stop_url": "",
+        "stop_name": "Bradford",
+        "stop_id": "Bradford",
+        "stop_desc": "",
+        "description": "Bradford",
+        "id": "marker-hu68urbf3t",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.085998,
+          42.768899
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Braintree",
+        "stop_url": "",
+        "stop_name": "Braintree",
+        "stop_id": "Braintree",
+        "stop_desc": "",
+        "description": "Braintree",
+        "id": "marker-hu68urbf3u",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "place-brntn",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.00085,
+          42.20855
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Brandeis/ Roberts",
+        "stop_url": "",
+        "stop_name": "Brandeis/ Roberts",
+        "stop_id": "Brandeis/ Roberts",
+        "stop_desc": "",
+        "description": "Brandeis/ Roberts",
+        "id": "marker-hu68urbf3v",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.260854,
+          42.361728
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Bridgewater",
+        "stop_url": "",
+        "stop_name": "Bridgewater",
+        "stop_id": "Bridgewater",
+        "stop_desc": "",
+        "description": "Bridgewater",
+        "id": "marker-hu68urbf3w",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.966625,
+          41.986355
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Brockton",
+        "stop_url": "",
+        "stop_name": "Brockton",
+        "stop_id": "Brockton",
+        "stop_desc": "",
+        "description": "Brockton",
+        "id": "marker-hu68urbf3x",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.01686,
+          42.08572
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Campello",
+        "stop_url": "",
+        "stop_name": "Campello",
+        "stop_id": "Campello",
+        "stop_desc": "",
+        "description": "Campello",
+        "id": "marker-hu68urbf3y",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.01246,
+          42.060038
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Canton Center",
+        "stop_url": "",
+        "stop_name": "Canton Center",
+        "stop_id": "Canton Center",
+        "stop_desc": "",
+        "description": "Canton Center",
+        "id": "marker-hu68urbg3z",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.14553,
+          42.156769
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Canton Junction",
+        "stop_url": "",
+        "stop_name": "Canton Junction",
+        "stop_id": "Canton Junction",
+        "stop_desc": "",
+        "description": "Canton Junction",
+        "id": "marker-hu68urbg40",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.153374,
+          42.163423
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Chelsea",
+        "stop_url": "",
+        "stop_name": "Chelsea",
+        "stop_id": "Chelsea",
+        "stop_desc": "",
+        "description": "Chelsea",
+        "id": "marker-hu68urbg41",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.034826,
+          42.395661
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Cohasset",
+        "stop_url": "",
+        "stop_name": "Cohasset",
+        "stop_id": "Cohasset",
+        "stop_desc": "",
+        "description": "Cohasset",
+        "id": "marker-hu68urbg42",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.837,
+          42.2424
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Concord",
+        "stop_url": "",
+        "stop_name": "Concord",
+        "stop_id": "Concord",
+        "stop_desc": "",
+        "description": "Concord",
+        "id": "marker-hu68urbg43",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.358051,
+          42.457147
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Dedham Corp Center",
+        "stop_url": "",
+        "stop_name": "Dedham Corp Center",
+        "stop_id": "Dedham Corp Center",
+        "stop_desc": "",
+        "description": "Dedham Corp Center",
+        "id": "marker-hu68urbg44",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.173806,
+          42.225896
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "East Weymouth",
+        "stop_url": "",
+        "stop_name": "East Weymouth",
+        "stop_id": "East Weymouth",
+        "stop_desc": "",
+        "description": "East Weymouth",
+        "id": "marker-hu68urbg45",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.9214,
+          42.2191
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Endicott",
+        "stop_url": "",
+        "stop_name": "Endicott",
+        "stop_id": "Endicott",
+        "stop_desc": "",
+        "description": "Endicott",
+        "id": "marker-hu68urbg46",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.160413,
+          42.232881
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Fairmount",
+        "stop_url": "",
+        "stop_name": "Fairmount",
+        "stop_id": "Fairmount",
+        "stop_desc": "",
+        "description": "Fairmount",
+        "id": "marker-hu68urbg47",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.11927,
+          42.253638
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Fitchburg",
+        "stop_url": "",
+        "stop_name": "Fitchburg",
+        "stop_id": "Fitchburg",
+        "stop_desc": "",
+        "description": "Fitchburg",
+        "id": "marker-hu68urbg48",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.79275,
+          42.581739
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Forest Hills",
+        "stop_url": "",
+        "stop_name": "Forest Hills",
+        "stop_id": "Forest Hills",
+        "stop_desc": "",
+        "description": "Forest Hills",
+        "id": "marker-hu68urbg49",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "place-forhl",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.113377,
+          42.300023
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Forge Park / 495",
+        "stop_url": "",
+        "stop_name": "Forge Park / 495",
+        "stop_id": "Forge Park / 495",
+        "stop_desc": "",
+        "description": "Forge Park / 495",
+        "id": "marker-hu68urbg4a",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.43902,
+          42.089941
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Framingham",
+        "stop_url": "",
+        "stop_name": "Framingham",
+        "stop_id": "Framingham",
+        "stop_desc": "",
+        "description": "Framingham",
+        "id": "marker-hu68urbg4b",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.416792,
+          42.276719
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Franklin",
+        "stop_url": "",
+        "stop_name": "Franklin",
+        "stop_id": "Franklin",
+        "stop_desc": "",
+        "description": "Franklin",
+        "id": "marker-hu68urbg4c",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.396735,
+          42.083591
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Gloucester",
+        "stop_url": "",
+        "stop_name": "Gloucester",
+        "stop_id": "Gloucester",
+        "stop_desc": "",
+        "description": "Gloucester",
+        "id": "marker-hu68urbg4d",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.668767,
+          42.616069
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Grafton",
+        "stop_url": "",
+        "stop_name": "Grafton",
+        "stop_id": "Grafton",
+        "stop_desc": "",
+        "description": "Grafton",
+        "id": "marker-hu68urbg4e",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.684614,
+          42.246291
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Greenbush",
+        "stop_url": "",
+        "stop_name": "Greenbush",
+        "stop_id": "Greenbush",
+        "stop_desc": "",
+        "description": "Greenbush",
+        "id": "marker-hu68urbg4f",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.7462,
+          42.1781
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Greenwood",
+        "stop_url": "",
+        "stop_name": "Greenwood",
+        "stop_id": "Greenwood",
+        "stop_desc": "",
+        "description": "Greenwood",
+        "id": "marker-hu68urbg4g",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.067233,
+          42.483473
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Halifax",
+        "stop_url": "",
+        "stop_name": "Halifax",
+        "stop_id": "Halifax",
+        "stop_desc": "",
+        "description": "Halifax",
+        "id": "marker-hu68urbg4h",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.820832,
+          42.012867
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Hamilton/ Wenham",
+        "stop_url": "",
+        "stop_name": "Hamilton/ Wenham",
+        "stop_id": "Hamilton/ Wenham",
+        "stop_desc": "",
+        "description": "Hamilton/ Wenham",
+        "id": "marker-hu68urbg4i",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.874005,
+          42.610756
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Hanson",
+        "stop_url": "",
+        "stop_name": "Hanson",
+        "stop_id": "Hanson",
+        "stop_desc": "",
+        "description": "Hanson",
+        "id": "marker-hu68urbg4j",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.881553,
+          42.043262
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Hastings",
+        "stop_url": "",
+        "stop_name": "Hastings",
+        "stop_id": "Hastings",
+        "stop_desc": "",
+        "description": "Hastings",
+        "id": "marker-hu68urbg4k",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.289203,
+          42.385755
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Haverhill",
+        "stop_url": "",
+        "stop_name": "Haverhill",
+        "stop_id": "Haverhill",
+        "stop_desc": "",
+        "description": "Haverhill",
+        "id": "marker-hu68urbg4l",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.085962,
+          42.772684
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Hersey",
+        "stop_url": "",
+        "stop_name": "Hersey",
+        "stop_id": "Hersey",
+        "stop_desc": "",
+        "description": "Hersey",
+        "id": "marker-hu68urbg4m",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.214853,
+          42.275842
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Highland",
+        "stop_url": "",
+        "stop_name": "Highland",
+        "stop_id": "Highland",
+        "stop_desc": "",
+        "description": "Highland",
+        "id": "marker-hu68urbg4n",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1547,
+          42.284869
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Holbrook/ Randolph",
+        "stop_url": "",
+        "stop_name": "Holbrook/ Randolph",
+        "stop_id": "Holbrook/ Randolph",
+        "stop_desc": "",
+        "description": "Holbrook/ Randolph",
+        "id": "marker-hu68urbg4o",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.027518,
+          42.155314
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Hyde Park",
+        "stop_url": "",
+        "stop_name": "Hyde Park",
+        "stop_id": "Hyde Park",
+        "stop_desc": "",
+        "description": "Hyde Park",
+        "id": "marker-hu68urbg4p",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.125022,
+          42.255121
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Ipswich",
+        "stop_url": "",
+        "stop_name": "Ipswich",
+        "stop_id": "Ipswich",
+        "stop_desc": "",
+        "description": "Ipswich",
+        "id": "marker-hu68urbg4q",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.840024,
+          42.678355
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Islington",
+        "stop_url": "",
+        "stop_name": "Islington",
+        "stop_id": "Islington",
+        "stop_desc": "",
+        "description": "Islington",
+        "id": "marker-hu68urbg4r",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.183406,
+          42.220714
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "JFK/UMASS",
+        "stop_url": "",
+        "stop_name": "JFK/UMASS",
+        "stop_id": "JFK/UMASS",
+        "stop_desc": "",
+        "description": "JFK/UMASS",
+        "id": "marker-hu68urbg4s",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "place-jfk",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.052555,
+          42.321123
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Kendal Green",
+        "stop_url": "",
+        "stop_name": "Kendal Green",
+        "stop_id": "Kendal Green",
+        "stop_desc": "",
+        "description": "Kendal Green",
+        "id": "marker-hu68urbg4t",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.282411,
+          42.37897
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Kingston",
+        "stop_url": "",
+        "stop_name": "Kingston",
+        "stop_id": "Kingston",
+        "stop_desc": "",
+        "description": "Kingston",
+        "id": "marker-hu68urbg4u",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.720315,
+          41.978548
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Lawrence",
+        "stop_url": "",
+        "stop_name": "Lawrence",
+        "stop_id": "Lawrence",
+        "stop_desc": "",
+        "description": "Lawrence",
+        "id": "marker-hu68urbg4v",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.15198,
+          42.701806
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Lincoln",
+        "stop_url": "",
+        "stop_name": "Lincoln",
+        "stop_id": "Lincoln",
+        "stop_desc": "",
+        "description": "Lincoln",
+        "id": "marker-hu68urbg4w",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.325344,
+          42.414229
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Littleton / Rte 495",
+        "stop_url": "",
+        "stop_name": "Littleton / Rte 495",
+        "stop_id": "Littleton / Rte 495",
+        "stop_desc": "",
+        "description": "Littleton / Rte 495",
+        "id": "marker-hu68urbg4x",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.502643,
+          42.519236
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Lowell",
+        "stop_url": "",
+        "stop_name": "Lowell",
+        "stop_id": "Lowell",
+        "stop_desc": "",
+        "description": "Lowell",
+        "id": "marker-hu68urbg4y",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.314916,
+          42.638402
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Lynn",
+        "stop_url": "",
+        "stop_name": "Lynn",
+        "stop_id": "Lynn",
+        "stop_desc": "",
+        "description": "Lynn",
+        "id": "marker-hu68urbg4z",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.947794,
+          42.462293
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Malden Center",
+        "stop_url": "",
+        "stop_name": "Malden Center",
+        "stop_id": "Malden Center",
+        "stop_desc": "",
+        "description": "Malden Center",
+        "id": "marker-hu68urbg50",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "place-mlmnl",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.074227,
+          42.426407
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Manchester",
+        "stop_url": "",
+        "stop_name": "Manchester",
+        "stop_id": "Manchester",
+        "stop_desc": "",
+        "description": "Manchester",
+        "id": "marker-hu68urbg51",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.770473,
+          42.57357
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Mansfield",
+        "stop_url": "",
+        "stop_name": "Mansfield",
+        "stop_id": "Mansfield",
+        "stop_desc": "",
+        "description": "Mansfield",
+        "id": "marker-hu68urbg52",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.219318,
+          42.032734
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Melrose Cedar Park",
+        "stop_url": "",
+        "stop_name": "Melrose Cedar Park",
+        "stop_id": "Melrose Cedar Park",
+        "stop_desc": "",
+        "description": "Melrose Cedar Park",
+        "id": "marker-hu68urbg53",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.069448,
+          42.459128
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Melrose Highlands",
+        "stop_url": "",
+        "stop_name": "Melrose Highlands",
+        "stop_id": "Melrose Highlands",
+        "stop_desc": "",
+        "description": "Melrose Highlands",
+        "id": "marker-hu68urbg54",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.06827,
+          42.468793
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Middleborough/ Lakeville",
+        "stop_url": "",
+        "stop_name": "Middleborough/ Lakeville",
+        "stop_id": "Middleborough/ Lakeville",
+        "stop_desc": "",
+        "description": "Middleborough/ Lakeville",
+        "id": "marker-hu68urbg55",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.918444,
+          41.87821
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Mishawum",
+        "stop_url": "",
+        "stop_name": "Mishawum",
+        "stop_id": "Mishawum",
+        "stop_desc": "",
+        "description": "Mishawum",
+        "id": "marker-hu68urbg56",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.137511,
+          42.503595
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Montello",
+        "stop_url": "",
+        "stop_name": "Montello",
+        "stop_id": "Montello",
+        "stop_desc": "",
+        "description": "Montello",
+        "id": "marker-hu68urbg57",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.021078,
+          42.106047
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Montserrat",
+        "stop_url": "",
+        "stop_name": "Montserrat",
+        "stop_id": "Montserrat",
+        "stop_desc": "",
+        "description": "Montserrat",
+        "id": "marker-hu68urbg58",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.870035,
+          42.561483
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Morton Street",
+        "stop_url": "",
+        "stop_name": "Morton Street",
+        "stop_id": "Morton Street",
+        "stop_desc": "",
+        "description": "Morton Street",
+        "id": "marker-hu68urbg59",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.085475,
+          42.280994
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Nantasket Junction",
+        "stop_url": "",
+        "stop_name": "Nantasket Junction",
+        "stop_id": "Nantasket Junction",
+        "stop_desc": "",
+        "description": "Nantasket Junction",
+        "id": "marker-hu68urbg5a",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.8698,
+          42.2452
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Natick",
+        "stop_url": "",
+        "stop_name": "Natick",
+        "stop_id": "Natick",
+        "stop_desc": "",
+        "description": "Natick",
+        "id": "marker-hu68urbg5b",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.347641,
+          42.285239
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Needham Center",
+        "stop_url": "",
+        "stop_name": "Needham Center",
+        "stop_id": "Needham Center",
+        "stop_desc": "",
+        "description": "Needham Center",
+        "id": "marker-hu68urbg5c",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.238089,
+          42.280274
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Needham Heights",
+        "stop_url": "",
+        "stop_name": "Needham Heights",
+        "stop_id": "Needham Heights",
+        "stop_desc": "",
+        "description": "Needham Heights",
+        "id": "marker-hu68urbg5d",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.235087,
+          42.293139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Needham Junction",
+        "stop_url": "",
+        "stop_name": "Needham Junction",
+        "stop_id": "Needham Junction",
+        "stop_desc": "",
+        "description": "Needham Junction",
+        "id": "marker-hu68urbg5e",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.238007,
+          42.273327
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Newburyport",
+        "stop_url": "",
+        "stop_name": "Newburyport",
+        "stop_id": "Newburyport",
+        "stop_desc": "",
+        "description": "Newburyport",
+        "id": "marker-hu68urbg5f",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.880262,
+          42.800292
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Newtonville",
+        "stop_url": "",
+        "stop_name": "Newtonville",
+        "stop_id": "Newtonville",
+        "stop_desc": "",
+        "description": "Newtonville",
+        "id": "marker-hu68urbg5g",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.207338,
+          42.351603
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Norfolk",
+        "stop_url": "",
+        "stop_name": "Norfolk",
+        "stop_id": "Norfolk",
+        "stop_desc": "",
+        "description": "Norfolk",
+        "id": "marker-hu68urbg5h",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.325217,
+          42.120694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "North Beverly",
+        "stop_url": "",
+        "stop_name": "North Beverly",
+        "stop_id": "North Beverly",
+        "stop_desc": "",
+        "description": "North Beverly",
+        "id": "marker-hu68urbg5i",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.884501,
+          42.582471
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "North Billerica",
+        "stop_url": "",
+        "stop_name": "North Billerica",
+        "stop_id": "North Billerica",
+        "stop_desc": "",
+        "description": "North Billerica",
+        "id": "marker-hu68urbg5j",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.280869,
+          42.592881
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "North Leominster",
+        "stop_url": "",
+        "stop_name": "North Leominster",
+        "stop_id": "North Leominster",
+        "stop_desc": "",
+        "description": "North Leominster",
+        "id": "marker-hu68urbg5k",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.739402,
+          42.540577
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "North Scituate",
+        "stop_url": "",
+        "stop_name": "North Scituate",
+        "stop_id": "North Scituate",
+        "stop_desc": "",
+        "description": "North Scituate",
+        "id": "marker-hu68urbg5l",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.7877,
+          42.2197
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "North Station",
+        "stop_url": "",
+        "stop_name": "North Station",
+        "stop_id": "North Station",
+        "stop_desc": "",
+        "description": "North Station",
+        "id": "marker-hu68urbg5m",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "place-north",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.061251,
+          42.365551
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "North Wilmington",
+        "stop_url": "",
+        "stop_name": "North Wilmington",
+        "stop_id": "North Wilmington",
+        "stop_desc": "",
+        "description": "North Wilmington",
+        "id": "marker-hu68urbg5n",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.159724,
+          42.568462
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Norwood Central",
+        "stop_url": "",
+        "stop_name": "Norwood Central",
+        "stop_id": "Norwood Central",
+        "stop_desc": "",
+        "description": "Norwood Central",
+        "id": "marker-hu68urbg5o",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.199748,
+          42.190776
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Norwood Depot",
+        "stop_url": "",
+        "stop_name": "Norwood Depot",
+        "stop_id": "Norwood Depot",
+        "stop_desc": "",
+        "description": "Norwood Depot",
+        "id": "marker-hu68urbg5p",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.196784,
+          42.195668
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Plimptonville",
+        "stop_url": "",
+        "stop_name": "Plimptonville",
+        "stop_id": "Plimptonville",
+        "stop_desc": "",
+        "description": "Plimptonville",
+        "id": "marker-hu68urbg5q",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.236125,
+          42.159123
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Plymouth",
+        "stop_url": "",
+        "stop_name": "Plymouth",
+        "stop_id": "Plymouth",
+        "stop_desc": "",
+        "description": "Plymouth",
+        "id": "marker-hu68urbg5r",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.692514,
+          41.981184
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Porter Square",
+        "stop_url": "",
+        "stop_name": "Porter Square",
+        "stop_id": "Porter Square",
+        "stop_desc": "",
+        "description": "Porter Square",
+        "id": "marker-hu68urbg5s",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "place-portr",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.119159,
+          42.388353
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Prides Crossing",
+        "stop_url": "",
+        "stop_name": "Prides Crossing",
+        "stop_id": "Prides Crossing",
+        "stop_desc": "",
+        "description": "Prides Crossing",
+        "id": "marker-hu68urbg5t",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.824813,
+          42.559513
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Providence",
+        "stop_url": "",
+        "stop_name": "Providence",
+        "stop_id": "Providence",
+        "stop_desc": "",
+        "description": "Providence",
+        "id": "marker-hu68urbg5u",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.413332,
+          41.829641
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Quincy Center",
+        "stop_url": "",
+        "stop_name": "Quincy Center",
+        "stop_id": "Quincy Center",
+        "stop_desc": "",
+        "description": "Quincy Center",
+        "id": "marker-hu68urbg5v",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "place-qnctr",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.005409,
+          42.251809
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Reading",
+        "stop_url": "",
+        "stop_name": "Reading",
+        "stop_id": "Reading",
+        "stop_desc": "",
+        "description": "Reading",
+        "id": "marker-hu68urbg5w",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.10744,
+          42.52148
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Readville",
+        "stop_url": "",
+        "stop_name": "Readville",
+        "stop_id": "Readville",
+        "stop_desc": "",
+        "description": "Readville",
+        "id": "marker-hu68urbg5x",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.132376,
+          42.23775
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "River Works",
+        "stop_url": "",
+        "stop_name": "River Works",
+        "stop_id": "River Works",
+        "stop_desc": "",
+        "description": "River Works",
+        "id": "marker-hu68urbg5y",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.975698,
+          42.453804
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Rockport",
+        "stop_url": "",
+        "stop_name": "Rockport",
+        "stop_id": "Rockport",
+        "stop_desc": "",
+        "description": "Rockport",
+        "id": "marker-hu68urbg5z",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.625616,
+          42.656173
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Roslindale Village",
+        "stop_url": "",
+        "stop_name": "Roslindale Village",
+        "stop_id": "Roslindale Village",
+        "stop_desc": "",
+        "description": "Roslindale Village",
+        "id": "marker-hu68urbg60",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.12961,
+          42.287206
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Route 128",
+        "stop_url": "",
+        "stop_name": "Route 128",
+        "stop_id": "Route 128",
+        "stop_desc": "",
+        "description": "Route 128",
+        "id": "marker-hu68urbg61",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1471,
+          42.209884
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Rowley",
+        "stop_url": "",
+        "stop_name": "Rowley",
+        "stop_id": "Rowley",
+        "stop_desc": "",
+        "description": "Rowley",
+        "id": "marker-hu68urbg62",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.859436,
+          42.725351
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Ruggles",
+        "stop_url": "",
+        "stop_name": "Ruggles",
+        "stop_id": "Ruggles",
+        "stop_desc": "",
+        "description": "Ruggles",
+        "id": "marker-hu68urbg63",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "place-rugg",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.088961,
+          42.336377
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Salem",
+        "stop_url": "",
+        "stop_name": "Salem",
+        "stop_id": "Salem",
+        "stop_desc": "",
+        "description": "Salem",
+        "id": "marker-hu68urbg64",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.898903,
+          42.523927
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Sharon",
+        "stop_url": "",
+        "stop_name": "Sharon",
+        "stop_id": "Sharon",
+        "stop_desc": "",
+        "description": "Sharon",
+        "id": "marker-hu68urbg65",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.183213,
+          42.124804
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Shirley",
+        "stop_url": "",
+        "stop_name": "Shirley",
+        "stop_id": "Shirley",
+        "stop_desc": "",
+        "description": "Shirley",
+        "id": "marker-hu68urbg66",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.648363,
+          42.544726
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Silver Hill",
+        "stop_url": "",
+        "stop_name": "Silver Hill",
+        "stop_id": "Silver Hill",
+        "stop_desc": "",
+        "description": "Silver Hill",
+        "id": "marker-hu68urbg67",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.302357,
+          42.395625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "South Acton",
+        "stop_url": "",
+        "stop_name": "South Acton",
+        "stop_id": "South Acton",
+        "stop_desc": "",
+        "description": "South Acton",
+        "id": "marker-hu68urbg68",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.455322,
+          42.461575
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "South Attleboro",
+        "stop_url": "",
+        "stop_name": "South Attleboro",
+        "stop_id": "South Attleboro",
+        "stop_desc": "",
+        "description": "South Attleboro",
+        "id": "marker-hu68urbg69",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.354621,
+          41.897943
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "South Station",
+        "stop_url": "",
+        "stop_name": "South Station",
+        "stop_id": "South Station",
+        "stop_desc": "",
+        "description": "South Station",
+        "id": "marker-hu68urbg6a",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "place-sstat",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.055364,
+          42.352614
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "South Weymouth",
+        "stop_url": "",
+        "stop_name": "South Weymouth",
+        "stop_id": "South Weymouth",
+        "stop_desc": "",
+        "description": "South Weymouth",
+        "id": "marker-hu68urbg6b",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.95249,
+          42.153747
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Southborough",
+        "stop_url": "",
+        "stop_name": "Southborough",
+        "stop_id": "Southborough",
+        "stop_desc": "",
+        "description": "Southborough",
+        "id": "marker-hu68urbg6c",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.523621,
+          42.267518
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Stoughton",
+        "stop_url": "",
+        "stop_name": "Stoughton",
+        "stop_id": "Stoughton",
+        "stop_desc": "",
+        "description": "Stoughton",
+        "id": "marker-hu68urbg6d",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.10309,
+          42.123818
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Swampscott",
+        "stop_url": "",
+        "stop_name": "Swampscott",
+        "stop_id": "Swampscott",
+        "stop_desc": "",
+        "description": "Swampscott",
+        "id": "marker-hu68urbg6e",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.922036,
+          42.473739
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Uphams Corner",
+        "stop_url": "",
+        "stop_name": "Uphams Corner",
+        "stop_id": "Uphams Corner",
+        "stop_desc": "",
+        "description": "Uphams Corner",
+        "id": "marker-hu68urbg6f",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.069072,
+          42.31867
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Wakefield",
+        "stop_url": "",
+        "stop_name": "Wakefield",
+        "stop_id": "Wakefield",
+        "stop_desc": "",
+        "description": "Wakefield",
+        "id": "marker-hu68urbg6g",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.075,
+          42.501811
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Walpole",
+        "stop_url": "",
+        "stop_name": "Walpole",
+        "stop_id": "Walpole",
+        "stop_desc": "",
+        "description": "Walpole",
+        "id": "marker-hu68urbg6h",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.25779,
+          42.145477
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Waltham",
+        "stop_url": "",
+        "stop_name": "Waltham",
+        "stop_id": "Waltham",
+        "stop_desc": "",
+        "description": "Waltham",
+        "id": "marker-hu68urbg6i",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.236595,
+          42.374424
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Waverley",
+        "stop_url": "",
+        "stop_name": "Waverley",
+        "stop_id": "Waverley",
+        "stop_desc": "",
+        "description": "Waverley",
+        "id": "marker-hu68urbg6j",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.189864,
+          42.387489
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Wedgemere",
+        "stop_url": "",
+        "stop_name": "Wedgemere",
+        "stop_id": "Wedgemere",
+        "stop_desc": "",
+        "description": "Wedgemere",
+        "id": "marker-hu68urbg6k",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.140909,
+          42.445284
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Wellesley Farms",
+        "stop_url": "",
+        "stop_name": "Wellesley Farms",
+        "stop_id": "Wellesley Farms",
+        "stop_desc": "",
+        "description": "Wellesley Farms",
+        "id": "marker-hu68urbg6l",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.272288,
+          42.323608
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Wellesley Hills",
+        "stop_url": "",
+        "stop_name": "Wellesley Hills",
+        "stop_id": "Wellesley Hills",
+        "stop_desc": "",
+        "description": "Wellesley Hills",
+        "id": "marker-hu68urbg6m",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.276769,
+          42.310027
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Wellesley Square",
+        "stop_url": "",
+        "stop_name": "Wellesley Square",
+        "stop_id": "Wellesley Square",
+        "stop_desc": "",
+        "description": "Wellesley Square",
+        "id": "marker-hu68urbg6n",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.294311,
+          42.296427
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "West Concord",
+        "stop_url": "",
+        "stop_name": "West Concord",
+        "stop_id": "West Concord",
+        "stop_desc": "",
+        "description": "West Concord",
+        "id": "marker-hu68urbg6o",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.392371,
+          42.456372
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "West Gloucester",
+        "stop_url": "",
+        "stop_name": "West Gloucester",
+        "stop_id": "West Gloucester",
+        "stop_desc": "",
+        "description": "West Gloucester",
+        "id": "marker-hu68urbg6p",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.706456,
+          42.610928
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "West Hingham",
+        "stop_url": "",
+        "stop_name": "West Hingham",
+        "stop_id": "West Hingham",
+        "stop_desc": "",
+        "description": "West Hingham",
+        "id": "marker-hu68urbg6q",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.9031,
+          42.2367
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "West Medford",
+        "stop_url": "",
+        "stop_name": "West Medford",
+        "stop_id": "West Medford",
+        "stop_desc": "",
+        "description": "West Medford",
+        "id": "marker-hu68urbg6r",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.132468,
+          42.421184
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "West Natick",
+        "stop_url": "",
+        "stop_name": "West Natick",
+        "stop_id": "West Natick",
+        "stop_desc": "",
+        "description": "West Natick",
+        "id": "marker-hu68urbg6s",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.390548,
+          42.281855
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "West Newton",
+        "stop_url": "",
+        "stop_name": "West Newton",
+        "stop_id": "West Newton",
+        "stop_desc": "",
+        "description": "West Newton",
+        "id": "marker-hu68urbg6t",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.22901,
+          42.348599
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "West Roxbury",
+        "stop_url": "",
+        "stop_name": "West Roxbury",
+        "stop_id": "West Roxbury",
+        "stop_desc": "",
+        "description": "West Roxbury",
+        "id": "marker-hu68urbg6u",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.159932,
+          42.2816
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Westborough",
+        "stop_url": "",
+        "stop_name": "Westborough",
+        "stop_id": "Westborough",
+        "stop_desc": "",
+        "description": "Westborough",
+        "id": "marker-hu68urbg6v",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.652005,
+          42.269184
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Weymouth Landing/ East Braintree",
+        "stop_url": "",
+        "stop_name": "Weymouth Landing/ East Braintree",
+        "stop_id": "Weymouth Landing/ East Braintree",
+        "stop_desc": "",
+        "description": "Weymouth Landing/ East Braintree",
+        "id": "marker-hu68urbg6w",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.9682,
+          42.2208
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Whitman",
+        "stop_url": "",
+        "stop_name": "Whitman",
+        "stop_id": "Whitman",
+        "stop_desc": "",
+        "description": "Whitman",
+        "id": "marker-hu68urbg6x",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.923204,
+          42.083563
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Wilmington",
+        "stop_url": "",
+        "stop_name": "Wilmington",
+        "stop_id": "Wilmington",
+        "stop_desc": "",
+        "description": "Wilmington",
+        "id": "marker-hu68urbh6y",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.173569,
+          42.546368
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Winchester Center",
+        "stop_url": "",
+        "stop_name": "Winchester Center",
+        "stop_id": "Winchester Center",
+        "stop_desc": "",
+        "description": "Winchester Center",
+        "id": "marker-hu68urbh6z",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.137041,
+          42.45265
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Windsor Gardens",
+        "stop_url": "",
+        "stop_name": "Windsor Gardens",
+        "stop_id": "Windsor Gardens",
+        "stop_desc": "",
+        "description": "Windsor Gardens",
+        "id": "marker-hu68urbh70",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.220704,
+          42.172192
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Worcester / Union Station",
+        "stop_url": "",
+        "stop_name": "Worcester / Union Station",
+        "stop_id": "Worcester / Union Station",
+        "stop_desc": "",
+        "description": "Worcester / Union Station",
+        "id": "marker-hu68urbh71",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.793881,
+          42.261796
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Wyoming Hill",
+        "stop_url": "",
+        "stop_name": "Wyoming Hill",
+        "stop_id": "Wyoming Hill",
+        "stop_desc": "",
+        "description": "Wyoming Hill",
+        "id": "marker-hu68urbh72",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.069518,
+          42.452097
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Yawkey",
+        "stop_url": "",
+        "stop_name": "Yawkey",
+        "stop_id": "Yawkey",
+        "stop_desc": "",
+        "description": "Yawkey",
+        "id": "marker-hu68urbh73",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.098937,
+          42.346796
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "TF Green Airport",
+        "stop_url": "",
+        "stop_name": "TF Green Airport",
+        "stop_id": "TF Green Airport",
+        "stop_desc": "",
+        "description": "TF Green Airport",
+        "id": "marker-hu68urbh74",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.442453,
+          41.726599
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Pemberton Point, Hull",
+        "stop_url": "",
+        "stop_name": "Pemberton Point, Hull",
+        "stop_id": "Boat-Hull",
+        "stop_desc": "",
+        "description": "Pemberton Point, Hull",
+        "id": "marker-hu68urbh75",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.920215,
+          42.303251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Fore River Shipyard, Quincy",
+        "stop_url": "",
+        "stop_name": "Fore River Shipyard, Quincy",
+        "stop_id": "Boat-Quincy",
+        "stop_desc": "",
+        "description": "Fore River Shipyard, Quincy",
+        "id": "marker-hu68urbh76",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.971438,
+          42.244174
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Logan Ferry Terminal",
+        "stop_url": "",
+        "stop_name": "Logan Ferry Terminal",
+        "stop_id": "Boat-Logan",
+        "stop_desc": "",
+        "description": "Logan Ferry Terminal",
+        "id": "marker-hu68urbh77",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.02734,
+          42.359789
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Central Wharf (Aquarium), Boston",
+        "stop_url": "",
+        "stop_name": "Central Wharf (Aquarium), Boston",
+        "stop_id": "Boat-Aquarium",
+        "stop_desc": "",
+        "description": "Central Wharf (Aquarium), Boston",
+        "id": "marker-hu68urbh78",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.050242,
+          42.358915
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Long Wharf, Boston",
+        "stop_url": "",
+        "stop_name": "Long Wharf, Boston",
+        "stop_id": "Boat-Long",
+        "stop_desc": "",
+        "description": "Long Wharf, Boston",
+        "id": "marker-hu68urbh79",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.050247,
+          42.360018
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Charlestown Navy Yard",
+        "stop_url": "",
+        "stop_name": "Charlestown Navy Yard",
+        "stop_id": "Boat-Charlestown",
+        "stop_desc": "",
+        "description": "Charlestown Navy Yard",
+        "id": "marker-hu68urbh7a",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.05416,
+          42.373334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "George's Island",
+        "stop_url": "",
+        "stop_name": "George's Island",
+        "stop_id": "Boat-George",
+        "stop_desc": "",
+        "description": "George's Island",
+        "id": "marker-hu68urbh7b",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.930427,
+          42.319742
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Rowes Wharf, Boston",
+        "stop_url": "",
+        "stop_name": "Rowes Wharf, Boston",
+        "stop_id": "Boat-Rowes",
+        "stop_desc": "",
+        "description": "Rowes Wharf, Boston",
+        "id": "marker-hu68urbh7c",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.049897,
+          42.355721
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Hewitt's Cove, Hingham",
+        "stop_url": "",
+        "stop_name": "Hewitt's Cove, Hingham",
+        "stop_id": "Boat-Hingham",
+        "stop_desc": "",
+        "description": "Hewitt's Cove, Hingham",
+        "id": "marker-hu68urbh7d",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.919875,
+          42.252643
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Logan Airport Terminal E",
+        "stop_url": "",
+        "stop_name": "Logan Airport Terminal E",
+        "stop_id": "Logan-E",
+        "stop_desc": "",
+        "description": "Logan Airport Terminal E",
+        "id": "marker-hu68urbh7e",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.020754,
+          42.370022
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Airport Subway Station",
+        "stop_url": "",
+        "stop_name": "Airport Subway Station",
+        "stop_id": "Logan-Subway",
+        "stop_desc": "",
+        "description": "Airport Subway Station",
+        "id": "marker-hu68urbh7f",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.029831,
+          42.374699
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Logan Airport Terminal A",
+        "stop_url": "",
+        "stop_name": "Logan Airport Terminal A",
+        "stop_id": "Logan-A",
+        "stop_desc": "",
+        "description": "Logan Airport Terminal A",
+        "id": "marker-hu68urbh7g",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.022093,
+          42.364426
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Logan Aiport Ferry Terminal",
+        "stop_url": "",
+        "stop_name": "Logan Aiport Ferry Terminal",
+        "stop_id": "Logan-Dock",
+        "stop_desc": "",
+        "description": "Logan Aiport Ferry Terminal",
+        "id": "marker-hu68urbh7h",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.02734,
+          42.359789
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Logan Airport Terminal B",
+        "stop_url": "",
+        "stop_name": "Logan Airport Terminal B",
+        "stop_id": "Logan-B",
+        "stop_desc": "",
+        "description": "Logan Airport Terminal B",
+        "id": "marker-hu68urbh7i",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "parent_station": "",
+        "stop_code": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.018648,
+          42.361302
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "",
+        "title": "Logan Airport Terminal C",
+        "stop_url": "",
+        "stop_name": "Logan Airport Terminal C",
+        "stop_id": "Logan-C",
+        "description": "Logan Airport Terminal C",
+        "id": "marker-hu68urbh7j",
+        "location_type": "0",
+        "marker-color": "d27591",
+        "marker-size": "small",
+        "marker-symbol": "rail",
+        "stop_code": "",
+        "stop_desc": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.017957,
+          42.367271
+        ]
+      }
+    }
+  ]
+}
