@@ -1,0 +1,18 @@
+#!/usr/bin/osascript
+
+do shell script "echo bye" & "echo bye"
+
+tell application "Terminal"
+    activate
+    -- set title displays custom title
+    -- set custom title to "Dialin"
+    -- set background color to "black"
+    -- set normal text color white
+    -- set bold text color to red
+    set currentTab to do script "echo Starting" in window 1
+    delay 1
+    do script "ssh redgates.com" in currentTab
+    delay 1
+end tell
+
+-- vim:autoindent
