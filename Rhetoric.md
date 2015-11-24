@@ -4,23 +4,23 @@ Rhetoric
 <!--
 -->
 
- * []( https://en.wikipedia.org/wiki/Rhetorical_device )
+ * ( https://en.wikipedia.org/wiki/Rhetorical_device )
 
 Anaphora
 --------
 
- * []( https://en.wikipedia.org/wiki/Anaphora_(rhetoric) )
+ * ( https://en.wikipedia.org/wiki/Anaphora_(rhetoric) )
 
 Epistrophe
 ----------
 
- * []( https://en.wikipedia.org/wiki/Epistrophe )
+ * ( https://en.wikipedia.org/wiki/Epistrophe )
 
 Symploce
 --------
 
- * []( https://en.wikipedia.org/wiki/Symploce )
- * []( http://www.americanrhetoric.com/figures/symploce.htm )
+ * ( https://en.wikipedia.org/wiki/Symploce )
+ * ( http://www.americanrhetoric.com/figures/symploce.htm )
 
 "You don't want the truth because deep down in places you don't talk
 about at parties, you want me on that wall -- you need me on that wall."
