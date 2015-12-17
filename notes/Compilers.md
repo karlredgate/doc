@@ -2,6 +2,14 @@
 <!--
 -->
 
+Recursive Ascent Parsing
+------------------------
+
+You want to read the wikipedia page and the papers that are linked to it.
+
+ * https://en.wikipedia.org/wiki/Recursive_ascent_parser
+
+
  * []( http://eli-project.sourceforge.net/ )
  * []( http://sourceforge.net/projects/eli-project/files/Eli/ )
  * []( https://en.wikipedia.org/wiki/Compiler-compiler )
