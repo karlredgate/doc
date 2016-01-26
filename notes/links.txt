@@ -15,13 +15,7 @@ http://rationalwiki.org/wiki/Woo
 
 http://blog.altoros.com/golang-internals-part-2-diving-into-the-go-compiler.html
 
-https://confluence.carboniteinc.com/display/END/Carbonite+Services%3A+Catalog+of+Data+and+Transfers+by+Internal+and+External+Resources
-
 https://www.raspberrypi.org/products/
-https://confluence.carboniteinc.com/display/END/Carbonite+Services%3A+Catalog+of+Data+and+Transfers+by+Internal+and+External+Resources
-https://jira.carboniteinc.com/browse/INFSOL/fixforversion/16530
-https://jira.carboniteinc.com/browse/INFSOL-661?focusedCommentId=203463#comment-203463
-
 
 "roomformore" source
 http://www.prnewswire.com/news-releases/room-for-more-app-solves-phone-storage-woes-with-one-touch-private-cloud-storage-for-mobile-photos-videos-300158032.html
@@ -43,13 +37,11 @@ http://hardware.slashdot.org/story/15/12/10/2114237/low-redundancy-data-centers-
 REST version API in URI bad
 http://stackoverflow.com/questions/2024600/rest-api-versioning-only-version-the-representation-not-the-resource-itself
 http://www.troyhunt.com/2014/02/your-api-versioning-is-wrong-which-is.html
-https://confluence.carboniteinc.com/display/CI/API+discussions
 https://pond.imperialviolet.org/
 https://github.com/agl/pond
 
 
 https://docs.aws.amazon.com/cognito/devguide/identity/external-providers/openid-connect/
-https://confluence.carboniteinc.com/pages/viewpage.action?pageId=43452142
 
 http://start.bigpanda.io/ready-for-takeoff.html?aliId=1199205
 https://a.bigpanda.io/#/app/integrations/api.test_automation/instructions/alertsapi
@@ -91,8 +83,6 @@ http://sourceforge.net/projects/tcljava/?source=typ_redirect
 https://en.wikipedia.org/wiki/Tcl/Java
 
 
-http://github.carboniteinc.com/ccm/AccountManager/blob/Qi-cognito/lambda/accessLambda.js
-http://github.carboniteinc.com/ccm
 https://docs.aws.amazon.com/cognito/devguide/identity/external-providers/openid-connect/
 http://jwt.io/
 https://tools.ietf.org/rfc/rfc7519.txt
@@ -100,7 +90,6 @@ https://github.com/benmcollins/libjwt
 https://github.com/akheron/jansson
 
 
-https://github.carboniteinc.com/Architecture/doc/blob/master/Rebit/Overview.md
 http://jira02t.carb.lab:8080/browse/CCM/?selectedTab=com.atlassian.jira.jira-projects-plugin:summary-panel
 http://zxid.org/
 https://www.youtube.com/watch?v=QXQ7bbOULYc
