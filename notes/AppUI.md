@@ -6,11 +6,22 @@ Electron for desktop, Ionic for mobile.
 
 electron app on android
 http://ionic.io/
+https://en.wikipedia.org/wiki/Ionic_(mobile_app_framework)
+
+Ionic is based on Cordova
+http://cordova.apache.org/
 
 open source ionic
 https://github.com/driftyco/ionic
 http://ionicframework.com/
 http://ionic.io/products/creator
+
+App buiulding notes
+
+http://www.sitepoint.com/building-simple-app-using-ionic-advanced-html5-mobile-app-framework/
+https://www.udemy.com/ionic-by-example/
+https://github.com/ion-book/building-a-complete-mobile-app-with-ionic-framework
+
 
 http://electron.atom.io/
 http://electron.atom.io/docs/v0.36.5/
@@ -23,5 +34,9 @@ https://airtame.com/#banner
 https://www.spreaker.com/download
 http://www.kakapo.co/app.html#desktop
 http://zoommyapp.com/
+
+
+http://www.appcelerator.com/mobile-app-development-products/
+http://phonegap.com/
 
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->
