@@ -39,6 +39,8 @@ http://electron.atom.io/docs/v0.34.0/tutorial/application-distribution/
 http://electron.atom.io/docs/latest/tutorial/quick-start/
 https://github.com/atom/electron-quick-start/blob/master/README.md
 
+https://github.com/atom/electron/blob/master/README.md
+https://github.com/atom/electron/blob/master/docs/development/atom-shell-vs-node-webkit.md
 
 http://fireball-x.com/en/
 https://github.com/cocos-creator/tutorial
