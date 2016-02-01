@@ -34,6 +34,11 @@ Electron
 
 http://electron.atom.io/
 http://electron.atom.io/docs/v0.36.5/
+http://electron.atom.io/docs/v0.34.0/tutorial/application-packaging/
+http://electron.atom.io/docs/v0.34.0/tutorial/application-distribution/
+http://electron.atom.io/docs/latest/tutorial/quick-start/
+https://github.com/atom/electron-quick-start/blob/master/README.md
+
 
 http://fireball-x.com/en/
 https://github.com/cocos-creator/tutorial
