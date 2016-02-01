@@ -4,6 +4,9 @@
 
 Electron for desktop, Ionic for mobile.
 
+Ionic
+-----
+
 electron app on android
 http://ionic.io/
 https://en.wikipedia.org/wiki/Ionic_(mobile_app_framework)
@@ -22,12 +25,21 @@ http://www.sitepoint.com/building-simple-app-using-ionic-advanced-html5-mobile-a
 https://www.udemy.com/ionic-by-example/
 https://github.com/ion-book/building-a-complete-mobile-app-with-ionic-framework
 
+### Starters
+
+http://market.ionic.io/starters/astinderforx
+
+Electron
+---------
 
 http://electron.atom.io/
 http://electron.atom.io/docs/v0.36.5/
 
 http://fireball-x.com/en/
 https://github.com/cocos-creator/tutorial
+
+Others
+------
 
 http://www.gitkraken.com/
 https://airtame.com/#banner
