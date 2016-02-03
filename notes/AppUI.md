@@ -18,6 +18,9 @@ open source ionic
 https://github.com/driftyco/ionic
 http://ionicframework.com/
 http://ionic.io/products/creator
+http://market.ionic.io/
+http://market.ionic.io/starters
+
 
 App buiulding notes
 
@@ -27,6 +30,7 @@ https://github.com/ion-book/building-a-complete-mobile-app-with-ionic-framework
 
 ### Starters
 
+Links at bottom of this one - "need inspiration"
 http://market.ionic.io/starters/astinderforx
 
 Electron
