@@ -41,4 +41,12 @@ FreeTDS is an open source implementation of the protocol.
 http://www.freetds.org/
 https://en.wikipedia.org/wiki/FreeTDS
 
+Postgres
+--------
+
+EnterpriseDB
+
+http://postgresapp.com/
+
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->
