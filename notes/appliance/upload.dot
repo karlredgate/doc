@@ -1,0 +1,36 @@
+
+digraph {
+
+    subgraph cluster_work {
+        fillcolor=gray;
+	style=filled;
+	node [style=filled,color=white];
+        is_work -> get_from_queue -> upload_wrapper -> is_work;
+	label="Work";
+    }
+
+    main -> should_work;
+    main -> is_work;
+
+    upload      [label="upload-snapshot"];
+
+    upload_wrapper -> upload;
+    upload -> validate_preconditions;
+    upload -> get_key;
+    upload -> get_bucket;
+    upload -> upload_file;
+
+    subgraph cluster_multipart {
+        fillcolor=gray;
+	style=filled;
+	node [style=filled,color=white];
+	label="Multipart";
+
+        multipart -> initiate_upload;
+        multipart -> upload_part;
+        upload_part -> upload_part;
+        multipart -> complete_upload;
+    }
+
+    upload -> multipart;
+}
