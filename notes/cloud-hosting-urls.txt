@@ -1,0 +1,23 @@
+
+http://aws.amazon.com/
+http://www.canonical.com/
+http://www.centos.org/
+http://www.getchef.com/chef/
+http://cloudstack.apache.org/
+http://www.cloudyn.com/
+http://www.entercloudsuite.com/
+https://www.eucalyptus.com/
+https://cloud.google.com/products/compute-engine/
+http://www.idcf.jp/english/
+http://www.mirantis.com/
+https://www.openstack.org/
+http://www.pistoncloud.com/openstack-cloud-software/
+http://www.rackspace.com/
+http://www.scalr.com/
+
+
+### Scalr is an open source alternative to RightScale
+http://en.wikipedia.org/wiki/RightScale
+https://github.com/rightscale
+http://www.citeworld.com/article/2113963/development/rightscale-google-cloud-amazon-web-services.html
+

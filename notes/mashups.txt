@@ -1,0 +1,34 @@
+
+http://en.wikipedia.org/wiki/IFTTT
+http://en.wikipedia.org/wiki/Yahoo!_Pipes
+http://en.wikipedia.org/wiki/Yahoo!_query_language
+http://en.wikipedia.org/wiki/EMML
+http://pipes.yahoo.com/pipes/
+
+How to Build a Pipe in Just a Few Minutes
+http://www.youtube.com/watch?v=J3tS_DkmbVA
+
+
+http://en.wikipedia.org/wiki/WSO2_Mashup_Server
+based on apache axis2
+
+http://en.wikipedia.org/wiki/ECMAScript_for_XML
+
+
+http://www.programmableweb.com/api/google-app-engine/mashups
+http://www.programmableweb.com/api/google-app-engine
+https://code.google.com/p/mashup-tutorial/
+http://www.slideshare.net/yaanno/appenginemashupplatformen
+
+
+EMML seems to have dropped off the radar
+the openmashups.org site is gone
+some of the doc can be found at 
+http://mdc.jackbe.com/prestodocs/v3.0/emml/emmlReference.html
+http://mdc.jackbe.com/presto/emml15/
+http://www.softwareag.com/corporate/Press/pressreleases/20130822_RealTime_Analytics_Platform_Acquisition_Jackbe_page.asp
+http://en.wikipedia.org/wiki/JackBe
+http://www.jackbe.com/products
+https://github.com/jackbe
+maytag-dev-logs-us-east-1
+

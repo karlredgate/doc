@@ -1,3 +1,5 @@
+OSX Notes
+=========
 
 <!--
 -->
@@ -19,6 +21,38 @@ touch .metatdata_never_index
  * []( https://github.com/snielsen/DeathToDSStore )
  * []( http://superuser.com/questions/212896/is-there-any-way-to-prevent-a-mac-from-creating-dot-underscore-files )
  * []( https://support.apple.com/en-us/ht1629 )
+
+Green updates:
+ * ( http://sparkle-project.org/ )
+
+ El Capitan - rootless
+ ---------------------
+
+ Also known as
+ [System Integrity Protection]( https://en.wikipedia.org/wiki/System_Integrity_Protection )
+
+  * []( http://apple.stackexchange.com/questions/193368/what-is-the-rootless-feature-in-el-capitan-really )
+  * []( http://www.trankynam.com/xtrafinder/sip.html )
+  * []( http://blog.binaryage.com/on-el-capitan/ )
+  * [Apple SIP doc]( https://developer.apple.com/library/mac/documentation/Security/Conceptual/System_Integrity_Protection_Guide/ConfiguringSystemIntegrityProtection/ConfiguringSystemIntegrityProtection.html )
+
+  * []( https://github.com/binaryage/asepsis/issues/30 )
+  * []( http://www.tgwbd.org/darwin/binaryprotection.html )
+  * []( http://asepsis.binaryage.com/ )
+  * []( https://www.reddit.com/r/osx/comments/39irta/curious_new_restricted_file_system_flag_in_el/ )
+  * []( http://www.macrumors.com/2015/06/12/os-x-el-capitan-trim-support/ )
+
+Appears to be based on FreeBSD *secure level*.
+
+  * []( https://en.wikipedia.org/wiki/Securelevel )
+  * []( http://www.watson.org/~robert/freebsd/2004bsdcan/20040515-2004bsdcan-trustedbsd.pdf )
+
+RPM for OSX
+------------
+
+osx rpmbuild
+http://stackoverflow.com/questions/5247627/how-can-i-build-an-rpm-on-my-macos-system
+http://rpm4darwin.sourceforge.net/
 
 iWork Format
 ------------
