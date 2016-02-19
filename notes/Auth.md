@@ -89,4 +89,16 @@ http://blog.keycloak.org/2015/10/getting-started-with-keycloak-securing.html
 
 https://github.com/pingidentity/mod_auth_openidc
 
+http://keycloak.jboss.org/docs
+
+Device Auth
+-----------
+
+http://www.deviceauthority.com/
+http://www.deviceauthority.com/d-factor-device-authentication?__hssc=&__hstc=&__hsfp=&hsCtaTracking=ad28ce42-942b-4cf4-a400-7ae554ae2c7c%7C24e1b323-780c-4f68-830f-e2196f785ddd
+http://www.deviceauthority.com/hubfs/Premium_Content_Resources/White_Papers/Device-Based_User_Authentication/DA-White_Paper_Device-Based_Authentication_Secure_Access-FINAL-041515.pdf?submissionGuid=5f9f54c7-3fbd-4246-9e29-376b66f19ee8
+http://www.deviceauthority.com/d-factor-device-authentication?__hssc=&__hstc=&__hsfp=&hsCtaTracking=ad28ce42-942b-4cf4-a400-7ae554ae2c7c%7C24e1b323-780c-4f68-830f-e2196f785ddd
+m2m auth
+
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

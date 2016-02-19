@@ -24,6 +24,15 @@ Service
    * plugin storage tools
    * where is my s3 example code
 
+ * file policy in CLIPS
+ * based on extensions and paths
+
+```
+dir/s/b | fileurl.exe > events.clips
+clips -f process.bat
+# loads default.policy
+```
+
 Appliance
 
  * Which S3 server?
