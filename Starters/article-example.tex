@@ -1,0 +1,985 @@
+% vim:expandtab
+%
+% Copyright (c) 2008 Stratus Technologies, Inc., as an unpublished work.
+% This notice does not imply unrestricted or public access to these
+% materials which are a trade secret of Stratus Technologies, Inc. or its
+% subsidiaries or affiliates (together referred to as "STRATUS"), and
+% which may not be reproduced, used, sold or transferred to any third
+% party without STRATUS's prior written consent.  All rights reserved.
+%
+% U.S. Government Rights.  If the Software is to be used by the
+% U.S. Government ("Government"), the following provisions apply. The
+% Software and associated documentation are commercial computer software
+% and commercial computer software documentation, respectively, and the
+% Government is acquiring only the license rights granted in the License
+% Agreement accompanying this Software (the license rights customarily
+% provided to non-Government users), in accordance with Section 12.212
+% of the Federal Acquisition Regulations ("FAR") or Section 227.7202-3
+% of the Defense Federal Acquisition Regulation Supplement ("DFARS"), as
+% applicable. For NASA users, the Government shall obtain the minimum
+% rights permitted under Section, in paragraph 1852.227-86 of the NASA
+% Supplement to the FAR (or any successor regulations).
+%
+
+\ifx\pdfoutput\undefined
+\documentclass[twoside]{article}
+\else
+\documentclass[pdftex,twoside]{article}
+\usepackage{thumbpdf}
+\pdfcompresslevel=9
+\pdfinfo{
+   /Author (Karl N. Redgate)
+   /Title (Cloud Fast Path from Tervela)
+   /Subject (Evaluation)
+}
+\fi
+
+\usepackage{ifpdf}
+% \usepackage{pdftricks}
+\usepackage{amssymb}
+% \begin{psinputs}
+% \usepackage{pstricks}
+% \usepackage[all,ps,dvips]{xy}
+% \usepackage{pst-node}
+% \usepackage{pst-tree}
+% \usepackage[dvips]{graphicx}
+% \end{psinputs}
+\usepackage{moreverb}
+\usepackage{wrapfig}
+\usepackage{fancyhdr}
+\usepackage{makeidx}
+% \usepackage{utopia}
+
+\usepackage[pdfcenterwindow=true,pdffitwindow=true,pdfmenubar=true,pdftoolbar=true,bookmarks=true,colorlinks=true]{hyperref}
+
+\newsavebox{\savepar}
+\newenvironment{boxit}{\begin{lrbox}{\savepar}\begin{minipage}[b]{6.5in}}
+{\end{minipage}\end{lrbox}\fbox{\usebox{\savepar}}}
+
+\newcommand{\vm}{\textsl{virtual machine}\/}
+\newcommand{\vms}{\textsl{virtual machines}\/}
+\newcommand{\SN}{\textsl{SuperNova}\/}
+\newcommand{\harness}{\textsl{test harness}\/}
+\newcommand{\WS}{\textsl{WebService}\/}
+\newcommand{\spine}{\textsl{spine}\/}
+\newcommand{\dendrite}{\textsl{Dendrite}\/}
+
+\newenvironment{note}
+{\begin{center}\begin{minipage}{0.8\textwidth}
+\vspace{2ex}\hrule\vspace{1ex}
+\parskip=\medskipamount
+\em}
+{\par 
+\vspace{1ex}\hrule\vspace{2ex}
+\end{minipage}\end{center}}
+% End of note environment definition
+
+\pagestyle{fancy}
+\fancyfoot[LE,RO]{\thepage}
+\fancyfoot[LO,RE]{SuperNova}
+\fancyfoot[CO,CE]{\copyright 2008 -- \textsf{Stratus Technologies, Inc.}\\CONFIDENTIAL INFORMATION}
+
+\parskip=\medskipamount
+
+\typeout{Copyright (c) 2008, Stratus Technologies, Inc.}
+
+
+\title{Cloud Fast Path Evaluation}
+\author{Karl N. Redgate}
+% \email{Karl.Redgate@gmail.com}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+
+In order to support the Avance test infrastructure without requiring
+IPv4 IP addresses on each node, we need to have an alternative access
+method for accessing the devices under test.
+Since the existing SuperNova DUTs use IPv6 as a base of their
+architecture, we can use IPv6 as the access for the test harness.
+\end{abstract}
+
+%Issues:
+%\begin{itemize}
+%  \setlength{\itemsep}{1pt}
+%  \setlength{\parskip}{0pt}
+%  \setlength{\parsep}{0pt}
+%\item Lab infrastructure
+%\item Router
+%\item DNS / DHCP / PXE
+%\item Test harness
+%\item Multiple networks
+%\end{itemize}
+
+% ==================================
+\section{Requirements}
+
+The driving requirement is access to the cluster IP, individual nodes, and VMs of each DUT.
+This is necessary from the test and build machines for testing,
+and is desirable from Avance desktops.
+
+{\bf Node access}
+
+The problem with providing access to the individual nodes of a DUT
+is that they must have an address assigned.
+This is solved currently with DHCP assigned IPv4 addresses for each business
+interface of each node of each DUT.
+Avance customers have requested that this requirement be removed from the product.
+
+{\bf Cluster IP access}
+
+The problem with cluster IP access to the DUT is that there is no routing
+configured with the cluster IP address.
+This limitation is worked around currently by using the default route
+configured with the DHCP lease of the individual nodes IPv4 address.
+This causes another issue, which is that the last business interface
+to be configured is the one which is configured for the default route.
+
+{\bf VM access}
+
+The problem with VM access is that the VMs are dynamically assigned a MAC address
+for each virtual NIC in the VM.
+Each NIC in the VM must be accessible to the test harness.
+So, for the test harness to access these addresses the MAC address is
+statically mapped to a DHCP address and the test harness must examine
+the MAC address allocated to a VM and do a reverse lookup to determine
+the IP address that has been statically configured.
+
+{\bf Switch connectivity}
+
+Another issue with our current lab infrastructure is network switch connectivity
+which does not match our documented configuration of the product.
+We connect both nodes of each DUT to the same switch, which inflicts a single
+point of failure and switch behavior that is inconsistent with our recommended
+configuration.
+
+{\bf Multi-NIC}
+
+The multi-NIC DUTs currently have all business links connected to the same
+network broadcast domain.
+This is not a common real-world configuration and must be resolved to provide
+real-world testing of the product.
+
+% ==================================
+\section{Overview}
+
+The removal of the DHCP configuration of the individual nodes business
+interfaces breaks both node access and cluster access.
+The individual node access is broken since it no longer has an address
+that the test harness knows about,
+and the cluster address is broken since there is no route to any node
+outside of the ``Net-24'' network.
+
+\begin{note}
+{\bf How to solve the lack of an IPv4 default route.}
+Options include:
+\begin{enumerate}
+\item Changing the product to attempt a DHCP request using one of the MAC addresses
+assigned to it for VMs. (I proposed this a while back)
+\item Change the product to include default router as part of initial config
+and change the install to add this configuration.
+\item Change the test harness to use the emergency console to configure the
+route on the console of the DUT.  (I think this was added to the emergency console)
+\end{enumerate}
+\end{note}
+
+The addressing problem can be resolved using IPv6 routing.
+A new IPv6 capable router will configure routable IPv6 addresses
+on all of the hosts and allow multiple network segments for
+multi-NIC and multi-switch testing.
+The single large broadcast domain known as ``Net-24'' will be split into 
+multiple networks, each connected to the router.
+The new networks will require more IPv4 subnets.
+In order to support the number of addresses on each of these networks
+the new networks will use
+ARPAnet addresses (the addresses in the \verb+10.x.x.x+ range).
+
+Access to the new IPv6 addresses is provided by a new DNS server running BIND 9.
+This server will provide \verb+AAAA+ records for the hostnames and not
+the current IPv4 \verb+A+ records.
+When the test harness connects to the name it will generate an IPv6 
+connection automatically.
+The server will run in an Avance appliance that is connected to all of
+the business networks.
+
+DHCP server that connects to all subnets also in an appliance.
+If we need to scale add additional DHCP servers on all subnets.
+Configuration information will be updated on all DHCP servers.
+
+Access to the test network from the Avance desktops is provided by
+enabling routing to the \verb+10.80.xx.xx/12+ set of networks from
+the corporate routers.  The desktops get access from their existing
+default route.
+
+% ==================================
+\section{Network Access}
+
+The new router will connect the ``Net-24'' network to the new business networks.
+These new networks will be named after colors, so they are not confused with
+the business network connection of the DUTs that are connected to them
+and to allow the number of networks to scale.
+The router must support IPv6 routing and router advertisements.
+Providing the routing advertisements will add routes to the other
+machines on the subnet automatically due to the function of the IPv6 stack.
+On a Linux router host this is configured using
+the ``Router Advertisement Daemon'' (\verb+radvd+).
+An example Extreme router configration command\footnote{From page 2063
+of ExtremeXOS command reference, version 12.1.2}
+that enables this behavior is shown in figure~\ref{router:advertisement:config}.
+
+\begin{figure}[!h]
+\begin{center}
+\begin{small}
+\begin{boxedverbatim}
+configure vlan Blue router-discovery ipv6 set prefix FD00:FEED:FACE:0101::/64
+\end{boxedverbatim}
+\end{small}
+\end{center}
+\caption{Extreme configuration}\label{router:advertisement:config}
+\end{figure}
+
+There is a routable address space within the IPv6 architecture
+for unique local addresses.
+These addresses can be managed within a site and do not need
+to be allocated from an ISP.
+This address space is called ``unique local unicast address''.
+These addresses work similarly to
+the IPv4 convention of the \verb+192.168.xx.xx+
+and \verb+10.xx.xx.xx+ address ranges.
+When the router sends advertisements the hosts on that network
+segment will automatically pick up the subnet number and 
+configure a routable address on that segment.
+These will be the addresses provided by the DNS server as the
+canonical address of the individual nodes.
+
+\begin{note}
+Please note that the current Extreme software does not support the current RFCs.
+So the addresses in use are {\bf NOT} \verb+FD00:...+, but instead they are
+{\bf \verb+3D00:...+} until a new version of Extreme software that supports
+the correct addressing is released.
+
+This limitation should in no way effect the existing switches and routers.
+We will need to track the change in behavior when the software is updated
+and allows us to change back to the \verb+FD00+ addresses; but that will
+not be necessary for a while.
+\end{note}
+
+The address range always starts with ``\verb+FD+''
+(or ``\verb+3D+'' for now).
+The next 40 bits are the sites unique number,
+which is randomly chosen.
+\footnote{I am suggesting {\tt FEED:FACE} for that part, just for easy recognition.}
+The next 16 bits are the subnet number within the site.
+The low 64 bits of the address is automatically configured by the
+host using the MAC address of the NIC that is connected to that
+network segment.
+The address chosen is the same as the low 64 bits of the
+link local address of that NIC.
+The address format is shown in figure~\ref{ipv6:address:format},
+where {\em \verb+nnnn+} is the subnet number and
+{\em \verb+xxxx:xxxx:xxxx:xxxx+} is the interface address.
+
+\begin{figure}[!h]
+\begin{center}
+\begin{boxedverbatim}
+FD00:FEED:FACE:nnnn:xxxx:xxxx:xxxx:xxxx
+3D00:FEED:FACE:nnnn:xxxx:xxxx:xxxx:xxxx
+\end{boxedverbatim}
+\end{center}
+\caption{IPv6 Address format}\label{ipv6:address:format}
+\end{figure}
+
+The single large broadcast domain known as ``Net-24'' will be split into 
+multiple networks, each connected to the IPv6 router.
+These networks will provide ``business'' network connectivity to each DUT.
+The ``Net-24'' network will transition, over time, to a test and build
+server only network.
+Each DUT will be connected to at least one of the business networks.
+The multi-NIC DUTs will be connected to more than one business network.
+The networks will not be provisioned all at once,
+but rolled out as time permits.
+
+Access to the cluster IP of each DUT on the new networks requires new
+IPv4 subnets.
+In order to support the number of IPv4 addresses required,
+the networks will be configured using the internal \verb+10.xx.xx.xx+ addresses.
+The second octet of this address will define the subnet in use.
+The CIDR chunk we have been allocated from the corporate pool is
+\verb+10.80.x.x/12+, so we have addresses \verb+10.80.x.x/16+ through \verb+10.95.0.0/16+.
+This will be used as 16 individual 16 bit subnets.
+
+The IPv6 subnets are based on the IPv4 subnets to make it easy to remember.
+The \verb+134.111.24.xx/21+ subnet uses the \verb+24+ IPv6 subnet.
+The \verb+10.nn.XX.XX+ subnets use the top two octets as the IPv6 subnet
+as seen in Figure~\ref{ipv6:address:avance}.
+
+\begin{figure}[!h]
+\begin{center}
+\begin{boxedverbatim}
+134.111.24.xx is 3D00:FEED:FACE:24:xxxx
+134.111.25.xx is 3D00:FEED:FACE:24:xxxx
+...
+134.111.31.xx is 3D00:FEED:FACE:24:xxxx
+
+10.80.xx.xx is 3D00:FEED:FACE:1080:xxxx
+10.81.xx.xx is 3D00:FEED:FACE:1081:xxxx
+...
+10.95.xx.xx is 3D00:FEED:FACE:1095:xxxx
+\end{boxedverbatim}
+\end{center}
+\caption{Avance IPv6 Addresses}\label{ipv6:address:avance}
+\end{figure}
+
+
+By setting up the router, which routes both IPv4 and IPv6,
+on the test networks we can enable a routable IPv6 address for each node on each DUT
+and to each VM that we can keep in DNS and provide a simple transition to the test
+harness and the test/build machines.
+
+The \verb+10.80.0.0/12+ subnets are reachable from corporate network desktops.
+The limitation is that you would no longer be able to reach the individual nodes of the
+DUTs from the corp network desktops {\em WHEN} they no longer have the IPv4 addresses.
+But they are reachable from the test servers at all times using their IPv6 addresses.
+The cluster IPs are always reachable from the corporate desktops since they
+use the IPv4 \verb+10.80.0.0/12+ addresses.
+
+The new networks should be set up with different vendors switches
+when they are available.
+The router will need to be configured with sufficient ports of
+high enough bandwidth to support these other switches.
+The existing switches already have additional VLANs defined.
+These can be expanded to include more DUTs until we have the
+new switches in place.
+\begin{note}
+Different vendors switches require changes to the network fault injection
+framework since it uses extreme specific snmp access commands.
+\end{note}
+
+The existing lab switches also need to change to not use a VLAN on the uplink
+between the ``stacks'' in order to pass all VLANs between the stacks.
+
+Configuration of the DUTs on the switches should also follow our
+customer recommendations (they do not now), so each node of a DUT
+should be on a separate switch in the same broadcast domain.
+
+% Could we make the external router be a redundancy router
+% in addition to being the DNS/DHCP server?
+% Could this run in an Avance unit VM as an example of dogfood?
+% The limitation here would be the OS versions that we could support on Avance.
+% I want Fedora Core 9 on the router.
+
+Not necessary for initial setup.
+We would just leave DUTs on the net24 VLAN until they could be moved.
+But would need to setup the router to generate the IPv6 routes,
+and the DNS server for IPv6 address lookup by name.
+
+Where do the client machines connect?
+Should there be some number connected to each test network?
+Then this should be an attribute of the client in rschedule?
+
+% ==================================
+\section{Test harness}
+
+The test harness connects to the DUTs using the ``run object''
+from \verb+DUT/Host.pm+ or \verb+DUT/AvNode.pm+.
+The name of the cluster or the name of the node within the
+cluster is used to connect.
+Given this behavior, when the test servers cut over to the new
+DNS server, the test harness should require no changes to use
+the IPv6 addresses.
+The DNS server will send an \verb+AAAA+ record instead of an \verb+A+ record
+and the connection should be IPv6 automatically.
+The one question is the Perl libraries, and whether they make assumptions
+about using IPv4.
+
+\subsection{access to individual nodes}
+
+The test harness has access to the individual nodes through the IPv6
+routable addresses of the nodes.
+This is configured automatically in the DNS server based on the MAC
+addresses in the Storbitz XML data.
+The DNS database contains \verb+AAAA+ records that the test infrastructure
+will get automatically when making a request to that node.
+
+\subsection{access to VMs}
+
+While it would be possible to reach the individual VMs using their IPv6 address
+as long as the VM has configured IPv6,
+we will continue to use the IPv4 mapping of the addresses since we cannot
+guarantee the guest VM will configure IPv6.
+
+The test infrastructure currently determines the IPv4 address of the VM by
+translating the MAC address that was allocated by spine to an address
+stored in the rack files.
+Given that the MAC address for a VM on a multi-NIC DUT can exist on multiple
+networks depending on which NIC it happens to be allocted,
+the IPv4 address will have to change based on the subnet.
+The DHCP server is configured to provide a subnet specific IPv4 address
+for each possible Avance VM MAC, determined by the storbitz XML configuration.
+The test infrastructure must change to be able to determine which address
+to use.
+
+Also, given that there can be overlap in the low 11 bits of a cluster
+IP address for two different DUTs on different subnets,
+and that these bits are used to calculate the MAC addresses used
+by a specific DUT,
+there exists the possibility of overlapping MAC addresses between 2 DUTs.
+Addresses for DUTs must therefore be chosen carefully based on which networks
+to which they are connected.
+
+What this means is that the low 11 bits should not be the same for 2 DUTs
+that share the same subnet.
+So, for exampleDUTs with 2 biz links where one of them has biz0 on
+bluenet (10.80) and one of them has biz0 on rednet (10.81) should not have cluster
+addresses like ``\verb+10.80.25.25+'' and ``\verb+10.81.25.25+''.
+
+% buggrabs would go through the router unless all test machines were connected to all
+% test networks.
+% This may not be problem since the normal buggrabs should be minimal,
+% which is around 1MB.
+% The large buggrabs on failure should not be frequent, 
+% unless we have many failures in one night.
+
+% ==================================
+\section{DNS}
+
+The DNS configuration is provided by virtual machines on Avance units
+using the BIND name server.
+
+There are two types of DNS servers provided, the primary master which holds all of the
+data, and the slaves, which serve up the data.
+The separation allows updates to the master without bringing down the network.
+The master server is ``descartes'', and the slave is currently ``hilbert''.
+There may need to be more than one slave eventually.
+The master server is only required to have one network interface.
+The slaves have virtual interfaces on all subnets to provide minimum response time
+and so a problem on a specific segment does not bring down the entire network.
+(For example: if there was only one interface for the DNS server and that
+segment got a loop, then no other segments would work either.)
+
+Updates to the DNS data can be triggered from the config service
+on descartes.  This runs on port 9067 and accepts commands: ``RELOAD'' and ``RESTART''.
+The slave servers pickup configuration automatically from the master.
+Generally, this is not interacted with directly,
+just use the scripts in \verb+storbitz/bin+.
+
+Use the current revision number of storbitz as the zone serial number,
+which allows the updates to the repository to force updates to slave servers.
+This value is gathered using the command in figure~\ref{svn:revision}.
+
+\begin{figure}[!h]
+\begin{center}
+\begin{boxedverbatim}
+svn info --xml http://svn/storbitz/trunk/
+\end{boxedverbatim}
+\end{center}
+\caption{svn revision information}\label{svn:revision}
+\end{figure}
+
+Should DHCP/DNS be configured from storbitz?
+Can we do that as a transition point?
+What other things are configured from the XML file in Storbitz?
+Can all of this data simply live in DNS?
+
+Eventually use Dyn DNS update to allow VMs to be reached by configured name
+instead of looking up the static address based on the MAC address allocated 
+to the VM.
+This is not a requirement and could be phased in last.
+
+Phase in the DHCP usage -- cause the new versions of the product to not
+use DHCP addresses when configuring the biz interfaces.
+But leave the DHCP resolution present so old versions will continue to work.
+
+\begin{note}
+We could add config to the name servers that allow the XML to be updated
+from the nsupdate requests.
+Describe this...
+\end{note}
+
+\subsection{DNS Records for Host Information}
+
+The DNS record for an individual node is a \verb+CNAME+ record
+which points at its \verb+biz0+ interface record as seen in
+figure~\ref{dns:node:cname}.
+
+\begin{figure}[!h]
+\begin{center}
+\begin{small}
+\begin{boxedverbatim}
+kredgate@steffi$ dig +answer +nocmd +noquestion +noauthority \
+                 +noadditional +nostats node0.coney.sn.stratus.com ANY 
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 23354
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 1, ADDITIONAL: 12
+
+;; ANSWER SECTION:
+node0.coney.sn.stratus.com. 86400 IN    CNAME   biz0.node0.coney.sn.stratus.com.
+
+kredgate@steffi$ 
+\end{boxedverbatim}
+\end{small}
+\end{center}
+\caption{Node record}\label{dns:node:cname}
+\end{figure}
+
+The link name has several DNS records.
+The \verb+A+ and \verb+AAAA+ records are for the address.
+The \verb+HINFO+ record shows that it is a DUT, since its platform is Avance.
+The UNKNOWN field is supposed to be a release.
+This field is not updated from the storbitz data.
+In the {\em future} we could update this record dynamically from the
+test infrastructure, reporting the last revision that was loaded
+on the DUT.
+
+\begin{figure}[!h]
+\begin{center}
+\begin{small}
+\begin{boxedverbatim}
+kredgate@steffi$ dig +answer +nocmd +noquestion +noauthority \
+                 +noadditional +nostats biz0.node0.coney.sn.stratus.com ANY
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 47902
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 1, ADDITIONAL: 12
+
+;; ANSWER SECTION:
+biz0.node0.coney.sn.stratus.com. 86400 IN AAAA  3d00:feed:face:24:21e:c9ff:fe3a:7c18
+biz0.node0.coney.sn.stratus.com. 86400 IN A     134.111.29.197
+biz0.node0.coney.sn.stratus.com. 86400 IN HINFO "UNKNOWN" "Avance"
+
+kredgate@steffi$ 
+\end{boxedverbatim}
+\end{small}
+\end{center}
+\caption{Node record}\label{dns:node:cname}
+\end{figure}
+
+
+MAC address records
+
+precedence of AAAA records over A records.
+Provided for clusters, individual nodes, and virtual machines.
+
+\subsection{DNS Records for Reservations/Busy}
+
+These records are for {\em FUTURE} use.
+They are not in use by anything else yet.
+
+There are \verb+busy.dut+ and \verb+reserved.dut+ TXT records which contain the text 
+description of the reservation or test that is running there.
+There is a script which performs these updates.
+The ``ftschedule'', ``rinfo'', and ``fttest'' scripts can be changed
+to send these updates, when we would like to start using these records.
+
+There is also a responsible person (RP) record that is updated at the same
+time that informs who is using/reserving the DUT.
+
+Also, each DUT has an SRV record for \verb+_doh._tcp+ which points at the
+DUTs records.  This allows a DNS query to list all DUTs like in Figure~\ref{dns:doh:srv}.
+
+\begin{figure}[!h]
+\begin{center}
+\begin{small}
+\begin{boxedverbatim}
+kredgate@steffi$ dig +answer +nocmd +noquestion +noauthority \
+                     +noadditional +nostats _doh._tcp.sn.stratus.com SRV
+;; Truncated, retrying in TCP mode.
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 58520
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 61, AUTHORITY: 1, ADDITIONAL: 134
+
+;; ANSWER SECTION:
+_doh._tcp.sn.stratus.com. 86400 IN      SRV     1 1 80 icecream.sn.stratus.com.
+_doh._tcp.sn.stratus.com. 86400 IN      SRV     1 1 80 simpsons.sn.stratus.com.
+_doh._tcp.sn.stratus.com. 86400 IN      SRV     1 1 80 superman.sn.stratus.com.
+_doh._tcp.sn.stratus.com. 86400 IN      SRV     1 1 80 zeppelin.sn.stratus.com.
+_doh._tcp.sn.stratus.com. 86400 IN      SRV     1 1 80 magicians.sn.stratus.com.
+_doh._tcp.sn.stratus.com. 86400 IN      SRV     1 1 80 flintstones.sn.stratus.com.
+_doh._tcp.sn.stratus.com. 86400 IN      SRV     1 1 80 bmw.sn.stratus.com.
+_doh._tcp.sn.stratus.com. 86400 IN      SRV     1 1 80 ccx.sn.stratus.com.
+_doh._tcp.sn.stratus.com. 86400 IN      SRV     1 1 80 gtr.sn.stratus.com.
+_doh._tcp.sn.stratus.com. 86400 IN      SRV     1 1 80 jan.sn.stratus.com.
+_doh._tcp.sn.stratus.com. 86400 IN      SRV     1 1 80 mac.sn.stratus.com.
+....
+\end{boxedverbatim}
+\end{small}
+\end{center}
+\caption{Doh SRV records}\label{dns:doh:srv}
+\end{figure}
+
+%\subsection{DNS Records for Imaging}
+%
+%Use a image.dut TXT record to show the path of the install.tgz that is loaded?
+%This could be updated by the ftimage code.
+%
+%Use a kickstart.client TXT record to show the URI of the kickstart script
+%that was used to load a client.
+%This could be updated by the test infrastructure, but then would not contain
+%information when someone had just loaded a VM by hand.
+%
+%The DUT ``status'' script could be modified to perform a DNS update to
+%show that it is in the loaded state, and fill in the release.xml data
+%to show what it is loaded with.
+%This might also change its HINFO record.
+
+% ==================================
+\section{DHCP, PXE and TFTP}
+
+PXE is just an extension to DHCP.
+We do not do any specific PXE protocol configuration extensions.
+The only PXE we really use is on the client side, where the PXE boot ROM executes.
+The server side is simply DHCP.
+The DHCP server configuration continues to use Buster as the 
+\verb+next_server+.
+
+The tftp server continues to run on \verb+buster+, but should
+be migrated to the new DHCP server in the future.
+The TFTP server is determined by the \verb+next_server+ configuration in
+\verb+/etc/dhcpd.conf+ on archimedes.
+
+The network load will be distibuted over the multiple networks.
+Since the VM is on multiple networks we will not be limited
+by the router bandwidth.
+This also allows us to avoid a single subnet problem taking down the
+entire network.
+In this way we can also limit the TFTP bandwidth utilization across
+the router by putting a TFTP server on each subnet and moving the
+\verb+next_server+ configuration into each subnets specific 
+configuration clause in the DHCP server configuration and
+setting it a subnet specific address.
+
+Buster must remain around to provide the Storbitz service which tracks
+imaging state,
+but the imaging state management
+is changing to not require Storbitz in the future.
+
+%\subsection{IDEA}
+%
+%To eliminate the xmlrpc service requirement of imaging.
+%
+%Have DHCP server turn off leases to specific hosts - then the PXE
+%code on the node should get a NACK for its address, and then
+%jump to disk booting.
+%
+%fttest/ftimage can cause the DHCP server to re-enable DHCP for that
+%node to cause a re-image.
+%
+%The reimage code on the net could send the update to the DHCP server
+%saying that it has completed -- or we can run an external monitor that
+%would check to see that the node has completed installing and fttest
+%could cause the state change?
+
+% ==================================
+\section{Avance Desktop Access}
+
+Access to all test networks is provided by a single route on the Avance
+lab router to \verb+10.80.0.0/12+.
+This single route allows access to all 16 of the \verb+10.x.0.0+ networks.
+
+\begin{note}
+Add picture of the network and routers.
+\end{note}
+
+\begin{note}
+AI: Fix the nexthop in the Avance lab router.
+\end{note}
+
+
+% ==================================
+\section{How to Create Servers}
+
+The DNS and DHCP servers are named after mathematicians.
+Since they provide the address services to the rest of the
+network they cannot depend on another server to hand out
+addresses, so their IP configuration is static.
+There are kickstart configuration files present in {\em svn/Storbitz}
+for each servers configuration.
+The kickstart configuration file in this directory must be configured
+in the kickstarts of a CentOS 4.4 repository.
+The svn web address can be used directly, there is no need to
+checkout the file into separate web server.
+
+\begin{figure}[!h]
+\begin{center}
+\begin{boxedverbatim}
+http://svn.sn.stratus.com/storbitz/trunk/kickstarts/
+\end{boxedverbatim}
+\end{center}
+\caption{Kickstart configuration directory}\label{kickstart:config}
+\end{figure}
+
+The primary DNS server s named {\em descartes}.
+It only has a single network interface on the {\em net24} network
+and it should only require 5 GB of disk space.
+Currently it resides on ``coney'', but there are is no requirement
+as to which dogfood server houses it.
+The kickstart configuration is in
+\verb+descartes.cfg+ in the storbitz kickstart directory.
+
+The secondary DNS server is named {\em hilbert}.
+It has 5 network interfaces, one on each of net24, bluenet,
+rednet, yellownet, and greennet.
+It should require only 5 GB of disk space.
+The configuration is in \verb+hilbert.cfg+ in the storbitz
+kickstart directory.
+
+The DHCP server is named {\em archimedes}.
+It has 5 network interfaces, also for each of the same networks
+as hilbert and should require only 5 GB of disk space.
+The configuration is in \verb+archimedes.cfg+ in the storbitz
+kickstart directory.
+
+There can be ONE AND ONLY ONE of each of these servers
+since they have statically assigned addresses in the kickstart
+configuration.
+That is why the configuration filenames are the hostnames and
+not a generic description of a kind of host.
+
+The XML for these hosts is currently in the \verb+coney.xml+ 
+file, but should probably move to a different xml file.
+There is no restriction that they live on coney.
+However, they must live on a host that is on all of the
+current subnets.
+
+When we exceed 5 subnets, we will need another DHCP server to cover
+the next set of subnets or have a dogfood DUT with enough NICs to
+support all of the subnets (which is probably less desirable).
+There shouldn't be any overlap between the hosts that each DHCP
+server supports.
+The subnets present in the \verb+/etc/dhcpd.conf+ file should be
+specific to the DHCP server.
+What I mean by that is there should be two \verb+dhcpd.conf+
+files in \verb+storbitz/config/dhcpd+, one for each server;
+and the setup script in bin would need to change for the
+new server -- or the kickstart script would need to change to
+pass another argument pointing at the correct \verb+dhcpd.conf+
+file for each specific server.
+
+% ==================================
+\section{How to Update DNS/DHCP Data}
+
+The DNS/DHCP data is automatically updated to the new servers when
+a ``repush'' is executed in \verb+storbitz/bin+.
+
+If you wish to perform these tasks separately there are two scripts
+that are also in \verb+storbitz/bin+ called \verb+update_dns+ and 
+\verb+update_dhcp+.
+These scripts connect to the servers and ask them to update their
+databases.
+
+\begin{figure}[!h]
+\begin{center}
+\begin{boxedverbatim}
+$ cd Storbitz
+$ ./bin/update_dns
+...
+$ ./bin/update_dhcp
+...
+\end{boxedverbatim}
+\end{center}
+\caption{New push commands}\label{push:commands}
+\end{figure}
+
+The method they use is to connect to an \verb+xinetd+ started TCL
+script that works much the same way as the \verb+in.supernovad+ 
+script on the DUTs.
+It listens for commands and executes them.  The commands that
+they recognize are ``RELOAD'' and ``RESTART''.
+This script is installed from within the kickstart script of
+the DNS and DHCP servers.
+Look at the end of the kickstart script to see the contents.
+
+The updates are executed on the servers themselves.
+They run a script that was installed from within the kickstart script.
+For the DNS server the script looks like Figure~\ref{script:reload:dns}.
+
+\begin{figure}[!h]
+\begin{center}
+\begin{small}
+\begin{boxedverbatim}
+[root@descartes ~]# cat /usr/bin/reload_dns 
+#!/bin/bash
+curl --silent http://svn.sn.stratus.com/storbitz/trunk/bin/setup_named | bash 2>&1
+[root@descartes ~]# 
+\end{boxedverbatim}
+\end{small}
+\end{center}
+\caption{Reload DNS script}\label{script:reload:dns}
+\end{figure}
+
+The real script that does the work exists in storbitz.
+This script creates the directories in \verb+/var/named+, etc, and
+reads the xml data from {\em svn} and performs XSLT transforms on the
+data to generate the configuration files.
+The XSLT transforms are in ``\verb+http://svn.sn.stratus.com/storbitz/trunk/style/+''.
+There is documentation in each of the transforms describing each transform
+using ``\verb+dc:description+'' elements.
+
+% ==================================
+\section{How to Change a DUT to 10.xx Net}
+
+First pick a network for each of the interfaces on the DUT
+(for now put them all on the same network, or only change single NIC DUTs).
+Then determine a set of addresses that are not in use on that network
+exluding addresses used for network infrastructure.
+Currently addresses with the third octet as $0$ are used by network
+equipment like switches and routers, addresses with the third octet
+of $1$ are used by servers/services like DHCP and DNS.
+
+\begin{table}
+\begin{center}
+\begin{tabular}{|l|l|l|}
+\hline
+Network & Address Range & Rack \\
+\hline
+net24 & 134.111.24.1 \ldots 134.111.31.254 & 1 and 2 \\
+\hline
+bluenet & 10.80.0.1 \ldots 10.80.255.254 & HP \\
+\hline
+rednet & 10.81.0.1 \ldots 10.81.255.254 & HP \\
+\hline
+yellownet & 10.82.0.1 \ldots 10.82.255.254 & HP \\
+\hline
+greennet & 10.83.0.1 \ldots 10.83.255.254 & \\
+\hline
+\end{tabular}
+\end{center}
+\caption{Network Address Ranges}
+\end{table}
+
+The easiest way to choose these addresses would be to use the third
+octet as a DUT number and then use the fourth octet as the set of
+specific addresses for the various parts of the DUT.
+For example, using the bluenet and picking 50 as the DUT number,
+use 100 for node0's local IP, 101 for node1's local IP,
+102 as the cluster IP, and 1 through 64 as the VMs IPs, and
+you would use 10.80.50.100 as node0, 10.80.50.101 as node1
+and so on.
+
+Next modify the IP address in nodes/node/interfaces/interface/ip
+and for the VMs addresses in vms/expand/interfaces/interface/ip
+of the DUTs XML file to the set of addresses just chosen.
+
+\begin{table}
+\begin{center}
+\begin{tabular}{|l|l|l|l|}
+\hline
+Network & Gateway & DNS \\
+\hline
+net24 & 134.111.24.1 & 134.111.24.253 \\
+\hline
+bluenet & 10.80.0.1 & 10.80.1.5 \\
+\hline
+rednet & 10.81.0.1 & 10.81.1.5 \\
+\hline
+yellownet & 10.82.0.1 & 10.82.1.5 \\
+\hline
+greennet & 10.83.0.1 & 10.83.1.5 \\
+\hline
+\end{tabular}
+\end{center}
+\caption{Network Configuration Values}
+\end{table}
+
+Then change the boot args for each node.
+The gateway configuration changes to the address of the
+router for this network.
+The address for the gateway for each network ends in \verb+0.1+,
+so for bluenet change it to ``\verb+gw=10.80.0.1+''.
+For now the DNS address should just be ``\verb+134.111.24.254+''.
+
+Finally, reserve the DUT, repush the storbitz configuration,
+move the wires, and release the DUT.
+
+% ==================================
+\section{Future Work}
+
+Migrate the TFTP server to the DHCP server.
+
+Use gPXE instead of pxelinux -- flexibility to use HTTP to boot from.
+
+Eliminate the storbitz xml rpc service entirely.
+It is used for imaging state and changing the PXE setup.
+Dan's recent change eliminated the need for the imaging state.
+
+% ==================================
+\section{Action Items}
+
+\begin{enumerate}
+  \setlength{\itemsep}{1pt}
+  \setlength{\parskip}{0pt}
+  \setlength{\parsep}{0pt}
+\item DONE Purchase a router (JeffS?, Nick?)
+\item Change existing uplinks between the ``Net-24'' switches to not use VLAN (Nick)
+\item DONE Define BIND server appliance kickstart config (Karl)
+\item DONE Define BIND server initial config (Karl)
+\item DONE Change Storbitz to push to BIND server (??)
+\item DONE Set up BIND server appliance on coney (Rich)
+\item DONE Define DHCP server appliance kickstart config (Karl)
+\item DONE Set up new DHCP server appliance on coney (Rich)
+\item DONE Set up router (Nick)
+\item Change test harness to understand multiple switch fault injection commands. (JeffD)
+\end{enumerate}
+
+% ==================================
+\section{How to Update this Doc}
+
+This document lives in SVN as a \LaTeX\ document.
+You can check it out from \verb+http://svn.sn.stratus.com/private/kredgate/doc+
+and edit it on one of the test servers.
+You can read the latest checked in version at:
+
+\url{http://svn.sn.stratus.com/private/kredgate/doc/IPv6Transition.pdf}
+
+Edit the document with your favorite text editor.
+There is a document on using \LaTeX\ that is pretty easy to read at:
+
+\url{http://www.myvirtualpaper.com/doc/Max/LaTeX2e_in_141_minutes/2009020401/}
+
+Type ``\verb+make+'' to build the pdf, and checkin the changes like you would any other svn changes.
+
+% TO ADD TO THIS DOC
+% How to ssh using v6
+% How ssh works with v6
+% ping vs ping6
+% directory layout of config on DNS/DHCP server
+% why DHCP config is "authoratative" but not on net24
+% transition away from buster on net24
+% next_server and what that points to
+% description of addresses 10.80.0.1 is router, 10.80.0.2 is the test switch
+% picture of the network
+% the kickstart info for static routes that must be added to clients/builds/test servers
+
+
+\begin{thebibliography}{99}
+
+\bibitem{extreme}
+   Extreme Networks, Inc.
+   \newblock {\em ExtremeXOS Command Reference}.
+   \newblock Copyright \copyright~Extreme Networks, Inc., August 2008.\hfil\\
+   \newblock {\tt \url{http://www.extremenetworks.com/services/software-userguide.aspx}}
+
+\bibitem{bind9arm}
+   \newblock {\em BIND 9 Administrator Reference Manual}.
+   \newblock Copyright \copyright~Internet Systems Consortium, Inc., 2008.\hfil\\
+   \newblock {\tt \url{https://www.isc.org/files/Bv9.5ARM.pdf}}
+
+\bibitem{rfc2136}
+   Paul Vixie
+   \newblock {\em Dynamic Updates in the Domain Name System (DNS UPDATE)}.
+   \newblock Copyright \copyright~The Internet Society, April 1997.\hfil\\
+   \newblock {\tt \url{http://www.ietf.org/rfc/rfc2136.txt}}
+
+\bibitem{uladdr}
+   R. Hinden and B. Haberman
+   \newblock {\em Unique Local IPv6 Unicast Addresses}.
+   \newblock {October 2005}.
+   \newblock {\tt \url{http://tools.ietf.org/html/rfc4193}}
+
+\end{thebibliography}
+
+\end{document}
+
+% vim:expandtab
+% vim:autoindent
