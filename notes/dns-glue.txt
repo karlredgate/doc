@@ -1,0 +1,53 @@
+Circular dependencies and glue records
+
+Name servers in delegations are identified by name, rather than by IP
+address. This means that a resolving name server must issue another
+DNS request to find out the IP address of the server to which it has
+been referred.
+
+If the name given in the delegation is a subdomain of the domain for
+which the delegation is being provided, there is a circular dependency. In
+this case the nameserver providing the delegation must also provide one
+or more IP addresses for the authoritative nameserver mentioned in the
+delegation. This information is called glue.
+
+. . .
+
+For example, if the authoritative name server for example.org is
+ns1.example.org, a computer trying to resolve www.example.org first
+resolves ns1.example.org. Since ns1 is contained in example.org,
+this requires resolving example.org first, which presents a circular
+dependency.
+
+To break the dependency, the nameserver for the org top level domain
+includes glue along with the delegation for example.org. The glue records
+are address records that provide IP addresses for ns1.example.org. The
+resolver uses one or more of these IP addresses to query one of domain's
+authoritative servers, which allows it to complete the DNS query.
+
+
+To see how it works, type this: dig +trace +additional google.com SOA
+
+This will trace the nameserver authority starting from the root servers
+(+trace). Adding +additional will also show you the ADDITIONAL section
+of each DNS server response. Normally most people think of DNS in terms
+of the QUESTION and the ANSWER sections, but ADDITIONAL also plays an
+important role: if the nameserver knows the answers to any queries that
+are related to the answer, it can pre-emptively supply those answers
+in the ADDITIONAL section without requiring additional queries from
+your client.
+
+Note that the authoritative nameservers for google.com are rooted under
+the domain they're authoritative for. (ns1.google.com, ns2.google.com,
+etc.)
+
+When you ask a nameserver to supply the list of nameservers for a domain,
+they will often supply a list of A-type records (IP addresses) in the
+ADDITIONAL section, not just the NS-type answers: these are called glue
+records, used to prevent circular dependencies. In this case, those A
+records are served from the TLD (.com, .org, etc.) nameservers based on
+the IP addresses that someone supplied the DNS registrar responsible
+for the domain. They can usually be changed by logging into the admin
+web interface they supply you.
+
+http://en.wikipedia.org/wiki/Domain_Name_System#Circular_dependencies_and_glue_records
