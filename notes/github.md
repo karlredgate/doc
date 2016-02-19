@@ -4,20 +4,20 @@ Github API
 github enterprise API endpoint
 
 ```
-curl http://github.carboniteinc.com/api/v3/
+curl http://github.xxxxxxxxxxxx.com/api/v3/
 ```
 
 Use curl to get latest link pointer
 
 ```
-url=$( curl -Ls -I -o /dev/null -w '%{url_effective}' http://github.carboniteinc.com/DRaaS/conductor/releases/latest )
+url=$( curl -Ls -I -o /dev/null -w '%{url_effective}' http://github.xxxxxxxxxxxx.com/DRaaS/conductor/releases/latest )
 ```
 
 These are not doing exactly what I want yet.
 
 ```
-curl http://github.carboniteinc.com/api/v3/repos/DRaaS/conductor/releases | jq '.[]["assets"][0]["url"]'
-wget "http://github.carboniteinc.com/api/v3/repos/DRaaS/conductor/releases/assets/13/conductor.rpm"
+curl http://github.xxxxxxxxxxxx.com/api/v3/repos/DRaaS/conductor/releases | jq '.[]["assets"][0]["url"]'
+wget "http://github.xxxxxxxxxxxx.com/api/v3/repos/DRaaS/conductor/releases/assets/13/conductor.rpm"
 ```
 
 OpenSource Github clones
