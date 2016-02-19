@@ -2,6 +2,15 @@
 <!--
 -->
 
+
+### NW.js
+
+https://github.com/nwjs/nw.js/wiki
+https://github.com/zcbenz/nw-sample-apps
+https://github.com/nwjs/nw.js/wiki/Getting-Started-with-nw.js
+https://www.manning.com/books/nw-js-in-action
+https://iojs.org/api/
+
 Considering `NW.js` over Electron.
 Electron seems more interesting.
 
