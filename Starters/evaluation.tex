@@ -1,0 +1,277 @@
+% vim:expandtab
+%
+% Copyright (c) 2008 Stratus Technologies, Inc., as an unpublished work.
+% This notice does not imply unrestricted or public access to these
+% materials which are a trade secret of Stratus Technologies, Inc. or its
+% subsidiaries or affiliates (together referred to as "STRATUS"), and
+% which may not be reproduced, used, sold or transferred to any third
+% party without STRATUS's prior written consent.  All rights reserved.
+%
+% U.S. Government Rights.  If the Software is to be used by the
+% U.S. Government ("Government"), the following provisions apply. The
+% Software and associated documentation are commercial computer software
+% and commercial computer software documentation, respectively, and the
+% Government is acquiring only the license rights granted in the License
+% Agreement accompanying this Software (the license rights customarily
+% provided to non-Government users), in accordance with Section 12.212
+% of the Federal Acquisition Regulations ("FAR") or Section 227.7202-3
+% of the Defense Federal Acquisition Regulation Supplement ("DFARS"), as
+% applicable. For NASA users, the Government shall obtain the minimum
+% rights permitted under Section, in paragraph 1852.227-86 of the NASA
+% Supplement to the FAR (or any successor regulations).
+%
+
+\ifx\pdfoutput\undefined
+\documentclass[twoside]{article}
+\else
+\documentclass[pdftex,twoside]{article}
+\usepackage{thumbpdf}
+\pdfcompresslevel=9
+\pdfinfo{
+   /Author (Karl N. Redgate)
+   /Title (Cloud Fast Path from Tervela)
+   /Subject (Evaluation)
+}
+\fi
+
+\usepackage{ifpdf}
+% \usepackage{pdftricks}
+\usepackage{amssymb}
+% \begin{psinputs}
+% \usepackage{pstricks}
+% \usepackage[all,ps,dvips]{xy}
+% \usepackage{pst-node}
+% \usepackage{pst-tree}
+% \usepackage[dvips]{graphicx}
+% \end{psinputs}
+\usepackage{moreverb}
+\usepackage{wrapfig}
+\usepackage{fancyhdr}
+\usepackage{makeidx}
+% \usepackage{utopia}
+
+\usepackage[pdfcenterwindow=true,pdffitwindow=true,pdfmenubar=true,pdftoolbar=true,bookmarks=true,colorlinks=true]{hyperref}
+
+\newsavebox{\savepar}
+\newenvironment{boxit}{\begin{lrbox}{\savepar}\begin{minipage}[b]{6.5in}}
+{\end{minipage}\end{lrbox}\fbox{\usebox{\savepar}}}
+
+\newcommand{\vm}{\textsl{virtual machine}\/}
+\newcommand{\vms}{\textsl{virtual machines}\/}
+\newcommand{\SN}{\textsl{SuperNova}\/}
+\newcommand{\harness}{\textsl{test harness}\/}
+\newcommand{\WS}{\textsl{WebService}\/}
+\newcommand{\spine}{\textsl{spine}\/}
+\newcommand{\dendrite}{\textsl{Dendrite}\/}
+
+\newenvironment{note}
+{\begin{center}\begin{minipage}{0.8\textwidth}
+\vspace{2ex}\hrule\vspace{1ex}
+\parskip=\medskipamount
+\em}
+{\par 
+\vspace{1ex}\hrule\vspace{2ex}
+\end{minipage}\end{center}}
+% End of note environment definition
+
+\pagestyle{fancy}
+\fancyfoot[LE,RO]{\thepage}
+\fancyfoot[LO,RE]{SuperNova}
+\fancyfoot[CO,CE]{\copyright 2008 -- \textsf{Stratus Technologies, Inc.}\\CONFIDENTIAL INFORMATION}
+
+\parskip=\medskipamount
+
+\typeout{Copyright (c) 2008, Stratus Technologies, Inc.}
+
+
+\title{Cloud Fast Path Evaluation}
+\author{Karl N. Redgate}
+% \email{Karl.Redgate@gmail.com}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+
+In order to support the Avance test infrastructure without requiring
+IPv4 IP addresses on each node, we need to have an alternative access
+method for accessing the devices under test.
+Since the existing SuperNova DUTs use IPv6 as a base of their
+architecture, we can use IPv6 as the access for the test harness.
+\end{abstract}
+
+%Issues:
+%\begin{itemize}
+%  \setlength{\itemsep}{1pt}
+%  \setlength{\parskip}{0pt}
+%  \setlength{\parsep}{0pt}
+%\item Lab infrastructure
+%\item Router
+%\item DNS / DHCP / PXE
+%\item Test harness
+%\item Multiple networks
+%\end{itemize}
+
+% ==================================
+\section{Overview}
+
+Description of Tervela and their Cloud Fast Path product
+
+
+\section{Benefits}
+
+suitability for our use
+
+win suggested ``sounds like rsync \+ Molasses \+ jumbo frames''
+but then says this might help with first backup etc - jumbo frames will not go over the network
+
+andrew talks about using SCTP for transport on server
+
+http://en.wikipedia.org/wiki/Stream_Control_Transmission_Protocol
+
+User space library
+http://www.sctp.de/sctp-download.html
+
+Linux Kernel Stream Control Transmission Protocol Tools
+http://lksctp.sourceforge.net/
+
+Better networking with SCTP
+http://www.ibm.com/developerworks/library/l-sctp/
+
+http://stackoverflow.com/questions/1171555/why-is-sctp-not-much-used-known
+
+We have been deploying SCTP in several applications now, and encountered
+significant problem with SCTP support in various home routers. They simply
+don't handle SCTP correctly. I believe this is primarily a performance
+issue (the SCTP protocol specification require checksums for the whole
+packets to be recalculated and not just for headers).
+
+Like many other promising protocols SCTP is sadly dead in the water
+until D-link and Netgear fixes their broken NAT boxes.
+
+http://tools.ietf.org/html/draft-ietf-behave-sctpnat-05
+
+
+
+SCTP requires more design within the application to get the best use of
+it. There are more options than TCP, the Sockets-like API came later,
+and it is young. However I think most people that take the time to
+understand it (and who know the shortcomings of TCP) appreciate it --
+it is a well designed protocol that builds on our ~30 years of knowledge
+of TCP and UDP.
+
+One of the aspects that requires some thought is that of streams. Streams
+provide (usually, I think you can turn it off) an order guarantee within
+them (much like a TCP connection) but there can be multiple streams per
+SCTP connection. If your application's data can be sent over multiple
+streams then you avoid head-of-line blocking where the receiver starves
+due to one mislaid packet. Effectively different conversations can be
+had over the same connection without impacting each other.
+
+Another useful addition is that of multi-homing support -- one connection
+can be across multiple interfaces on both ends and it copes with
+failures. You can emulate this in TCP, but at the application layer.
+
+Proper link heartbeating, which is the first thing any application using
+TCP for non-transient connections implements, is there for free.
+
+My personal summary of SCTP is that it doesn't do anything you couldn't
+do another way (in TCP or UDP) with substantial application support. The
+thing it provides is the ability to not have to implement that code
+(badly) yourself.
+
+FYI, SCTP is mandated as supported for Diameter (cf RADIUS next gen). see
+RFC 3588
+
+     Diameter clients MUST support either TCP or SCTP, while agents and
+     servers MUST support both.  Future versions of this specification
+     MAY mandate that clients support SCTP.
+
+
+
+
+ p1. SCTP mapped directly over IPv4 requires support in NAT gateways,
+ which has never been widely deployed anywhere, and without it the typical
+ NAT gateway will only permit one private host per public address to be
+ using SCTP at a time.
+
+ p2. SCTP mapped over UDP/IPv4 allows more private hosts per public
+ address, but UDP mappings in IPv4/NAT gateways are notoriously tricky
+ to establish and keep maintained, due to the fact that UDP is a
+ connectionless transport without any explicit state for a NAT to track.
+
+ p3. SCTP mapped directly over IPv6 requires\ldots well\ldots
+ IPv6. Have you tried to deploy IPv6? If so, have you tried to buy
+ an IPv6 firewall? Does it support SCTP? How about a load balancer? A
+ SSL accelerator?
+
+ p4. Finally, a lot of the Internet is pretty much constrained to what
+ can fit through TCP port 80 and port 443, so SCTP of any flavor tends to
+ lose there. Hence, you see efforts like the MPTCP working group in IETF.
+
+
+
+ CTP is not very much known and not used/deployed a lot because:
+
+ Widespread: Not widely integrated in TCP/IP stacks (in 2013: still missing natively in latest Mac OSX and Windows)
+ Libraries: Few high level bindings in easy to use languages (Disclaimer: i'm maintainer of pysctp, SCTP easy stack support for Python)
+ NAT: Doesn't cross NAT very well/at all (less than 1% internet home & enterprise routers do NAT on SCTP).
+ Popularity: No general public app use it
+ Programming paradigm: it changed a bit: it's still a socket, but you can connect many hosts to many hosts (multihoming), datagram is ordered and reliable, erc\ldots
+ Complexity: SCTP stack is complex to implement (due to above)
+ Competition: Multipath TCP is coming and should address multihoming needs / capabilities so people refrain from implementing SCTP if possible, waiting for MTCP
+ Niche: Needs SCTP fills are very peculiar (ordered reliable datagrams, multistream) and not needed by much applications
+ Security: SCTP evades security controls (some firewalls, most IDSes, all DLPs, does not appear on netstat except CentOS/Redhat/Fedora\ldots)
+ Audit-ability: Something like 3 companies in the world routinely do audits of SCTP security (Disclaimer: I work in one of them)
+ Learning curve: Not much toolchain to play with SCTP (check the excellent withsctp that combines nicely with netcat or use socat )
+ Under the hood: Used mostly in telecom and everytime you send SMS, start surfing the net on your mobile or make phone calls, you're often triggering messages that flow over SCTP (SIGTRAN/SS7 with GSM/UMTS, Diameter with LTE/IMS/RCS, S1AP/X2AP with LTE), so you actually use it a lot but you never know about it ;-)
+
+
+
+It might not be well known, but it's not unused. Quite recently there was a draft published at the IETF about Using SCTP as a Transport Layer Protocol for HTTP.
+
+http://tools.ietf.org/html/draft-natarajan-http-over-sctp-01
+
+
+
+Also STCP??
+
+http://en.wikipedia.org/wiki/Scalable_TCP
+
+http://en.wikipedia.org/wiki/UDP-based_Data_Transfer_Protocol
+
+
+
+% ==================================
+\begin{thebibliography}{99}
+
+\bibitem{extreme}
+   Extreme Networks, Inc.
+   \newblock {\em ExtremeXOS Command Reference}.
+   \newblock Copyright \copyright~Extreme Networks, Inc., August 2008.\hfil\\
+   \newblock {\tt \url{http://www.extremenetworks.com/services/software-userguide.aspx}}
+
+\bibitem{bind9arm}
+   \newblock {\em BIND 9 Administrator Reference Manual}.
+   \newblock Copyright \copyright~Internet Systems Consortium, Inc., 2008.\hfil\\
+   \newblock {\tt \url{https://www.isc.org/files/Bv9.5ARM.pdf}}
+
+\bibitem{rfc2136}
+   Paul Vixie
+   \newblock {\em Dynamic Updates in the Domain Name System (DNS UPDATE)}.
+   \newblock Copyright \copyright~The Internet Society, April 1997.\hfil\\
+   \newblock {\tt \url{http://www.ietf.org/rfc/rfc2136.txt}}
+
+\bibitem{uladdr}
+   R. Hinden and B. Haberman
+   \newblock {\em Unique Local IPv6 Unicast Addresses}.
+   \newblock {October 2005}.
+   \newblock {\tt \url{http://tools.ietf.org/html/rfc4193}}
+
+\end{thebibliography}
+
+\end{document}
+
+% vim:expandtab
+% vim:autoindent
