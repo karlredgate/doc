@@ -18,6 +18,12 @@ https://github.com/kairosdb/kairosdb
 http://bookshelfjs.org/
 
 
+http://www.itworld.com/article/2984384/open-source-tools/facebook-takes-relay-javascript-framework-open-source.html
+https://github.com/facebook/relay
+https://en.wikipedia.org/wiki/React_(JavaScript_library)
+https://www.quora.com/Is-React-killing-Angular
+http://techblog.netflix.com/2015/01/netflix-likes-react.html
+
 MVC Frameworks
 --------------
 

@@ -64,5 +64,29 @@ Signatures
 
 https://en.wikipedia.org/wiki/Digital_signature
 
+Keycloak
+--------
+
+
+http://keycloak.jboss.org/
+https://github.com/keycloak/keycloak
+https://github.com/github/hub
+https://github.xxxxxxxxxxxx.com/Architecture/keycloak
+EPEL maven
+https://fedoraproject.org/wiki/MavenEPEL
+https://repos.fedorapeople.org/repos/dchen/apache-maven/epel-apache-maven.repo
+http://keycloak.jboss.org/keycloak/downloads.html
+
+keycloak yum
+http://www.apiman.io/blog/gateway/security/oauth2/keycloak/authentication/authorization/2015/06/09/keycloak-oauth2.html
+https://gist.github.com/msavy/9390bfcd497f3c683a1c
+https://gist.github.com/msavy
+https://github.com/keycloak/keycloak
+https://gist.githubusercontent.com/msavy/9390bfcd497f3c683a1c/raw/e7a185d9298cc30ddbc3131c57c3c6ff50127966/apiman-oauth.bash
+github gist msavy
+
+http://blog.keycloak.org/2015/10/getting-started-with-keycloak-securing.html
+
+https://github.com/pingidentity/mod_auth_openidc
 
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

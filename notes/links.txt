@@ -90,7 +90,6 @@ https://github.com/benmcollins/libjwt
 https://github.com/akheron/jansson
 
 
-http://jira02t.carb.lab:8080/browse/CCM/?selectedTab=com.atlassian.jira.jira-projects-plugin:summary-panel
 http://zxid.org/
 https://www.youtube.com/watch?v=QXQ7bbOULYc
 https://zxidp.org/index-idp.html
