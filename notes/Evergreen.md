@@ -14,7 +14,7 @@ https://bugs.chromium.org/p/google-breakpad/issues/list
 https://chromium.googlesource.com/breakpad/breakpad
 https://github.com/svn2github/google-breakpad
 https://en.wikipedia.org/wiki/Crash_reporter#Breakpad
-https://github.carboniteinc.com/ccm/crystalnix-config
+https://github.xxxxxxxxxxxx.com/ccm/crystalnix-config
 https://github.com/Crystalnix/omaha-server
 
 Sparkle

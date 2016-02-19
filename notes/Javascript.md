@@ -17,4 +17,19 @@ https://github.com/agnoster/duplicator
 https://github.com/kairosdb/kairosdb
 http://bookshelfjs.org/
 
+
+MVC Frameworks
+--------------
+
+sails
+http://sailsjs.org/
+https://www.digitalocean.com/community/tutorials/geddy-js-a-no-brainer-mvc-node-js-framework
+
+http://www.javascriptmvc.com/
+https://donejs.com/
+
+Templating
+
+http://www.embeddedjs.com/
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->
