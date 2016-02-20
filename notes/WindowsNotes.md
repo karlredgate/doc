@@ -45,4 +45,13 @@ Windows Clones
 
 https://en.wikipedia.org/wiki/ReactOS
 
+Shell Extension
+---------------
+
+github windows shell extension
+
+https://github.com/dwmkerr/sharpshell
+https://github.com/google/google-drive-shell-extension
+https://github.com/vbaderks/msf
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->
