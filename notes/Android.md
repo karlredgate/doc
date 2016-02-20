@@ -33,4 +33,9 @@ https://play.google.com/store/apps/details?id=com.balda.taskernow
 https://play.google.com/store/apps/details?id=com.arlosoft.macrodroid
 https://play.google.com/store/apps/details?id=net.dinglisch.android.zoom
 
+### C Compiler and IDE for android
+
+https://play.google.com/store/apps/details?id=com.n0n3m4.droidc
+
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

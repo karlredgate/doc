@@ -25,8 +25,8 @@ touch .metatdata_never_index
 Green updates:
  * ( http://sparkle-project.org/ )
 
- El Capitan - rootless
- ---------------------
+El Capitan - rootless
+---------------------
 
  Also known as
  [System Integrity Protection]( https://en.wikipedia.org/wiki/System_Integrity_Protection )
@@ -74,5 +74,13 @@ https://developer.apple.com/library/mac/documentation/CoreFoundation/Conceptual/
 https://developer.apple.com/library/mac/documentation/CoreFoundation/Conceptual/CFBundles/CFBundles.pdf
 https://developer.apple.com/library/mac/documentation/MacOSX/Conceptual/BPFrameworks/Frameworks.html#//apple_ref/doc/uid/10000183i
 https://developer.apple.com/library/mac/documentation/MacOSX/Conceptual/BPFrameworks/BPFrameworks.pdf
+
+System Tools
+------------
+
+### How to list drives
+
+http://osxdaily.com/2009/12/01/list-all-mounted-drives-and-their-partitions-from-the-terminal/
+http://apple.stackexchange.com/questions/107953/list-all-devices-connected-lsblk-for-mac-os-x
 
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->
