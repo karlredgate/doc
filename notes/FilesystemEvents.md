@@ -12,4 +12,17 @@ http://hints.macworld.com/article.php?story=20060216144837950
 http://www.tonymacx86.com/wiki/index.php/Kext
 http://www.osxbook.com/book/bonus/ancient/whatismacosx/arch_fs.html
 
+FindFirstChangeNotification
+[FindFirstChangeNotification function]( https://msdn.microsoft.com/en-us/library/windows/desktop/aa364417(v=vs.85).aspx )
+http://stackoverflow.com/questions/16615/is-findfirstchangenotification-the-best-api-to-use-for-file-system-change-notifi
+[Introduction to File System Filter Drivers]( https://msdn.microsoft.com/en-us/library/ff548202.aspx )
+
+https://github.com/emcrisostomo/fswatch
+A cross-platform file change monitor with multiple backends
+
+http://www.codeproject.com/Articles/30537/Windows-File-Monitoring-System-Using-Windows-API-H
+[http://www.codeproject.com/Articles/30537/Windows-File-Monitoring-System-Using-Windows-API-H]( https://msdn.microsoft.com/en-us/library/windows/desktop/aa365261(v=vs.85).aspx )
+
+https://www.relisoft.com/win32/watcher.html
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

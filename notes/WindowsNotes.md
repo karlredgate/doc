@@ -54,4 +54,49 @@ https://github.com/dwmkerr/sharpshell
 https://github.com/google/google-drive-shell-extension
 https://github.com/vbaderks/msf
 
+Shell Folders
+-------------
+
+[User Shell Folders]( https://technet.microsoft.com/en-us/library/cc962613.aspx )
+
+Keys
+
+```
+HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer
+```
+
+The User Shell Folders subkey stores the paths to Windows Explorer
+folders for the current user of the computer.
+
+The entries in this subkey can appear in both the Shell Folders
+subkey and the User Shell Folders and in both `HKEY_LOCAL_MACHINE`
+and `HKEY_CURRENT_USER`. The entries that appear in user User Shell
+Folders take precedence over those in Shell Folders. The entries
+that appear in `HKEY_CURRENT_USER` take precedence over those in
+`HKEY_LOCAL_MACHINE`.
+
+Related Entries
+
+ * Shell Folders in `HKEY_CURRENT_USER`
+ * Shell Folders in `HKLM`
+ * User Shell Folders in `HKLM`
+
+https://en.wikipedia.org/wiki/Special_folder
+https://en.wikipedia.org/wiki/File_URI_scheme
+
+Shell Library
+-------------
+
+SHLWAPI
+
+[UrlCreateFromPath]( https://msdn.microsoft.com/en-us/library/windows/desktop/bb773773(v=vs.85).aspx )
+[Shell Path Handling Functions]( https://msdn.microsoft.com/en-us/library/windows/desktop/bb773559(v=vs.85).aspx )
+[Common HRESULT Values]( https://msdn.microsoft.com/en-us/library/windows/desktop/aa378137(v=vs.85).aspx )
+
+
+Microsoft Backup Structure
+--------------------------
+
+[MS-BKUP: Microsoft NT Backup File Structure]( https://msdn.microsoft.com/en-us/library/dd305136.aspx )
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->
