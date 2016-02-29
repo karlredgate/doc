@@ -91,6 +91,14 @@ https://github.com/pingidentity/mod_auth_openidc
 
 http://keycloak.jboss.org/docs
 
+StackOverflow quesions about implementing
+[keycloak]( http://stackoverflow.com/questions/tagged/keycloak?sort=votes )
+solutions.
+
+New features in 2014?
+
+https://planet.jboss.org/post/merry_christmas_from_the_keycloak_team
+
 Device Auth
 -----------
 
