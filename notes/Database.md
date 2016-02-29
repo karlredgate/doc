@@ -48,5 +48,11 @@ EnterpriseDB
 
 http://postgresapp.com/
 
+LevelDB
+-------
+
+key/value store designed at Google.
+
+https://github.com/google/leveldb
 
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

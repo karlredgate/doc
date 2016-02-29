@@ -38,4 +38,11 @@ Templating
 
 http://www.embeddedjs.com/
 
+
+### Google Closure
+
+Java program that reads javascript and emits "better" javascript.
+
+https://github.com/google/closure-compiler
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->
