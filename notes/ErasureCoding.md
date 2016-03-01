@@ -35,4 +35,14 @@ https://github.com/dbieber/fountaincode
 https://github.com/rlucioni/Fountain-Codes
 https://code.google.com/archive/p/fountain-codes/downloads
 
+Reed Solomon Code
+-----------------
+
+http://www.cs.duke.edu/courses/spring11/cps296.3/decoding_rs.pdf
+https://en.wikiversity.org/wiki/Reed%E2%80%93Solomon_codes_for_coders
+http://web.eecs.utk.edu/~plank/plank/papers/CS-96-332.pdf
+http://www.drdobbs.com/article/print?articleId=240157266&siteSectionName=testing
+http://www.drdobbs.com/article/print?articleId=184410107&siteSectionName=cpp
+
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->
