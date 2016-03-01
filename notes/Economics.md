@@ -32,4 +32,14 @@ https://en.wikipedia.org/wiki/Steve_Eisman
 https://en.wikipedia.org/wiki/Cornwall_Capital
 http://www.bloomberg.com/research/stocks/private/person.asp?personId=54528192&privcapId=40180845
 
+### Value of the Dollar
+
+[Seven Ways to Compute the Relative Value of a U.S. Dollar Amount]( https://www.measuringworth.com/uscompare/# )
+- 1774 to Present.
+
+http://www.bea.gov/scb/pdf/2007/02%20February/0207_history_article.pdf
+https://www.quora.com/How-can-the-United-States-measure-the-intrinsic-value-of-the-dollar?share=1
+https://en.wikipedia.org/wiki/Consumer_price_index
+https://en.wikipedia.org/wiki/Cost-of-living_index
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->
