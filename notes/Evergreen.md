@@ -17,6 +17,10 @@ https://en.wikipedia.org/wiki/Crash_reporter#Breakpad
 https://github.xxxxxxxxxxxx.com/ccm/crystalnix-config
 https://github.com/Crystalnix/omaha-server
 
+https://github.com/google/omaha
+http://memo.render.jp/omaha/omaha3walkthrough
+https://omaha.googlecode.com/svn/wiki/
+
 Sparkle
 -------
 

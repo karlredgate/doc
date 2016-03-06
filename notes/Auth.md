@@ -99,6 +99,18 @@ New features in 2014?
 
 https://planet.jboss.org/post/merry_christmas_from_the_keycloak_team
 
+Picketlink
+----------
+
+http://picketlink.org/mobile/mobile/
+http://picketlink.org/appsecurity/rest/
+http://picketlink.org/federation/
+http://picketlink.org/
+
+https://www.youtube.com/watch?v=5Z5AUnr-s4g
+https://docs.jboss.org/author/display/PLINK/PicketLink+Quickstarts
+
+
 Device Auth
 -----------
 

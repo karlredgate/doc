@@ -99,4 +99,49 @@ Microsoft Backup Structure
 
 [MS-BKUP: Microsoft NT Backup File Structure]( https://msdn.microsoft.com/en-us/library/dd305136.aspx )
 
+Authenticode
+------------
+
+[Windows Authenticode Portable Executable Signature Format]( https://msdn.microsoft.com/en-us/windows/hardware/gg463180.aspx )
+[How To Get Information from Authenticode Signed Executables]( https://support.microsoft.com/en-us/kb/323809 )
+http://stackoverflow.com/questions/301024/validate-authenticode-signature-on-exe-c-without-capicom
+
+MinGW
+-----
+
+Things that build for Visual C do not work for GNU.
+
+### Wide strings
+
+Microsoft C compilers will handle `L##x` in macros and translate it
+to a long string like `L"test"` - GNU C does not (perhaps clang also does not).
+This will be seen in error messages like:
+
+```
+identifier "L__FUNCTION__" is undefined.
+```
+
+partially due to a recommendation to generate long string 
+identifiers for MS code.
+
+```
+#define WIDE2(x) L##x
+#define WIDECHAR(x) WIDE2(x)
+#define WIDE_FUNCTION WIDECHAR(__FUNCTION__)
+
+int main( int args, char **argv ) {
+    wchar_t *foo = L"This is a test";
+    const char *f = __FUNCTION__;
+    wchar_t *wf = WIDE_FUNCTION;
+}
+```
+
+### XML Library
+
+The older MinGW did not have `msxml.h` and the associated
+DLL at least on OSX.  It is not clear if it was just old or it
+was just that it is only present in the 64 bit environment.
+Update to the latest using brew to get the current 64 bit
+version that has the library.
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->
