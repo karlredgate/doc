@@ -28,5 +28,17 @@ http://www.arctic.org/~dean/tracking-without-cookies.html
 http://www.arctic.org/~dean/cookies.html
 https://en.wikipedia.org/wiki/HTTP_ETag
 
+Tiny WebServers
+---------------
+
+Mongoose was MIT licensed - but has changed to GPL; so use
+civetweb instead.
+
+https://code.google.com/archive/p/mongoose/
+https://en.wikipedia.org/wiki/Mongoose_%28web_server%29
+https://github.com/civetweb/civetweb
+http://duktape.org/
+https://github.com/gfwilliams/tiny-js
+
 
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->
