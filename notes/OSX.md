@@ -83,4 +83,12 @@ System Tools
 http://osxdaily.com/2009/12/01/list-all-mounted-drives-and-their-partitions-from-the-terminal/
 http://apple.stackexchange.com/questions/107953/list-all-devices-connected-lsblk-for-mac-os-x
 
+Using Frameworks
+----------------
+
+OSX C program include framework
+https://developer.apple.com/library/mac/documentation/MacOSX/Conceptual/BPFrameworks/Tasks/IncludingFrameworks.html
+https://developer.apple.com/library/mac/releasenotes/MacOSX/WhatsNewInOSX/Articles/MacOSX10_10.html#//apple_ref/doc/uid/TP40014484-SW6
+https://developer.apple.com/library/mac/releasenotes/MacOSX/WhatsNewInOSX/Articles/MacOSX10_10.html
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->
