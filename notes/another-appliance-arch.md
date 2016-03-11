@@ -28,4 +28,14 @@
 
  * would not work in cloud?
  * or use QEMU in cloud?
+
+
+FreeBSD idea
+------------
+
+FreeBSD with ZFS and providing iSCSI export for block devices
+backed by a zvol.
+
+https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/network-iscsi.html
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->
