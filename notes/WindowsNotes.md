@@ -123,6 +123,8 @@ identifier "L__FUNCTION__" is undefined.
 
 partially due to a recommendation to generate long string 
 identifiers for MS code.
+Example from
+[this stackoverflow page]( http://stackoverflow.com/questions/4773941/wide-version-of-function-on-linux ):
 
 ```
 #define WIDE2(x) L##x
@@ -133,6 +135,20 @@ int main( int args, char **argv ) {
     wchar_t *foo = L"This is a test";
     const char *f = __FUNCTION__;
     wchar_t *wf = WIDE_FUNCTION;
+}
+```
+
+Another example from
+[this stackoverflow page]( http://stackoverflow.com/questions/3291047/how-do-i-print-the-string-which-file-expands-to-correctly/3291315#3291315 )
+
+```
+#define WIDEN2(x) L ## x
+#define WIDEN(x) WIDEN2(x)
+#define WFILE WIDEN(__FILE__)
+
+int main() {
+    wprintf("%s\n", WFILE);
+    return 0;
 }
 ```
 
