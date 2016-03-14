@@ -27,6 +27,13 @@ Raw Sockets
 Some notes on raw sockets
 [here]( http://sock-raw.org/papers/sock_raw )
 
+And Packet sockets
+
+https://www.kernel.org/doc/Documentation/networking/packet_mmap.txt
+http://pub.netsniff-ng.org/paper/devconf_2013.pdf
+http://yusufonlinux.blogspot.com/2010/11/data-link-access-and-zero-copy.html
+
+
 OSX has `PF_NDRV` sockets for raw packets from a device.
 Some
 [notes here]( https://lists.apple.com/archives/darwin-development/2002/Mar/msg00270.html )
