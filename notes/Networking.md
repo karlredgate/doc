@@ -2,6 +2,12 @@
 <!--
 -->
 
+Userspace Bridge
+----------------
+
+ * Capture physical interface using `packet(7)` socket in `RAW` mode.
+ * Create TAP interface in a specific netns maybe.
+
 ### UI for OpenVPN on OSX
 
 tunnelblick
