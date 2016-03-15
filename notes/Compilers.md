@@ -38,4 +38,25 @@ https://en.wikipedia.org/wiki/Bootstrapping_(compilers)
 https://en.wikipedia.org/wiki/Metacompiler
 
 
+Packrat and PEG
+---------------
+
+https://en.wikipedia.org/wiki/Parsing_expression_grammar
+https://pdos.csail.mit.edu/~baford/packrat/icfp02/packrat-icfp02.pdf
+https://pdos.csail.mit.edu/~baford/packrat/thesis/
+http://compilers.iecc.com/comparch/article/93-11-012
+http://bford.info/packrat/
+http://broadcast.oreilly.com/2010/03/what-is-a-packrat-parser-what.html
+http://www.vpri.org/pdf/tr2007002_packrat.pdf
+http://www.thefullwiki.org/Packrat_parser
+http://www.brynosaurus.com/pub/lang/packrat-icfp02.pdfhttp://www.brynosaurus.com/pub/lang/peg-slides.pdf
+https://en.wikipedia.org/wiki/Lojban
+https://en.wikipedia.org/wiki/Interlingual_machine_translation
+https://en.wikipedia.org/wiki/Knowledge_representation_and_reasoning
+http://dspace.mit.edu/bitstream/handle/1721.1/87310/51972156-MIT.pdf?sequence=2
+https://en.wikipedia.org/wiki/Top-down_parsing
+https://sourceforge.net/p/packcc/wiki/Home/
+http://www.romanredz.se/papers/FI2007.pdf
+http://www.diva-portal.org/smash/get/diva2:752340/FULLTEXT01.pdf
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->
