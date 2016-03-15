@@ -4,6 +4,9 @@
 
 http://kevinunderhill.typepad.com/Documents/Opinions/Crunchberries.pdf
 
+Patent for brass monkey balls
+http://www.google.com/patents/US4634021
+
 John Oliver
 -----------
 
