@@ -24,6 +24,8 @@ https://omaha.googlecode.com/svn/wiki/
 Sparkle
 -------
 
+https://sparkle-project.org/
+
 CrashReporter
 -------------
 
