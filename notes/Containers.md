@@ -2,8 +2,13 @@
 <!--
 -->
 
+https://en.wikipedia.org/wiki/Operating-system-level_virtualization#IMPLEMENTATIONS
+
+
 Linux Containers LXC
 --------------------
+
+https://en.wikipedia.org/wiki/LXC
 
 Namespaces can be split using the `unshare()` system call and the `unshare`
 command line tool.  This splits the following namespaces:
@@ -26,5 +31,20 @@ it make an interface that spans namespaces?
 > **Capture phys interfaces**
 > read in the (Networking.md) page about capturing an interface in userspace
 > by using the raw Packet socket.
+
+FreeBSD
+-------
+
+https://en.wikipedia.org/wiki/FreeBSD_jail
+
+OSX Sandboxes
+-------------
+
+Does not appear to be appropriate for namespace isolation.
+
+http://www.chromium.org/developers/design-documents/sandbox/osx-sandboxing-design
+http://reverse.put.as/wp-content/uploads/2011/09/Apple-Sandbox-Guide-v1.0.pdf
+https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man7/sandbox.7.html
+https://media.blackhat.com/bh-dc-11/Blazakis/BlackHat_DC_2011_Blazakis_Apple_Sandbox-wp.pdf
 
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

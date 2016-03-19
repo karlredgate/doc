@@ -2,6 +2,8 @@
 <!--
 -->
 
+https://www.sdxcentral.com/resources/sdn/why-sdn-software-defined-networking-or-nfv-network-functions-virtualization-now/
+
 SDN
 ----
 
@@ -35,12 +37,24 @@ https://www.sdxcentral.com/projects/beacon/
 https://openflow.stanford.edu/display/Beacon/Home/
 http://yuba.stanford.edu/~derickso/docs/hotsdn15-erickson.pdf
 
+OpenFlow
+---------
+
+
+Frenetic
+--------
+
+https://en.wikipedia.org/wiki/Frenetic_(programming_language)
+
 http://www.frenetic-lang.org/
 http://www.frenetic-lang.org/merlin/
 https://github.com/merlin-lang/merlin
 https://github.com/frenetic-lang/frenetic
 
 ### Open vSwitch
+
+https://en.wikipedia.org/wiki/Open_vSwitch
+https://github.com/openvswitch/ovs
 
 ```
 yum install openvswitch
@@ -118,6 +132,8 @@ https://en.wikipedia.org/wiki/Overlay_transport_virtualization
 NFV
 ----
 
+https://en.wikipedia.org/wiki/Network_function_virtualization
+
 https://riftio.com/blog/nfv-is-revolution-not-evolution-and-open-source-will-be-the-spark/
 https://www.sdxcentral.com/products/gigaspace-cloudify/
 https://wiki.openstack.org/wiki/Tacker
@@ -129,6 +145,8 @@ https://portal.etsi.org/tb.aspx?tbid=789&SubTB=789,795,796,801,800,798,799,797,8
 
 
 ### MANO
+
+http://network-functions-virtualization.com/mano.html
 
 https://www.sdxcentral.com/resources/nfv/nfv-mano/
 https://github.com/nfvlabs/openmano

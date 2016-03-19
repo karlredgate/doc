@@ -25,6 +25,11 @@ touch .metatdata_never_index
 Green updates:
  * ( http://sparkle-project.org/ )
 
+Forensics
+---------
+
+https://github.com/jipegit/OSXAuditor
+
 El Capitan - rootless
 ---------------------
 
@@ -90,5 +95,17 @@ OSX C program include framework
 https://developer.apple.com/library/mac/documentation/MacOSX/Conceptual/BPFrameworks/Tasks/IncludingFrameworks.html
 https://developer.apple.com/library/mac/releasenotes/MacOSX/WhatsNewInOSX/Articles/MacOSX10_10.html#//apple_ref/doc/uid/TP40014484-SW6
 https://developer.apple.com/library/mac/releasenotes/MacOSX/WhatsNewInOSX/Articles/MacOSX10_10.html
+
+Sandbox
+-------
+
+I was wondering if this could be used for namespace isolation.
+It does not appear so - it looks more like permissions control.
+Based on Trusted BSD.
+
+http://reverse.put.as/wp-content/uploads/2011/09/Apple-Sandbox-Guide-v1.0.pdf
+https://media.blackhat.com/bh-dc-11/Blazakis/BlackHat_DC_2011_Blazakis_Apple_Sandbox-wp.pdf
+https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man7/sandbox.7.html
+
 
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->
