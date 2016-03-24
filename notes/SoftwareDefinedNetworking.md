@@ -4,6 +4,15 @@
 
 https://www.sdxcentral.com/resources/sdn/why-sdn-software-defined-networking-or-nfv-network-functions-virtualization-now/
 
+Router Software
+---------------
+
+https://en.wikipedia.org/wiki/Router_(computing)
+
+### Click
+
+https://github.com/kohler/click
+
 SDN
 ----
 
@@ -11,13 +20,24 @@ https://en.wikipedia.org/wiki/Software-defined_networking
 
 https://www.opennetworking.org/
 
+### OpenFlow
+
 https://en.wikipedia.org/wiki/OpenFlow
 https://en.wikipedia.org/wiki/List_of_SDN_controller_software
+
+http://www.webopedia.com/TERM/O/openflow.html
+http://www.enterprisenetworkingplanet.com/netos/the-big-switch-to-openflow.html
+https://wiki.wireshark.org/OpenFlow
+https://www.opennetworking.org/images/stories/downloads/sdn-resources/onf-specifications/openflow/openflow-spec-v1.3.0.pdf
+
+
 https://en.wikipedia.org/wiki/Network_function_virtualization
 https://en.wikipedia.org/wiki/Network_virtualization
 https://en.wikipedia.org/wiki/OpenDaylight_Project
 https://en.wikipedia.org/wiki/Software-defined_protection
 https://en.wikipedia.org/wiki/IEEE_802.1aq
+
+
 https://en.wikipedia.org/wiki/Frenetic_(programming_language)
 
 http://www.noxrepo.org/
@@ -133,6 +153,7 @@ NFV
 ----
 
 https://en.wikipedia.org/wiki/Network_function_virtualization
+<<<<<<< HEAD
 
 https://riftio.com/blog/nfv-is-revolution-not-evolution-and-open-source-will-be-the-spark/
 https://www.sdxcentral.com/products/gigaspace-cloudify/
@@ -196,6 +217,19 @@ http://venturebeat.com/tag/rift-io/
 http://www.fiercetelecom.com/story/riftio-bt-sprint-20-others-join-open-source-mano-nfv-community/2016-02-22
 http://www.whogotfunded.com/companies/137528-rift-io-inc
 http://blogs.wsj.com/venturecapital/2015/08/13/the-daily-startup-rift-io-emerges-with-16m-to-support-connected-devices/
+=======
+http://www.etsi.org/deliver/etsi_gs/NFV/001_099/001/01.01.01_60/gs_NFV001v010101p.pdf
 
+### Untangle
+
+Reminded of this project
+
+https://en.wikipedia.org/wiki/Untangle
+http://www.untangle.com/
+http://demo.untangle.com/
+http://wiki.untangle.com/index.php/Building_the_Code
+https://gitlab.com/groups/untangle.com
+
+https://en.wikipedia.org/wiki/Comparison_of_firewalls
 
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

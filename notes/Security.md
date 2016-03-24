@@ -10,4 +10,6 @@ https://www.linux.com/learn/docs/ldp/725-SSL-RedHat-HOWTO
 
 https://blog.netspi.com/bypassing-airwatch-root-restriction/
 
+https://en.wikipedia.org/wiki/National_Security_Agency#Software_backdoors
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

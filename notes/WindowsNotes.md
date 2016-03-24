@@ -160,4 +160,7 @@ was just that it is only present in the 64 bit environment.
 Update to the latest using brew to get the current 64 bit
 version that has the library.
 
+https://sourceforge.net/p/mingw-w64/mailman/message/34335349/
+https://sourceforge.net/p/mingw-w64/mingw-w64/ci/23ef19a4cc067b1871351c272f773267e9852e64/
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

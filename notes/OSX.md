@@ -96,6 +96,7 @@ https://developer.apple.com/library/mac/documentation/MacOSX/Conceptual/BPFramew
 https://developer.apple.com/library/mac/releasenotes/MacOSX/WhatsNewInOSX/Articles/MacOSX10_10.html#//apple_ref/doc/uid/TP40014484-SW6
 https://developer.apple.com/library/mac/releasenotes/MacOSX/WhatsNewInOSX/Articles/MacOSX10_10.html
 
+
 Sandbox
 -------
 
@@ -107,5 +108,23 @@ http://reverse.put.as/wp-content/uploads/2011/09/Apple-Sandbox-Guide-v1.0.pdf
 https://media.blackhat.com/bh-dc-11/Blazakis/BlackHat_DC_2011_Blazakis_Apple_Sandbox-wp.pdf
 https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man7/sandbox.7.html
 
+Jails
+-----
+
+The big difference between Darwin and all the other UNIXen that I
+have used: Linux, Solaris, HP-UX, True64..., is in the shared library
+arrangement.
+
+At runtime other systems search some sort of shared library path to
+find an appropriate library to link. Darwin is different. The path to
+the linked shared libraries is written into an executable at static
+link time. At runtime, dyld (the launcher) will always look at that path
+first. It only uses the DYLD_LIBRARY_PATH if the library is not found at
+the right path. (do an 'otool -L' on any library or executable) So you
+can have as many virtual systems as you like, build and run using them
+and almost the only thing they need in common is the kernel (and maybe
+some GUI stuff if you use it). Look at the way Xcode uses SDKs and the
+systemroot and other useful compiler and linker options. (the linker is
+very different RTFM)
 
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

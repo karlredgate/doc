@@ -11,4 +11,8 @@ https://en.wikipedia.org/wiki/Zalmoxis
 https://en.wikipedia.org/wiki/Henotheism
 https://en.wikipedia.org/wiki/Chthonic
 
+https://en.wikipedia.org/wiki/Asphodel_Meadows
+https://en.wikipedia.org/wiki/Elysium
+https://en.wikipedia.org/wiki/Rhadamanthus
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->
