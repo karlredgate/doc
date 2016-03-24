@@ -41,4 +41,6 @@ https://www.fluidui.com/features
 https://www.flinto.com/
 
 
+http://techcrunch.com/2015/01/30/zombie-apps-on-the-rise-83-of-apps-not-on-top-lists-up-from-74-last-year/
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

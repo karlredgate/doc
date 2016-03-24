@@ -163,4 +163,64 @@ version that has the library.
 https://sourceforge.net/p/mingw-w64/mailman/message/34335349/
 https://sourceforge.net/p/mingw-w64/mingw-w64/ci/23ef19a4cc067b1871351c272f773267e9852e64/
 
+### ATL
+
+Windows provides a proprietary library for Objects called ATL.
+
+[CTime]( https://msdn.microsoft.com/en-us/library/b6989cds.aspx )
+
+### Windows APIs
+
+It appears that the `ULONG` and related types are defined in `windef.h`
+ndows Data Types]( https://msdn.microsoft.com/en-us/library/windows/desktop/aa383751(v=vs.85).aspx )
+
+One of the problems showed as an issue with `auto_ptr`
+[documented here]( https://en.wikipedia.org/wiki/Auto_ptr ).
+This really was a problem with the base type - and I just needed an include.
+
+String conversions appeared to be a problem - but it really was just
+the rebit folks not using the correct interfaces
+
+```
+ADD EXAMPLE OF THE CODE CHANGE
+```
+
+http://stackoverflow.com/questions/347949/how-to-convert-a-stdstring-to-const-char-or-char
+
+This was related to calls to the `MoveFileEx()` function.  This appeared
+to be due to the MS compilers defaulting to the W version.  For MinGW
+I needed to be explicit - since the arguments were wide.
+
+[MoveFileEx function]( https://msdn.microsoft.com/en-us/library/windows/desktop/aa365240(v=vs.85).aspx )
+
+"std::wstring" to "wchar_t"
+http://stackoverflow.com/questions/246806/i-want-to-convert-stdstring-into-a-const-wchar-t
+
+AFX / ATL
+---------
+
+Application Framework eXtensions are part of the
+[Microsoft Foundation Class Library]( https://en.wikipedia.org/wiki/Microsoft_Foundation_Class_Library )
+
+https://en.wikipedia.org/wiki/Active_Template_Library
+
+### FormatString
+
+[AfxFormatString1]( https://msdn.microsoft.com/en-us/library/19d0ss8w.aspx )
+[AfxFormatString2]( https://msdn.microsoft.com/en-us/library/f1w5d2h2.aspx )
+[AfxMessageBox]( https://msdn.microsoft.com/en-us/library/as6se7cb.aspx )
+
+### Tracing
+
+https://en.wikipedia.org/wiki/Windows_software_trace_preprocessor
+[Event Tracing Functions]( https://msdn.microsoft.com/en-us/library/windows/desktop/aa363795(v=vs.85).aspx )
+
+[TRACE]( https://msdn.microsoft.com/en-us/library/6w95a4ha.aspx )
+[AFX Messages]( https://msdn.microsoft.com/en-us/library/bb982948.aspx )
+
+Rootkits
+--------
+
+https://en.wikipedia.org/wiki/AFX_Windows_Rootkit_2003
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->
