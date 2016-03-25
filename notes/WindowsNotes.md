@@ -218,6 +218,18 @@ https://en.wikipedia.org/wiki/Windows_software_trace_preprocessor
 [TRACE]( https://msdn.microsoft.com/en-us/library/6w95a4ha.aspx )
 [AFX Messages]( https://msdn.microsoft.com/en-us/library/bb982948.aspx )
 
+### SEH - Structured Event Handling
+
+This is an extension to the Microsoft (and Digital Mars) compilers.
+It adds the `__try`, `__except`, `__finally`, and `__leave` keywords.
+These have been implemented as libraries for GCC compilers.
+
+ * [try-finally Statement]( https://msdn.microsoft.com/en-us/library/9xtt5hxz.aspx )
+ * http://www.experts-exchange.com/questions/21793519/Porting-leave-What-does-leave-do-anyway.html
+ * [seh.cc]( https://gist.github.com/kikairoya/1710310 )
+ * http://www.open-std.org/jtc1/sc22/wg14/www/docs/n1298.pdf
+ * [libSEH]( http://www.programmingunlimited.net/siteexec/content.cgi?page=libseh )
+
 Rootkits
 --------
 
