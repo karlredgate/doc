@@ -223,12 +223,45 @@ https://en.wikipedia.org/wiki/Windows_software_trace_preprocessor
 This is an extension to the Microsoft (and Digital Mars) compilers.
 It adds the `__try`, `__except`, `__finally`, and `__leave` keywords.
 These have been implemented as libraries for GCC compilers.
+The libraries are all for `i686` only, not `x86_64`
 
  * [try-finally Statement]( https://msdn.microsoft.com/en-us/library/9xtt5hxz.aspx )
  * http://www.experts-exchange.com/questions/21793519/Porting-leave-What-does-leave-do-anyway.html
  * [seh.cc]( https://gist.github.com/kikairoya/1710310 )
  * http://www.open-std.org/jtc1/sc22/wg14/www/docs/n1298.pdf
  * [libSEH]( http://www.programmingunlimited.net/siteexec/content.cgi?page=libseh )
+
+### Function argument decorators
+
+`__in` and `__out` and `IN` and `OUT`
+
+http://mingw.5.n7.nabble.com/gcc-Microsoft-variable-collision-td24648.html
+
+`__out` is part of the documented SpecStrings API for self-documenting 
+functions in the Standardized Annotation Language.  It is used in the 
+last version of the PSDK and the WinSDK in various places.  Older PSDK 
+headers do not have this interface.  The primary purpose is to enable 
+bug-finding analysis, such as in the latest versions of MSVC.  See 
+<http://msdn2.microsoft.com/en-us/library/aa383701(VS.85).aspx> for more 
+information. 
+
+It's vaguely similar to OUT, the macro that is extensively used in the 
+SDKs' headers.  The difference is that OUT doesn't actually do anything; 
+it substitutes to nothing.  `__out`, on the other hand, triggers various 
+MSVC declspecs that presumably generate some sort of annotations. 
+
+### Using Poco
+
+I keep getting this error:
+
+```
+redeclared without dllimport attribute after being referenced with dll linkage
+```
+
+Referenced
+[here]( http://stackoverflow.com/questions/11546403/importing-inline-functions-in-mingw#11550679 )
+on StackOverflow.
+Perhaps there is a problem in the Poco definitions?
 
 Rootkits
 --------
