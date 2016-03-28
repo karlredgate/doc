@@ -263,6 +263,14 @@ Referenced
 on StackOverflow.
 Perhaps there is a problem in the Poco definitions?
 
+### COM in MinGW
+
+http://disphelper.sourceforge.net/
+https://sourceforge.net/projects/disphelper/?source=typ_redirect
+http://www.codeproject.com/KB/COM/com_in_c1/com_in_c1_src.zip
+http://www.codeproject.com/Articles/13601/COM-in-plain-C?display=Print
+http://stackoverflow.com/questions/84269/using-component-object-model-com-on-non-microsoft-platforms
+
 Rootkits
 --------
 
