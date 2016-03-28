@@ -60,6 +60,7 @@ http://yuba.stanford.edu/~derickso/docs/hotsdn15-erickson.pdf
 OpenFlow
 ---------
 
+[Introduction to OpenFlow]( https://www.youtube.com/watch?v=l25Ukkmk6Sk )
 
 Frenetic
 --------
@@ -72,6 +73,8 @@ https://github.com/merlin-lang/merlin
 https://github.com/frenetic-lang/frenetic
 
 ### Open vSwitch
+
+[Introduction to Open vSwitch]( https://www.youtube.com/watch?v=rYW7kQRyUvA )
 
 https://en.wikipedia.org/wiki/Open_vSwitch
 https://github.com/openvswitch/ovs

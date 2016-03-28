@@ -2,17 +2,33 @@
 <!--
 -->
 
+Network Testing
+---------------
+
+Mininet provides network testing using Linux containerization
+for network namespaces.
+
+https://github.com/mininet/mininet
+
+[Introduction to Mininet]( https://www.youtube.com/watch?v=jmlgXaocwiE )
+
 Userspace Bridge
 ----------------
 
  * Capture physical interface using `packet(7)` socket in `RAW` mode.
  * Create TAP interface in a specific netns maybe.
 
+OpenVPN
+-------
+
 ### UI for OpenVPN on OSX
 
 tunnelblick
 https://www.tunnelblick.net/
 https://www.tunnelblick.net/documents.html
+
+Switches
+--------
 
 ### Infinetics
 

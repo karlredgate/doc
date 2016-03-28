@@ -32,6 +32,15 @@ it make an interface that spans namespaces?
 > read in the (Networking.md) page about capturing an interface in userspace
 > by using the raw Packet socket.
 
+### Mininet
+
+https://github.com/mininet/mininet/wiki/Documentation
+https://github.com/mininet/mininet/wiki/Publications
+[Stanford NetSeminar - mininet team]( https://www.youtube.com/watch?v=90fBCO1MMTA )
+linux network namespace system call
+https://www.toptal.com/linux/separation-anxiety-isolating-your-system-with-linux-namespaces
+http://www.haifux.org/lectures/299/netLec7.pdf
+
 FreeBSD
 -------
 

@@ -35,4 +35,11 @@ https://en.wikipedia.org/wiki/Dengue_virus
 
 https://en.wikipedia.org/wiki/Hantavirus
 
+Food Recommendations
+--------------------
+
+Someone at work recommended this tea
+
+https://en.wikipedia.org/wiki/Rooibos
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

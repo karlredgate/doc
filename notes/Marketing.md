@@ -33,4 +33,11 @@ http://www.rdfree.com/
 Nit pointed me at
 http://nerds.airbnb.com/
 
+### Intercom.io
+
+https://www.intercom.io/
+https://developers.intercom.io/docs/segment-model
+https://www.intercom.io/customer-intelligence
+
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->
