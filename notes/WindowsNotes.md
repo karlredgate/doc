@@ -231,7 +231,8 @@ The libraries are all for `i686` only, not `x86_64`
  * http://www.open-std.org/jtc1/sc22/wg14/www/docs/n1298.pdf
  * [libSEH]( http://www.programmingunlimited.net/siteexec/content.cgi?page=libseh )
 
-### Function argument decorators
+Function argument decorators
+----------------------------
 
 `__in` and `__out` and `IN` and `OUT`
 
@@ -250,7 +251,8 @@ SDKs' headers.  The difference is that OUT doesn't actually do anything;
 it substitutes to nothing.  `__out`, on the other hand, triggers various 
 MSVC declspecs that presumably generate some sort of annotations. 
 
-### Using Poco
+Using Poco
+----------
 
 I keep getting this error:
 
@@ -289,7 +291,8 @@ x86_64-w64-mingw32-gcc -Wall -shared test.c -o test.dll
 ```
 
 
-### COM in MinGW
+COM in MinGW
+------------
 
 http://disphelper.sourceforge.net/
 https://sourceforge.net/projects/disphelper/?source=typ_redirect
@@ -303,6 +306,46 @@ Read the Wikipedia pages and their links.
 https://en.wikipedia.org/wiki/Distributed_Component_Object_Model
 https://en.wikipedia.org/wiki/Component_Object_Model
 https://en.wikipedia.org/wiki/Object_Linking_and_Embedding
+
+Calling Conventions
+-------------------
+
+`__stdcall` is the calling convention used for the function.  This tells
+the compiler the rules that apply for setting up the stack, pushing
+arguments and getting a return value.
+
+There are a number of other calling conventions, `__cdecl`, `__thiscall`,
+`__fastcall` and the wonderfully named `__naked`. `__stdcall` is the
+standard calling convention for Win32 system calls.
+
+ * http://stackoverflow.com/questions/297654/what-is-stdcall
+ * https://en.wikipedia.org/wiki/X86_calling_conventions
+ * http://stackoverflow.com/questions/696306/run-time-check-failure-0-loading-queryfullprocessimagename-from-kernel32-dll
+ * [Argument Passing and Naming Conventions]( https://msdn.microsoft.com/en-us/library/984x0h58.aspx )
+
+| Keyword      |Stack cleanup|Parameter passing |
+|`__cdecl`     |Caller       |Pushes parameters on the stack, in reverse order (right to left) |
+|`__clrcall`   |n/a          |Load parameters onto CLR expression stack in order (left to right) |
+|`__stdcall`   |Callee       |Pushes parameters on the stack, in reverse order (right to left) |
+|`__fastcall`  |Callee       |Stored in registers, then pushed on stack |
+|`__thiscall`  |Callee       |Pushed on stack; this pointer stored in ECX |
+|`__vectorcall`|Callee       |Stored in registers, then pushed on stack in reverse order (right to left)|
+
+
+### Naked
+
+[Naked Function Calls]( https://msdn.microsoft.com/en-us/library/5ekezyy2.aspx )
+
+Functions declared with the naked attribute are emitted without prolog or
+epilog code, enabling you to write your own custom prolog/epilog sequences
+using the inline assembler. Naked functions are provided as an advanced
+feature. They enable you to declare a function that is being called from
+a context other than C/C++, and thus make different assumptions about
+where parameters are, or which registers are preserved. Examples include
+routines such as interrupt handlers. This feature is particularly useful
+for writers of virtual device drivers (VxDs).
+
+[Considerations for Writing Prolog/Epilog Code]( https://msdn.microsoft.com/en-us/library/6xy06s51.aspx )
 
 Rootkits
 --------
