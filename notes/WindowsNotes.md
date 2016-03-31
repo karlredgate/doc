@@ -263,6 +263,32 @@ Referenced
 on StackOverflow.
 Perhaps there is a problem in the Poco definitions?
 
+### DLL in MinGW
+
+Very simple example
+
+```
+#include <windows.h>
+#include <objbase.h>
+
+BOOL WINAPI
+DllMain( HINSTANCE instance, DWORD fdwReason, LPVOID lpvReserved ) {
+    switch ( fdwReason ) {
+        case DLL_PROCESS_ATTACH:
+            DisableThreadLibraryCalls( instance );
+    }
+
+    return 1;
+}
+```
+
+Compile it using
+
+```
+x86_64-w64-mingw32-gcc -Wall -shared test.c -o test.dll
+```
+
+
 ### COM in MinGW
 
 http://disphelper.sourceforge.net/
@@ -270,6 +296,13 @@ https://sourceforge.net/projects/disphelper/?source=typ_redirect
 http://www.codeproject.com/KB/COM/com_in_c1/com_in_c1_src.zip
 http://www.codeproject.com/Articles/13601/COM-in-plain-C?display=Print
 http://stackoverflow.com/questions/84269/using-component-object-model-com-on-non-microsoft-platforms
+
+More info on COM, DCOM, OLE, etc.
+Read the Wikipedia pages and their links.
+
+https://en.wikipedia.org/wiki/Distributed_Component_Object_Model
+https://en.wikipedia.org/wiki/Component_Object_Model
+https://en.wikipedia.org/wiki/Object_Linking_and_Embedding
 
 Rootkits
 --------
