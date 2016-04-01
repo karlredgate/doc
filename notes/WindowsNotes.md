@@ -169,7 +169,22 @@ Windows provides a proprietary library for Objects called ATL.
 
 [CTime]( https://msdn.microsoft.com/en-us/library/b6989cds.aspx )
 
-### Windows APIs
+Data Types
+----------
+
+[ULARGE_INTEGER union]( https://msdn.microsoft.com/en-us/library/windows/desktop/aa383742(v=vs.85).aspx )
+
+[Windows Data Types]( https://msdn.microsoft.com/en-us/library/windows/desktop/aa383751(v=vs.85).aspx )
+
+Windows APIs
+------------
+
+https://en.wikipedia.org/wiki/Windows.h
+[Define GUID]( http://forum.pellesc.de/index.php?topic=2670.0 )
+http://www.naughter.com/download/FIX_AFXASSUME.h
+http://stackoverflow.com/questions/386220/how-can-i-hide-defined-but-not-used-warnings-in-gcc
+http://stackoverflow.com/questions/577270/creating-new-exception-in-c#577338
+
 
 It appears that the `ULONG` and related types are defined in `windef.h`
 ndows Data Types]( https://msdn.microsoft.com/en-us/library/windows/desktop/aa383751(v=vs.85).aspx )
@@ -196,6 +211,15 @@ I needed to be explicit - since the arguments were wide.
 "std::wstring" to "wchar_t"
 http://stackoverflow.com/questions/246806/i-want-to-convert-stdstring-into-a-const-wchar-t
 
+[SetupDiGetClassDevs function]( https://msdn.microsoft.com/en-us/library/windows/hardware/ff551069(v=vs.85).aspx )
+[GetDiskFreeSpaceEx function]( https://msdn.microsoft.com/en-us/library/windows/desktop/aa364937(v=vs.85).aspx )
+[FindFirstVolume function]( https://msdn.microsoft.com/en-us/library/windows/desktop/aa364425(v=vs.85).aspx )
+[GetFileAttributes function]( https://msdn.microsoft.com/en-us/library/windows/desktop/aa364944(v=vs.85).aspx )
+CheckVolumePaths
+
+http://mingw.5.n7.nabble.com/gcc-Microsoft-variable-collision-td24648.html
+
+
 AFX / ATL
 ---------
 
@@ -203,6 +227,12 @@ Application Framework eXtensions are part of the
 [Microsoft Foundation Class Library]( https://en.wikipedia.org/wiki/Microsoft_Foundation_Class_Library )
 
 https://en.wikipedia.org/wiki/Active_Template_Library
+https://en.wikipedia.org/wiki/List_of_C%2B%2B_template_libraries
+
+[CObArray::RemoveAt]( https://msdn.microsoft.com/en-us/library/aa271241(v=vs.60).aspx )
+[CObArray]( https://msdn.microsoft.com/en-us/library/aa271257(v=vs.60).aspx )
+[CObject Class Members]( https://msdn.microsoft.com/en-us/library/aa271299(v=vs.60).aspx )
+[CStringArray Class Members]( https://msdn.microsoft.com/en-us/library/aa315032(v=vs.60).aspx )
 
 ### FormatString
 
