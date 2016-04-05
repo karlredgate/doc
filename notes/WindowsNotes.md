@@ -337,6 +337,9 @@ https://en.wikipedia.org/wiki/Distributed_Component_Object_Model
 https://en.wikipedia.org/wiki/Component_Object_Model
 https://en.wikipedia.org/wiki/Object_Linking_and_Embedding
 
+There is a DCOM server for Linux called Tangram - you grabbed the Source
+and put it on the 1TB Passport drive in `WindowsTools/COM`
+
 Calling Conventions
 -------------------
 
