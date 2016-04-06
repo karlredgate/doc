@@ -121,4 +121,14 @@ http://www.deviceauthority.com/d-factor-device-authentication?__hssc=&__hstc=&__
 m2m auth
 
 
+
+SAML
+----
+
+https://en.wikipedia.org/wiki/SAML-based_products_and_services
+
+FIDO
+----
+
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

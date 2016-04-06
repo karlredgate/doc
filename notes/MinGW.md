@@ -34,4 +34,16 @@ http://msdn.microsoft.com/library/en-us/winsock/winsock/porting_socket_applicati
 Because of all these differences, many projects use toolkits (like Qt)
 or cross-platform wrapper libraries instead of the native socket APIs.
 
+
+DLLs
+----
+
+http://www.mingw.org/wiki/DLL
+http://www.mingw.org/wiki/sampleDLL
+http://www.mingw.org/category/wiki/dll
+https://www.reddit.com/r/cpp/comments/kr3f6/using_mingw_loadlibrary_returns_null_for_every/
+http://www.transmissionzero.co.uk/computing/advanced-mingw-dll-topics/
+
+[DllMain entry point]( https://msdn.microsoft.com/en-us/library/ms682583.aspx )
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->
