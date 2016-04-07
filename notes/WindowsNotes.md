@@ -114,15 +114,37 @@ Things that build for Visual C do not work for GNU.
 ### Wide strings
 
 Microsoft C compilers will handle `L##x` in macros and translate it
-to a long string like `L"test"` - GNU C does not (perhaps clang also does not).
+to a long string like `L"test"` - gcc probably will for some, but a
+common paradigm in Visual C code is to use `__FUNCTION__` and related
+in debug strings using macros that attempt to make them *wide* strings.
+This is seen with macros like this:
+
+```
+#define GEN_EVAL(X) X
+#define GEN_STRINGIZE_ARG(X) #X
+#define GEN_STRINGIZE(X) GEN_EVAL(GEN_STRINGIZE_ARG(X))
+#define GEN_MERGE(A, B) A##B
+#define GEN_MAKE_W(A) GEN_MERGE(L, A)
+#define GEN_WSTRINGIZE(X) GEN_MAKE_W(GEN_STRINGIZE_ARG(X))
+#define __WFILE__ GEN_MAKE_W(GEN_EVAL(__FILE__))
+#define __WFUNCTION__ GEN_MAKE_W(GEN_EVAL(__FUNCTION__))
+```
+
+In gcc `__FUNCTION__`, and related identifiers, are **NOT** macros
+that produce string literals.  They are variables - and so they cannot
+be used in macros with a prefixed `L` and cannot be used to initialize
+arrays.
+[*reference*]( https://gcc.gnu.org/onlinedocs/gcc/Function-Names.html )
+
 This will be seen in error messages like:
 
 ```
 identifier "L__FUNCTION__" is undefined.
 ```
 
-partially due to a recommendation to generate long string 
+This is partially due to a recommendation to generate long string
 identifiers for MS code.
+
 Example from
 [this stackoverflow page]( http://stackoverflow.com/questions/4773941/wide-version-of-function-on-linux ):
 
@@ -226,27 +248,27 @@ AFX / ATL
 Application Framework eXtensions are part of the
 [Microsoft Foundation Class Library]( https://en.wikipedia.org/wiki/Microsoft_Foundation_Class_Library )
 
-https://en.wikipedia.org/wiki/Active_Template_Library
-https://en.wikipedia.org/wiki/List_of_C%2B%2B_template_libraries
+ * https://en.wikipedia.org/wiki/Active_Template_Library
+ * https://en.wikipedia.org/wiki/List_of_C%2B%2B_template_libraries
 
-[CObArray::RemoveAt]( https://msdn.microsoft.com/en-us/library/aa271241(v=vs.60).aspx )
-[CObArray]( https://msdn.microsoft.com/en-us/library/aa271257(v=vs.60).aspx )
-[CObject Class Members]( https://msdn.microsoft.com/en-us/library/aa271299(v=vs.60).aspx )
-[CStringArray Class Members]( https://msdn.microsoft.com/en-us/library/aa315032(v=vs.60).aspx )
+ * [CObArray::RemoveAt]( https://msdn.microsoft.com/en-us/library/aa271241(v=vs.60).aspx )
+ * [CObArray]( https://msdn.microsoft.com/en-us/library/aa271257(v=vs.60).aspx )
+ * [CObject Class Members]( https://msdn.microsoft.com/en-us/library/aa271299(v=vs.60).aspx )
+ * [CStringArray Class Members]( https://msdn.microsoft.com/en-us/library/aa315032(v=vs.60).aspx )
 
 ### FormatString
 
-[AfxFormatString1]( https://msdn.microsoft.com/en-us/library/19d0ss8w.aspx )
-[AfxFormatString2]( https://msdn.microsoft.com/en-us/library/f1w5d2h2.aspx )
-[AfxMessageBox]( https://msdn.microsoft.com/en-us/library/as6se7cb.aspx )
+ * [AfxFormatString1]( https://msdn.microsoft.com/en-us/library/19d0ss8w.aspx )
+ * [AfxFormatString2]( https://msdn.microsoft.com/en-us/library/f1w5d2h2.aspx )
+ * [AfxMessageBox]( https://msdn.microsoft.com/en-us/library/as6se7cb.aspx )
 
 ### Tracing
 
-https://en.wikipedia.org/wiki/Windows_software_trace_preprocessor
-[Event Tracing Functions]( https://msdn.microsoft.com/en-us/library/windows/desktop/aa363795(v=vs.85).aspx )
+ * https://en.wikipedia.org/wiki/Windows_software_trace_preprocessor
+ * [Event Tracing Functions]( https://msdn.microsoft.com/en-us/library/windows/desktop/aa363795(v=vs.85).aspx )
 
-[TRACE]( https://msdn.microsoft.com/en-us/library/6w95a4ha.aspx )
-[AFX Messages]( https://msdn.microsoft.com/en-us/library/bb982948.aspx )
+ * [TRACE]( https://msdn.microsoft.com/en-us/library/6w95a4ha.aspx )
+ * [AFX Messages]( https://msdn.microsoft.com/en-us/library/bb982948.aspx )
 
 ### SEH - Structured Event Handling
 
@@ -379,6 +401,30 @@ routines such as interrupt handlers. This feature is particularly useful
 for writers of virtual device drivers (VxDs).
 
 [Considerations for Writing Prolog/Epilog Code]( https://msdn.microsoft.com/en-us/library/6xy06s51.aspx )
+
+Windows versions for Builds
+---------------------------
+
+[Modifying WINVER and _WIN32_WINNT]( https://msdn.microsoft.com/en-us/library/6sehtctf.aspx )
+
+```
+//
+// _WIN32_WINNT version constants
+//
+#define _WIN32_WINNT_NT4                    0x0400 // Windows NT 4.0
+#define _WIN32_WINNT_WIN2K                  0x0500 // Windows 2000
+#define _WIN32_WINNT_WINXP                  0x0501 // Windows XP
+#define _WIN32_WINNT_WS03                   0x0502 // Windows Server 2003
+#define _WIN32_WINNT_WIN6                   0x0600 // Windows Vista
+#define _WIN32_WINNT_VISTA                  0x0600 // Windows Vista
+#define _WIN32_WINNT_WS08                   0x0600 // Windows Server 2008
+#define _WIN32_WINNT_LONGHORN               0x0600 // Windows Vista
+#define _WIN32_WINNT_WIN7                   0x0601 // Windows 7
+#define _WIN32_WINNT_WIN8                   0x0602 // Windows 8
+#define _WIN32_WINNT_WINBLUE                0x0603 // Windows 8.1
+#define _WIN32_WINNT_WINTHRESHOLD           0x0A00 // Windows 10
+#define _WIN32_WINNT_WIN10                  0x0A00 // Windows 10
+```
 
 Rootkits
 --------
