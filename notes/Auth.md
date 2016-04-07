@@ -110,6 +110,33 @@ http://picketlink.org/
 https://www.youtube.com/watch?v=5Z5AUnr-s4g
 https://docs.jboss.org/author/display/PLINK/PicketLink+Quickstarts
 
+Conjur
+------
+
+Conjur is a cloud-native platform for directory services, authorization,
+and audit for development and operations teams and their entire
+infrastructure.
+
+With 100% API coverage and a scalable, easily deployable,
+high-availability architecture, Conjur reduces the time, cost, and
+complexity associated with building authorization management compared
+to complex homegrown scripts and configuration management tools.
+Sometimes referred to as “Active Directory for the cloud”, Conjur
+runs in either a virtual machine or container, and works alongside
+a wide range identity and access management (IAM) solutions to solve
+access and authorization challenges: machine-to-machine permissions,
+deployment and access rights to sensitive systems, and the auditing
+required to meet compliance requirements.
+
+https://www.conjur.net/
+https://www.conjur.net/technology
+
+https://info.conjur.net/conjur-technical-overview
+https://pages.cloudpassage.com/rs/857-FXQ-213/images/forrester-market-overview-cloud-workload-security-management-solutoons-automate-or-die.pdf
+
+API and other stuff documented in the developer docs
+
+https://developer.conjur.net/tutorials/ssh
 
 Device Auth
 -----------
@@ -130,5 +157,25 @@ https://en.wikipedia.org/wiki/SAML-based_products_and_services
 FIDO
 ----
 
+https://fidoalliance.org/specs/fido-uaf-protocol-v1.0-rd-20140209.pdf
+https://fidoalliance.org/specs/fido-uaf-reg-v1.0-rd-20140209.pdf
+https://fidoalliance.org/specs/fido-uaf-authnr-metadata-v1.0-rd-20140209.pdf
+https://fidoalliance.org/specs/fido-uaf-asm-api-v1.0-rd-20140209.pdf
+https://fidoalliance.org/specs/fido-uaf-authnr-cmds-v1.0-rd-20140209.pdf
+https://fidoalliance.org/specs/fido-uaf-client-api-transport-v1.0-rd-20140209.pdf
+
+http://www.techspot.com/news/59112-fido-protocol-behind-google-security-key-expected-lead.html
+http://www.computerweekly.com/news/2240233424/Final-specification-for-Fido-password-killing-protocol-imminent
+
+https://github.com/eBay/UAF
+https://github.com/google/u2f-ref-code
+https://github.com/hanswolff/fido-u2f-net
+
+http://techcrunch.com/2015/10/01/github-launches-support-for-u2f-security-keys/
+https://help.github.com/articles/configuring-two-factor-authentication-via-fido-u2f/
+http://www.infoworld.com/article/2988512/security/github-adds-hardware-based-authentication-for-developers.html
+https://adtmag.com/blogs/watersworks/2015/10/github-yubikey.aspx
+
+https://en.wikipedia.org/wiki/Universal_2nd_Factor
 
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->
