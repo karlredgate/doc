@@ -192,6 +192,7 @@ Windows provides a proprietary library for Objects called ATL.
 [CTime]( https://msdn.microsoft.com/en-us/library/b6989cds.aspx )
 
 https://en.wikipedia.org/wiki/Active_Template_Library
+http://resources.esri.com/help/9.3/arcgisdesktop/com/COM/VCpp/ATLDiscussion.htm
 
 Read this page - this is used heavily in ATL
 
