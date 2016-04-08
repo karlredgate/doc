@@ -43,4 +43,18 @@ https://www.flinto.com/
 
 http://techcrunch.com/2015/01/30/zombie-apps-on-the-rise-83-of-apps-not-on-top-lists-up-from-74-last-year/
 
+Data Standards
+--------------
+
+https://en.wikipedia.org/wiki/Cellular_digital_packet_data
+https://en.wikipedia.org/wiki/CDMA2000
+https://en.wikipedia.org/wiki/Evolution-Data_Optimized
+https://en.wikipedia.org/wiki/UMTS_(telecommunication)
+https://en.wikipedia.org/wiki/High_Speed_Packet_Access
+https://en.wikipedia.org/wiki/Evolved_High_Speed_Packet_Access
+https://en.wikipedia.org/wiki/LTE_Advanced
+https://en.wikipedia.org/wiki/List_of_LTE_networks
+https://en.wikipedia.org/wiki/Enhanced_Data_Rates_for_GSM_Evolution
+https://en.wikipedia.org/wiki/GSM
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->
