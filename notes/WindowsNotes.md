@@ -434,6 +434,16 @@ pointed me at this:
 
 [VirtualAlloc function]( https://msdn.microsoft.com/en-us/library/windows/desktop/aa366887%28v=vs.85%29.aspx )
 
+Licencing
+---------
+
+http://www.theregister.co.uk/2001/07/12/can_winxp_product_activation/
+http://www.theregister.co.uk/2001/07/10/winxp_product_activation_decoded/
+
+Get the papers from this site
+
+http://www.licenturion.com/xp/
+
 Rootkits
 --------
 
