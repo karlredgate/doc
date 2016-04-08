@@ -191,6 +191,12 @@ Windows provides a proprietary library for Objects called ATL.
 
 [CTime]( https://msdn.microsoft.com/en-us/library/b6989cds.aspx )
 
+https://en.wikipedia.org/wiki/Active_Template_Library
+
+Read this page - this is used heavily in ATL
+
+https://en.wikipedia.org/wiki/Curiously_recurring_template_pattern
+
 Data Types
 ----------
 
