@@ -426,6 +426,14 @@ Windows versions for Builds
 #define _WIN32_WINNT_WIN10                  0x0A00 // Windows 10
 ```
 
+Memory Management
+-----------------
+
+Looking at my own allocator - talked to Scot - who
+pointed me at this:
+
+[VirtualAlloc function]( https://msdn.microsoft.com/en-us/library/windows/desktop/aa366887%28v=vs.85%29.aspx )
+
 Rootkits
 --------
 

@@ -17,4 +17,19 @@ There is a lot to read here.
  * []( http://deeplearning4j.org/understandingRBMs.html )
  * []( http://www.cs.toronto.edu/~hinton/absps/guideTR.pdf )
 
+Connectionism
+-------------
+
+Looking into LojBan because of interest in Alexa, and
+ran into
+[LojBan]( https://en.wikipedia.org/wiki/Lojban )
+and
+[Connectionism]( https://en.wikipedia.org/wiki/Connectionism ).
+And related links:
+
+ * https://en.wikipedia.org/wiki/Loglan
+ * https://en.wikipedia.org/wiki/Engineered_language
+ * https://en.wikipedia.org/wiki/Linguistic_relativity
+ * sometimes called the Sapir–Whorf hypothesis
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

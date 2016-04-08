@@ -25,5 +25,6 @@ Connectionism
 relates between languages and
 (MachineLearning.md)/AI.
 
+I have notes in the (Compilers.md) page about LojBan also.
 
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->
