@@ -27,5 +27,13 @@ http://stackoverflow.com/questions/5507489/git-server-like-github
 https://about.gitlab.com/
 http://gitblit.com/
 
+GitHub Addons
+-------------
+
+### Waffle
+
+https://takeout.waffle.io/
+https://waffle.io/
+https://takeout.waffle.io/pricing
 
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

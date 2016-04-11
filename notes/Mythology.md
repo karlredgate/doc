@@ -15,4 +15,12 @@ https://en.wikipedia.org/wiki/Asphodel_Meadows
 https://en.wikipedia.org/wiki/Elysium
 https://en.wikipedia.org/wiki/Rhadamanthus
 
+Egyptian
+--------
+
+https://en.wikipedia.org/wiki/Amun
+https://en.wikipedia.org/wiki/Monthu
+
+https://en.wikipedia.org/wiki/Ashurbanipal
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->
