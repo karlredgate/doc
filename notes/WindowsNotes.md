@@ -369,6 +369,97 @@ https://en.wikipedia.org/wiki/Object_Linking_and_Embedding
 There is a DCOM server for Linux called Tangram - you grabbed the Source
 and put it on the 1TB Passport drive in `WindowsTools/COM`
 
+### BSTR
+
+Where is this defined:
+
+```
+$ grep BSTR /usr/x86_64-w64-mingw32/sys-root/mingw/include/* | grep typedef
+/usr/x86_64-w64-mingw32/sys-root/mingw/include/wtypes.h:typedef OLECHAR *BSTR;
+```
+
+So `BSTR` is:
+
+```
+// WTypes.h
+typedef OLECHAR *BSTR;
+typedef WCHAR OLECHAR;
+#define OLESTR(str) L##str
+typedef wchar_t WCHAR;
+// Dbt.h
+typedef unsigned short wchar_t;
+```
+
+### VARIANT
+
+Looking for the typedef - `VARIANT` is defined in `oaidl.h`.
+`ocidl` is for OLE container (e.g. ActiveX) while `oaidl` is for OLE automation.
+
+```
+/* /usr/i686-w64-mingw32/sys-root/mingw/include/oaidl.h */
+typedef struct tagVARIANT VARIANT;
+struct tagVARIANT {
+    union {
+        struct __tagVARIANT {
+            VARTYPE vt;
+            WORD wReserved1;
+            WORD wReserved2;
+            WORD wReserved3;
+            union {
+                LONGLONG llVal;
+                LONG lVal;
+                BYTE bVal;
+                SHORT iVal;
+                FLOAT fltVal;
+                DOUBLE dblVal;
+                VARIANT_BOOL boolVal;
+                SCODE scode;
+                CY cyVal;
+                DATE date;
+                BSTR bstrVal;
+                IUnknown *punkVal;
+                IDispatch *pdispVal;
+                SAFEARRAY *parray;
+                BYTE *pbVal;
+                SHORT *piVal;
+                LONG *plVal;
+                LONGLONG *pllVal;
+                FLOAT *pfltVal;
+                DOUBLE *pdblVal;
+                VARIANT_BOOL *pboolVal;
+                SCODE *pscode;
+                CY *pcyVal;
+                DATE *pdate;
+                BSTR *pbstrVal;
+                IUnknown **ppunkVal;
+                IDispatch **ppdispVal;
+                SAFEARRAY **pparray;
+                VARIANT *pvarVal;
+                PVOID byref;
+                CHAR cVal;
+                USHORT uiVal;
+                ULONG ulVal;
+                ULONGLONG ullVal;
+                INT intVal;
+                UINT uintVal;
+                DECIMAL *pdecVal;
+                CHAR *pcVal;
+                USHORT *puiVal;
+                ULONG *pulVal;
+                ULONGLONG *pullVal;
+                INT *pintVal;
+                UINT *puintVal;
+                struct __tagBRECORD {
+                    PVOID pvRecord;
+                    IRecordInfo *pRecInfo;
+                } __VARIANT_NAME_4;
+            } __VARIANT_NAME_3;
+        } __VARIANT_NAME_2;
+        DECIMAL decVal;
+    } __VARIANT_NAME_1;
+};
+```
+
 Calling Conventions
 -------------------
 
