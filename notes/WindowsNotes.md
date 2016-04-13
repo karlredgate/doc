@@ -353,6 +353,14 @@ x86_64-w64-mingw32-gcc -Wall -shared test.c -o test.dll
 COM in MinGW
 ------------
 
+The
+[Wikipedia page on COM]( https://en.wikipedia.org/wiki/Component_Object_Model )
+has a bunch of good info and links.
+
+ * [COM, DCOM, and Type Libraries]( https://msdn.microsoft.com/en-us/library/windows/desktop/aa366757(v=vs.85).aspx )
+
+ * http://www.codeproject.com/Articles/19605/Basics-of-an-IDL-file
+
 http://disphelper.sourceforge.net/
 https://sourceforge.net/projects/disphelper/?source=typ_redirect
 http://www.codeproject.com/KB/COM/com_in_c1/com_in_c1_src.zip
@@ -368,6 +376,14 @@ https://en.wikipedia.org/wiki/Object_Linking_and_Embedding
 
 There is a DCOM server for Linux called Tangram - you grabbed the Source
 and put it on the 1TB Passport drive in `WindowsTools/COM`
+
+### TypeLib
+
+The IDL files are used to generate headers and also to generate
+binary `tlb` files that are used in dynamically looking up function
+signatures.  This file format has been reverse engineered by ReactOS
+and *TheirCorp* - documentation is at
+[this page]( http://theircorp.byethost11.com/index.php?vw=TypeLib&ckattempt=1 ).
 
 ### BSTR
 
@@ -524,6 +540,37 @@ Windows versions for Builds
 #define _WIN32_WINNT_WIN10                  0x0A00 // Windows 10
 ```
 
+Compiler Extensions
+-------------------
+
+gcc uses `__attribute__` and MSVC uses `__declspec` for similar types
+of extensions.
+
+MSVC has compiler extensions for connecting the *COM* UUIDs to decorators
+in the object files using `__declspec(uuid(xxxx))` and provides a lookup
+function/macro `__uuidof()` to look them up.
+
+ * http://stackoverflow.com/questions/6219941/what-does-declspecuuid-comobjectguid-expand-to
+ * [`__uuidof` Operator]( https://msdn.microsoft.com/en-us/library/zaah6a61.aspx )
+ * http://www.geoffchappell.com/studies/msvc/language/keywords/declspec/uuid.htm
+ * [`__declspec`]( https://msdn.microsoft.com/en-us/library/dabb5z75.aspx )
+ * [declspec for uuid]( https://msdn.microsoft.com/en-us/library/3b6wkewa.aspx )
+ * http://www.gamedev.net/topic/516976-__declspecproperty-support-in-gcc-4x-or-c0x/
+ * http://stackoverflow.com/questions/7937536/equivalent-of-declspec-naked-in-gcc-g
+ * https://gcc.gnu.org/onlinedocs/gcc/Function-Attributes.html
+ * https://gcc.gnu.org/onlinedocs/gcc/Common-Function-Attributes.html#Common-Function-Attributes
+ * https://gcc.gnu.org/onlinedocs/gcc/x86-Function-Attributes.html#x86-Function-Attributes
+
+VSS
+----
+
+Error message when you run the "`vssadmin list writers`" command on a
+Windows Server 2003-based computer: "`Error: 0x8000FFFF`"
+[MS-support ref]( https://support.microsoft.com/en-us/kb/940184 )
+
+ * [VShadow Tool and Sample]( https://msdn.microsoft.com/en-us/library/windows/desktop/bb530725(v=vs.85).aspx )
+ *
+
 Memory Management
 -----------------
 
@@ -531,6 +578,26 @@ Looking at my own allocator - talked to Scot - who
 pointed me at this:
 
 [VirtualAlloc function]( https://msdn.microsoft.com/en-us/library/windows/desktop/aa366887%28v=vs.85%29.aspx )
+
+Debugging
+---------
+
+Symbols are stored in PDB files.
+The
+[Wikipedia page on PDB]( https://en.wikipedia.org/wiki/Program_database )
+has links for inspecting these files.
+
+https://github.com/Microsoft/microsoft-pdb
+https://github.com/moyix/pdbparse
+
+Reverse Engineering
+-------------------
+
+The Radare2 tool can be used to reverse engineer Windows EXEs and other data
+files.
+
+https://en.wikipedia.org/wiki/Radare2
+http://radare.org/get/radare.pdf
 
 Licencing
 ---------
