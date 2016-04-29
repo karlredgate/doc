@@ -42,4 +42,20 @@ Someone at work recommended this tea
 
 https://en.wikipedia.org/wiki/Rooibos
 
+Childbirth
+----------
+
+https://en.wikipedia.org/wiki/Lochia
+
+[parturition]( https://en.wikipedia.org/wiki/Birth )
+https://en.wikipedia.org/wiki/Decidua
+https://en.wikipedia.org/wiki/Myometrium
+https://en.wikipedia.org/wiki/Vernix_caseosa
+https://en.wikipedia.org/wiki/Sebaceous_gland#Sebum
+https://en.wikipedia.org/wiki/Sapienic_acid
+https://en.wikipedia.org/wiki/Sex_steroid
+https://en.wikipedia.org/wiki/Lanugo
+https://en.wikipedia.org/wiki/Exudate
+
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

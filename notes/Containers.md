@@ -4,6 +4,17 @@
 
 https://en.wikipedia.org/wiki/Operating-system-level_virtualization#IMPLEMENTATIONS
 
+Docker and related
+------------------
+
+devmapper unionfs
+http://www.projectatomic.io/docs/filesystems/
+http://www.projectatomic.io/
+
+This is a good article
+
+[How to create a sandbox using the device mapper]( http://www.flaterco.com/kb/sandbox.html )
+
 
 Linux Containers LXC
 --------------------

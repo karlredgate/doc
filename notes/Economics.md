@@ -42,4 +42,15 @@ https://www.quora.com/How-can-the-United-States-measure-the-intrinsic-value-of-t
 https://en.wikipedia.org/wiki/Consumer_price_index
 https://en.wikipedia.org/wiki/Cost-of-living_index
 
+The Big Short
+-------------
+
+positive carry
+
+https://en.wikipedia.org/wiki/Carry_(investment)
+
+https://en.wikipedia.org/wiki/Foreign_exchange_market
+https://en.wikipedia.org/wiki/Arbitrage
+
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->
