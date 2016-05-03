@@ -16,4 +16,10 @@ One of the projects that did well there is
 started by friends of Wan Ling.
 She mentioned it in her Facebook page.
 
+Patreon
+-------
+
+Content generators from youtube mostly.
+Check the wikipedia page
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->
