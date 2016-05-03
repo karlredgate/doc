@@ -15,6 +15,13 @@ This is a good article
 
 [How to create a sandbox using the device mapper]( http://www.flaterco.com/kb/sandbox.html )
 
+### CoreOS
+
+CoreOS is like a host OS for a hypervisor - but for containers.
+Supports Docker and Rocket
+
+https://en.wikipedia.org/wiki/CoreOS
+
 
 Linux Containers LXC
 --------------------

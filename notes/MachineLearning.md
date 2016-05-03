@@ -32,4 +32,22 @@ And related links:
  * https://en.wikipedia.org/wiki/Linguistic_relativity
  * sometimes called the Sapir–Whorf hypothesis
 
+IBM
+----
+
+https://www.ibm.com/cognitive/outthink/
+
+AIML
+----
+
+http://www.codeproject.com/Articles/5416/Artificial-Intelligence-AI-Chatbot
+https://www.chatbots.org/ai_zone/viewthread/1536/
+https://vhtoolkit.ict.usc.edu/
+https://github.com/gunthercox/ChatterBot
+https://sourceforge.net/projects/nnd/
+
+http://mloss.org/software/view/435/
+http://www.alicebot.org/documentation/aiml-primer.html
+https://github.com/russelnickson/Python-tutor-aiml-module
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

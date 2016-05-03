@@ -25,5 +25,6 @@ $ ./xhyverun.sh
 
 https://deis.com/blog/2015/get-started-coreos-os-x
 
+https://virt-manager.org/
 
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->
