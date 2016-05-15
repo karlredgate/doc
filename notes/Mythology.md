@@ -23,4 +23,10 @@ https://en.wikipedia.org/wiki/Monthu
 
 https://en.wikipedia.org/wiki/Ashurbanipal
 
+South America
+--------------
+
+https://en.wikipedia.org/wiki/Aztec_mythology
+https://en.wikipedia.org/wiki/Nahuatl
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

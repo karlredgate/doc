@@ -2,6 +2,42 @@
 <!--
 -->
 
+[Algorithms]( https://en.wikipedia.org/wiki/List_of_machine_learning_algorithms )
+
+Types
+-----
+
+### Decision tree learning
+### Association rule learning
+### Artificial neural networks
+### Deep Learning
+### Inductive logic programming
+
+These tools use RDF/OWL and semantic web technologies.
+
+http://dl-learner.org/
+https://github.com/AKSW/DL-Learner/releases
+
+http://aksw.org/Projects/ORE.html
+https://github.com/AKSW/ORE
+
+http://aksw.org/About.html
+http://aksw.org/Projects.html
+
+This project points at the OpenKnowledge organization.
+
+https://okfn.org/
+
+### Support vector machines
+### Clustering
+### Bayesian networks
+### Reinforcement learning
+### Representation learning
+### Similarity and metric learning
+### Sparse dictionary learning
+### Genetic algorithms
+
+
 Neural Networks
 ---------------
 
@@ -54,5 +90,10 @@ Dsitrbuted.net
 ---------------
 
 http://www.distributed.net/Main_Page
+https://github.com/dcti/dnetc-client-base
+http://www.distributed.net/Porting
+https://github.com/dcti
+
+
 
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->
