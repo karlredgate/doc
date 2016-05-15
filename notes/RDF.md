@@ -26,4 +26,18 @@ LibRDF can be built on OSX
 
 http://librdf.org/INSTALL.html
 
+https://www.w3.org/TR/2014/NOTE-rdf11-primer-20140624/
+https://www.wikidata.org/wiki/Wikidata:Main_Page
+
+https://www.w3.org/2007/OWL/wiki/RDF_list_vocabulary
+
+https://en.wikipedia.org/wiki/Schema.org
+https://developers.google.com/structured-data/schema-org
+https://en.wikipedia.org/wiki/RDFa
+http://schema.org/
+https://github.com/schemaorg/schemaorg
+http://schema.org/docs/gs.html
+http://manu.sporny.org/2011/false-choice/
+https://moz.com/blog/schema-examples
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

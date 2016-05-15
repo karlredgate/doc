@@ -27,4 +27,9 @@ relates between languages and
 
 I have notes in the (Compilers.md) page about LojBan also.
 
+Translation
+-----------
+
+https://en.wikipedia.org/wiki/Universal_Networking_Language
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

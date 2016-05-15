@@ -2,6 +2,10 @@
 <!--
 -->
 
+https://en.wikipedia.org/wiki/Mobile_phone
+https://en.wikipedia.org/wiki/Cellular_network
+https://en.wikipedia.org/wiki/Bottom_of_the_pyramid
+
 Push notifications
 
 https://boxcar.io/developer

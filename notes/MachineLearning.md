@@ -50,4 +50,9 @@ http://mloss.org/software/view/435/
 http://www.alicebot.org/documentation/aiml-primer.html
 https://github.com/russelnickson/Python-tutor-aiml-module
 
+Dsitrbuted.net
+---------------
+
+http://www.distributed.net/Main_Page
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

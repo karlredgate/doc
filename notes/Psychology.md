@@ -34,5 +34,23 @@ https://en.wikipedia.org/wiki/Personal_identity
 https://en.wikipedia.org/wiki/Dysphoria
 https://en.wikipedia.org/wiki/Narcissistic_personality_disorder
 
+Procrastinating
+---------------
+
+https://www.ted.com/talks/tim_urban_inside_the_mind_of_a_master_procrastinator?language=en
+https://www.ted.com/talks/tim_urban_inside_the_mind_of_a_master_procrastinator/recommendations
+https://www.ted.com/talks/tim_urban_inside_the_mind_of_a_master_procrastinator/citations
+https://www.ted.com/talks/tim_urban_inside_the_mind_of_a_master_procrastinator/transcript?language=en
+
+http://waitbutwhy.com/2013/10/why-procrastinators-procrastinate.html
+http://waitbutwhy.com/2013/11/how-to-beat-procrastination.html
+https://en.wikipedia.org/wiki/Flow_(psychology)
+https://books.google.com/books?id=V9KrQgAACAAJ
+https://en.wikipedia.org/wiki/Hyperfocus
+https://en.wiktionary.org/wiki/autotelic
+https://en.wikipedia.org/wiki/Time_perception
+https://en.wikipedia.org/wiki/Self-consciousness
+http://waitbutwhy.com/2015/03/procrastination-matrix.html
+
 
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->
