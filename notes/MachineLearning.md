@@ -2,6 +2,8 @@
 <!--
 -->
 
+https://en.wikipedia.org/wiki/Machine_learning
+
 [Algorithms]( https://en.wikipedia.org/wiki/List_of_machine_learning_algorithms )
 
 Types
@@ -11,7 +13,21 @@ Types
 ### Association rule learning
 ### Artificial neural networks
 ### Deep Learning
+
+https://www.technologyreview.com/s/513696/deep-learning/
+
+https://www.deepmind.com/
+http://www.economist.com/news/briefing/21650526-artificial-intelligence-scares-peopleexcessively-so-rise-machines
+http://www.forbes.com/sites/anthonykosner/2014/12/29/tech-2015-deep-learning-and-machine-intelligence-will-eat-the-world/#68480780282c
+
+http://www.h2o.ai/
+http://www.h2o.ai/download/
+
+http://research.google.com/pubs/MachineIntelligence.html
+
 ### Inductive logic programming
+
+https://en.wikipedia.org/wiki/Inductive_logic_programming
 
 These tools use RDF/OWL and semantic web technologies.
 
@@ -31,6 +47,18 @@ https://okfn.org/
 ### Support vector machines
 ### Clustering
 ### Bayesian networks
+
+https://en.wikipedia.org/wiki/Naive_Bayes_classifier
+
+naive bayes email classifier source
+
+http://qwone.com/~jason/ifile/
+http://qwone.com/~jason/papers/sm-thesis.pdf
+
+https://web.stanford.edu/class/cs124/lec/naivebayes.pdf
+http://stackoverflow.com/questions/10059594/a-simple-explanation-of-naive-bayes-classification
+http://software.ucv.ro/~cmihaescu/ro/teaching/AIR/docs/Lab4-NaiveBayes.pdf
+
 ### Reinforcement learning
 ### Representation learning
 ### Similarity and metric learning
@@ -94,6 +122,24 @@ https://github.com/dcti/dnetc-client-base
 http://www.distributed.net/Porting
 https://github.com/dcti
 
+Google's Syntaxnet
+------------------
 
+Language recog - not sure what it uses yet - deep learning?
+
+http://www.networkworld.com/article/3069989/application-development/googles-cool-new-natural-language-tool-is-called-parsey-mcparseface.html
+http://googleresearch.blogspot.com/2016/05/announcing-syntaxnet-worlds-most.html
+https://github.com/tensorflow/models/tree/master/syntaxnet
+https://www.tensorflow.org/
+https://github.com/tensorflow/tensorflow
+
+Amazon Echo/Alexa
+------------------
+
+https://en.wikipedia.org/wiki/Amazon_Echo
+https://en.wikipedia.org/wiki/Yap_(company)
+https://en.wikipedia.org/wiki/Evi_(software)
+https://www.evi.com/technology/
+https://en.wikipedia.org/wiki/IVONA
 
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->
