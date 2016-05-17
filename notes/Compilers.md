@@ -59,4 +59,8 @@ https://sourceforge.net/p/packcc/wiki/Home/
 http://www.romanredz.se/papers/FI2007.pdf
 http://www.diva-portal.org/smash/get/diva2:752340/FULLTEXT01.pdf
 
+### For *go*
+
+http://0value.com/A-PEG-parser-generator-for-Go
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

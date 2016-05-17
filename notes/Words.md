@@ -30,4 +30,7 @@ Characters
  * ►
  * •
 
+https://en.wikipedia.org/wiki/Hobo
+https://en.wikipedia.org/wiki/File:Hobo_signs_and_symbols.jpg
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

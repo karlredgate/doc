@@ -25,6 +25,14 @@ touch .metatdata_never_index
 Green updates:
  * ( http://sparkle-project.org/ )
 
+Boot
+-----
+
+This is an OSX bootloader - to use with virtualizing OSX.
+But it had some other features you wanted to look into.
+
+https://github.com/Piker-Alpha/RevoBoot
+
 Forensics
 ---------
 

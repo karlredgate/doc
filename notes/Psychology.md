@@ -52,5 +52,7 @@ https://en.wikipedia.org/wiki/Time_perception
 https://en.wikipedia.org/wiki/Self-consciousness
 http://waitbutwhy.com/2015/03/procrastination-matrix.html
 
+https://www.washingtonpost.com/news/wonk/wp/2016/04/27/why-you-cant-help-read-this-article-about-procrastination-instead-of-doing-your-job/?wpisrc=nl_az_most
+
 
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->
