@@ -142,4 +142,23 @@ https://en.wikipedia.org/wiki/Evi_(software)
 https://www.evi.com/technology/
 https://en.wikipedia.org/wiki/IVONA
 
+Product Recommendations
+-----------------------
+
+https://en.wikipedia.org/wiki/Singular_value_decomposition
+
+https://www.quora.com/What-is-an-intuitive-explanation-of-singular-value-decomposition-SVD?share=1
+
+### LensKit
+
+http://grouplens.org/blog/similarity-functions-for-user-user-collaborative-filtering/
+http://md.ekstrandom.net/research/pubs/lenskit/
+http://lenskit.org/
+https://github.com/lenskit/lenskit
+
+http://delivery.acm.org/10.1145/2050000/2043958/p133-ekstrand.pdf?ip=73.253.68.8&id=2043958&acc=AUTHOR-IZED&key=4D4702B0C3E38B35%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35%2E1446CDBD68679F66&CFID=617657674&CFTOKEN=31723289&__acm__=1463747179_888886d5f3aef3508e502df58d783297
+http://md.ekstrandom.net/research/pubs/lenskit/lenskit.pdf
+http://md.ekstrandom.net/research/thesis/
+
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

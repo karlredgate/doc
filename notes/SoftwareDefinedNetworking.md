@@ -102,6 +102,19 @@ http://www.projectfloodlight.org/floodlight/
  * Apache license
  * written in java
 
+Also uses [Indigo]( http://www.bigswitch.com/products/switch-light )  -
+an agent? for OpenFlow on phys and hypervisor switches.
+It is the basis of [SwitchLight]( http://www.bigswitch.com/products/switch-light ) from Big Switch networks.
+
+There is a
+[description of the project]( http://www.projectfloodlight.org/indigo-virtual-switch/ )
+on the project floodlight site.
+
+Source code:
+
+ * https://github.com/floodlight/indigo
+ * https://github.com/floodlight/loxigen
+
 ### Contrail
 
 Network virtualization solution.  Owned by Juniper?
