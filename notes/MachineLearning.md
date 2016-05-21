@@ -161,4 +161,12 @@ http://md.ekstrandom.net/research/pubs/lenskit/lenskit.pdf
 http://md.ekstrandom.net/research/thesis/
 
 
+Thresher.io
+-----------
+
+[Gary King papers]( http://gking.harvard.edu/publications?page=10 )
+http://gking.harvard.edu/software
+http://gking.harvard.edu/category/research-interests/applications/automated-text-analysis
+
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

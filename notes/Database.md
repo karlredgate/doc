@@ -55,4 +55,14 @@ key/value store designed at Google.
 
 https://github.com/google/leveldb
 
+Liquibase
+---------
+
+Database change sets - source control for DB - sort of?
+
+http://www.liquibase.org/
+http://www.liquibase.org/quickstart.html
+http://www.liquibase.org/community/index.html
+https://github.com/liquibase/liquibase
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->
