@@ -61,4 +61,12 @@ https://en.wikipedia.org/wiki/List_of_LTE_networks
 https://en.wikipedia.org/wiki/Enhanced_Data_Rates_for_GSM_Evolution
 https://en.wikipedia.org/wiki/GSM
 
+Bad Apps
+---------
+
+Shuanet
+AndroRAT
+UnsafeControl
+PJApps
+Ooqqxx
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

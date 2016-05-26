@@ -133,6 +133,10 @@ https://github.com/tensorflow/models/tree/master/syntaxnet
 https://www.tensorflow.org/
 https://github.com/tensorflow/tensorflow
 
+http://www.bloomberg.com/news/articles/2015-10-26/google-turning-its-lucrative-web-search-over-to-ai-machines
+https://cloud.google.com/ml/
+
+
 Amazon Echo/Alexa
 ------------------
 
@@ -168,5 +172,21 @@ Thresher.io
 http://gking.harvard.edu/software
 http://gking.harvard.edu/category/research-interests/applications/automated-text-analysis
 
+
+Hardware
+---------
+
+Google's TPU chip  (see TensorFlow OSS above)
+
+http://www.bloomberg.com/news/articles/2015-10-26/google-turning-its-lucrative-web-search-over-to-ai-machines
+https://cloudplatform.googleblog.com/2016/05/Google-supercharges-machine-learning-tasks-with-custom-chip.html
+http://www.anandtech.com/show/10340/googles-tensor-processing-unit-what-we-know
+
+and
+
+A Software Framework for CEVA-XM4 to Accelerate Machine Learning Deployment in Low-Power Embedded Systems
+( http://www.ceva-dsp.com/CDNN )
+
+http://www.cs.utexas.edu/users/flame/pubs/FLAWN61.pdf
 
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->
