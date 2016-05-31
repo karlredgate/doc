@@ -53,28 +53,32 @@ RPM keeps special track of files within a package that hold
 documentation or configuration data. You need to identify these
 files with special directives.
 
-The %doc directive marks a file as a documentation file. For example:
+The `%doc` directive marks a file as a documentation file. For example:
 
+```
 %files
 
 /usr/X11R6/bin/xtoolwait
 
 %doc /usr/X11R6/man/man1/xtoolwait.*
+```
 
-This example lists all the included files in /usr/X11R6/man/man1
+This example lists all the included files in `/usr/X11R6/man/man1`
 as documentation files.
 
 If you don’t include the full path to a documentation file or files,
 the RPM system will create a special documentation directory for
 the package, and place those files into that directory. For example:
 
+```
 %doc README NEWS
+```
 
 This example places the files README and NEWS into a newly created
 package-specific directory, typically a subdirectory under
-/usr/share/doc or /usr/doc.
+`/usr/share/doc` or `/usr/doc`.
 
-The %docdir directive names a directory that holds documentation.
+The `%docdir` directive names a directory that holds documentation.
 All files under that directory in the package will get automatically
 marked as documentation files. For example:
 
@@ -85,11 +89,11 @@ marked as documentation files. For example:
 /usr/X11R6/man/man1/xtoolwait.*
 ```
 
-Note
+### Note
 
-In addition to the marked directories, the standard Linux documentation
-directories, such as /usr/share/man, are automatically assumed to
-be documentation directories.
+> In addition to the marked directories, the standard Linux documentation
+> directories, such as /usr/share/man, are automatically assumed to
+> be documentation directories.
 
 Similar to the %doc directive, the %config directive marks a file
 as configuration. For example:
@@ -138,34 +142,47 @@ When your package is installed, you can control the file attributes as well as t
 
 The %attr directive allows you to control the permissions for a particular file. The format is:
 
+```
 %attr(mode, user, group) filename
+```
 
 For example:
 
+```
 %attr(0644, root, root) /etc/yp.conf
+```
 
 This example sets the file permissions to 644, the user and the group to root. If you don’t need to specify a value, use a dash, -, to leave the setting as is for the file. For example:
 
+```
 %attr(-, root, -) /etc/yp.conf
+```
 
 Note that you can combine directives, one after another. For example:
 
+```
 %config %attr(-, root, -) /etc/yp.conf
+```
 
 You can also use spaces instead of commas as delimiters. For example:
 
+```
 %attr(0700 root root) %dir /var/tux
+```
 
 In addition to using %attr to set the attributes for a file, you should use the %defattr directive to set the default attributes for all files in the package. For example:
 
+```
 %files
 %defattr(-,root,root)
 /usr/X11R6/bin/xtoolwait
 /usr/X11R6/man/man1/xtoolwait.*
+```
 
 Just about every spec file uses the %defattr directive as this directive eliminates a lot of work you need to do to set file attributes individually. In addition, using the %defattr directive is considered a best practice when creating packages.
 You can also mark files for a particular language. For example, from the tcsh shell package:
 
+```
 %files
 %defattr(-,root,root)
 %doc FAQ Fixes NewThings complete.tcsh eight-bit.txt tcsh.html
@@ -184,14 +201,17 @@ You can also mark files for a particular language. For example, from the tcsh sh
 %lang(pl) %{_datadir}/locale/pl/LC_MESSAGES/tcsh*
 %lang(ru) %{_datadir}/locale/ru/LC_MESSAGES/tcsh*
 %lang(uk) %{_datadir}/locale/uk/LC_MESSAGES/tcsh*
+```
 
 This example marks certain files as only being of use with particular languages, such as ja for the Japanese text and fr for the French text.
 
 Verifying the %files section
+----------------------------
 
 You can use the %verify directive to control which tests RPM uses when verifying a package.
 
 Cross Reference
+---------------
 
 See Chapter 4, Using the RPM Database for more on package verification.
 
@@ -199,24 +219,28 @@ The %verify directive names the tests to include or not include. Table 10-4 list
 
 Table 10-4 Package verification tests
 
-Test    Usage
-group   Verifies the group of the file
-maj     Verifies the file’s major device number
-md5     Verifies the file’s MD5 checksum
-min     Verifies the file’s minor device number
-mode    Verifies the file mode, or permissions
-mtime   Verifies the file’s last modification time
-owner   Verifies the owner of the file
-size    Verifies the file’s size
-symlink Verifies a symbolic link
+| Test    |Usage                                       |
+| group   |Verifies the group of the file              |
+| maj     |Verifies the file's major device number     |
+| md5     |Verifies the file's MD5 checksum            |
+| min     |Verifies the file's minor device number     |
+| mode    |Verifies the file mode, or permissions      |
+| mtime   |Verifies the file's last modification time  |
+| owner   |Verifies the owner of the file              |
+| size    |Verifies the file's size                    |
+| symlink |Verifies a symbolic link                    |
 
 With the %verify directive, you can name test, such as shown following:
 
+```
 %verify(owner group size) /etc/yp.conf
+```
 
 This example limits the tests to owner, group, and size. (The default is to perform all the tests.) You can also use the word not to specify that RPM should not run one or more tests. For example:
 
+```
 %verify(not owner) /etc/yp.conf
+```
 
 This example turns off just the owner test.
 
@@ -224,31 +248,51 @@ Filling the list of files automatically
 
 The -f option to the %files section allows you to read in a list of file names from a file. This file is assumed to look like the contents of the %files section, holding one file name per line. You can also include the various directives for files such as %attr or %doc. For example:
 
+```
 %files -f list_of_filenames.txt
+```
 
 You can combine this list with filename entries, such as the following:
 
+```
 %files -f xconfig_files.txt
-
 %defattr(-,root,root)
-
 /usr/X11R6/bin/xtoolwait
 /usr/X11R6/man/man1/xtoolwait.1
+```
 
-This example reads in a list of file names from the file named xconfig_files.txt and also includes two additional files.
-This list of files works best if you cannot determine the file names in advance. The build may create different files based on various macro values. In addition, you may not know the final paths for the files until build time.
+This example reads in a list of file names from the file named
+`xconfig_files.txt` and also includes two additional files.  This list of
+files works best if you cannot determine the file names in advance. The
+build may create different files based on various macro values. In
+addition, you may not know the final paths for the files until build time.
 
 Handling RPM build errors for unpackaged files
+-----------------------------------------------
 
-Starting with RPM 4.1, rpmbuild will exit if all files in the $RPM_BUILD_ROOT directory are not found in the %files section (or in a file that lists file names used with the -f option). This is officially known as a Fascist build policy and you can turn it off with the following macros.
+Starting with RPM 4.1, rpmbuild will exit if all files in the
+`$RPM_BUILD_ROOT` directory are not found in the `%files` section (or in a
+file that lists file names used with the `-f` option). This is officially
+known as a Fascist build policy and you can turn it off with the
+following macros.
 
-The %_unpackaged_files_terminate_build macro, if set to 1, tells rpmbuild to exit if it finds files that are in the $RPM_BUILD_ROOT directory but not listed as part of the package. Set this macro to 0 to turn off the Fascist build policy. For example:
+The `%_unpackaged_files_terminate_build` macro,
+if set to 1, tells rpmbuild to exit if it finds files that are in the
+`$RPM_BUILD_ROOT` directory but not listed as part of the package.
+Set this macro to 0 to turn off the Fascist build policy. For example:
 
+```
 %define _unpackaged_files_terminate_build 0
+```
 
-You can also control the flag that specifies whether missing documentation files cause rpmbuild to exit. Set the %_missing_doc_files_terminate_build macro to 0 to turn off this feature:
+You can also control the flag that specifies whether
+missing documentation files cause rpmbuild to exit.
+Set the `%_missing_doc_files_terminate_build` macro to 0
+to turn off this feature:
 
+```
 %define _missing_doc_files_terminate_build 0
+```
 
 See the "Defining Spec File Macros" section later in the chapter for more on using macros.
 
@@ -256,12 +300,22 @@ Cross Reference
 
 You can also store this setting in a macro file so that it applies for all packages you build. See Chapter 20, Customizing RPM Behavior for more on macro files.
 
-While the Fascist build policy may be an annoyance, it can prove very useful. Chances are your spec file has an error if you have files in the $RPM_BUILD_ROOT directory that are not listed in the %files section. The Fascist build policy helps catch these errors. In addition, since the error outputs a list of files in the $RPM_BUILD_ROOT directory that are not listed in the %files section, you can often paste this list into your %files section.
+While the Fascist build policy may be an annoyance, it can prove very
+useful. Chances are your spec file has an error if you have files in the
+`$RPM_BUILD_ROOT` directory that are not listed in the %files section. The
+Fascist build policy helps catch these errors. In addition, since the
+error outputs a list of files in the `$RPM_BUILD_ROOT` directory that
+are not listed in the `%files` section, you can often paste this list
+into your `%files` section.
 
 
 Defining Spec File Macros
 
-The RPM system defines a lot of handy macros so that your spec files can work regardless of where system directories are located. You simply use the macro, such as %_bindir, in place of hard-coded paths. The %_bindir macro, for example, identifies the default directory for binary executables, /usr/bin.
+The RPM system defines a lot of handy macros so that your spec files
+can work regardless of where system directories are located. You simply
+use the macro, such as `%_bindir`, in place of hard-coded paths. The
+`%_bindir` macro, for example, identifies the default directory for
+binary executables, `/usr/bin`.
 
 Use these macros wherever possible to avoid hard-coded paths and settings.
 
@@ -270,6 +324,7 @@ Built-in macros
 
 RPM includes a host of built-in macros, including the following useful directories:
 
+```
 %_prefix /usr
 %_exec_prefix %{_prefix}
 %_bindir %{_exec_prefix}/bin
@@ -284,9 +339,13 @@ RPM includes a host of built-in macros, including the following useful directori
 %_oldincludedir /usr/include
 %_infodir %{_prefix}/info
 %_mandir %{_prefix}/man
+```
 
-The example directories shown above come from the standard RPM macro file, /usr/lib/rpm/macros, instead of the Red Hat-specific file, /usr/lib/rpm/redhat/macros, which holds:
+The example directories shown above come from the standard RPM macro
+file, `/usr/lib/rpm/macros`, instead of the Red Hat-specific file,
+`/usr/lib/rpm/redhat/macros`, which holds:
 
+```
 %_prefix /usr
 %_sysconfdir /etc
 %_localstatedir /var
@@ -294,6 +353,7 @@ The example directories shown above come from the standard RPM macro file, /usr/
 %_mandir /usr/share/man
 %_initrddir %{_sysconfdir}/rc.d/init.d
 %_defaultdocdir %{_usr}/share/doc
+```
 
 Spec file-specific macros
 
@@ -421,6 +481,16 @@ http://www.redhat.com/f/pdf/summit07/RPMBestPractices2007.pdf
 rpm spec requires version
 http://www.rpm.org/max-rpm/s1-rpm-depend-manual-dependencies.html
 http://rpm5.org/docs/api/dependencies.html
+
+DNF
+----
+
+http://dnf.baseurl.org/
+https://github.com/rpm-software-management/libhif
+https://github.com/rpm-software-management/hawkey
+https://github.com/openSUSE/libsolv
+https://github.com/rpm-software-management/librepo
+https://github.com/rpm-software-management/libcomps
 
 
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

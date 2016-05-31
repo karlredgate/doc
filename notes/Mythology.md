@@ -29,4 +29,19 @@ South America
 https://en.wikipedia.org/wiki/Aztec_mythology
 https://en.wikipedia.org/wiki/Nahuatl
 
+Ghosts
+-------
+
+https://en.wikipedia.org/wiki/Game_of_Thrones_(season_6)
+https://en.wikipedia.org/wiki/White_Walker
+https://en.wikipedia.org/wiki/Wight
+https://en.wikipedia.org/wiki/Ghost#Terminology
+https://en.wikipedia.org/wiki/Genius_(mythology)
+https://en.wikipedia.org/wiki/Daemon_(classical_mythology)
+https://en.wikipedia.org/wiki/Shade_(mythology)
+https://en.wikipedia.org/wiki/Revenant
+https://en.wikipedia.org/wiki/Fetch_(folklore)
+https://en.wikipedia.org/wiki/Themes_in_A_Song_of_Ice_and_Fire#Children_of_the_Forest
+
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

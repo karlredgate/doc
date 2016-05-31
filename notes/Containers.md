@@ -109,6 +109,10 @@ https://git.gnome.org/browse/ostree/tree/packaging/Makefile.dist-packaging#n11)
 Build does not go smoothly out of the box - check the notes in
 automation
 
+### Cockpit
+
+https://github.com/cockpit-project/cockpit
+
 ### Rocket (rkt)
 
 https://kinvolk.io/
