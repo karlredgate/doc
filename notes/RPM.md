@@ -57,9 +57,7 @@ The `%doc` directive marks a file as a documentation file. For example:
 
 ```
 %files
-
 /usr/X11R6/bin/xtoolwait
-
 %doc /usr/X11R6/man/man1/xtoolwait.*
 ```
 
@@ -122,14 +120,14 @@ Use this option to help protect local modifications. If you use
 that has been modified. If the file has not been modified on disk,
 the rpm command will overwrite the file. But, if the file has been
 modified on disk, the rpm command will copy the new file with an
-extra file-name extension of .rpmnew.
+extra file-name extension of `.rpmnew`.
 
-Similarly, %config(missingok) means that the file does not have to
+Similarly, `%config(missingok)` means that the file does not have to
 exist on disk. You can use this modifier for files or links that
 are created during the %post scripts but will need to be removed
 if the package is removed.
 
-Another special modifier, %ghost, tells the rpm command that the
+Another special modifier, `%ghost`, tells the rpm command that the
 file should not be included in the package. You can use this to
 name the needed attributes for a file that the program, when
 installed, will create. For example, you may want to ensure that a
@@ -138,9 +136,13 @@ program’s log file has certain attributes.
 Setting file attributes
 -----------------------
 
-When your package is installed, you can control the file attributes as well as the files that get included into the package. This is very useful since most packages are installed by the root user and you don’t always want the root user owning the files.
+When your package is installed, you can control the file attributes as
+well as the files that get included into the package. This is very useful
+since most packages are installed by the root user and you don’t always
+want the root user owning the files.
 
-The %attr directive allows you to control the permissions for a particular file. The format is:
+The `%attr` directive allows you to control the permissions for a
+particular file. The format is:
 
 ```
 %attr(mode, user, group) filename
@@ -152,7 +154,9 @@ For example:
 %attr(0644, root, root) /etc/yp.conf
 ```
 
-This example sets the file permissions to 644, the user and the group to root. If you don’t need to specify a value, use a dash, -, to leave the setting as is for the file. For example:
+This example sets the file permissions to `644`, the user and the
+group to `root`. If you don’t need to specify a value, use a dash,
+`-`, to leave the setting as is for the file. For example:
 
 ```
 %attr(-, root, -) /etc/yp.conf
@@ -170,7 +174,9 @@ You can also use spaces instead of commas as delimiters. For example:
 %attr(0700 root root) %dir /var/tux
 ```
 
-In addition to using %attr to set the attributes for a file, you should use the %defattr directive to set the default attributes for all files in the package. For example:
+In addition to using `%attr` to set the attributes for a file, you should
+use the `%defattr` directive to set the default attributes for all files
+in the package. For example:
 
 ```
 %files
@@ -179,8 +185,11 @@ In addition to using %attr to set the attributes for a file, you should use the 
 /usr/X11R6/man/man1/xtoolwait.*
 ```
 
-Just about every spec file uses the %defattr directive as this directive eliminates a lot of work you need to do to set file attributes individually. In addition, using the %defattr directive is considered a best practice when creating packages.
-You can also mark files for a particular language. For example, from the tcsh shell package:
+Just about every spec file uses the `%defattr` directive as this
+directive eliminates a lot of work you need to do to set file attributes
+individually. In addition, using the `%defattr` directive is considered
+a best practice when creating packages.  You can also mark files for a
+particular language. For example, from the tcsh shell package:
 
 ```
 %files
@@ -203,23 +212,26 @@ You can also mark files for a particular language. For example, from the tcsh sh
 %lang(uk) %{_datadir}/locale/uk/LC_MESSAGES/tcsh*
 ```
 
-This example marks certain files as only being of use with particular languages, such as ja for the Japanese text and fr for the French text.
+This example marks certain files as only being of use with particular
+languages, such as ja for the Japanese text and fr for the French text.
 
 Verifying the %files section
 ----------------------------
 
-You can use the %verify directive to control which tests RPM uses when verifying a package.
+You can use the `%verify` directive to control which tests RPM uses when
+verifying a package.
 
 Cross Reference
 ---------------
 
 See Chapter 4, Using the RPM Database for more on package verification.
-
-The %verify directive names the tests to include or not include. Table 10-4 lists the tests.
+The `%verify` directive names the tests to include or not include. Table
+10-4 lists the tests.
 
 Table 10-4 Package verification tests
 
 | Test    |Usage                                       |
+|---------|--------------------------------------------|
 | group   |Verifies the group of the file              |
 | maj     |Verifies the file's major device number     |
 | md5     |Verifies the file's MD5 checksum            |
@@ -230,13 +242,15 @@ Table 10-4 Package verification tests
 | size    |Verifies the file's size                    |
 | symlink |Verifies a symbolic link                    |
 
-With the %verify directive, you can name test, such as shown following:
+With the `%verify` directive, you can name test, such as shown following:
 
 ```
 %verify(owner group size) /etc/yp.conf
 ```
 
-This example limits the tests to owner, group, and size. (The default is to perform all the tests.) You can also use the word not to specify that RPM should not run one or more tests. For example:
+This example limits the tests to owner, group, and size. (The default
+is to perform all the tests.) You can also use the word not to specify
+that RPM should not run one or more tests. For example:
 
 ```
 %verify(not owner) /etc/yp.conf
@@ -246,7 +260,10 @@ This example turns off just the owner test.
 
 Filling the list of files automatically
 
-The -f option to the %files section allows you to read in a list of file names from a file. This file is assumed to look like the contents of the %files section, holding one file name per line. You can also include the various directives for files such as %attr or %doc. For example:
+The `-f` option to the `%files` section allows you to read in a list of
+file names from a file. This file is assumed to look like the contents of
+the `%files` section, holding one file name per line. You can also include
+the various directives for files such as `%attr` or `%doc`. For example:
 
 ```
 %files -f list_of_filenames.txt
@@ -296,9 +313,11 @@ to turn off this feature:
 
 See the "Defining Spec File Macros" section later in the chapter for more on using macros.
 
-Cross Reference
+### Cross Reference
 
-You can also store this setting in a macro file so that it applies for all packages you build. See Chapter 20, Customizing RPM Behavior for more on macro files.
+You can also store this setting in a macro file so that it applies for
+all packages you build. See Chapter 20, Customizing RPM Behavior for
+more on macro files.
 
 While the Fascist build policy may be an annoyance, it can prove very
 useful. Chances are your spec file has an error if you have files in the
@@ -310,6 +329,7 @@ into your `%files` section.
 
 
 Defining Spec File Macros
+-------------------------
 
 The RPM system defines a lot of handy macros so that your spec files
 can work regardless of where system directories are located. You simply
@@ -320,9 +340,10 @@ binary executables, `/usr/bin`.
 Use these macros wherever possible to avoid hard-coded paths and settings.
 
 
-Built-in macros
+### Built-in macros
 
-RPM includes a host of built-in macros, including the following useful directories:
+RPM includes a host of built-in macros, including the following useful
+directories:
 
 ```
 %_prefix /usr
@@ -355,101 +376,133 @@ file, `/usr/lib/rpm/macros`, instead of the Red Hat-specific file,
 %_defaultdocdir %{_usr}/share/doc
 ```
 
-Spec file-specific macros
+### Spec file-specific macros
 
-Most of the pre-defined RPM macros hold directory paths or architecture information. RPM also includes a set of useful macros that you can use to help debug problematic spec files and well as perform common tasks in spec files. Table 10-5 lists these debugging and special spec file macros.
+Most of the pre-defined RPM macros hold directory paths or architecture
+information. RPM also includes a set of useful macros that you can use
+to help debug problematic spec files and well as perform common tasks in
+spec files. Table 10-5 lists these debugging and special spec file macros.
 
 Table 10-5 Special spec-file macros
 
 Macro   Usage
-%dump   Prints out macro values
-%{echo:message} Prints message to stderr
-%{error:message}        Prints message to stderr and returns BADSPEC
-%{expand:expression}    Like eval, expands expression
-%{F:file_exp}   Expands file_exp to a file name
-%global name value      Defines a global macro
-%{P:patch_exp}  Expands patch_exp to a patch file name
-%{S:source_exp} Expands source_exp to a source file name
-%trace  Toggles the printing of debugging information
-%{uncompress:filename}  Tests if file filename is compressed. If so, uncompresses and includes in the given context. If not compressed, calls cat to include file in given context.
-%undefine macro Undefines the given macro
-%{warn:message} Prints message to stderr
+`%dump`                   Prints out macro values
+`%{echo:message}`         Prints message to stderr
+`%{error:message}`        Prints message to stderr and returns BADSPEC
+`%{expand:expression}`    Like eval, expands expression
+`%{F:file_exp}`           Expands `file_exp` to a file name
+`%global name value`      Defines a global macro
+`%{P:patch_exp}`          Expands `patch_exp` to a patch file name
+`%{S:source_exp}`         Expands `source_exp` to a source file name
+`%trace`                  Toggles the printing of debugging information
+`%{uncompress:filename}`  Tests if file filename is compressed. If so, uncompresses and includes in the given context. If not compressed, calls cat to include file in given context.
+`%undefine macro`         Undefines the given macro
+`%{warn:message}`         Prints message to stderr
 
-Note
+> Note
+> 
+> To see the current list of macros, put a %dump at the start of your spec file.
 
-To see the current list of macros, put a %dump at the start of your spec file.
+### Defining new macros
 
-Defining new macros
+In addition to the built-in macros, you can define your own to make it
+easier to manage your packages. Define a new spec file macro with the
+following syntax:
 
-In addition to the built-in macros, you can define your own to make it easier to manage your packages. Define a new spec file macro with the following syntax:
-
+```
 %define macro_name value
+```
 
 For example:
 
+```
 %define major 2
 %define minor 2
 %define patchlevel 7
+```
 
-You can then use a macro with the %macro_name or %{macro_name} syntax. For example:
+You can then use a macro with the `%macro_name` or `%{macro_name}`
+syntax. For example:
 
+```
 Version: %{major}.%{minor}.%{patchlevel}
+```
 
-You can also expand the results of running shell commands using a %(command) syntax with parenthesis instead of curly braces. For example:
+You can also expand the results of running shell commands using a
+%(command) syntax with parenthesis instead of curly braces. For example:
 
+```
 %define today %(date)
+```
 
-Specifying parameters to macros
+### Specifying parameters to macros
 
-Most macros perform simple text substitution. You can also pass parameters to macros, and access those parameters within your macros, similarly to how shell scripts get command-line parameters.
+Most macros perform simple text substitution. You can also pass parameters
+to macros, and access those parameters within your macros, similarly to
+how shell scripts get command-line parameters.
 
-Cross Reference
+### Cross Reference
 
 Chapter 14, Automating RPM with Scripts covers shell scripting with RPM.
+With parameters, you can expand the normal definition of a macro to
+the following:
 
-With parameters, you can expand the normal definition of a macro to the following:
-
+```
 %define macro_name(options) value
+```
 
-Any text within the parenthesis is passed to getopt(3), and acts as parameters to the macro. This is performed when the macro is expanded. You can also pass options to the macro using the %macro_name syntax (without curly braces). For example:
+Any text within the parenthesis is passed to `getopt(3)`, and acts as
+parameters to the macro. This is performed when the macro is expanded. You
+can also pass options to the macro using the `%macro_name` syntax
+(without curly braces). For example:
 
+```
 %foo 1 2 3
+```
 
-This example passes the parameters 1, 2, and 3 to the macro foo. Inside the macro, you can use a shell script-like syntax to access the parameters through special macros. Table 10-6 lists these macros.
+This example passes the parameters 1, 2, and 3 to the macro foo. Inside
+the macro, you can use a shell script-like syntax to access the parameters
+through special macros. Table 10-6 lists these macros.
 
 Table 10-6 Parameter macros inside a macro expansion
 
 Macro   Holds
-%0      The name of the macro
-%*      All the parameters to the macro, except for any processed options
-%#      The number of parameters
-%1      The first parameter
-%2      The second parameter
-%3      The third parameter, and so on with %4, %5 and beyond
-%{-p}   Holds -p if the -p parameter was passed to the macro; otherwise holds nothing
-%{-p*}  Holds the value passed with the -p parameter, if the -p parameter was passed to the macro; otherwise holds nothing
-%{-p:text}      Holds text if the -p parameter was passed to the macro; otherwise holds nothing
+`%0`      The name of the macro
+`%*`      All the parameters to the macro, except for any processed options
+`%#`      The number of parameters
+`%1`      The first parameter
+`%2`      The second parameter
+`%3`      The third parameter, and so on with %4, %5 and beyond
+`%{-p}`   Holds -p if the -p parameter was passed to the macro; otherwise holds nothing
+`%{-p*}`  Holds the value passed with the -p parameter, if the -p parameter was passed to the macro; otherwise holds nothing
+`%{-p:text}`      Holds text if the -p parameter was passed to the macro; otherwise holds nothing
 
-Note that all parameters listed in Table 10-6 hold the remaining parameters after getopt(3) processing. You can use these macros within the definition of your own macros. You can also nest macros, such as the following:
+Note that all parameters listed in Table 10-6 hold the remaining
+parameters after `getopt(3)` processing. You can use these macros within
+the definition of your own macros. You can also nest macros, such as
+the following:
 
+```
 %define mypatch() patch %{-p:-p%{-p*}}
+```
 
-This macro expands to the patch command if no -p parameter was passed. If you pass a -p parameter, such as -p 1, then the macro expands to -p with the value of the -p parameter:
+This macro expands to the patch command if no `-p` parameter was
+passed. If you pass a `-p` parameter, such as `-p 1`, then the macro
+expands to `-p` with the value of the `-p` parameter:
 
+```
 patch -p1
+```
 
 Note
 
 This type of syntax is used heavily with the patch command.
 
 
-
-
-
 Ghost files
 ------------
 
-http://sourceforge.net/p/rpmrebuild/mailman/message/591987/
+ * ( http://sourceforge.net/p/rpmrebuild/mailman/message/591987/ )
 
  * %ghost files should be present during rpm building.
    Their size and contents doesn't matter - only perm, owner and group
