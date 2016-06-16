@@ -12,11 +12,30 @@ https://github.com/mininet/mininet
 
 [Introduction to Mininet]( https://www.youtube.com/watch?v=jmlgXaocwiE )
 
+Mininet is just cgroups for the network interfaces.
+
 Userspace Bridge
 ----------------
 
  * Capture physical interface using `packet(7)` socket in `RAW` mode.
  * Create TAP interface in a specific netns maybe.
+ * use packet mmap for packet access
+
+Is there a similar mechanism to mmap in FreeBSD?
+
+Load Balancer
+-------------
+
+Use the mmap network interface mechanism to capture interfaces
+and break HTTP like C14 and apply load balancing rules.
+
+ * uIP TCP stack - like TTE?
+ * stream chunks of messages
+ * something that does the basic parsing into start of header, etc
+ * replicate the messaging
+ * policy that transforms
+
+Could this just be layered on the bridge?
 
 OpenVPN
 -------
