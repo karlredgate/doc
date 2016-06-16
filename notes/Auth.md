@@ -2,6 +2,16 @@
 <!--
 -->
 
+RBAC
+----
+
+Compliance
+
+use ssh with jumphost - like keymaker (keymaster)
+
+OpenID?
+-------
+
 https://github.com/stormpath/stormpath-sdk-node
 
 facebook openid
