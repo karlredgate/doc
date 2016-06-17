@@ -2,6 +2,13 @@
 <!--
 -->
 
+https://en.wikipedia.org/wiki/Network
+
+This one is the one to read:
+
+https://en.wikipedia.org/wiki/Network_theory
+
+
 Network Testing
 ---------------
 
