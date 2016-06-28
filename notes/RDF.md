@@ -40,4 +40,15 @@ http://schema.org/docs/gs.html
 http://manu.sporny.org/2011/false-choice/
 https://moz.com/blog/schema-examples
 
+
+Semantic Ontology Tools
+-----------------------
+
+semantic ontology tools
+https://scholar.google.com/scholar?q=semantic+ontology+tools&hl=en&as_sdt=0&as_vis=1&oi=scholart&sa=X&ved=0ahUKEwi2kKPJiq_NAhXMLSYKHducDSwQgQMIGjAA
+http://protege.stanford.edu/
+http://semanticweb.org/wiki/Tools.html
+https://blogs.microsoft.com/blog/2016/06/16/microsoft-acquires-wand-labs-to-accelerate-innovation-in-bing-intelligence-and-conversation-as-a-platform/#sm.00000ul0pr9nyzdfxsa8twv6gs7op
+
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->
