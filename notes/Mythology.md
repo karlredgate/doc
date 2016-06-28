@@ -43,5 +43,41 @@ https://en.wikipedia.org/wiki/Revenant
 https://en.wikipedia.org/wiki/Fetch_(folklore)
 https://en.wikipedia.org/wiki/Themes_in_A_Song_of_Ice_and_Fire#Children_of_the_Forest
 
+Werewolf
+--------
+
+https://en.wikipedia.org/wiki/Werewolf
+https://en.wikipedia.org/wiki/Were
+https://en.wikipedia.org/wiki/Berserker
+https://en.wikipedia.org/w/index.php?title=Ulfh%C3%A9%C3%B0inn&redirect=no
+https://en.wikipedia.org/wiki/Porphyria
+https://en.wikipedia.org/wiki/Hypertrichosis
+https://en.wikipedia.org/wiki/Coyote_(Navajo_mythology)
+https://en.wikipedia.org/wiki/Coyote_(mythology)
+https://en.wikipedia.org/wiki/Cultural_depictions_of_ravens#Natives_of_the_North_American_Pacific_Northwest
+
+https://en.wikipedia.org/wiki/Damarchus
+https://en.wikipedia.org/wiki/Kitsune
+https://en.wikipedia.org/wiki/Nagual
+https://en.wikipedia.org/wiki/Therianthropy
+
+Hecate
+-------
+
+https://en.wikipedia.org/wiki/Hecate
+https://en.wikipedia.org/wiki/Trivia_(mythology)
+https://en.wikipedia.org/wiki/Heqet
+
+https://en.wikipedia.org/wiki/Khnum
+
+https://en.wikipedia.org/wiki/Death_or_departure_of_the_gods
+https://en.wikipedia.org/wiki/Dying-and-rising_god
+https://en.wikipedia.org/wiki/List_of_death_deities
+
+https://en.wikipedia.org/wiki/Mytheme
+https://en.wikipedia.org/wiki/Ouroboros
+https://en.wikipedia.org/wiki/Vegetation_deity
+
+https://en.wikipedia.org/wiki/Celtic_mythology
 
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

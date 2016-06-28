@@ -21,6 +21,24 @@ The storyboard has a `viewController` element with a `customClass` attribute
 that points at a swift file with a `class` of that name.
 The class is a sub-class of `UIViewController` and `UIPageViewControllerDelegate`.
 
+CocoaPods
+---------
+
+( https://cocoapods.org/ )
+
+```
+sudo gem install cocoapods
+```
+
+Sample Apps
+-----------
+
+```
+$ git clone https://github.com/sger/Tinylog-iOS
+$ cd Tinylog-iOS
+$ pod install
+```
+
 Storyboards
 ----------
 
