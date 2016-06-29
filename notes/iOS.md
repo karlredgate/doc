@@ -33,11 +33,23 @@ sudo gem install cocoapods
 Sample Apps
 -----------
 
+https://github.com/dkhamsing/open-source-ios-apps#sample
+https://github.com/dkhamsing/open-source-ios-apps
+https://github.com/Lax/iOS-Swift-Demos
+https://github.com/binarylevel/Tinylog-iOS
+
 ```
 $ git clone https://github.com/sger/Tinylog-iOS
 $ cd Tinylog-iOS
 $ pod install
 ```
+
+TinyLog needs `xctool`
+
+https://code.facebook.com/projects/359440610825631/xctool/
+https://www.infoq.com/news/2013/05/Facebook-buck-xctool-build
+https://github.com/facebook/xctool
+
 
 Storyboards
 ----------
