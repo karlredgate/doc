@@ -135,4 +135,16 @@ some GUI stuff if you use it). Look at the way Xcode uses SDKs and the
 systemroot and other useful compiler and linker options. (the linker is
 very different RTFM)
 
+Packages
+--------
+
+https://mathiasbynens.be/notes/shell-script-mac-apps
+http://apple.stackexchange.com/questions/120026/how-to-create-a-package-which-runs-a-shell-script
+
+http://lifehacker.com/how-to-make-your-own-bulk-app-installer-for-os-x-1586252163
+
+This one has apps you want
+
+https://github.com/bkuhlmann/osx
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->
