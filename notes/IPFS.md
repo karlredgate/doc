@@ -4,6 +4,8 @@
 
 Some notes on this FS from Chris Patti on one of the chats.
 
+Funny -rediscovered this because of current look at global cacheing
+
 http://ipfs.io/
 https://github.com/ipfs?page=1
 https://github.com/ipfs/go-ipfs
