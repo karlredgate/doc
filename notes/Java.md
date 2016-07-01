@@ -22,4 +22,26 @@ https://en.wikipedia.org/wiki/GNU_Compiler_for_Java
 https://en.wikipedia.org/wiki/Java_virtual_machine#C_to_bytecode_compilers
 https://github.com/ReadyTalk/avian
 
+WAR Files
+---------
+
+Can you run a war?
+
+http://stackoverflow.com/questions/1842972/how-do-i-run-a-class-in-a-war-from-the-command-line#3804844
+
+Looks like no - not directly.  I wonder how difficult it is to load
+JACL with the JARs packaged in the WAR?
+
+JACL
+----
+
+ * http://wiki.tcl.tk/1637
+ * http://tcljava.sourceforge.net/
+ * https://en.wikipedia.org/wiki/Tcl/Java
+
+I Wonder if I should just use Groovy?
+
+Groovy
+------
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

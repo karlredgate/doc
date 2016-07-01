@@ -46,4 +46,9 @@ Reagan
 
 https://en.m.wikipedia.org/wiki/A_Time_for_Choosing
 
+People
+------
+
+https://en.wikipedia.org/wiki/Demosthenes
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->
