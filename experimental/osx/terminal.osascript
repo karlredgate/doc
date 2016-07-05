@@ -11,7 +11,7 @@ tell application "Terminal"
     -- set bold text color to red
     set currentTab to do script "echo Starting" in window 1
     delay 1
-    do script "ssh redgates.com" in currentTab
+    do script "ssh example.com" in currentTab
     delay 1
 end tell
 

@@ -38,6 +38,13 @@ Forensics
 
 https://github.com/jipegit/OSXAuditor
 
+Security
+--------
+
+This page has good info - should clone it also
+
+https://github.com/drduh/OS-X-Security-and-Privacy-Guide
+
 El Capitan - rootless
 ---------------------
 
@@ -290,5 +297,47 @@ InstallationCheck or VolumeCheck.
 Apart from preinstall and postinstall scripts, a lot of functionality
 goes in the Distribution script. I will cover all the aspects of a
 typical Distribution file in the next post.
+
+AirDrop
+-------
+
+`awdl` is the airdrop wireless interface.  It appears to be
+dynamically created?
+
+tool for disabling this?
+
+https://github.com/mariociabarra/wifriedx
+
+same thing for iOS
+
+https://github.com/mariociabarra/wifried
+
+
+http://recode.net/2014/10/16/os-x-yosemite-arrives-what-does-it-mean-for-older-macs/
+https://medium.com/@mariociabarra/wifried-ios-8-wifi-performance-issues-3029a164ce94#.o4glg14bb
+
+/System/Library/PrivateFrameworks/DeviceToDeviceManager.framework/PlugIns/awdl_d2d.bundle/Contents/MacOS/awdl_d2d
+
+https://medium.com/@mariociabarra/wifriedx-in-depth-look-at-yosemite-wifi-and-awdl-airdrop-41a93eb22e48#.jxk39xc47
+
+http://stackoverflow.com/questions/19587701/what-is-awdl-apple-wireless-direct-link-and-how-does-it-work
+http://www.macobserver.com/tmo/article/os_x_lion_tweak_airdrop_to_work_on_ethernet/
+
+http://stackoverflow.com/questions/10693411/implementing-the-airdrop-protocol
+http://wifinetnews.com/archives/2011/02/apple_to_include_wi-fi_direct_in_next_os_release.html
+https://istumbler.net/
+http://osxdaily.com/2011/09/16/enable-airdrop-ethernet-and-unsupported-macs/
+
+
+https://www.quora.com/Is-it-possible-to-sniff-an-AirDrop-connection
+http://aircrack-ng.org/doku.php?id=airodump-ng
+http://www.aircrack-ng.org/doku.php?id=aireplay-ng
+http://www.aircrack-ng.org/
+https://en.wikipedia.org/wiki/Aircrack-ng
+https://www.corelan.be/index.php/2009/02/20/cheatsheet-cracking-wep-with-backtrack-4-and-aircrack-ng/
+http://www.slideshare.net/nazrinzaidi/airodump-ng-aircrackng
+http://www.pentesteracademy.com/course?id=18
+
+
 
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

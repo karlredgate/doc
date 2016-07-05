@@ -52,6 +52,8 @@ https://en.wikipedia.org/wiki/Naive_Bayes_classifier
 
 naive bayes email classifier source
 
+https://github.com/jbrukh/bayesian
+
 http://qwone.com/~jason/ifile/
 http://qwone.com/~jason/papers/sm-thesis.pdf
 
