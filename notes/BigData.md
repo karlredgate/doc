@@ -37,4 +37,21 @@ You want to watch the videos on these sites:
 http://decisions.com/
 http://rule.net/
 
+Hadoop
+------
+
+ * https://hadoop.apache.org/docs/r1.2.1/hdfs_design.html
+ * http://hadoop.apache.org/docs/r2.6.0/hadoop-project-dist/hadoop-hdfs/WebHDFS.html
+ * https://github.com/apache/hadoop/tree/trunk/hadoop-hdfs-project/hadoop-hdfs/src/main/proto
+
+### Protocol Buffers
+
+This doc points to info about protocol buffers and
+its use in Hadoop.  Also related ideas.  And there is
+a protobuf jar for use in java.
+
+https://wiki.apache.org/hadoop/ProtocolBuffers
+
+Related to ProtocolBuffers is Apache Thrift and Etch, and Avro
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

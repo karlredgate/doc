@@ -312,6 +312,32 @@ same thing for iOS
 
 https://github.com/mariociabarra/wifried
 
+You can enable or disable AirDrop with the following defaults commands.
+Here’s how to turn AirDrop off:
+
+```
+defaults write com.apple.NetworkBrowser DisableAirDrop -bool YES
+```
+
+Here’s how to turn AirDrop back on:
+
+```
+defaults write com.apple.NetworkBrowser DisableAirDrop -bool NO
+```
+
+You’ll need to logout and log back in to see the changes.
+
+You can set your computer to receive files via Airdrop using the
+following shell script:
+
+```
+#!/usr/bin/osascript
+tell application "Finder"
+    activate
+    tell application "System Events" to keystroke "R" using {command down, shift down}
+end tell
+```
+
 
 http://recode.net/2014/10/16/os-x-yosemite-arrives-what-does-it-mean-for-older-macs/
 https://medium.com/@mariociabarra/wifried-ios-8-wifi-performance-issues-3029a164ce94#.o4glg14bb
