@@ -15,6 +15,8 @@ Bootstrap components written in pure AngularJS by the AngularUI Team.
 Some Libraries
 --------------
 
+ * https://en.wikipedia.org/wiki/Category:JavaScript_libraries
+
 http://knexjs.org/
 http://jquense.github.io/react-widgets/docs/#/
 https://github.com/winstonjs/winston
@@ -30,6 +32,91 @@ https://github.com/facebook/relay
 https://en.wikipedia.org/wiki/React_(JavaScript_library)
 https://www.quora.com/Is-React-killing-Angular
 http://techblog.netflix.com/2015/01/netflix-likes-react.html
+
+Frameworks
+-----------
+
+ * https://en.wikipedia.org/wiki/Category:Rich_Internet_application_frameworks
+
+### Backbone.js
+
+*Backbone.js* is a JavaScript library with a RESTful JSON interface
+and is based on the model–view–presenter (MVP) application design
+paradigm. Backbone is known for being lightweight, as its only hard
+dependency is on one JavaScript library, *Underscore.js,* plus
+jQuery for use of the full library.  It is designed for developing
+single-page web applications, and for keeping various parts of
+web applications (e.g. multiple clients and the server) synchronized.
+Backbone was created by Jeremy Ashkenas, who is also known for
+CoffeeScript and Underscore.js.
+
+### Chaplin.js
+
+[Chaplin.js]( https://en.wikipedia.org/wiki/Chaplin.js )
+is an open-source client-side JavaScript web framework based on the
+model–view–controller (MVC) software architectural pattern. *Chaplin.js*
+uses the *Backbone.js* library and is intended for developing single-page
+applications.
+
+### Knockout.js
+
+[Knockout.js]( https://en.wikipedia.org/wiki/Knockout_(web_framework) )
+is a standalone JavaScript implementation of the Model-View-ViewModel
+pattern with templates. The underlying principles are therefore:
+
+ * a clear separation between domain data, view components and
+   data to be displayed
+ * the presence of a clearly defined layer of specialized code
+   to manage the relationships between the view components
+
+The latter leverages the native event management features of the
+JavaScript language.
+
+These features streamline and simplify the specification of complex
+relationships between view components, which in turn make the display
+more responsive and the user experience richer.
+
+Knockout was developed and is maintained as an open source project
+by Steve Sanderson, a Microsoft employee. As the author said, "it
+continues exactly as-is, and will evolve in whatever direction I
+and its user community wishes to take it", and stressed, "this isn’t
+a Microsoft product".
+
+### Underscore.js
+
+[Underscore.js]( https://en.wikipedia.org/wiki/Underscore.js )
+is a JavaScript library which provides utility functions for common
+programming tasks. It is comparable to features provided by
+*Prototype.js* and the Ruby language, but opts for a functional
+programming design instead of extending object prototypes. For
+example, *Underscore.js*'s `_.each` function delegates to the host
+environment's native `forEach` implementation when present, or a
+compatible version when absent. The documentation refers to
+*Underscore.js* as "the tie to go along with jQuery's tux, and
+*Backbone.js*'s suspenders."  *Underscore.js* was created by Jeremy
+Ashkenas, who is also known for *Backbone.js* and CoffeeScript.
+
+### Ember.js
+
+[Ember.js]( https://en.wikipedia.org/wiki/Ember.js )
+is an open-source JavaScript web framework, based on the
+Model–view–viewmodel (MVVM) pattern. It allows developers to create
+scalable single-page web applications by incorporating common idioms
+and best practices into the framework.
+
+Ember is used on many popular websites, including Discourse, Groupon,
+Vine, Live Nation, Nordstrom, and Chipotle. Although primarily
+considered a framework for the web, it is also possible to build
+desktop and mobile applications in Ember. The most notable example
+of an Ember desktop application is Apple Music, a feature of the
+iTunes desktop application.
+
+### reactive
+
+Simple and Flexible template and view binding engine with support
+for custom bindings and real-time updates on model changes.
+
+ * https://github.com/component/reactive
 
 Cross Platform UI
 -----------------

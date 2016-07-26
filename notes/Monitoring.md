@@ -2,7 +2,10 @@
 <!--
 -->
 
+http://www.hawkular.org/
+
 icinga alternatives
+
 http://www.netxms.org/
 http://mathias-kettner.com/check_mk.html
 http://git.mathias-kettner.de/git/?p=check_mk.git;a=summary

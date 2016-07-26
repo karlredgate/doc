@@ -2,6 +2,35 @@
 <!--
 -->
 
+https://en.wikipedia.org/wiki/Magical_thinking
+https://en.wikipedia.org/wiki/Doctrine_of_signatures
+https://en.wikipedia.org/wiki/Questionable_cause
+https://en.wikipedia.org/wiki/Wish_fulfillment
+https://en.wikipedia.org/wiki/Metonymy
+https://en.wikipedia.org/wiki/Illusion_of_control
+https://en.wikipedia.org/wiki/Pareidolia
+https://en.wikipedia.org/wiki/Schizotypy
+https://en.wikipedia.org/wiki/Wishful_thinking
+https://en.wikipedia.org/wiki/Cognitive_bias
+
+This one is also related to the Bayes problem where
+actualy probablity is overesitmated.
+
+https://en.wikipedia.org/wiki/Representativeness_heuristic
+https://en.wikipedia.org/wiki/Bayes%27_theorem
+https://en.wikipedia.org/wiki/Base_rate_fallacy
+https://en.wikipedia.org/wiki/Conjunction_fallacy
+https://en.wikipedia.org/wiki/Insensitivity_to_sample_size
+https://en.wikipedia.org/wiki/Gambler%27s_fallacy
+https://en.wikipedia.org/wiki/Regression_fallacy
+https://en.wikipedia.org/wiki/List_of_biases_in_judgment_and_decision-making
+
+https://en.wikipedia.org/wiki/List_of_topics_characterized_as_pseudoscience
+
+
+Desirable Difficulty
+--------------------
+
 http://bjorklab.psych.ucla.edu/research.html
 https://www.google.com/search?safe=off&site=&oq=desirable+diff&aqs=mobile-gws-lite.0.0l5&q=desirable+difficulties
 http://bjorklab.psych.ucla.edu/pubs/RBjork_inpress.pdf
@@ -54,5 +83,17 @@ http://waitbutwhy.com/2015/03/procrastination-matrix.html
 
 https://www.washingtonpost.com/news/wonk/wp/2016/04/27/why-you-cant-help-read-this-article-about-procrastination-instead-of-doing-your-job/?wpisrc=nl_az_most
 
+Non-Complementary Behavior
+--------------------------
+
+Heard an article on morning edition
+
+http://www.npr.org/sections/health-shots/2016/07/15/485843453/it-was-a-mellow-summer-dinner-party-then-the-gunman-appeared?ft=nprml&f=1001
+http://www.npr.org/sections/health-shots/2016/07/16/485721853/dont-do-what-i-do-how-getting-out-of-sync-can-help-relationships
+http://psycnet.apa.org/journals/psp/97/6/1005/
+http://psp.sagepub.com/content/41/1/35.long
+http://tcp.sagepub.com/content/21/3/457.full.pdf+html
+https://www.researchgate.net/publication/301937723_Momentary_Patterns_of_Covariation_Between_Specific_Affects_and_Interpersonal_Behavior_Linking_Relationship_Science_and_Personality_Assessment
+http://www.npr.org/sections/health-shots/2016/07/15/485900076/how-a-danish-town-helped-young-muslims-turn-away-from-isis
 
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

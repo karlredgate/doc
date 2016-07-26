@@ -22,5 +22,32 @@ https://en.wikipedia.org/wiki/Sabellianism
 https://en.wikipedia.org/wiki/Council_of_Chalcedon
 https://en.wikipedia.org/wiki/Christology
 
+Angels
+------
+
+https://en.wikipedia.org/wiki/Mammon
+https://en.wikipedia.org/wiki/Classification_of_demons#Binsfeld.27s_classification_of_demons
+https://en.wikipedia.org/wiki/Mammon_in_popular_culture
+https://en.wikipedia.org/wiki/Azazel#Azazel_in_Islam
+https://en.wikipedia.org/wiki/Azazel_in_popular_culture
+https://en.wikipedia.org/wiki/Azazel_(disambiguation)
+https://en.wikipedia.org/wiki/Nephilim
+https://en.wikipedia.org/wiki/Baphomet
+https://en.wikipedia.org/wiki/Asmodeus
+https://en.wikipedia.org/wiki/Cambion
+https://en.wikipedia.org/wiki/Malleus_Maleficarum
+https://en.wikipedia.org/wiki/Naamah_(demon)
+https://en.wikipedia.org/wiki/Zohar
+https://en.wikipedia.org/wiki/Archangel
+https://en.wikipedia.org/wiki/Samael
+https://en.wikipedia.org/wiki/Lilith
+https://en.wikipedia.org/wiki/Hapax_legomenon
+https://en.wikipedia.org/wiki/Corpus_linguistics
+https://en.wikipedia.org/wiki/Ouza
+https://en.wikipedia.org/wiki/Seraph
+https://en.wikipedia.org/wiki/Azrael
+https://en.wikipedia.org/wiki/Raphael_(archangel)
+https://en.wikipedia.org/wiki/Abaddon     (demon)
+
 
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

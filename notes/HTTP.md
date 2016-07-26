@@ -2,13 +2,19 @@
 <!--
 -->
 
+CORS
+-----
+
+https://github.com/eBay/cors-filter
+
+
+HTTP/2
+------
+
 https://en.wikipedia.org/wiki/HTTP/2
 https://tools.ietf.org/html/rfc7540
 https://github.com/http2/http2-spec/wiki/Implementations
 https://github.com/molnarg/node-http2
-
-HTTP/2
-------
 
 https://github.com/http2/http2-spec/wiki/Implementations
 https://h2o.examp1e.net/
@@ -40,5 +46,25 @@ https://github.com/civetweb/civetweb
 http://duktape.org/
 https://github.com/gfwilliams/tiny-js
 
+XMLHttpRequest (XHR)
+--------------
+
+( https://en.wikipedia.org/wiki/XMLHttpRequest )
+
+There were level 1 and level 2 interfaces - but they were merged.
+
+Read here ( https://xhr.spec.whatwg.org/ )
+and more info here ( http://caniuse.com/#feat=xhr2 )
+
+The caniuse site provides info on browser support for
+many features.  Nice site.
+
+Cache/Proxy
+------------
+
+### Varnish
+
+https://docs.fastly.com/guides/vcl/guide-to-vcl
+https://www.fastly.com/blog/benefits-using-varnish
 
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

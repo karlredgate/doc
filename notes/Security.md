@@ -33,4 +33,11 @@ https://www.youtube.com/watch?feature=player_embedded&v=xdbvU_U42kY
 
 http://airodump.net/android-framework-for-exploitation-afe-an-efficient-framework-for-anroid-exploitation/
 
+### Testing
+
+https://code.google.com/archive/p/browsersec/wikis/Part2.wiki#Same-origin_policy
+
+Browser security handbook test cases (some assembly required)
+https://code.google.com/archive/p/browsersec/downloads
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

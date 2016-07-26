@@ -29,8 +29,15 @@ Can you run a war?
 
 http://stackoverflow.com/questions/1842972/how-do-i-run-a-class-in-a-war-from-the-command-line#3804844
 
-Looks like no - not directly.  I wonder how difficult it is to load
-JACL with the JARs packaged in the WAR?
+Looks like no - not directly.  It requires a container server;
+like tomcat, wildfly, etc.  There is a tiny servlet container
+( http://tjws.sourceforge.net/ )
+
+### Tiny Java Web Server
+
+ * https://github.com/drogatkin/TJWS2
+
+I wonder how difficult it is to load JACL with the JARs packaged in the WAR?
 
 JACL
 ----
@@ -43,5 +50,14 @@ I Wonder if I should just use Groovy?
 
 Groovy
 ------
+
+JAX-RS
+-------
+
+JAX-RS: Java API for RESTful Web Services (JAX-RS) is a Java programming language API that provides support in creating web services according to the Representational State Transfer (REST) architectural pattern
+
+ * https://en.wikipedia.org/wiki/Java_API_for_RESTful_Web_Services
+ * https://github.com/resteasy/Resteasy
+ * https://developer.jboss.org/wiki/ResteasySkeletonKeyWebSSOOAuth
 
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

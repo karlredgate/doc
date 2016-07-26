@@ -80,4 +80,26 @@ https://en.wikipedia.org/wiki/Vegetation_deity
 
 https://en.wikipedia.org/wiki/Celtic_mythology
 
+Death
+-----
+
+https://en.wikipedia.org/wiki/Penny_Dreadful_(TV_series)
+https://en.wikipedia.org/wiki/Thanatology
+https://en.wikipedia.org/wiki/Thanatopsis
+https://en.wikipedia.org/wiki/Thanatosensitivity
+https://en.wikipedia.org/wiki/Taboo_on_the_dead#The_taboo_against_naming_the_dead
+https://en.wikipedia.org/wiki/Death_(personification)
+https://en.wikipedia.org/wiki/Psychopomp
+https://en.wikipedia.org/wiki/Marzanna
+https://en.wikipedia.org/wiki/Ankou
+https://en.wikipedia.org/wiki/Dullahan
+https://en.wikipedia.org/wiki/Classifications_of_fairies#Seelie_and_Unseelie_Courts
+https://en.wikipedia.org/wiki/D%C3%B6kk%C3%A1lfar_and_Lj%C3%B3s%C3%A1lfar
+https://en.wikipedia.org/wiki/C%C3%B9_S%C3%ACth
+https://en.wikipedia.org/wiki/Aos_S%C3%AD
+https://en.wikipedia.org/wiki/Banshee
+https://en.wikipedia.org/wiki/Keening
+https://en.wikipedia.org/wiki/Cailleach
+https://en.wikipedia.org/wiki/The_Morr%C3%ADgan
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

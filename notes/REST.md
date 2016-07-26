@@ -31,6 +31,17 @@ Tools
  * http://raml.org/
  * https://github.com/raml-org/raml-spec/blob/master/raml-0.8.md#introduction
 
+Application Description Languages
+---------------------------------
+
+Swagger has been renamed to OpenAPI
+
+ * https://en.wikipedia.org/wiki/Overview_of_RESTful_API_Description_Languages
+ * https://en.wikipedia.org/wiki/Web_Application_Description_Language
+ * https://en.wikipedia.org/wiki/RAML_(software)
+ * https://en.wikipedia.org/wiki/OpenAPI_Specification
+ * https://github.com/swagger-api/swagger-spec/wiki
+
 References
 ----------
 

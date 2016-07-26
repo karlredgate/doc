@@ -69,4 +69,24 @@ AndroRAT
 UnsafeControl
 PJApps
 Ooqqxx
+
+Accelerated Mobile Pages Project (AMP)
+-------------------------
+
+AMP HTML is a way to build web pages for static content that render
+with reliable, fast performance. It is our attempt at fixing what
+many perceive as painfully slow page load times – especially when
+reading content on the mobile web.
+
+AMP HTML is entirely built on existing web technologies. It achieves
+reliable performance by restricting some parts of HTML, CSS and
+JavaScript. These restrictions are enforced with a validator that
+ships with AMP HTML. To make up for those limitations AMP HTML
+defines a set of custom elements for rich content beyond basic HTML.
+
+ * https://www.ampproject.org/roadmap/
+ * https://www.ampproject.org/
+ * https://github.com/ampproject/amphtml
+ * https://ampbyexample.com/
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

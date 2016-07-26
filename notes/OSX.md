@@ -33,6 +33,59 @@ But it had some other features you wanted to look into.
 
 https://github.com/Piker-Alpha/RevoBoot
 
+Extended Attributes
+-------------------
+
+All files have attributes.  Most seen is the download
+attributes for files downloaded from a browser.
+
+Tools: `xattr` and `mdls`.
+
+xattr does not show the details of the download attribute.
+Use mdls instead.
+
+https://tinyapps.org/blog/mac/201011300700_os_x_edit_metadata.html
+http://stackoverflow.com/questions/11978851/change-kmditemwherefroms-extended-attribute-when-saving-file-from-chrome
+
+
+```
+$ mdls browser_tests-1.03.tar.gz
+_kMDItemOwnerUserID            = 510
+kMDItemContentCreationDate     = 2016-07-20 12:22:03 +0000
+kMDItemContentModificationDate = 2016-07-20 12:22:07 +0000
+kMDItemContentType             = "org.gnu.gnu-zip-archive"
+kMDItemContentTypeTree         = (
+    "org.gnu.gnu-zip-archive",
+    "public.data",
+    "public.item",
+    "public.archive"
+)
+kMDItemDateAdded               = 2016-07-20 12:22:05 +0000
+kMDItemDisplayName             = "browser_tests-1.03.tar.gz"
+kMDItemFSContentChangeDate     = 2016-07-20 12:22:07 +0000
+kMDItemFSCreationDate          = 2016-07-20 12:22:03 +0000
+kMDItemFSCreatorCode           = ""
+kMDItemFSFinderFlags           = 0
+kMDItemFSHasCustomIcon         = (null)
+kMDItemFSInvisible             = 0
+kMDItemFSIsExtensionHidden     = 0
+kMDItemFSIsStationery          = (null)
+kMDItemFSLabel                 = 0
+kMDItemFSName                  = "browser_tests-1.03.tar.gz"
+kMDItemFSNodeCount             = (null)
+kMDItemFSOwnerGroupID          = 600
+kMDItemFSOwnerUserID           = 510
+kMDItemFSSize                  = 809169
+kMDItemFSTypeCode              = ""
+kMDItemKind                    = "gzip compressed archive"
+kMDItemLogicalSize             = 809169
+kMDItemPhysicalSize            = 811008
+kMDItemWhereFroms              = (
+    "https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/browsersec/browser_tests-1.03.tar.gz",
+    "https://code.google.com/archive/p/browsersec/downloads"
+)
+```
+
 Forensics
 ---------
 
@@ -364,6 +417,9 @@ https://www.corelan.be/index.php/2009/02/20/cheatsheet-cracking-wep-with-backtra
 http://www.slideshare.net/nazrinzaidi/airodump-ng-aircrackng
 http://www.pentesteracademy.com/course?id=18
 
+Tools
+-----
 
+https://gpgtools.org/
 
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->
