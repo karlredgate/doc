@@ -44,6 +44,8 @@ Hadoop
  * http://hadoop.apache.org/docs/r2.6.0/hadoop-project-dist/hadoop-hdfs/WebHDFS.html
  * https://github.com/apache/hadoop/tree/trunk/hadoop-hdfs-project/hadoop-hdfs/src/main/proto
 
+https://ragrawal.wordpress.com/2012/04/28/installing-hadoop-on-mac-osx-lion/
+
 ### Protocol Buffers
 
 This doc points to info about protocol buffers and

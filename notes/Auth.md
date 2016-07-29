@@ -23,6 +23,10 @@ https://dashboard.janrain.com/signin?dest=#
 http://janrain.com/?s=pricing
 http://janrain.com/product/social-login/plans/
 
+OpenID Connect OIDC
+-------------------
+
+https://github.com/pingidentity/mod_auth_openidc
 
 Tokens
 ------

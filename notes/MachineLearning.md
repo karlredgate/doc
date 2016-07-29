@@ -67,6 +67,153 @@ http://software.ucv.ro/~cmihaescu/ro/teaching/AIR/docs/Lab4-NaiveBayes.pdf
 ### Sparse dictionary learning
 ### Genetic algorithms
 
+Text Mining/Analytics
+---------------------
+
+http://www.predictiveanalyticstoday.com/top-free-software-for-text-analysis-text-mining-text-analytics/
+
+### Pattern
+
+http://www.clips.ua.ac.be/pages/pattern
+
+Pattern is a web mining module for the Python programming language.
+
+It has tools for data mining (Google, Twitter and Wikipedia API, a web crawler, a HTML DOM parser), natural language processing (part-of-speech taggers, n-gram search, sentiment analysis, WordNet), machine learning (vector space model, clustering, SVM), network analysis and <canvas> visualization.
+
+### Mahout
+
+https://mahout.apache.org/
+
+The Apache Mahout project's goal is to build an environment for
+quickly creating scalable performant machine learning applications.
+
+Apache Mahout software provides three major features:
+
+ * A simple and extensible programming environment and framework
+   for building scalable algorithms
+ * A wide variety of premade algorithms for Scala + Apache Spark,
+   H2O, Apache Flink
+ * Samsara, a vector math experimentation environment with R-like
+   syntax which works at scale
+
+### LPU
+
+https://www.cs.uic.edu/~liub/LPU/LPU-download.html
+
+LPU (which stands for Learning from Positive and Unlabeled data) is a text learning or classification system that learns from a set of positive documents and a set of unlabeled documents (without labeled negative documents). This type of learning is different from classic text learning/classification, in which both positive and negative training documents are required.
+
+### OpenNLP
+
+https://opennlp.apache.org/
+
+The Apache OpenNLP library is a machine learning based toolkit for
+the processing of natural language text.
+
+It supports the most common NLP tasks, such as tokenization, sentence
+segmentation, part-of-speech tagging, named entity extraction,
+chunking, parsing, and coreference resolution. These tasks are
+usually required to build more advanced text processing services.
+OpenNLP also includes maximum entropy and perceptron based machine
+learning.
+
+### UIMA
+
+http://uima.apache.org/
+
+Unstructured Information Management applications are software systems
+that analyze large volumes of unstructured information in order to
+discover knowledge that is relevant to an end user. An example UIM
+application might ingest plain text and identify entities, such as
+persons, places, organizations; or relations, such as works-for or
+located-at.
+
+UIMA enables applications to be decomposed into components, for
+example "language identification" => "language specific segmentation"
+=> "sentence boundary detection" => "entity detection (person/place
+names etc.)". Each component implements interfaces defined by the
+framework and provides self-describing metadata via XML descriptor
+files. The framework manages these components and the data flow
+between them. Components are written in Java or C++; the data that
+flows between components is designed for efficient mapping between
+these languages.
+
+### tm - Text Mining Package for R
+
+http://tm.r-forge.r-project.org/
+
+The tm package offers functionality for managing text documents,
+abstracts the process of document manipulation and eases the usage
+of heterogeneous text formats in R. The package has integrated
+database back-end support to minimize memory demands. An advanced
+meta data management is implemented for collections of text documents
+to alleviate the usage of large and with meta data enriched document
+sets.
+
+The package provides native support for reading in several classic
+file formats (e.g. plain text, PDFs, or XML files). There is also
+a plug-in mechanism to handle additional file formats.
+
+### KH Coder
+
+http://khc.sourceforge.net/en/
+
+KH Coder is a free software for quantitative content analysis or
+text mining. It is also utilized for computational linguistics. You
+can analyze Japanese, English, French, German, Italian, Portuguese
+and Spanish text with KH Coder. Also, Chinese (simplified, UTF-8),
+Korean and Russian (UTF-8) language data can be analyzed with the
+latest Alpha (Ver. 3).
+
+### Carrot2
+
+http://project.carrot2.org/index.html
+
+Carrot2 is an Open Source Search Results Clustering Engine. It can automatically organize small collections of documents (search results but not only) into thematic categories.
+
+### TAMS Analyzer for Macintosh OS X
+
+http://tamsys.sourceforge.net/
+
+TAMS stands for Text Analysis Markup System. It is a convention for
+identifying themes in texts (web pages, interviews, field notes).
+It was designed for use in ethnographic and discourse research.
+
+TAMS Analyzer is a program that works with TAMS to let you assign
+ethnographic codes to passages of a text just by selecting the
+relevant text and double clicking the name of the code on a list.
+It then allows you to extract, analyze, and save coded information.
+TAMS Analyzer is open source; it is released under GPL v2. The
+Macintosh version of the program also includes full support for
+transcription (back space, insert time code, jump to time code,
+etc.) when working with data on sound files.
+
+### GATE
+
+General Architecture for Text Engineering
+
+https://gate.ac.uk/
+
+GATE is...
+
+ * open source software capable of solving almost any
+   text processing problem
+ * a mature and extensive community of developers, users,
+   educators, students and scientists
+ * a defined and repeatable process for creating robust and
+   maintainable text processing workflows
+ * in active use for all sorts of language processing tasks
+   and applications, including: voice of the customer; cancer
+   research; drug research; decision support; recruitment; web
+   mining; information extraction; semantic annotation
+ * the result of a €multi-million R&D programme running since
+   1995, funded by commercial users, the EC, BBSRC, EPSRC, AHRC,
+   JISC, etc.
+ * used by corporations, SMEs, research labs and Universities
+   worldwide
+ * the Eclipse of Natural Language Engineering, the Lucene
+   of Information Extraction, the ISO 9001 of Text Mining
+ * a world-class team of language processing developers
+
 
 Neural Networks
 ---------------
@@ -174,6 +321,12 @@ Thresher.io
 http://gking.harvard.edu/software
 http://gking.harvard.edu/category/research-interests/applications/automated-text-analysis
 
+RE-WORK.co
+----------
+
+https://re-work.co/blog/deep-learning-roland-memisevic-unlabelled-datasets-rethinking-unsupervised-learning
+https://re-work.co/blog/deep-learning-experts-discuss-the-next-5-years
+https://re-work.co/blog/machine-intelligence-summit-berlin-2016-recap-summary-videos
 
 Hardware
 ---------

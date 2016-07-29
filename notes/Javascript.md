@@ -33,6 +33,13 @@ https://en.wikipedia.org/wiki/React_(JavaScript_library)
 https://www.quora.com/Is-React-killing-Angular
 http://techblog.netflix.com/2015/01/netflix-likes-react.html
 
+### pdf.js
+
+Rendering PDFs in JavaScript
+
+https://andreasgal.com/2011/06/15/pdf-js/
+https://github.com/mozilla/pdf.js
+
 Frameworks
 -----------
 
@@ -194,5 +201,10 @@ Code Coverage
 ### Istanbul
 
 http://gotwarlost.github.io/istanbul/
+
+PDF Scripting with JavaScript
+--------------
+
+https://acrobatusers.com/tutorials/javascript_console
 
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->
