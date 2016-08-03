@@ -5,6 +5,9 @@
 DO THIS PROJECT
 ---------------
 
+This is an example chatbot using the Torch toolkit.
+The youtube author has several interesting videos.
+
 https://www.youtube.com/watch?v=5_SAroSvC0E
 https://github.com/llSourcell/Chatbot-AI
 https://github.com/llSourcell
