@@ -89,4 +89,30 @@ defines a set of custom elements for rich content beyond basic HTML.
  * https://github.com/ampproject/amphtml
  * https://ampbyexample.com/
 
+Project Ara
+-----------
+
+Project Ara is the codename for an unnamed modular smartphone that
+is essentially a computer board with compatible modules. The platform
+will include a endoskeletal frame with modules of the owner's choice,
+such as a display, camera or an extra battery.
+
+The phone itself can be swapped from malfunctioning modules or
+upgrades as innovations emerge, providing longer handset cycle
+lifetime, and potentially reducing electronic waste. Project Ara
+smartphone is scheduled to release a developer version in the United
+States in the fourth quarter of 2016 with a target bill of materials
+cost of $50 for a basic grey phone. A consumer version is not
+expected until at least 2017.
+
+The project was originally headed by the Advanced Technology and
+Projects team within Motorola Mobility while it was a Google
+subsidiary. Although Google has since divested Motorola to Lenovo,
+it retained the ATAP group, now a division under Android. The project
+separated from ATAP and is now an independent division.
+
+ * https://en.wikipedia.org/wiki/Project_Ara
+ * https://atap.google.com/ara/
+ * http://www.projectara.org/
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

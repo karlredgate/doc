@@ -2,12 +2,48 @@
 <!--
 -->
 
+DO THIS PROJECT
+---------------
+
+https://www.youtube.com/watch?v=5_SAroSvC0E
+https://github.com/llSourcell/Chatbot-AI
+https://github.com/llSourcell
+http://torch.ch/docs/getting-started.html
+http://www.mpi-sws.org/~cristian/Cornell_Movie-Dialogs_Corpus.html
+https://github.com/macournoyer
+
+https://www.youtube.com/watch?v=c6R3EjMQ7H0
+https://www.youtube.com/watch?v=2FOXR16mLow&list=PL2-dafEMk2A4ut2pyv0fSIXqOzXtBGkLj
+https://www.youtube.com/watch?v=2FOXR16mLow
+https://www.youtube.com/watch?v=x24VEUEph0Q
+https://www.youtube.com/watch?v=S_f2qV2_U00
+https://www.youtube.com/channel/UCWN3xxRkmTPmbKwht9FuE5A
+
+https://www.youtube.com/watch?v=cKxRvEZd3Mw&list=PLj68PAxAKGozQk93gBPjToV_DakqKq7PC
+
+
 https://en.wikipedia.org/wiki/Machine_learning
 
 [Algorithms]( https://en.wikipedia.org/wiki/List_of_machine_learning_algorithms )
 
 Types
 -----
+
+### Online machine learning
+
+Also described as machine learning from streaming data.
+
+ * https://en.wikipedia.org/wiki/Online_machine_learning
+ * [bigml.com blog article]( https://blog.bigml.com/2013/03/12/machine-learning-from-streaming-data-two-problems-two-solutions-two-concerns-and-two-lessons/ )
+
+Implemented in the open source numenta.org - Grok project.
+"*Open Source Platform and Community for Machine Intelligence
+based on HTM Theory.*"
+This comes from the Jeff Hawkins book "On Intelligence".
+
+ * http://numenta.org/
+
+http://dl.acm.org/citation.cfm?id=2514695&CFID=821395980&CFTOKEN=20807802
 
 ### Decision tree learning
 ### Association rule learning
@@ -294,6 +330,14 @@ https://en.wikipedia.org/wiki/Yap_(company)
 https://en.wikipedia.org/wiki/Evi_(software)
 https://www.evi.com/technology/
 https://en.wikipedia.org/wiki/IVONA
+
+http://smartwatches.org/learn/amazon-echo-alternatives/
+http://www.forbes.com/sites/janakirammsv/2015/08/20/meet-mycroft-the-open-source-alternative-to-amazon-echo/#69adaec6f7db
+https://mycroft.ai/
+https://gigaom.com/2014/11/07/amazons-echo-device-already-exists-its-called-ubi/
+https://www.ifixit.com/Teardown/Amazon+Echo+Teardown/33953
+http://massachusetts.repair.org/#tellstory
+[The truth behind echo]( https://www.youtube.com/watch?v=EaynIXcWvyM )
 
 Product Recommendations
 -----------------------

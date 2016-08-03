@@ -67,4 +67,25 @@ Cache/Proxy
 https://docs.fastly.com/guides/vcl/guide-to-vcl
 https://www.fastly.com/blog/benefits-using-varnish
 
+Security
+--------
+
+https://www.ietf.org/wg/concluded/websec.html
+
+### Confused Deputy
+
+### HTTP Strict Transport Security
+
+https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security
+
+### HTTP Public Key Pinning
+
+https://en.wikipedia.org/wiki/HTTP_Public_Key_Pinning
+http://news.netcraft.com/archives/2016/03/30/http-public-key-pinning-youre-doing-it-wrong.html
+https://isc.sans.edu/diary/HTTP+Public+Key+Pinning%3A+How+to+do+it+right/20943
+https://www.owasp.org/index.php/Certificate_and_Public_Key_Pinning
+https://timtaubert.de/blog/2014/10/http-public-key-pinning-explained/
+https://www.tollmanz.com/public-key-pinning-for-http/
+https://developer.mozilla.org/en-US/docs/Web/Security/Public_Key_Pinning
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->
