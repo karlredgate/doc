@@ -22,4 +22,6 @@ https://en.wikipedia.org/wiki/Skull_and_Bones
 https://en.wikipedia.org/wiki/The_Whiffenpoofs
 https://en.wikipedia.org/wiki/Demosthenes
 
+https://en.wikipedia.org/wiki/Maenad
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

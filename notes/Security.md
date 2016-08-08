@@ -40,4 +40,37 @@ https://code.google.com/archive/p/browsersec/wikis/Part2.wiki#Same-origin_policy
 Browser security handbook test cases (some assembly required)
 https://code.google.com/archive/p/browsersec/downloads
 
+Norse Corp
+----------
+
+Live attack maps
+
+http://map.norsecorp.com/#/
+http://secureauth.norsecorp.com/
+https://www.secureauth.com/
+http://krebsonsecurity.com/2016/01/sources-security-firm-norse-corp-imploding/
+http://www.csoonline.com/article/3028104/techology-business/norse-corp-disappears-shortly-ceo-is-asked-to-step-down.html
+http://www.businesswire.com/news/home/20160209006615/en/Norse-Corp.-Names-Industry-Visionary-Howard-A.
+http://www.businesswire.com/news/home/20160217005453/en/Threat-Intelligence-Innovator-Norse-Corp.-Releases-Findings
+http://infospectives.co.uk/2016/01/30/norse-corps-implosion-threat-intelligence-reality/
+
+This one has several live trackers:
+
+http://krebsonsecurity.com/2015/01/whos-attacking-whom-realtime-attack-trackers/
+
+http://www.honeynet.org/
+http://www.digitalattackmap.com/#anim=1&color=0&country=ALL&list=0&time=16434&view=map
+
+### Sony Network
+
+The group, which calls itself LizardSquad, started attacking the
+gaming networks on or around Christmas Day. Various statements
+posted by self-described LizardSquad members on their open online
+chat forum — chat.lizardpatrol.com — suggest that these misguided
+individuals launched the attack for no other reason than because
+they thought it would be amusing to annoy and disappoint people who
+received new Xbox and Playstation consoles as holiday gifts.
+
+http://krebsonsecurity.com/2014/12/cowards-attack-sony-playstation-microsoft-xbox-networks/
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->
