@@ -1,3 +1,20 @@
+
+WebHooks
+--------
+
+https://developer.github.com/v3/repos/hooks/
+https://developer.github.com/webhooks/
+
+can use PubSubHubbub protocol.
+There is a server hosted by google??
+
+https://github.com/pubsubhubbub/PubSubHubbub
+http://pubsubhubbub.appspot.com/
+http://pubsubhubbub.github.io/PubSubHubbub/pubsubhubbub-core-0.4.html
+
+API
+----
+
 Github API
 [doc]( https://developer.github.com/v3/enterprise/ )
 
