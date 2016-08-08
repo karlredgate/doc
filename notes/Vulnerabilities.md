@@ -26,7 +26,7 @@ Github Protects
 Posting a page on github that demonstrates vulnerabilities, Chrome
 produces an error about loading scripts from unsafe sources.
 
-![0](screenshots/chrome-script-description.png)
+![0](screenshots/chrome-script-descr.png)
 
 > Notice the warning icon
 
