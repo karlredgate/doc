@@ -7,6 +7,15 @@ CORS
 
 https://github.com/eBay/cors-filter
 
+XMLHttpRequest
+--------------
+
+https://xhr.spec.whatwg.org/
+https://www.w3.org/TR/XMLHttpRequest/
+
+### Tests
+
+https://w3c-test.org/XMLHttpRequest/
 
 HTTP/2
 ------
@@ -33,6 +42,13 @@ https://github.com/lucb1e/cookielesscookies
 http://www.arctic.org/~dean/tracking-without-cookies.html
 http://www.arctic.org/~dean/cookies.html
 https://en.wikipedia.org/wiki/HTTP_ETag
+
+### Supercookies
+
+or permacookies etc - Verizon uses X-UIDH headers
+
+check here <http://lessonslearned.org/sniff>
+
 
 Tiny WebServers
 ---------------

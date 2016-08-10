@@ -2,6 +2,8 @@
 <!--
 -->
 
+[Samy](http://samy.pl/) has examples of several
+
 https://httpoxy.org/
 https://news.ycombinator.com/item?id=12115051
 https://www.apache.org/security/asf-httpoxy-response.txt
@@ -65,5 +67,7 @@ GET /vulnerabilities/iframe.html HTTP/1.1
 < Vary: Accept-Encoding
 < X-Fastly-Request-ID: 733f30894078adf68b1e56f6c7c200b2abd86258
 ```
+
+[samy]: http://samy.pl/
 
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

@@ -26,6 +26,9 @@ https://github.com/agnoster/duplicator
 https://github.com/kairosdb/kairosdb
 http://bookshelfjs.org/
 
+http://velocityjs.org/
+
+https://www.mathjax.org/
 
 http://www.itworld.com/article/2984384/open-source-tools/facebook-takes-relay-javascript-framework-open-source.html
 https://github.com/facebook/relay
@@ -43,7 +46,14 @@ https://github.com/mozilla/pdf.js
 Frameworks
 -----------
 
+ * https://en.wikipedia.org/wiki/Ajax_%28programming%29
  * https://en.wikipedia.org/wiki/Category:Rich_Internet_application_frameworks
+
+### jQuery
+
+https://jquery.com/
+https://en.wikipedia.org/wiki/JQuery
+https://github.com/jquery/jquery
 
 ### Backbone.js
 
@@ -201,6 +211,14 @@ Code Coverage
 ### Istanbul
 
 http://gotwarlost.github.io/istanbul/
+
+ASM.js
+------
+
+http://asmjs.org/spec/latest/
+https://en.wikipedia.org/wiki/Asm.js
+http://ejohn.org/blog/asmjs-javascript-compile-target/
+https://www.sitepoint.com/understanding-asm-js/
 
 PDF Scripting with JavaScript
 --------------
