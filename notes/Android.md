@@ -38,4 +38,11 @@ https://play.google.com/store/apps/details?id=net.dinglisch.android.zoom
 https://play.google.com/store/apps/details?id=com.n0n3m4.droidc
 
 
+Links
+-----
+
+http://stackoverflow.com/questions/11494626/android-task-manager-source
+https://github.com/todoroo/astrid
+https://code.google.com/archive/p/freetaskmanager/
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

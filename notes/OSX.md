@@ -444,4 +444,15 @@ Tools
 
 https://gpgtools.org/
 
+
+Apps
+----
+
+http://mac.appstorm.net/roundups/video-roundups/50-essential-mac-apps-for-os-x-beginners/
+http://fluidapp.com/
+http://www.coconut-flavour.com/coconutbattery/
+
+Perian is dead - look at this instead.
+https://github.com/jbtule/niceplayer
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

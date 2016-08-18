@@ -5,6 +5,12 @@
 https://iojs.org/en/es6.html
 http://www.ecma-international.org/publications/standards/Ecma-262.htm
 
+WebWorker
+----------
+
+http://www.html5rocks.com/en/tutorials/workers/basics/
+https://html.spec.whatwg.org/multipage/workers.html
+
 Bootstrap and Angular
 ---------------------
 
@@ -36,12 +42,28 @@ https://en.wikipedia.org/wiki/React_(JavaScript_library)
 https://www.quora.com/Is-React-killing-Angular
 http://techblog.netflix.com/2015/01/netflix-likes-react.html
 
+### viewerjs
+
+OSS PDF and ODF viewer inline.  Uses PDF.js and WEBODF to
+perform the rendering.
+
+http://viewerjs.org/examples/
+
 ### pdf.js
 
 Rendering PDFs in JavaScript
 
 https://andreasgal.com/2011/06/15/pdf-js/
 https://github.com/mozilla/pdf.js
+
+and also jsPDF
+
+https://parall.ax/products/jspdf
+
+### pdfmake also render PDFs
+
+http://pdfmake.org/#/gettingstarted
+
 
 Frameworks
 -----------
@@ -224,5 +246,7 @@ PDF Scripting with JavaScript
 --------------
 
 https://acrobatusers.com/tutorials/javascript_console
+
+
 
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

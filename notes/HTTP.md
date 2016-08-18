@@ -43,6 +43,9 @@ http://www.arctic.org/~dean/tracking-without-cookies.html
 http://www.arctic.org/~dean/cookies.html
 https://en.wikipedia.org/wiki/HTTP_ETag
 
+http://www.wired.com/2011/07/undeletable-cookie/
+https://ashkansoltani.files.wordpress.com/2012/12/hulu_kissmetrics_complaint.pdf
+
 ### Supercookies
 
 or permacookies etc - Verizon uses X-UIDH headers
@@ -87,6 +90,11 @@ Security
 --------
 
 https://www.ietf.org/wg/concluded/websec.html
+
+### Content Security Policy
+
+https://oxdef.info/csp-tester/
+https://github.com/yandex/csp-tester
 
 ### Confused Deputy
 

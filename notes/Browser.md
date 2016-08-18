@@ -44,15 +44,44 @@ Multiprocess Firefox
 
 Called Electrolysis
 
-https://wiki.mozilla.org/Electrolysis
+Electrolysis functionality hosts, renders, or executes web related
+content in background child processes which communicate with the
+"parent" Firefox browser via various ipdl protocols. The two major
+advantages of this model are security and performance. Security
+improvements are accomplished through security sandboxing, performance
+improvements are born out of the fact that multiple processes better
+leverage available client computing power.
+
+ * <https://wiki.mozilla.org/Electrolysis>
 
 Uses IPC Protocol Definition Language (IPDL)
 
-https://developer.mozilla.org/en-US/docs/Mozilla/IPDL
+ * <https://developer.mozilla.org/en-US/docs/Mozilla/IPDL>
 
 Origin Header
 --------------
 
 http://stackoverflow.com/questions/14228839/all-of-my-browsers-are-not-sending-the-origin-header
+
+Fingerprinting
+--------------
+
+https://en.wikipedia.org/wiki/Canvas_fingerprinting
+https://en.wikipedia.org/wiki/Browser_fingerprinting
+
+Super Cookies
+-------------
+
+Also check more notes in the HTTP page.
+
+https://en.wikipedia.org/wiki/Evercookie
+https://github.com/samyk/evercookie
+
+https://en.wikipedia.org/wiki/Web_storage
+
+History Knocking
+----------------
+
+https://samy.pl/csshack/
 
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

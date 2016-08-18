@@ -131,5 +131,18 @@ https://scratch.mit.edu/discuss/topic/60012/
 https://wiki.scratch.mit.edu/wiki/Scratch_on_Tablets
 https://itunes.apple.com/us/app/puffin-web-browser-free/id472937654?mt=8&ign-mpt=uo%3D4
 
+Apps
+----
+
+https://github.com/nothingmagical/cheddar-ios
+
+Links
+------
+
+http://iphonedevwiki.net/index.php/Lockdownd
+https://www.theiphonewiki.com/wiki//usr/libexec/lockdownd
+http://newosxbook.com/index.php?page=downloads
+https://github.com/rpetrich/deviceconsole
+https://www.theiphonewiki.com/wiki/System_Log
 
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->
