@@ -57,5 +57,16 @@ https://en.wikipedia.org/wiki/Sex_steroid
 https://en.wikipedia.org/wiki/Lanugo
 https://en.wikipedia.org/wiki/Exudate
 
+Radiology
+---------
+
+http://www.auntminnie.com/index.aspx?Sec=abt
+
+DICOM format and reader
+
+http://paxeramed.com/ipaxera
+https://www.quora.com/What-is-the-best-Dicom-viewer-in-MacOS
+https://www.horosproject.org/community/contribute/
+https://github.com/horosproject/horos
 
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

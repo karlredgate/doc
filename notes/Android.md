@@ -45,4 +45,21 @@ http://stackoverflow.com/questions/11494626/android-task-manager-source
 https://github.com/todoroo/astrid
 https://code.google.com/archive/p/freetaskmanager/
 
+Debugger
+--------
+
+Install the SDK - studio
+
+http://stackoverflow.com/questions/20180462/how-to-get-android-command-line-tools-to-work#20180729
+http://www.androidcentral.com/android-201-10-basic-terminal-commands-you-should-know
+http://esausilva.com/2010/10/02/how-to-set-up-adb-android-debug-bridge-in-mac-osx/
+https://developer.android.com/studio/install.html
+https://developer.android.com/studio/command-line/adb.html
+
+Remove Lock
+------------
+
+http://androidcentral.us/2013/08/how-to-remove-forgotten-passcode-on-any-android-device/
+
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

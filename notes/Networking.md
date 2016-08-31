@@ -174,5 +174,25 @@ and pass it as file descriptor 3.
 qemu -net nic,model=virtio,addr=1a:46:0b:ca:bc:7b -net tap,fd=3 3<>/dev/tap11
 ```
 
+A Recursive Network Architecture
+--------------------------------
+
+??
+
+<http://www.isi.edu/rna/>
+
+Is this the same?
+<https://en.wikipedia.org/wiki/Recursive_InterNetwork_Architecture_(RINA)>
+
+BEEP
+-----
+
+What is the similarity between BEEP and HTTP/2
+
+QUIC
+----
+
+Same as ?
+https://en.wikipedia.org/wiki/QUIC
 
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

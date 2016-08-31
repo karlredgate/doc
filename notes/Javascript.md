@@ -42,6 +42,33 @@ https://en.wikipedia.org/wiki/React_(JavaScript_library)
 https://www.quora.com/Is-React-killing-Angular
 http://techblog.netflix.com/2015/01/netflix-likes-react.html
 
+### Stanford Javascript Crypto Library
+
+ * <http://bitwiseshiftleft.github.io/sjcl/>
+ * https://github.com/bitwiseshiftleft/sjcl/tree/version-0.8
+ * git@github.com:bitwiseshiftleft/sjcl.git
+
+### three.js
+
+3D library
+
+https://github.com/mrdoob/three.js/
+http://threejs.org/
+
+### sql.js - SQLite compiled with emscrpten
+
+https://github.com/kripken/sql.js
+
+### prism.js
+
+Prism is a lightweight, extensible syntax highlighter, built with modern web standards in mind.
+
+http://prismjs.com/
+
+Objective-C Wrapper for Prism (the JavaScript syntax highlighter) using JavaScriptCore
+
+https://github.com/uranusjr/Prism-objc
+
 ### viewerjs
 
 OSS PDF and ODF viewer inline.  Uses PDF.js and WEBODF to
@@ -247,6 +274,62 @@ PDF Scripting with JavaScript
 
 https://acrobatusers.com/tutorials/javascript_console
 
+
+React Desktop
+-------------
+
+react-desktop is a JavaScript library built on top of Facebook's React library, which aims to bring a native desktop experience to the web, featuring many macOS Sierra and Windows 10 components. react-desktop works perfectly with NW.js and Electron.js, but can be used in any JavaScript powered project!
+
+http://reactdesktop.js.org/
+https://github.com/gabrielbull/react-desktop
+https://github.com/chentsulin/electron-react-boilerplate
+https://www.npmjs.com/package/electron-react-boilerplate
+
+Transpiler
+----------
+
+Babel
+
+http://babeljs.io/
+
+
+### JSX
+
+https://facebook.github.io/react/docs/jsx-in-depth.html
+https://facebook.github.io/jsx/
+https://github.com/RReverser/acorn-jsx
+
+Github Domains js.org
+---------------------
+
+https://github.com/js-org/dns.js.org/blob/master/cnames_restricted.js#L168
+https://github.com/js-org/dns.js.org/tree/master
+https://dns.js.org/
+https://js.org/
+
+WebAssembly (wasm)
+-------------------
+
+https://en.wikipedia.org/wiki/WebAssembly
+https://github.com/WebAssembly/design
+https://github.com/WebAssembly/spec/blob/md-proto/md-proto/WebAssembly.md
+
+https://wasm.news/
+
+http://arstechnica.com/information-technology/2015/06/the-web-is-getting-its-bytecode-webassembly/
+https://medium.com/javascript-scene/what-is-webassembly-the-dawn-of-a-new-era-61256ec5a8f6#.90sq05fn6
+https://www.youtube.com/watch?v=aZqhRICne_M
+https://www.w3.org/community/webassembly/
+https://medium.com/javascript-scene/why-we-need-webassembly-an-interview-with-brendan-eich-7fb2a60b0723#.z5nm1kii5
+https://hacks.mozilla.org/2016/03/a-webassembly-milestone/
+https://github.com/WebAssembly/design/blob/master/TextFormat.md#official-text-format
+http://www.hanselman.com/blog/JavaScriptIsAssemblyLanguageForTheWebSematicMarkupIsDeadCleanVsMachinecodedHTML.aspx
+
+more videos
+https://www.youtube.com/watch?v=UzyoT4DziQ4
+https://www.youtube.com/watch?v=PlmsweSNhTw
+https://www.youtube.com/watch?v=9UYoKyuFXrM
+https://www.youtube.com/watch?v=Rj49rmc01Hs
 
 
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

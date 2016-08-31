@@ -5,6 +5,21 @@
 Definition
 ----------
 
+Optimistic Concurrency Control
+------------------------------
+
+https://en.wikipedia.org/wiki/Optimistic_concurrency_control
+
+HTTP does provide a form of built-in OCC: The GET method returns
+an ETag for a resource and subsequent PUTs use the ETag value in
+the If-Match headers; while the first PUT will succeed, the second
+will not, as the value in If-Match is based on the first version
+of the resource.
+
+https://www.w3.org/1999/04/Editing/
+
+TOCTTOU
+https://en.wikipedia.org/wiki/Time_of_check_to_time_of_use
 
 RDF and WebDAV
 --------------

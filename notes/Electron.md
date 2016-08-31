@@ -43,6 +43,8 @@ of the github repository.
 Example Apps
 -------------
 
+ * <https://github.com/hokein/electron-sample-apps>
+
 [Laverna]( https://laverna.cc/ ) is a JavaScript note taking
 application with Markdown editor and encryption support.  Consider
 it like open source alternative to Evernote.
@@ -67,5 +69,16 @@ library.  [Source]( https://github.com/maxogden/monu ) is on github.
 
 https://github.com/atom-archive/electron-starter
 https://github.com/rwl/electron_app
+
+sudo
+----
+
+https://github.com/automation-stack/electron-sudo/tree/master/src/bin/applet.app
+https://github.com/automation-stack/electron-sudo
+https://www.npmjs.com/package/electron-sudo
+
+A different one
+
+https://github.com/jorangreef/sudo-prompt
 
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

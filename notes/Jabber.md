@@ -23,4 +23,14 @@ https://www.hipchat.com/
 adium hipchat
 https://confluence.atlassian.com/display/HIPCHATKB/Connecting+to+HipChat+using+Adium
 
+https://github.com/daltoniam/DCXMPP
+
+XMPP over BOSH library for iOS or OSX in objective-c. This library
+implements XEP-0206: XMPP Over BOSH. This is similar to how strophe.js
+library works.
+
+https://github.com/strophe/strophejs
+
+https://github.com/daltoniam/XMLKit
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

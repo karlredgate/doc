@@ -56,4 +56,69 @@ https://wiki.apache.org/hadoop/ProtocolBuffers
 
 Related to ProtocolBuffers is Apache Thrift and Etch, and Avro
 
+fluentd and Treasure Data
+----------------
+
+Written in Ruby - it is a data collection solution that deals with
+semi-structures or unstructured data.
+Intended for event logs, application logs and clickstreams.
+Related to Apache Kafka.
+
+https://en.wikipedia.org/wiki/Fluentd
+http://github.com/fluent
+https://www.treasuredata.com/beyond_fluentd?utm_source=googlead&utm_medium=cpc&utm_campaign=success1&gclid=CJ-D-qLN0s4CFcNahgodLOEInQ
+
+
+Apache Kafka
+------------
+
+Apache Kafka is an open-source message broker project developed by
+the Apache Software Foundation written in Scala. The project aims
+to provide a unified, high-throughput, low-latency platform for
+handling real-time data feeds. It is, in its essence, a "massively
+scalable pub/sub message queue architected as a distributed transaction
+log," making it highly valuable for enterprise infrastructures to
+process streaming data.
+
+The design is heavily influenced by transaction logs
+
+https://en.wikipedia.org/wiki/Apache_Kafka
+https://en.wikipedia.org/wiki/Transaction_log
+
+> Look at the related projects on the wikipedia page
+
+Apache Kafka was originally developed by LinkedIn, and was subsequently
+open sourced in early 2011. In November 2014, several engineers
+who built Kafka at LinkedIn created a new company named Confluent
+with a focus on Kafka.
+
+http://kafka.apache.org/
+
+Apache Parquet
+--------------
+
+Parquet is binary columnar data format encoded in Apache Thrift.
+
+https://github.com/Parquet/parquet-format
+http://parquet.apache.org/
+https://drill.apache.org/docs/querying-parquet-files/
+http://the-paper-trail.org/blog/columnar-storage/
+
+Apache Drill
+------------
+
+Open source version of the Google Dremel system
+("Schema-free SQL Query Engine for Hadoop, NoSQL and Cloud Storage").
+Uses a JSON document model.
+
+https://en.wikipedia.org/wiki/Apache_Drill
+https://drill.apache.org/
+
+Google BigQuery
+---------------
+
+https://en.wikipedia.org/wiki/BigQuery
+https://cloud.google.com/bigquery/what-is-bigquery
+https://cloud.google.com/bigquery/sign-up
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

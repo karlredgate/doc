@@ -70,4 +70,10 @@ GET /vulnerabilities/iframe.html HTTP/1.1
 
 [samy]: http://samy.pl/
 
+XML
+----
+
+ * [XML Security: A Billion Laughs](https://cytinus.wordpress.com/2011/07/26/37/)
+ *
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

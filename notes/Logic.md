@@ -29,5 +29,15 @@ https://en.wikipedia.org/wiki/Diamond_principle
 https://en.wikipedia.org/wiki/Clubsuit
 https://en.wikipedia.org/wiki/Square_principle
 
+Fallacy
+-------
+
+https://en.wikipedia.org/wiki/False_premise
+https://en.wikipedia.org/wiki/Falsifiability
+https://en.wikipedia.org/wiki/Inference_objection
+https://en.wikipedia.org/wiki/Begging_the_question
+https://en.wikipedia.org/wiki/Circular_reasoning
+https://en.wikipedia.org/wiki/Question_dodging
+
 
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

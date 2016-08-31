@@ -2,6 +2,8 @@
 <!--
 -->
 
+https://en.wikipedia.org/wiki/Browser_security
+
 Firefox is moving from XUL to WebExtensions
 
 https://en.wikipedia.org/wiki/XUL
@@ -68,6 +70,7 @@ Fingerprinting
 
 https://en.wikipedia.org/wiki/Canvas_fingerprinting
 https://en.wikipedia.org/wiki/Browser_fingerprinting
+[Device Fingerprint](http://noc.to/)
 
 Super Cookies
 -------------

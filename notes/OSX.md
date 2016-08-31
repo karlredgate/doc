@@ -434,10 +434,10 @@ Dictation
 Using OSX voice recognition to transcribe audio.  Depends mainly
 on the SoundFlower kernel extension and Audacity.
 
-http://apple.stackexchange.com/questions/92613/use-mac-os-x-dictation-on-a-file
-https://github.com/mattingalls/Soundflower
-https://github.com/mattingalls/Soundflower/releases/tag/2.0b2
-https://github.com/RogueAmoeba/Soundflower-Original
+ * <http://apple.stackexchange.com/questions/92613/use-mac-os-x-dictation-on-a-file>
+ * <https://github.com/mattingalls/Soundflower>
+ * <https://github.com/mattingalls/Soundflower/releases/tag/2.0b2>
+ * <https://github.com/RogueAmoeba/Soundflower-Original>
 
 Tools
 -----
@@ -454,5 +454,13 @@ http://www.coconut-flavour.com/coconutbattery/
 
 Perian is dead - look at this instead.
 https://github.com/jbtule/niceplayer
+
+launchd
+-------
+
+http://launchd.info/
+https://developer.apple.com/library/mac/documentation/MacOSX/Conceptual/BPSystemStartup/Chapters/CreatingLaunchdJobs.html
+https://en.wikipedia.org/wiki/Launchd
+
 
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

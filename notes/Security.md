@@ -73,4 +73,16 @@ received new Xbox and Playstation consoles as holiday gifts.
 
 http://krebsonsecurity.com/2014/12/cowards-attack-sony-playstation-microsoft-xbox-networks/
 
+DDoS
+----
+
+https://en.wikipedia.org/wiki/Low_Orbit_Ion_Cannon
+https://en.wikipedia.org/wiki/ReDoS
+
+IDS
+----
+
+https://suricata-ids.org/
+
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

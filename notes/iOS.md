@@ -108,7 +108,25 @@ https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIKit_Fram
 https://developer.apple.com/library/ios/documentation/WindowsViews/Conceptual/ViewControllerCatalog/Introduction.html
 
 
+HTTP Server for iOS Apps
+------------------------
+
+ * <https://github.com/swisspol/GCDWebServer>
+ * <https://github.com/face/MongooseDaemon>
+ * <https://github.com/robbiehanson/CocoaHTTPServer>
+
+Framework Mgmt
+---------------
+
+Carthage is intended to be the simplest way to add frameworks to
+your Cocoa application.
+
+https://github.com/Carthage/Carthage
+
 iOS libraries
+--------------
+
+
 https://developer.apple.com/library/ios/navigation/
 http://www.idev101.com/libraries.html
 http://www.raywenderlich.com/21987/top-10-most-useful-ios-libraries-to-know-and-love

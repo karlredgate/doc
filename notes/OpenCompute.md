@@ -1,10 +1,17 @@
 
 <!--
 -->
+
+https://en.wikipedia.org/wiki/Open_Compute_Project
 http://www.opencompute.org/
 
 https://github.com/opencomputeproject
 https://github.com/opencomputeproject/OCP-Networking-Project-Community-Contributions
+
+Google
+------
+
+https://techcrunch.com/2016/03/09/google-joins-the-open-compute-project/
 
 Networking
 ----------

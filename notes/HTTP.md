@@ -46,6 +46,9 @@ https://en.wikipedia.org/wiki/HTTP_ETag
 http://www.wired.com/2011/07/undeletable-cookie/
 https://ashkansoltani.files.wordpress.com/2012/12/hulu_kissmetrics_complaint.pdf
 
+https://en.wikipedia.org/wiki/HTTP_ETag
+
+
 ### Supercookies
 
 or permacookies etc - Verizon uses X-UIDH headers

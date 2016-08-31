@@ -11,4 +11,7 @@
  * Save list and have follow up after standup
  * Blockers are not bad
 
+https://www.infoq.com/articles/agile-didnt-work
+https://www.infoq.com/articles/how-make-agile-successful
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->
