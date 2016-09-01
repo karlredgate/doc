@@ -49,8 +49,11 @@ This comes from the Jeff Hawkins book "On Intelligence".
 http://dl.acm.org/citation.cfm?id=2514695&CFID=821395980&CFTOKEN=20807802
 
 ### Decision tree learning
+
 ### Association rule learning
+
 ### Artificial neural networks
+
 ### Deep Learning
 
 https://www.technologyreview.com/s/513696/deep-learning/
@@ -59,8 +62,23 @@ https://www.deepmind.com/
 http://www.economist.com/news/briefing/21650526-artificial-intelligence-scares-peopleexcessively-so-rise-machines
 http://www.forbes.com/sites/anthonykosner/2014/12/29/tech-2015-deep-learning-and-machine-intelligence-will-eat-the-world/#68480780282c
 
+### h2o
+
 http://www.h2o.ai/
 http://www.h2o.ai/download/
+
+https://github.com/h2oai
+http://www.h2o.ai/download/h2o/desktop
+http://docs.h2o.ai/h2o/latest-stable/index.html
+https://en.wikipedia.org/wiki/H2O_(software)
+http://learn.h2o.ai/content/tutorials/deeplearning/index.html?_ga=1.126463689.590517586.1472590794
+
+https://www.youtube.com/watch?v=LM255qs8Zsk&feature=youtu.be
+http://www.kdnuggets.com/2015/01/interview-arno-candel-0xdata-deep-learning.html
+https://www.youtube.com/watch?v=Ycc8ebsxybQ
+https://www.youtube.com/watch?v=31DveuKJe5o
+https://www.youtube.com/watch?v=Ycc8ebsxybQ&index=27&list=PLNtMya54qvOH6YAVFigzoXb4iIzl0cvgd
+https://github.com/h2oai?page=2
 
 http://research.google.com/pubs/MachineIntelligence.html
 

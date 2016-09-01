@@ -28,4 +28,11 @@ http://phonegap.com/
 https://play.google.com/store/apps/details?id=com.ionic.viewapp
 http://view.ionic.io/
 
+Installing on iOS
+-----------------
+
+Mojo
+
+http://mojoinstaller.org/about/
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

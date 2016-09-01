@@ -331,5 +331,166 @@ https://www.youtube.com/watch?v=PlmsweSNhTw
 https://www.youtube.com/watch?v=9UYoKyuFXrM
 https://www.youtube.com/watch?v=Rj49rmc01Hs
 
+DOM Elements
+------------
+
+Body access
+
+ * <https://developer.mozilla.org/en-US/docs/Web/API/Document/body>
+
+https://developer.mozilla.org/en-US/docs/Web/API/Document/forms
+https://developer.mozilla.org/en-US/docs/Web/API/HTMLCollection
+https://developer.mozilla.org/en-US/docs/Web/API/HTMLFormControlsCollection
+https://developer.mozilla.org/en-US/docs/Web/API/NodeList
+
+search: document loaded event when to run javascript
+http://stackoverflow.com/questions/978740/javascript-how-to-detect-if-document-has-loaded-ie-7-firefox-3#7088499
+
+### Array / NodeList iteration
+
+ * <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of>
+
+Iterating over an Array is
+
+```
+let arr = [10,20,30];
+for ( let value of arr ) { console.log( value ); }
+for ( const value of arr ) { console.log( value ); }
+```
+
+And also a map
+
+```
+let m = new Map( [ ["a",1], ["b",2], ["c",3] ] );
+for ( let [key,value] of m ) { ... }
+```
+
+But this does not work correctly on NodeLists from the DOM
+
+```
+for ( let form of document.forms ) { ... }
+```
+
+Suggested to use
+
+```
+
+```
+
+### Add an Element
+
+http://www.w3schools.com/js/js_htmldom_nodes.asp
+http://www.javascriptkit.com/javatutors/dom2.shtml
+
+```
+var element = document.createElement('p');
+var content = document.createTextNode('just some text');
+element.appendChild( content );
+element.setAttribute( 'href','big-uri' );
+var form = document.forms[0];
+form.appendChild( element );
+```
+
+### NodeList
+
+```
+var divs = document.getElementsByTagName( 'div' );
+var firstDiv = divs[ 0 ];
+
+Array.prototype.forEach.call(firstDiv.childNodes, function( divChild ){
+  divChild.parentNode.style.color = '#0F0';
+});
+```
+
+### Cookies
+
+https://developer.mozilla.org/en-US/docs/Web/API/Document/cookie
+https://www.w3.org/TR/DOM-Level-2-HTML/html.html#ID-8747038
+http://www.w3schools.com/js/js_cookies.asp
+
+http://www.nczonline.net/blog/2009/05/12/cookies-and-security/
+
+```
+function executeOnce () {
+  var argc = arguments.length;
+  var bImplGlob = typeof arguments[argc - 1] === "string";
+
+  if (bImplGlob) { argc++; }
+  if (argc < 3) {
+      throw new TypeError("executeOnce - not enough arguments");
+  }
+
+  var fExec = arguments[0], sKey = arguments[argc - 2];
+  if (typeof fExec !== "function") {
+      throw new TypeError("executeOnce - first argument must be a function");
+  }
+  if (!sKey || /^(?:expires|max\-age|path|domain|secure)$/i.test(sKey)) {
+      throw new TypeError("executeOnce - invalid identifier");
+  }
+
+  if (decodeURIComponent(document.cookie.replace(new RegExp("(?:(?:^|.*;)\\s*" + encodeURIComponent(sKey).replace(/[\-\.\+\*]/g, "\\$&") + "\\s*\\=\\s*([^;]*).*$)|^.*$"), "$1")) === "1") {
+      return false;
+  }
+  fExec.apply(argc > 3 ? arguments[1] : null, argc > 4 ? Array.prototype.slice.call(arguments, 2, argc - 2) : []);
+  document.cookie = encodeURIComponent(sKey) + "=1; expires=Fri, 31 Dec 9999 23:59:59 GMT" + (bImplGlob || !arguments[argc - 1] ? "; path=/" : "");
+  return true;
+}
+
+// usage:
+// executeOnce(callback[, thisObject[, argumentToPass1[, argumentToPass2[, …[, argumentToPassN]]]]], identifier[, onlyHere])
+```
+
+```
+var cookies = document.cookies;
+```
+
+Generators
+----------
+
+These are really continuations.  Each call continues after the
+previous yield.  The defined `function*` creates a new continuation
+starting at the beginning of the function.  The previous value is
+also accessible.
+
+Read these docs and create better examples.
+
+Mozilla doc
+
+ * <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function*>
+ * <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator>
+ * <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction>
+ * <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/function*>
+
+Related to use in Node - but also a better explanation
+
+https://strongloop.com/strongblog/how-to-generators-node-js-yield-use-cases/
+
+```
+function* idMaker(){
+  var index = 0;
+  while(index < 3)
+    yield index++;
+}
+
+var gen = idMaker();
+
+console.log(gen.next().value); // 0
+console.log(gen.next().value); // 1
+console.log(gen.next().value); // 2
+console.log(gen.next().value); // undefined
+```
+
+List Methods or Slots of Object
+-------------------------------
+
+http://stackoverflow.com/questions/2257993/how-to-display-all-methods-of-an-object-in-javascript
+http://stackoverflow.com/questions/208016/how-to-list-the-properties-of-a-javascript-object
+
+Javascript Compressors, Obfuscation, Compilers
+----------------------------------------------
+
+ * Google Closure Compiler
+ * Dean Edwards 's Packer <http://dean.edwards.name/packer/>
+ * JScrambler.com
 
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->
