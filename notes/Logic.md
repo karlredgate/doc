@@ -14,6 +14,18 @@ https://en.wikipedia.org/wiki/Logic_alphabet
 https://en.wikipedia.org/wiki/Logical_connective
 https://en.wikipedia.org/wiki/Mathematical_operators_and_symbols_in_Unicode
 
+Friedrich Ludwig Gottlob Frege was a German philosopher, logician,
+and mathematician. Considered a major figure in mathematics, he is
+responsible for the development of modern logic and making contributions
+to the foundations of mathematics. He is also understood by many
+to be the father of analytic philosophy, where he concentrated on
+the philosophy of language and mathematics. Though largely ignored
+during his lifetime, Giuseppe Peano (1858–1932) and Bertrand Russell
+(1872–1970) introduced his work to later generations of logicians
+and philosophers.
+
+https://en.wikipedia.org/wiki/Gottlob_Frege
+
 This one has notes on lambda calc, currying etc
 
 https://en.wikipedia.org/wiki/Polish_notation#Polish_notation_for_logic

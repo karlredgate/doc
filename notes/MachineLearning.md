@@ -56,6 +56,10 @@ http://dl.acm.org/citation.cfm?id=2514695&CFID=821395980&CFTOKEN=20807802
 
 ### Deep Learning
 
+Links to many of the packages already listed here, and
+then a bunch more.
+<http://deeplearning.net/software_links/>
+
 https://www.technologyreview.com/s/513696/deep-learning/
 
 https://www.deepmind.com/
@@ -286,6 +290,257 @@ There is a lot to read here.
  * []( http://deeplearning4j.org/restrictedboltzmannmachine.html )
  * []( http://deeplearning4j.org/understandingRBMs.html )
  * []( http://www.cs.toronto.edu/~hinton/absps/guideTR.pdf )
+
+ * http://www.lbmflow.com/open-source/opendescription
+ * http://optilb.org/openlb/
+ * http://www.palabos.org/
+ * http://www.azimuthproject.org/azimuth/show/Lattice+Boltzmann+method
+ * https://www.ndsu.edu/physics/people/faculty/wagner/lattice_boltzmann_codes/
+ * https://www.ndsu.edu/fileadmin/physics.ndsu.edu/Wagner/LBbook.pdf
+ * http://www.codeforge.com/s/0/restricted-boltzmann-machine
+ * http://deeplearning4j.org/restrictedboltzmannmachine.html
+ * https://github.com/echen/restricted-boltzmann-machines
+
+### Recursive Neural Networks
+
+"[Explicit neural representations](http://www.ncbi.nlm.nih.gov/pubmed/12853366),
+recursive neural networks and conscious visual perception"
+
+https://www.quora.com/Whats-the-difference-between-Vicariouss-Recursive-Cortical-Network-and-Numentas-Cortical-Learning-Algorithm
+
+### Vicarious
+
+Does something called a "Recursive Cortical Network".
+
+Vicarious is developing machine learning software based on the computational principles of the human brain. Known as the Recursive Cortical Network (RCN), it is a visual perception system that interprets the contents of photographs and videos in a manner similar to humans. The system is powered by a balanced approach that takes sensory data, mathematics, and biological plausibility into consideration.
+
+https://en.wikipedia.org/wiki/Vicarious_(company)
+http://www.kurzweilai.net/vicarious-announces-15-million-funding-for-ai-software-based-on-the-brain
+
+RCN is an extension of the motivation behind hierarchical temporal memory (HTM), a machine learning model developed by Jeff Hawkins and Dileep George of Numenta, Inc. — to model some of the structural and algorithmic properties of the neocortex.
+
+https://en.wikipedia.org/wiki/Hierarchical_temporal_memory
+
+That last page has other links to read - that provide descriptions
+of other ML approaches.
+
+Other Brain Inspired Projects
+-----------------------------
+
+http://www.decidesoftware.com/top-brain-inspired-artificial-intelligence-projects/
+
+### OpenNN (OSS)
+
+OpenNN is an open source class library written in C++ programming
+language which implements neural networks, a main area of deep
+learning research. It is intended for advanced users, with high C++
+and machine learning skills.
+
+The library implements any number of layers of non-linear processing
+units for supervised learning. This deep architecture allows the
+design of neural networks with universal approximation properties.
+
+The main advantage of OpenNN is its high performance. This library
+outstands in terms of execution speed and memory allocation. It is
+constantly optimized and parallelized in order to maximize its
+efficiency.
+
+http://www.opennn.net/
+https://github.com/Artelnics/OpenNN
+
+Uses:
+
+http://www.grinninglizard.com/tinyxml2
+http://eigen.tuxfamily.org/
+
+Eigen is a C++ template library for linear algebra: matrices,
+vectors, numerical solvers, and related algorithms.
+
+### Neural Designer
+
+https://en.wikipedia.org/wiki/Neural_Designer
+https://www.neuraldesigner.com/
+
+Uses OpenMP:
+
+https://en.wikipedia.org/wiki/OpenMP
+http://openmp.org/wp/
+
+### a(rtificial)Human (OSS?)
+
+aHuman Project started in 2008 to create alive being by means of a
+computer.  After a while it became clear that project belongs to
+Artificial Life area and to some extent it is attempt to be a God.
+
+http://wiki.ahuman.org/index.php/Main_Page
+
+### Blue Brain Project
+
+The goal of the Blue Brain Project is to build biologically detailed
+digital reconstructions and simulations of the rodent, and ultimately
+the human brain. The supercomputer-based reconstructions and
+simulations built by the project offer a radically new approach for
+understanding the multilevel structure and function of the brain.
+The project's novel research strategy exploits interdependencies
+in the experimental data to obtain dense maps of the brain, without
+measuring every detail of its multiple levels of organization
+(molecules, cells, micro-circuits, brain regions, the whole brain).
+This strategy allows the project to build digital reconstructions
+(computer models) of the brain at an unprecedented level of biological
+detail.  Supercomputer-based simulation of their behavior turns
+understanding the brain into a tractable problem, providing a new
+tool to study the complex interactions within different levels of
+brain organization and to investigate the cross-level links leading
+from genes to cognition.
+
+http://bluebrain.epfl.ch/
+
+### HNeT Application Development System
+
+AND Corporation has developed and commercialized a process known as
+Holographic Neural Technology.  This technology models how biology
+processes information, the architecture referred to as neuromorphic.
+Holographic Neural Technology is a breakthrough in the understanding
+of neurological processes and presents a revolution in machine
+intelligence.
+
+Over the past two decades AND Corporation has integrated holographic
+based neuron cells into a range of applications. These areas extend
+from automated face identification systems for the security industry
+to defense systems.
+
+http://www.andcorporation.com/
+
+We provide the HNeT2005 Application Development System to government
+and industry under special R&D license.  This system allows the
+application developer to construct holographic neural assemblies
+and deploy these advanced capabilities within custom applications.
+The HNeT2005 system contains GUI based utilities for rapid development,
+training and deployment of simple feed-forward neural assemblies.
+This system provides an extensive library for creation, customization
+and deployment of more advanced neuromorphic assemblies.
+
+The HNeT library allows the developer to integrate and deploy several
+principle classes of neuron cells.  Our neuromorphic architectures
+include conventional supervised feed forward, as well as advanced
+cerebellar, neo-cortical, spatial-temporal and hyper-incursive
+assembly structures.
+
+ * <http://www.andcorporation.com/index.html?frame_hnet.html>
+ * <http://www.andcorporation.com/tech_hnet_hnet_platform.html>
+ * <http://www.andcorporation.com/tech_hnet_hnet_api.html>
+
+### Numenta - NuPIC (OSS)
+
+NuPIC is an open source project based on a theory of neocortex
+called Hierarchical Temporal Memory (HTM). Parts of HTM theory have
+been implemented, tested, and used in applications, and other parts
+of HTM theory are still being developed. Today the HTM code in NuPIC
+can be used to analyze streaming data. It learns the time-based
+patterns in data, predicts future values, and detects anomalies.
+NuPIC includes discussion groups on HTM theory, research on extending
+HTM, and source code for complete applications based on HTM. We
+welcome participation in all of these areas.
+
+http://numenta.org/
+
+HTM is related to the RCN that Vicarious is doing.  I do not know how
+specifically - yet.
+
+### Encog (OSS)
+
+Encog is an advanced machine learning framework that supports a
+variety of advanced algorithms, as well as support classes to
+normalize and process data. Machine learning algorithms such as
+Support Vector Machines, Artificial Neural Networks, Bayesian
+Networks, Hidden Markov Models, Genetic Programming and Genetic
+Algorithms are supported. Most Encog training algoritms are
+multi-threaded and scale well to multicore hardware. Encog can also
+make use of a GPU to further speed processing time. A GUI based
+workbench is also provided to help model and train machine learning
+algorithms. Encog has been in active development since 2008.
+
+http://www.heatonresearch.com/encog/
+https://www.facebook.com/encog.framework
+https://github.com/encog
+http://build.heatonresearch.com/
+
+Heaton also wrote books:
+
+Artificial Intelligence for Humans - vol 1,2,3
+Introduction to the Math of Neural Networks
+
+Can buy all PDFs for $24 on Paypal
+
+https://github.com/jeffheaton/aifh
+
+### Neuroph (OSS)
+
+Neuroph is lightweight Java neural network framework to develop
+common neural network architectures. It contains well designed,
+open source Java library with small number of basic classes which
+correspond to basic NN concepts. Also has nice GUI neural network
+editor to quickly create Java neural network components. It has
+been released as open source under the Apache 2.0 license, and it's
+FREE for you to use it.
+
+http://neuroph.sourceforge.net/
+
+### Neural Network Designer
+
+This project consists out of a windows based designer application
+and a library (that can run on multiple platforms, including android)
+together with several demo applications (including an MVC3 chatbot
+client and an android application).
+
+It is probably best compared to a database management system, but
+for neural networks instead of relational data. As such, the library
+is optimized for handling any type of data-size by using advanced
+streaming and caching algorithms.
+
+With the designer, you are able to create different types of decision
+trees, random forests, n-grams, pattern-matchers, conversational
+agents and all sorts of AI related algorithms. You can combine
+statistical approaches as well as pattern matchers or others. Do
+natural language processing, image or data analysis & interpretation,...
+
+https://sourceforge.net/projects/nnd/
+
+### SNIPE (OSS?)
+
+SNIPE is a well-documented JAVA library that implements a framework
+for neural networks in a speedy, feature-rich and usable way. It
+is available at no cost for non-commercial purposes; if you plan
+to use it in a commercial way, please get in touch with me.
+
+SNIPE was originally designed for high performance simulations with
+lots and lots of neural networks (even large ones) being trained
+simultaneously. Recently, I decided to give it away as a professional
+reference implementation that covers the network aspects handled
+with in my manuscript "A Brief Introduction to Neural Networks",
+while at the same time being faster and more efficient than lots
+of other implementations due to the original high-performance
+simulation design goal.
+
+http://www.dkriesel.com/en/tech/snipe
+
+### Torch Toolkit
+
+The goal of Torch is to have maximum flexibility and speed in
+building your scientific algorithms while making the process extremely
+simple. Torch comes with a large ecosystem of community-driven
+packages in machine learning, computer vision, signal processing,
+parallel processing, image, video, audio and networking among others,
+and builds on top of the Lua community.
+
+At the heart of Torch are the popular neural network and optimization
+libraries which are simple to use, while having maximum flexibility
+in implementing complex neural network topologies. You can build
+arbitrary graphs of neural networks, and parallelize them over CPUs
+and GPUs in an efficient manner.
+
+ * <http://torch.ch/>
+ * <https://github.com/torch/torch7>
 
 Connectionism
 -------------

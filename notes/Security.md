@@ -84,5 +84,13 @@ IDS
 
 https://suricata-ids.org/
 
+Passwords
+---------
+
+https://www.washingtonpost.com/news/wonk/wp/2015/10/22/these-researchers-have-discovered-the-perfect-password-thats-also-easy-to-remember/
+http://www.isi.edu/natural-language/people/poem/poem.php
+http://www.isi.edu/natural-language/mt/memorize-random-60.pdf
+http://preshing.com/20110811/xkcd-password-generator/
+http://www.baekdal.com/insights/password-security-usability
 
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

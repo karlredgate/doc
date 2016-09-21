@@ -56,4 +56,10 @@ Checked out in your depot.
 
  * https://github.com/kkamagui/IRON-HID
 
+Krebs Articles
+--------------
+
+http://krebsonsecurity.com/2013/06/the-value-of-a-hacked-email-account/
+http://krebsonsecurity.com/2016/09/israeli-online-attack-service-vdos-earned-600000-in-two-years/
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

@@ -35,4 +35,7 @@ Mojo
 
 http://mojoinstaller.org/about/
 
+https://thinkster.io/ionic-framework-tutorial
+http://blog.ionic.io/what-is-cordova-phonegap/
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

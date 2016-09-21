@@ -16,4 +16,9 @@ http://knexjs.org/
 http://bookshelfjs.org/
 https://www.npmjs.com/package/pg
 
+AddOns / Extensions
+-------------------
+
+https://github.com/nodejs/node-addon-examples
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

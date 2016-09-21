@@ -63,4 +63,13 @@ http://www.diva-portal.org/smash/get/diva2:752340/FULLTEXT01.pdf
 
 http://0value.com/A-PEG-parser-generator-for-Go
 
+Sep 16 2016
+------------
+
+http://tadeuzagallo.com/blog/writing-a-lambda-calculus-interpreter-in-javascript/
+https://www.cis.upenn.edu/~bcpierce/tapl/
+https://github.com/tadeuzagallo/lc-js
+https://github.com/andrakis/node-lithp
+
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

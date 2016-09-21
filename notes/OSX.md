@@ -175,6 +175,10 @@ https://developer.apple.com/library/mac/documentation/MacOSX/Conceptual/BPFramew
 https://developer.apple.com/library/mac/releasenotes/MacOSX/WhatsNewInOSX/Articles/MacOSX10_10.html#//apple_ref/doc/uid/TP40014484-SW6
 https://developer.apple.com/library/mac/releasenotes/MacOSX/WhatsNewInOSX/Articles/MacOSX10_10.html
 
+READ THIS
+https://www.mobomo.com/2010/12/a-visual-guide-to-creating-an-embeddable-framework-for-mac-osx/
+
+https://developer.apple.com/library/mac/documentation/MacOSX/Conceptual/OSX_Technology_Overview/SystemFrameworks/SystemFrameworks.html
 
 Sandbox
 -------
@@ -462,5 +466,39 @@ http://launchd.info/
 https://developer.apple.com/library/mac/documentation/MacOSX/Conceptual/BPSystemStartup/Chapters/CreatingLaunchdJobs.html
 https://en.wikipedia.org/wiki/Launchd
 
+Hidden Files
+------------
+
+http://www.westwind.com/reference/OS-X/invisibles.html
+
+### volfs
+
+https://developer.apple.com/legacy/library/qa/qa2001/qa1113.html#//apple_ref/doc/uid/DTS10001661
+
+NetInfo - Directory Services - Open Directory
+---------------------------------------------
+
+https://en.wikipedia.org/wiki/Apple_Open_Directory
+https://en.wikipedia.org/wiki/NetInfo
+https://en.wikipedia.org/wiki/Directory_Utility
+
+ * dscl
+ * ds...
+
+https://developer.apple.com/library/mac/documentation/Networking/Conceptual/Open_Directory/Introduction/Introduction.html#//apple_ref/doc/uid/TP40000917
+
+For more information about writing plug-ins for Open Directory, read:
+Open Directory Plug-in Programming Guide
+
+https://developer.apple.com/library/mac/documentation/Networking/Reference/Open_Directory_Ref/index.html#//apple_ref/doc/uid/TP40003532-DontLinkChapterID_1-DontLinkElementID_1
+https://developer.apple.com/library/mac/documentation/Networking/Reference/Open_Directory_Ref/index.html#//apple_ref/doc/uid/TP40003532
+
+List of documents:
+https://developer.apple.com/library/mac/navigation/#section=Topics&topic=Networking%2C%20Internet%2C%20%26amp%3B%20Web
+
+search: apple Open Directory Plug-in Programming Guide
+https://developer.apple.com/library/mac/releasenotes/NetworkingInternetWeb/RN_OpenDirectory/chapters/chapter-1.xhtml.html#//apple_ref/doc/uid/TP40013398
+
+http://www.computerworld.com/article/2544581/infrastructure-management/how-to--understanding-mac-os-x-open-directory.html
 
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

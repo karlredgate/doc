@@ -254,6 +254,32 @@ is easily integrated with your web platform, build tools, and other
 *Node.js* projects.
 
 
+Headless Browser - automation and testing
+-----------------------------------------
+
+Centered around Phantom.js - WebKit based
+
+https://en.wikipedia.org/wiki/PhantomJS
+http://phantomjs.org/
+http://phantomjs.org/quick-start.html
+http://phantomjs.org/api/webpage/method/open.html
+
+SlimerJS is the same thing for Gecko
+
+https://slimerjs.org/
+http://docs.slimerjs.org/0.8/differences-with-phantomjs.html
+
+CasperJS layers on Phantom or Slimer to automate navigation
+flows.
+
+http://casperjs.org/
+http://docs.casperjs.org/en/latest/testing.html
+
+TrifleJS is the same thing for Explorer
+
+https://github.com/sdesalas/trifleJS
+http://triflejs.org/
+
 Code Coverage
 -------------
 
@@ -492,5 +518,28 @@ Javascript Compressors, Obfuscation, Compilers
  * Google Closure Compiler
  * Dean Edwards 's Packer <http://dean.edwards.name/packer/>
  * JScrambler.com
+
+ES6 - ECMAScript 6 - Babel compiler
+-----------------------------------
+
+Look in automation/experimantal/node/browserify for an example.
+
+http://www.es6js.com/
+http://es6-features.org/#Constants
+https://github.com/babel/babel
+https://babeljs.io/
+http://www.infoworld.com/article/3000613/javascript/babel-javascript-compiler-goes-modular.html
+
+### import behavior
+
+http://es6-features.org/#ValueExportImport
+
+History
+-------
+
+https://en.wikipedia.org/wiki/Brendan_Eich
+https://brendaneich.com/2011/06/new-javascript-engine-module-owner/
+https://brendaneich.com/2008/04/popularity/
+http://www.netlib.org/fp/dtoa.c
 
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

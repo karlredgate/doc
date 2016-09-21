@@ -4,6 +4,18 @@
 
 https://en.wikipedia.org/wiki/Browser_security
 
+Brave Browser
+-------------
+
+From guy who invented Javascript.
+Ad blocker and replacements.
+What else interesting?
+
+https://brave.com/
+
+Extension Technologies
+----------------------
+
 Firefox is moving from XUL to WebExtensions
 
 https://en.wikipedia.org/wiki/XUL

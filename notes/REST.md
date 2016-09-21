@@ -52,11 +52,28 @@ Application Description Languages
 
 Swagger has been renamed to OpenAPI
 
- * https://en.wikipedia.org/wiki/Overview_of_RESTful_API_Description_Languages
- * https://en.wikipedia.org/wiki/Web_Application_Description_Language
- * https://en.wikipedia.org/wiki/RAML_(software)
- * https://en.wikipedia.org/wiki/OpenAPI_Specification
- * https://github.com/swagger-api/swagger-spec/wiki
+ * <https://en.wikipedia.org/wiki/Overview_of_RESTful_API_Description_Languages>
+ * <https://en.wikipedia.org/wiki/Web_Application_Description_Language>
+ * <https://en.wikipedia.org/wiki/RAML_(software)>
+ * <https://en.wikipedia.org/wiki/OpenAPI_Specification>
+ * <https://github.com/swagger-api/swagger-spec/wiki>
+
+ * <http://swagger.io/specification/>
+ * <https://github.com/OAI/OpenAPI-Specification/blob/master/versions/2.0.md>
+ * <https://github.com/OAI/OpenAPI-Specification>
+
+ * https://en.wikipedia.org/wiki/RSDL
+ * http://www.balisage.net/Proceedings/vol10/html/Robie01/BalisageVol10-Robie01.html
+ * https://apiblueprint.org/
+ * https://apiblueprint.org/documentation/tutorial.html
+ * https://en.wikipedia.org/wiki/Apache_Avro
+ * https://en.wikipedia.org/wiki/Apache_Thrift
+
+ * http://www.semanticinterface.org/
+ * http://www.semanticinterface.org/semantic-interfaces
+ * http://www.semanticinterface.org/articles
+
+ * http://www.markus-lanthaler.com/research/a-semantic-description-language-for-restful-data-services-to-combat-semaphobia.pdf
 
 References
 ----------
