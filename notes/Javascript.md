@@ -2,6 +2,8 @@
 <!--
 -->
 
+npm has its own doc [npm.md]
+
 https://iojs.org/en/es6.html
 http://www.ecma-international.org/publications/standards/Ecma-262.htm
 
@@ -41,6 +43,14 @@ https://github.com/facebook/relay
 https://en.wikipedia.org/wiki/React_(JavaScript_library)
 https://www.quora.com/Is-React-killing-Angular
 http://techblog.netflix.com/2015/01/netflix-likes-react.html
+
+From SC2.0
+
+https://github.com/asyncly/EventEmitter2
+http://smalljs.org/
+http://smalljs.org/package-managers/npm/browserify/
+https://lodash.com/
+https://github.com/tj/spin.js
 
 ### Stanford Javascript Crypto Library
 
@@ -357,6 +367,16 @@ https://www.youtube.com/watch?v=PlmsweSNhTw
 https://www.youtube.com/watch?v=9UYoKyuFXrM
 https://www.youtube.com/watch?v=Rj49rmc01Hs
 
+Google PNaCl and NaCl
+---------------------
+
+http://www.chromium.org/nativeclient/pnacl
+https://developer.chrome.com/native-client
+https://en.wikipedia.org/wiki/Google_Native_Client
+https://en.wikipedia.org/wiki/Newlib
+https://github.com/jaredallard/nexe
+https://github.com/codius/codius/wiki/Smart-Oracles:-A-Simple,-Powerful-Approach-to-Smart-Contracts
+
 DOM Elements
 ------------
 
@@ -516,23 +536,75 @@ Javascript Compressors, Obfuscation, Compilers
 ----------------------------------------------
 
  * Google Closure Compiler
- * Dean Edwards 's Packer <http://dean.edwards.name/packer/>
+ * Dean Edwards Packer <http://dean.edwards.name/packer/>
  * JScrambler.com
 
 ES6 - ECMAScript 6 - Babel compiler
 -----------------------------------
 
+Babel is described earlier in this doc under "transpiler".
+
 Look in automation/experimantal/node/browserify for an example.
 
-http://www.es6js.com/
-http://es6-features.org/#Constants
-https://github.com/babel/babel
-https://babeljs.io/
-http://www.infoworld.com/article/3000613/javascript/babel-javascript-compiler-goes-modular.html
+ * <http://www.es6js.com/>
+ * <http://es6-features.org/#Constants>
+ * <https://github.com/babel/babel>
+ * <https://babeljs.io/>
+ * <http://www.infoworld.com/article/3000613/javascript/babel-javascript-compiler-goes-modular.html>
+
+ * <https://nodejs.org/en/docs/es6/>
+ * <https://babeljs.io/docs/usage/cli/>
+ * <https://github.com/addyosmani/es6-tools>
+ * <https://leanpub.com/setting-up-es6/read#sec_nodejs-babel-dynamic>
+ * [Using the ES6 transpiler Babel on Node.js](http://www.2ality.com/2015/03/babel-on-node.html)
+
+### Compat Table
+
+ * <http://node.green/>
+ * <http://kangax.github.io/compat-table/es6/>
 
 ### import behavior
 
 http://es6-features.org/#ValueExportImport
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import
+
+console.log support
+-------------------
+
+```
+// Log to native console if possible, alert otherwise
+window.console = typeof window.console === 'undefined'
+    ? {log:function(/* polymorphic */){alert(arguments)}}
+        : window.console;
+```
+
+```
+function log(text) {
+  if (window.console) {
+    window.console.log(text);
+  }
+}
+```
+
+Task Runners
+------------
+
+Stupid build tools that just recreate make
+
+### Grunt
+
+https://www.keithcirkel.co.uk/why-we-should-stop-using-grunt/
+
+### Gulp
+
+Contributors
+------------
+
+Sindre Sorhus seems to create many projects
+https://github.com/sindresorhus?tab=repositories
+
+He also created an "awesome" list
+https://github.com/sindresorhus/awesome
 
 History
 -------

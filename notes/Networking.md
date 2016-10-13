@@ -195,4 +195,11 @@ QUIC
 Same as ?
 https://en.wikipedia.org/wiki/QUIC
 
+NetFlow
+-------
+
+Flow monitoring - also sFlow and IPFIX
+
+https://en.wikipedia.org/wiki/NetFlow
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

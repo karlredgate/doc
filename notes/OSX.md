@@ -180,6 +180,17 @@ https://www.mobomo.com/2010/12/a-visual-guide-to-creating-an-embeddable-framewor
 
 https://developer.apple.com/library/mac/documentation/MacOSX/Conceptual/OSX_Technology_Overview/SystemFrameworks/SystemFrameworks.html
 
+### Apple Pencil and UITouch
+
+Article on developer support for the Pencil
+
+https://developer.apple.com/library/content/releasenotes/General/WhatsNewIniOS/Articles/iOS9_1.html
+
+UITouch is a framework for using the Apple pencil.
+
+https://developer.apple.com/reference/uikit/uitouch
+http://devstreaming.apple.com/videos/wwdc/2015/233l9q8hj9mw/233/233_advanced_touch_input_on_ios.pdf
+
 Sandbox
 -------
 
@@ -443,6 +454,12 @@ on the SoundFlower kernel extension and Audacity.
  * <https://github.com/mattingalls/Soundflower/releases/tag/2.0b2>
  * <https://github.com/RogueAmoeba/Soundflower-Original>
 
+### SoundFlower
+
+https://github.com/mattingalls/Soundflower
+https://github.com/RogueAmoeba/Soundflower-Original
+
+
 Tools
 -----
 
@@ -500,5 +517,22 @@ search: apple Open Directory Plug-in Programming Guide
 https://developer.apple.com/library/mac/releasenotes/NetworkingInternetWeb/RN_OpenDirectory/chapters/chapter-1.xhtml.html#//apple_ref/doc/uid/TP40013398
 
 http://www.computerworld.com/article/2544581/infrastructure-management/how-to--understanding-mac-os-x-open-directory.html
+
+TaskGate
+--------
+
+Tried to run gdb on OSX - got error on taskgate
+
+ * search: gdb won't run taskgate
+ * http://stackoverflow.com/questions/8336433/gdb-on-macosx-lion
+
+Code signing etc in this doc
+
+ * <http://sourceware.org/gdb/wiki/BuildingOnDarwin>
+
+XHyve
+-----
+
+See Virtualization.md
 
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

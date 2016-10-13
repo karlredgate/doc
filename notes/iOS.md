@@ -154,6 +154,14 @@ Apps
 
 https://github.com/nothingmagical/cheddar-ios
 
+Access iOS device from OSX
+---------------------------
+
+http://stackoverflow.com/questions/18037591/access-ios-filesystem-without-jailbreak#20568346
+https://github.com/libimobiledevice/ifuse
+http://www.libimobiledevice.org/
+https://github.com/libimobiledevice/libimobiledevice
+
 Links
 ------
 

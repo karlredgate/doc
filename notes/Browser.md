@@ -99,4 +99,22 @@ History Knocking
 
 https://samy.pl/csshack/
 
+Chrome Remote Desktop
+---------------------
+
+https://www.cnet.com/news/chrome-extension-enables-remote-computer-control/
+https://src.chromium.org/viewvc/chrome/trunk/src/remoting/
+
+Chrome Extensions Networking
+----------------------------
+
+https://developer.chrome.com/apps/app_network
+
+Chrome Decrypt Login Data
+-------------------------
+
+http://stackoverflow.com/questions/22973049/decrypt-chrome-linux-blob-encrypted-cookies-in-python
+https://n8henrie.com/2014/05/decrypt-chrome-cookies-with-python/
+https://gist.github.com/jordan-wright/5770442
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

@@ -71,5 +71,29 @@ https://www.cis.upenn.edu/~bcpierce/tapl/
 https://github.com/tadeuzagallo/lc-js
 https://github.com/andrakis/node-lithp
 
+Pratt Parsers - Javascript
+---------------------------
+
+https://en.wikipedia.org/wiki/Pratt_parser
+http://boole.stanford.edu/pratt.html
+
+Chapter in this book by Crockford - 
+"Beautiful Code - Leading Programmers Explain How They Think"
+<http://shop.oreilly.com/product/9780596510046.do>
+
+https://github.com/glycerine/PrattParserInC
+
+In python : <http://effbot.org/zone/simple-top-down-parsing.htm>
+
+http://journal.stuffwithstuff.com/2011/02/13/extending-syntax-from-within-a-language/
+https://github.com/munificent/magpie/blob/master/src/com/stuffwithstuff/magpie/parser/MagpieParser.java
+http://journal.stuffwithstuff.com/2011/03/19/pratt-parsers-expression-parsing-made-easy/
+
+http://publications.csail.mit.edu/lcs/specpub.php?id=715
+
+https://github.com/munificent/magpie
+http://magpie-lang.org/
+
+https://github.com/munificent/bantam
 
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

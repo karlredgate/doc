@@ -15,6 +15,9 @@ https://github.com/osrg/gobgp
 
 https://github.com/Exa-Networks/exabgp/wiki/Other-OSS-BGP-implementations
 
+http://bgp.potaroo.net/
+http://bgpupdates.potaroo.net/instability/bgpupd.html
+
 ### Feeds
 
 Google search for "BGP Feed" to find some of these.
@@ -106,5 +109,28 @@ From Videos
 Uses radix tree to store BGP graph
 
 https://en.wikipedia.org/wiki/Radix_tree
+
+Simple BGP
+----------
+
+git@github.com:QratorLabs/bird.git
+https://github.com/QratorLabs/bird
+https://radar.qrator.net/tools/simple-bgp
+
+Software
+--------
+
+https://en.wikipedia.org/wiki/Border_Gateway_Protocol
+https://en.wikipedia.org/wiki/OpenBGPD
+https://en.wikipedia.org/wiki/List_of_open-source_routing_platforms
+http://www.openbgpd.org/
+
+Vyatta
+------
+
+Vyatta is now defunct.  The project is now VyOS.
+
+https://en.wikipedia.org/wiki/VyOS
+https://github.com/vyos
 
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

@@ -21,4 +21,11 @@ AddOns / Extensions
 
 https://github.com/nodejs/node-addon-examples
 
+Node Version Manager
+--------------------
+
+Appears to be like python virtual env
+
+https://github.com/creationix/nvm
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

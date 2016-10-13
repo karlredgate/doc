@@ -25,4 +25,12 @@ https://flutter.io/
 https://fuchsia.googlesource.com/escher/
 https://fuchsia.googlesource.com/mojo/
 
+Google Doc - Wave
+-----------------
+
+Google wave shared editing is now in google docs.
+There is an open source tool for this called etherpad
+
+ * <https://github.com/ether/etherpad-lite>
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

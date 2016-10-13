@@ -68,6 +68,11 @@ https://github.com/civetweb/civetweb
 http://duktape.org/
 https://github.com/gfwilliams/tiny-js
 
+A local webserver for developers (written in go)
+<https://github.com/cortesi/devd>
+and the related filesystem watcher tool (also in go)
+<https://github.com/cortesi/modd>
+
 XMLHttpRequest (XHR)
 --------------
 
@@ -114,5 +119,14 @@ https://www.owasp.org/index.php/Certificate_and_Public_Key_Pinning
 https://timtaubert.de/blog/2014/10/http-public-key-pinning-explained/
 https://www.tollmanz.com/public-key-pinning-for-http/
 https://developer.mozilla.org/en-US/docs/Web/Security/Public_Key_Pinning
+
+WebSocket
+---------
+
+http://usualcarrot.com/nodejs-and-websocket-simple-chat-tutorial
+http://lucumr.pocoo.org/2012/9/24/websockets-101/
+https://github.com/miksago/node-websocket-server
+https://github.com/theturtle32/WebSocket-Node
+http://socket.io/
 
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

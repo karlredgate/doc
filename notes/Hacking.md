@@ -62,4 +62,49 @@ Krebs Articles
 http://krebsonsecurity.com/2013/06/the-value-of-a-hacked-email-account/
 http://krebsonsecurity.com/2016/09/israeli-online-attack-service-vdos-earned-600000-in-two-years/
 
+Bettercap
+--------
+
+BetterCap is the state of the art, modular, portable and easily
+extensible MITM framework.
+
+https://www.bettercap.org/
+https://github.com/evilsocket/bettercap
+
+Ettercap
+--------
+
+Ettercap is a comprehensive suite for man in the middle attacks.
+It features sniffing of live connections, content filtering on the
+fly and many other interesting tricks. It supports active and passive
+dissection of many protocols and includes many features for network
+and host analysis.
+
+https://ettercap.github.io/ettercap/
+https://github.com/Ettercap/ettercap
+
+Credmap
+-------
+
+https://github.com/lightos/credmap
+https://github.com/lightos/credmap/wiki
+
+
+https://github.com/lightos?tab=repositories
+
+https://www.youtube.com/watch?v=rjXlCRRPq0g
+http://websec.ca/blog/view/credmap
+
+0x27 David Davidson
+--------------------
+
+https://github.com/0x27
+https://github.com/0x27/ssh_keyscanner
+https://github.com/0x27/GitPass
+https://github.com/fernet/spec/blob/master/Spec.md
+https://github.com/0x27/TheItalianJob
+
+https://asciinema.org/
+
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

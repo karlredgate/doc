@@ -96,4 +96,37 @@ http://tcp.sagepub.com/content/21/3/457.full.pdf+html
 https://www.researchgate.net/publication/301937723_Momentary_Patterns_of_Covariation_Between_Specific_Affects_and_Interpersonal_Behavior_Linking_Relationship_Science_and_Personality_Assessment
 http://www.npr.org/sections/health-shots/2016/07/15/485900076/how-a-danish-town-helped-young-muslims-turn-away-from-isis
 
+Schizophrenia
+-------------
+
+https://en.wikipedia.org/wiki/Schizophrenia
+https://en.wikipedia.org/wiki/Schizotypal_personality_disorder
+https://en.wikipedia.org/wiki/Thought_disorder
+https://en.wikipedia.org/wiki/Self-disorder
+https://en.wikipedia.org/wiki/Thought_insertion
+https://en.wikipedia.org/wiki/Social_isolation
+https://en.wikipedia.org/wiki/Catatonia
+https://en.wikipedia.org/wiki/Explicit_memory
+https://en.wikipedia.org/wiki/Semantic_memory
+https://en.wikipedia.org/wiki/Implicit_memory
+https://en.wikipedia.org/wiki/Procedural_memory
+https://en.wikipedia.org/wiki/Spatial_memory
+https://en.wikipedia.org/wiki/Cognitive_map
+https://en.wikipedia.org/wiki/Semantic_processing
+https://en.wikipedia.org/wiki/Episodic_memory
+https://en.wikipedia.org/wiki/Pollyanna_principle
+
+https://en.wikipedia.org/wiki/Dysphoria
+https://en.wikipedia.org/wiki/Non-celiac_gluten_sensitivity
+https://en.wikipedia.org/wiki/Gluten-related_disorders
+https://en.wikipedia.org/wiki/Kindling_(sedative-hypnotic_withdrawal)
+https://en.wikipedia.org/wiki/Cannabis_and_schizophrenia
+https://en.wikipedia.org/wiki/Mechanisms_of_schizophrenia
+
+https://en.wikipedia.org/wiki/Dopamine_hypothesis_of_schizophrenia
+https://en.wikipedia.org/wiki/Dopaminergic_pathways
+https://en.wikipedia.org/wiki/Waxy_flexibility
+https://en.wikipedia.org/wiki/Simple-type_schizophrenia
+https://en.wikipedia.org/wiki/Sluggish_schizophrenia
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

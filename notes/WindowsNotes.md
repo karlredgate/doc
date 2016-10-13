@@ -614,4 +614,36 @@ Rootkits
 
 https://en.wikipedia.org/wiki/AFX_Windows_Rootkit_2003
 
+Change Product Key
+------------------
+
+Run As Administrator.
+
+At the administrator command prompt, run:
+
+```
+slmgr.vbs -ipk 00000-00000-00000-00000-00000
+```
+
+To activate windows after changing the key, run:
+
+```
+slmgr.vbs -ato
+```
+
+What is the `MGADiag` report
+
+Open Powershell with admin rights then enter:
+
+```
+slmgr -upk (this removes the current Product Key)
+```
+
+Now that the key is cleared you can either stay in Powershell and enter the new key with the following:
+
+```
+slmgr -ipk XXXX-XXXX-XXXX-XXXX (with the X's of course being the Key )
+```
+
+ * <https://techjourney.net/slmgr-commands-and-options-for-windows-product-key-kms-token-ad-activation/>
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

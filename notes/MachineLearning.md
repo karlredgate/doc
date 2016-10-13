@@ -679,4 +679,25 @@ A Software Framework for CEVA-XM4 to Accelerate Machine Learning Deployment in L
 
 http://www.cs.utexas.edu/users/flame/pubs/FLAWN61.pdf
 
+DGX-1 comments
+---------------
+
+Yet, it took the combination of
+
+ * Yann LeCun’s work in Convolutional Neural Nets,
+ * Geoff Hinton’s back-propagation and
+ * Stochastic Gradient Descent approach to training,
+ * and Andrew Ng’s large-scale use of GPUs
+
+to accelerate Deep Neural Networks (DNNs) to ignite the big
+bang of modern AI — deep learning.
+
+http://www.mitpressjournals.org/doi/abs/10.1162/neco.2006.18.7.1527#.V-QThJMrKLI
+
+http://www.bioinfo.org.cn/~casp/temp/DeepLearning.pdf
+http://www.cs.toronto.edu/~hinton/
+https://en.wikipedia.org/wiki/Geoffrey_Hinton
+https://plus.google.com/+WardPlunet/posts/9ZsqhBiqfrF
+
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

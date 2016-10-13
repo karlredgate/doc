@@ -46,6 +46,14 @@ Hadoop
 
 https://ragrawal.wordpress.com/2012/04/28/installing-hadoop-on-mac-osx-lion/
 
+### HDFS
+
+Appears to be protocol buffers over HTTP.  The protocol is documented
+by the protocol buffers source files:
+
+ * <https://github.com/apache/hadoop/tree/trunk/hadoop-hdfs-project/hadoop-hdfs/src/main/proto>
+ * <http://stackoverflow.com/questions/28445972/is-there-a-hdfs-client-wire-protocol-specification#28447794>
+
 ### Protocol Buffers
 
 This doc points to info about protocol buffers and
@@ -120,5 +128,50 @@ Google BigQuery
 https://en.wikipedia.org/wiki/BigQuery
 https://cloud.google.com/bigquery/what-is-bigquery
 https://cloud.google.com/bigquery/sign-up
+
+Comparison
+----------
+
+Google           | Apache     | AWS      | Microsoft
+-----------------|------
+protocol buffers | thrift, avro
+Google FS        | HDFS
+chubby           | 
+mapreduce        | Hadoop
+bigtable         | Accumulo, Cassandra, HBase
+sawzall          | pig (yahoo)
+dremel           | drill
+megastore        |
+spanner          |
+tenzing          |
+F1
+
+spark
+cascading
+apache pig
+apache crunch
+cloudera impala
+apache hive
+hbase
+apache avro
+sqoop
+flume
+accumulo
+apache tez
+hadoop yarn
+apache mesos
+apache spark sql
+
+Other BigTable - hypertable, bluefish (C++), leveldb, AWS simpledb, dynamo
+https://en.wikipedia.org/wiki/Etch_(protocol)
+
+### Parquet
+
+http://parquet.apache.org/
+http://parquet.io/
+https://cwiki.apache.org/confluence/display/Hive/Parquet
+
+https://blog.twitter.com/2013/dremel-made-simple-with-parquet
+https://github.com/Parquet/parquet-format
 
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

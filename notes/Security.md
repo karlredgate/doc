@@ -93,4 +93,14 @@ http://www.isi.edu/natural-language/mt/memorize-random-60.pdf
 http://preshing.com/20110811/xkcd-password-generator/
 http://www.baekdal.com/insights/password-security-usability
 
+Credential Reuse
+----------------
+
+credmap: The Credential Mapper
+
+Credmap is an open source tool that was created to bring awareness to the dangers of credential reuse. It is capable of testing supplied user credentials on several known websites to test if the password has been reused on any of these. An official introductionary post can be found here.
+
+
+https://github.com/lightos/credmap
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->
