@@ -61,5 +61,11 @@ Remove Lock
 
 http://androidcentral.us/2013/08/how-to-remove-forgotten-passcode-on-any-android-device/
 
+OSS Git Client for Android
+--------------------------
+
+https://play.google.com/store/apps/details?id=me.sheimi.sgit
+https://github.com/sheimi/SGit
+
 
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

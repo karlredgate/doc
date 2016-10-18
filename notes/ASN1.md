@@ -21,5 +21,9 @@ asn.1 ECN grammar
 https://en.wikipedia.org/wiki/Abstract_Syntax_Notation_One
 http://www.itu.int/net/itu_search/index.aspx?cx=001276825495132238663%3Anqzm45z846q&cof=FORID%3A9&ie=UTF-8&q=x.680
 
+Javascript BER
+--------------
+
+https://github.com/PeculiarVentures/ASN1.js
 
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

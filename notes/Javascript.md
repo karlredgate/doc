@@ -7,6 +7,16 @@ npm has its own doc [npm.md]
 https://iojs.org/en/es6.html
 http://www.ecma-international.org/publications/standards/Ecma-262.htm
 
+Objects
+-------
+
+http://helephant.com/2009/01/18/javascript-object-prototype/
+http://helephant.com/2008/08/17/how-javascript-objects-work/
+http://helephant.com/2009/08/17/javascript-prototype-chaining/
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind
+
+http://yehudakatz.com/2011/08/12/understanding-prototypes-in-javascript/
+
 WebWorker
 ----------
 
@@ -568,6 +578,12 @@ Look in automation/experimantal/node/browserify for an example.
 http://es6-features.org/#ValueExportImport
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import
 
+ES6 Generators (Coroutines)
+---------------------------
+
+https://esdiscuss.org/topic/transpiling-es6-generator-functions-to-es5-what-next
+https://github.com/facebook/regenerator
+
 console.log support
 -------------------
 
@@ -596,6 +612,12 @@ Stupid build tools that just recreate make
 https://www.keithcirkel.co.uk/why-we-should-stop-using-grunt/
 
 ### Gulp
+
+Redux
+-----
+
+Bunch of videos here for Redux
+https://egghead.io/lessons/javascript-redux-reducer-composition-with-combinereducers
 
 Contributors
 ------------

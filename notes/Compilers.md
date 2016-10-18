@@ -41,6 +41,8 @@ https://en.wikipedia.org/wiki/Metacompiler
 Packrat and PEG
 ---------------
 
+More papers to get here http://bford.info/packrat/
+
 https://en.wikipedia.org/wiki/Parsing_expression_grammar
 https://pdos.csail.mit.edu/~baford/packrat/icfp02/packrat-icfp02.pdf
 https://pdos.csail.mit.edu/~baford/packrat/thesis/
@@ -58,6 +60,10 @@ https://en.wikipedia.org/wiki/Top-down_parsing
 https://sourceforge.net/p/packcc/wiki/Home/
 http://www.romanredz.se/papers/FI2007.pdf
 http://www.diva-portal.org/smash/get/diva2:752340/FULLTEXT01.pdf
+
+### Katahdin
+
+http://chrisseaton.com/katahdin/
 
 ### For *go*
 
@@ -95,5 +101,27 @@ https://github.com/munificent/magpie
 http://magpie-lang.org/
 
 https://github.com/munificent/bantam
+
+D Hanson
+--------
+
+LCC compiler etc
+
+https://github.com/drh/drhanson
+https://sites.google.com/site/drhanson/software
+https://github.com/drh/iburg
+https://en.wikipedia.org/wiki/LCC_(compiler)
+https://github.com/drh/lcc
+
+Tiny C Compiler
+---------------
+
+Fabrice Bellard
+
+https://en.wikipedia.org/wiki/Tiny_C_Compiler
+http://bellard.org/tcc/tccboot.html
+
+Javascript PC emulator
+http://bellard.org/jslinux/
 
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

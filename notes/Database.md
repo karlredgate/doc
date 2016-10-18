@@ -65,4 +65,17 @@ http://www.liquibase.org/quickstart.html
 http://www.liquibase.org/community/index.html
 https://github.com/liquibase/liquibase
 
+Graph Databases
+---------------
+
+For RDF etc - Neo4J keeps attacking me - but is open source.
+
+https://en.wikipedia.org/wiki/Graph_database
+https://en.wikipedia.org/wiki/OpenCog
+http://opencog.org/
+https://github.com/opencog
+
+https://en.wikipedia.org/wiki/Virtuoso_Universal_Server
+https://github.com/openlink/virtuoso-opensource
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

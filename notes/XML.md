@@ -2,6 +2,40 @@
 <!--
 -->
 
+XSLT XPATH
+----------
+
+**`child::book`**
+Selects all book nodes that are children of the current node
+
+**`attribute::lang`**
+Selects the lang attribute of the current node
+
+**`child::*`**
+Selects all element children of the current node
+
+**`attribute::*`**
+Selects all attributes of the current node
+
+**`child::text()`**
+Selects all text node children of the current node
+
+**`child::node()`**
+Selects all children of the current node
+
+**`descendant::book`**
+Selects all book descendants of the current node
+
+**`ancestor::book`**
+Selects all book ancestors of the current node
+
+**`ancestor-or-self::book`**
+Selects all book ancestors of the current node - and the current as well if it is a book node
+
+**`child::*/child::price`**
+Selects all price grandchildren of the current node
+
+
 Streaming XSLT
 --------------
 
