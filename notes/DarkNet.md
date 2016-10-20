@@ -1,6 +1,19 @@
 
-<!--
--->
+https://en.wikipedia.org/wiki/Deep_web
+https://en.wikipedia.org/wiki/Darknet
+https://en.wikipedia.org/wiki/I2P
+https://en.wikipedia.org/wiki/Dark_web
+https://en.wikipedia.org/wiki/Silk_Road_(marketplace)
+
+http://www.forbes.com/sites/andygreenberg/2013/11/06/silk-road-2-0-launches-promising-a-resurrected-black-market-for-the-dark-web/#49ed749861c5
+
+https://en.wikipedia.org/wiki/Atlantis_(market)
+
+https://en.wikipedia.org/wiki/Bitcoin
+https://en.wikipedia.org/wiki/Blockchain_(database)
+
+Backscatter and Related
+-----------------------
 
 Also see the Firewall.md page
 
@@ -41,5 +54,6 @@ https://en.wikipedia.org/wiki/CRM114_(program)
 https://en.wikipedia.org/wiki/Backscatter_(email)
 https://en.wikipedia.org/wiki/Network_Abuse_Clearinghouse
 https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail
+
 
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

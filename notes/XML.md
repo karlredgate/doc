@@ -35,6 +35,21 @@ Selects all book ancestors of the current node - and the current as well if it i
 **`child::*/child::price`**
 Selects all price grandchildren of the current node
 
+XSL-FO
+------
+
+https://en.wikipedia.org/wiki/XSL_Formatting_Objects
+https://www.w3.org/Style/XSL/
+https://www.w3.org/TR/xsl/
+https://www6.software.ibm.com/developerworks/education/x-xslfo/x-xslfo-a4.pdf
+https://www6.software.ibm.com/developerworks/education/x-xslfo2/x-xslfo2-a4.pdf
+http://www.renderx.com/files/wikipedia-pdf/XSL_Formatting_Objects.pdf
+
+This one looks interesting
+https://en.wikipedia.org/wiki/Text_Encoding_Initiative
+
+https://xmlgraphics.apache.org/fop/
+http://xmlgraphics.apache.org/
 
 Streaming XSLT
 --------------

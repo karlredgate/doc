@@ -107,4 +107,12 @@ https://github.com/0x27/TheItalianJob
 https://asciinema.org/
 
 
+SQL Injection
+-------------
+
+### Tools
+
+http://sqlmap.org/
+https://github.com/sqlmapproject/sqlmap
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->
