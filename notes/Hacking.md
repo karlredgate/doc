@@ -115,4 +115,12 @@ SQL Injection
 http://sqlmap.org/
 https://github.com/sqlmapproject/sqlmap
 
+DirtyCow
+--------
+
+http://dirtycow.ninja/
+https://github.com/dirtycow/dirtycow.github.io/wiki/VulnerabilityDetails
+https://github.com/dirtycow/dirtycow.github.io/wiki/PoCs
+https://github.com/dirtycow/dirtycow.github.io
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

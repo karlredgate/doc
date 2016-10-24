@@ -103,4 +103,37 @@ Credmap is an open source tool that was created to bring awareness to the danger
 
 https://github.com/lightos/credmap
 
+Contrast Security
+-----------------
+
+https://www.contrastsecurity.com/
+
+Most companies build or buy software apps to run their business.
+Unfortunately, application code exposes critical vulnerabilities
+to hackers.
+
+Contrast solves this complex problem with a bold new secure technology
+platform that transforms application security by making apps
+self-protecting. Intelligent Contrast agents are injected into app
+code, instrumenting apps with thousands of smart, agile sensors
+that detect and correct vulnerabilities before deployment, and
+protect apps while operating. No legacy security tool can protect
+every app. But a tenacious army of intelligent Contrast sensors
+can.
+
+The Contrast technology platform is a fundamentally new way to
+protect a company from threats, giving our customers visibility and
+accuracy that verges on clairvoyance.
+
+Because Contrast technology works hand-in-glove with agile development
+teams, it transforms every app in a company’s portfolio from a weak
+spot into a strong point to decisively repel attacks.
+
+We reject the old paradigm of periodic and serial scanning, hacking, and patching, which has proven expensive and ineffective. Instead, Continuous Application Security (CAS) relies on security instrumentation in every application. This instrumentation provides security visibility, assessment, and protection in real time and in parallel across the entire application portfolio. CAS is a unified program covering the entire software lifecycle, including both development and production, designed to create a clear line of sight from the threat to strong defenses, and ultimately to assurance.
+
+Dyn Attack
+----------
+
+http://www.theverge.com/2016/10/24/13380448/ddos-dyn-attack-internet-infrastructure
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

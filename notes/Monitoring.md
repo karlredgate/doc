@@ -85,4 +85,10 @@ https://github.com/prometheus
 https://github.com/prometheus/prometheus
 
 
+
+Cloud based Monitoring
+----------------------
+
+Google Alerts - <https://www.google.com/alerts>
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->
