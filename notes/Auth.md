@@ -168,6 +168,21 @@ SAML
 
 https://en.wikipedia.org/wiki/SAML-based_products_and_services
 
+Open Source
+
+https://github.com/lightSAML/lightSAML
+https://github.com/i8beef/SAML2
+https://github.com/covermymeds/saml-http-post-reference
+
+http://saml.xml.org/wiki/idp-initiated-single-sign-on-post-binding
+http://merbist.com/2012/04/04/building-and-implementing-a-single-sign-on-solution/
+
+DSL to test web services
+https://github.com/mattetti/Weasel-Diesel
+
+framework for creating REST services in Ruby
+https://github.com/ruby-grape/grape
+
 FIDO
 ----
 

@@ -129,4 +129,19 @@ https://en.wikipedia.org/wiki/Waxy_flexibility
 https://en.wikipedia.org/wiki/Simple-type_schizophrenia
 https://en.wikipedia.org/wiki/Sluggish_schizophrenia
 
+### Thought disorder
+
+https://en.wikipedia.org/wiki/Thought_disorder
+https://en.wikipedia.org/wiki/Derailment_(thought_disorder)
+https://en.wikipedia.org/wiki/Asyndeton
+https://en.wikipedia.org/wiki/Alogia
+https://en.wikipedia.org/wiki/Semantic_memory
+https://en.wikipedia.org/wiki/Tangentiality
+https://en.wikipedia.org/wiki/Logic_and_rationality#Illogicality
+https://en.wikipedia.org/wiki/Perseveration
+https://en.wikipedia.org/wiki/Neologism
+https://en.wikipedia.org/wiki/Thought_blocking
+https://en.wikipedia.org/wiki/Bradyphrenia
+https://en.wikipedia.org/wiki/Sluggish_cognitive_tempo
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

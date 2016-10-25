@@ -2,6 +2,8 @@
 <!--
 -->
 
+https://en.wikipedia.org/wiki/Glossary_of_rhetorical_terms
+
 https://en.wikipedia.org/wiki/Epizeuxis
 https://en.wikipedia.org/wiki/Anaphora_(rhetoric)
 https://en.wikipedia.org/wiki/Diacope
@@ -34,6 +36,21 @@ https://en.m.wikipedia.org/wiki/Apposition
 https://en.m.wikipedia.org/wiki/Genitive_construction
 https://en.m.wikipedia.org/wiki/English_possessive#Double_genitive
 https://en.m.wikipedia.org/wiki/Serial_comma
+
+https://en.wikipedia.org/wiki/Asyndeton
+https://en.wikipedia.org/wiki/Syndeton
+https://en.wikipedia.org/wiki/Polysyndeton
+https://en.wikipedia.org/wiki/Hypozeuxis
+https://en.wikipedia.org/wiki/Syllepsis
+
+https://en.wikipedia.org/wiki/Apokoinu_construction
+https://en.wikipedia.org/wiki/Parataxis_(grammar)
+https://en.wikipedia.org/wiki/Reduced_relative_clause
+https://en.wikipedia.org/wiki/Zeugma
+https://en.wikipedia.org/wiki/Syntaxis
+https://en.wikipedia.org/wiki/Hypotaxis
+
+
 
 Speeches
 ---------

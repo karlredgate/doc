@@ -48,4 +48,13 @@ https://en.wikipedia.org/wiki/Lake_Chaubunagungamaug
 https://en.wikipedia.org/wiki/Llanfairpwllgwyngyll
 https://en.wikipedia.org/wiki/List_of_long_place_names
 
+Remote Islands
+--------------
+
+https://en.wikipedia.org/wiki/Tristan_da_Cunha
+https://en.wikipedia.org/wiki/Islands_of_Refreshment
+https://en.wikipedia.org/wiki/Saint_Helena,_Ascension_and_Tristan_da_Cunha
+https://en.wikipedia.org/wiki/Saint_Helena
+http://www.tristandacunha.org/
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->
