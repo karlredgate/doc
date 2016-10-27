@@ -2,6 +2,13 @@
 <!--
 -->
 
+http://javascript.crockford.com/javascript.html
+http://www.crockford.com/javascript/private.html
+http://javascript.crockford.com/inheritance.html
+
+https://en.wikipedia.org/wiki/Homoiconicity
+https://en.wikipedia.org/wiki/Macro_(computer_science)#Syntactic_macros
+
 npm has its own doc [npm.md]
 
 https://iojs.org/en/es6.html
