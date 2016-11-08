@@ -50,5 +50,22 @@ http://protege.stanford.edu/
 http://semanticweb.org/wiki/Tools.html
 https://blogs.microsoft.com/blog/2016/06/16/microsoft-acquires-wand-labs-to-accelerate-innovation-in-bing-intelligence-and-conversation-as-a-platform/#sm.00000ul0pr9nyzdfxsa8twv6gs7op
 
+Virtuoso RDF DB server
+----------------------
+
+Virtuoso Universal Server is a middleware and database engine hybrid
+that combines the functionality of a traditional RDBMS, ORDBMS,
+virtual database, RDF, XML, free-text, web application server and
+file server functionality in a single system. Rather than have
+dedicated servers for each of the aforementioned functionality
+realms, Virtuoso is a "universal server"; it enables a single
+multithreaded server process that implements multiple protocols.
+The open source edition of Virtuoso Universal Server is also known
+as OpenLink Virtuoso. The software has been developed by OpenLink
+Software with Kingsley Uyi Idehen and Orri Erling as the chief
+software architects.
+
+https://en.wikipedia.org/wiki/Virtuoso_Universal_Server
+https://github.com/openlink/virtuoso-opensource
 
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

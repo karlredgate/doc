@@ -2,6 +2,9 @@
 <!--
 -->
 
+Characters
+λ
+
 Also check out the [Prolog]( Prolog.md ) page.
 
 https://en.wikipedia.org/wiki/Homoiconicity
@@ -25,5 +28,12 @@ http://stackoverflow.com/questions/5030285/is-ecmascript-really-a-dialect-of-lis
 http://lispyscript.com/
 http://raganwald.com/2013/07/19/javascript-is-a-lisp.html
 https://github.com/willurd/js-lisp
+
+Links
+-----
+
+https://github.com/anthay/Lisp90
+https://pages.lip6.fr/Christian.Queinnec/WWW/LiSP.html
+https://pages.lip6.fr/Christian.Queinnec/WWW/
 
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

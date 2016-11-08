@@ -124,4 +124,27 @@ http://bellard.org/tcc/tccboot.html
 Javascript PC emulator
 http://bellard.org/jslinux/
 
+Optimization
+------------
+
+Also "hoisting"
+https://en.wikipedia.org/wiki/Loop-invariant_code_motion
+http://www.compileroptimizations.com/category/hoisting.htm
+
+https://en.wikipedia.org/wiki/Loop-invariant_code
+https://en.wikipedia.org/wiki/Compiler_optimization
+https://en.wikipedia.org/wiki/Strength_reduction
+https://en.wikipedia.org/wiki/Induction_variable
+https://en.wikipedia.org/wiki/Reaching_definition
+https://en.wikipedia.org/wiki/Register_pressure
+https://en.wikipedia.org/wiki/Register_spilling
+https://en.wikipedia.org/wiki/Rematerialization
+
+https://en.wikipedia.org/wiki/Peephole_optimization
+https://en.wikipedia.org/wiki/Loop_fusion
+https://en.wikipedia.org/wiki/Dead_store
+https://en.wikipedia.org/wiki/Live_variable_analysis
+https://en.wikipedia.org/wiki/Constant_folding
+https://en.wikipedia.org/wiki/Loop_unrolling
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

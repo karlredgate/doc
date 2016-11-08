@@ -6,6 +6,12 @@ https://en.wikipedia.org/wiki/Pivot_table
 pivot table in OSX numbers
 http://www.chartcube.com/
 
+Javascript Graphviz
+-------------------
+
+ * https://mdaines.github.io/viz.js/
+ * Code: <https://github.com/mdaines/viz.js>
+
 JavaScript Charts
 ------------------
 
@@ -26,5 +32,10 @@ https://en.wikipedia.org/wiki/Funnel_chart
 https://en.wikipedia.org/wiki/Data_visualization
 https://en.wikipedia.org/wiki/Exploratory_data_analysis
 https://en.wikipedia.org/wiki/Infographic
+
+Vega - Visualization Grammar (JSON)
+-----------------------------------
+
+https://github.com/vega/vega
 
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

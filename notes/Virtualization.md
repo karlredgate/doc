@@ -2,6 +2,12 @@
 <!--
 -->
 
+Vagrant
+-------
+
+http://www.vagrantbox.es/
+https://github.com/CommanderK5/packer-centos-template/releases
+
 Xhyve
 ------
 

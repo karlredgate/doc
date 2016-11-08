@@ -109,4 +109,15 @@ https://www.quora.com/What-is-the-best-Dicom-viewer-in-MacOS
 https://www.horosproject.org/community/contribute/
 https://github.com/horosproject/horos
 
+IBS
+----
+
+https://en.wikipedia.org/wiki/Irritable_bowel_syndrome
+https://en.wikipedia.org/wiki/FODMAP
+
+https://en.wikipedia.org/wiki/Gluten
+https://en.wikipedia.org/wiki/Rice
+https://en.wikipedia.org/wiki/Pseudocereal
+https://en.wikipedia.org/wiki/Buckwheat
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

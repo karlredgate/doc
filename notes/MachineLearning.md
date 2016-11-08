@@ -699,5 +699,18 @@ http://www.cs.toronto.edu/~hinton/
 https://en.wikipedia.org/wiki/Geoffrey_Hinton
 https://plus.google.com/+WardPlunet/posts/9ZsqhBiqfrF
 
+Linguistics
+-----------
+
+PennState - Brain, Language and Computation lab
+http://blclab.org/
+http://blclab.org/wp-content/uploads/2013/02/cogsci00.pdf
+
+From Peter - Oct 31
+-------------------
+
+https://galeascience.wordpress.com/2016/04/27/markov-chain-monte-carlo-sampling/
+https://galeascience.wordpress.com/2016/03/11/galtons-peg-board-and-the-central-limit-theorem/
+https://galeascience.wordpress.com/2016/03/02/approximating-pi-with-monte-carlo-simulations/
 
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

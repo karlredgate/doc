@@ -12,6 +12,12 @@ https://blog.netspi.com/bypassing-airwatch-root-restriction/
 
 https://en.wikipedia.org/wiki/National_Security_Agency#Software_backdoors
 
+CVE
+----
+
+At Mitre <http://cve.mitre.org/>
+National vulnerability database <https://nvd.nist.gov/>
+
 Tools
 ------
 

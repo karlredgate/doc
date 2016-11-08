@@ -9,6 +9,12 @@ These are the browser parsers that handle misformed HTML
 
 https://en.wikipedia.org/wiki/Tag_soup
 
+Subresource Integrity
+---------------------
+
+https://www.w3.org/TR/SRI/
+https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity
+
 Link vs Script Tags
 -------------------
 

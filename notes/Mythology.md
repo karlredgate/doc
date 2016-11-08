@@ -102,4 +102,11 @@ https://en.wikipedia.org/wiki/Keening
 https://en.wikipedia.org/wiki/Cailleach
 https://en.wikipedia.org/wiki/The_Morr%C3%ADgan
 
+GreenMan
+--------
+
+https://en.wikipedia.org/wiki/Green_Man
+https://en.wikipedia.org/wiki/Fairy
+https://en.wikipedia.org/wiki/Nordic_aliens
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

@@ -2,6 +2,16 @@
 <!--
 -->
 
+MVC
+---
+
+This page has links to all of the MVC frameworks out there with interactions?
+
+http://todomvc.com/
+
+Crockford
+---------
+
 http://javascript.crockford.com/javascript.html
 http://www.crockford.com/javascript/private.html
 http://javascript.crockford.com/inheritance.html
@@ -13,6 +23,11 @@ npm has its own doc [npm.md]
 
 https://iojs.org/en/es6.html
 http://www.ecma-international.org/publications/standards/Ecma-262.htm
+
+### JSMin
+
+http://www.crockford.com/javascript/jsmin.html
+https://github.com/douglascrockford/JSMin
 
 Objects
 -------
@@ -188,6 +203,13 @@ compatible version when absent. The documentation refers to
 *Underscore.js* as "the tie to go along with jQuery's tux, and
 *Backbone.js*'s suspenders."  *Underscore.js* was created by Jeremy
 Ashkenas, who is also known for *Backbone.js* and CoffeeScript.
+
+### lodash - Lo-Dash
+
+Replacement for underscore
+
+http://stackoverflow.com/questions/13789618/differences-between-lodash-and-underscore#13898916
+http://kitcambridge.be/blog/say-hello-to-lo-dash/
 
 ### Ember.js
 
