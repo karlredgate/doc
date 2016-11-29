@@ -648,6 +648,43 @@ Redux
 Bunch of videos here for Redux
 https://egghead.io/lessons/javascript-redux-reducer-composition-with-combinereducers
 
+Shells
+------
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Shells
+http://javalikescript.free.fr/
+http://documentup.com/shelljs/shelljs
+http://es6console.com/
+
+This one is embeddable in your page.
+http://www.billyreisinger.com/jash/
+
+Modules
+-------
+
+Modules and loaders
+
+http://wiki.commonjs.org/wiki/Modules
+http://wiki.commonjs.org/wiki/Modules/1.1
+
+curl.js is a small and very fast AMD-compliant asynchronous loader. Size: ~4KB (gzipped) using Google's Closure Compiler.
+
+https://github.com/cujojs/curl
+
+https://github.com/amdjs/amdjs-api/wiki/AMD
+http://wiki.ecmascript.org/doku.php?id=harmony:modules
+
+Non-Framework Frameworks
+------------------------
+
+cujoJS is the JavaScript Architectural Toolkit. It employs MVC, IOC, AMD and lots of other TLAs. :) Our goal is to provide architectural tools and guidance. Find out more at cujoJS.com.
+
+http://cujojs.com/
+
+https://ampersandjs.com/
+
+https://facebook.github.io/flux/
+
 Contributors
 ------------
 
@@ -664,5 +701,14 @@ https://en.wikipedia.org/wiki/Brendan_Eich
 https://brendaneich.com/2011/06/new-javascript-engine-module-owner/
 https://brendaneich.com/2008/04/popularity/
 http://www.netlib.org/fp/dtoa.c
+
+Nov 30
+------
+
+Step-by-step tutorial to build a modern JavaScript stack from scratch
+https://github.com/verekia/js-stack-from-scratch
+
+Lightweight fuzzy-search, in JavaScript http://fusejs.io/
+https://github.com/krisk/Fuse
 
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

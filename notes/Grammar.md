@@ -1,4 +1,30 @@
 
+HemingwayApp
+------------
+
+http://www.hemingwayapp.com/
+
+### Readability Algorithms
+
+https://simple.wikipedia.org/wiki/List_of_readability_tests#ARI
+https://en.wikipedia.org/wiki/Automated_readability_index
+https://en.wikipedia.org/wiki/Flesch%E2%80%93Kincaid_readability_tests
+
+http://www.dtic.mil/dtic/tr/fulltext/u2/667273.pdf
+http://jlr.sagepub.com/content/7/2/149.full.pdf
+http://www.diva-portal.se/smash/get/diva2:721646/FULLTEXT01.pdf
+https://pdfs.semanticscholar.org/d165/c2a774c9a811020eeaa7433df6da1567803a.pdf
+
+https://en.wikipedia.org/wiki/William_DuBay
+
+### Javascript implementation
+
+https://github.com/duereg/automated-readability-index
+
+```
+npm install automated-readability-index
+```
+
 Aspect
 ------
 

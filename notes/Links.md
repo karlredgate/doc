@@ -62,4 +62,10 @@ of syntactic description of input text.
 
 http://ilk.uvt.nl/conll/
 
+Nov 18 2016
+-----------
+
+Good links to read:
+http://sciblogs.co.nz/code-for-life/2012/12/03/structured-procrastination-2-dec-2012/
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

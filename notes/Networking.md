@@ -202,4 +202,23 @@ Flow monitoring - also sFlow and IPFIX
 
 https://en.wikipedia.org/wiki/NetFlow
 
+Traffic Grapher for Routers (maybe for Routed)
+----------------------------------------------
+
+This one is for visualizing NetFlow data.
+http://wvnetflow.sourceforge.net/
+
+https://en.wikipedia.org/wiki/Multi_Router_Traffic_Grapher
+
+Paessler Router Traffic Grapher, renamed PRTG Network Monitor from
+version 7 in 2008,[1] is a server up-time and utilisation, network
+monitoring and bandwidth usage software package for server
+infrastructure from Paessler AG. It can monitor and classify bandwidth
+usage in a network using SNMP, packet sniffing and Netflow. It
+services Microsoft Windows and Linux. It was derived from the
+open-source Multi Router Traffic Grapher (MRTG) project. A version
+with a limited number of sensors is available free of charge.
+
+https://en.wikipedia.org/wiki/Paessler_Router_Traffic_Grapher
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

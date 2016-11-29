@@ -162,6 +162,24 @@ https://github.com/libimobiledevice/ifuse
 http://www.libimobiledevice.org/
 https://github.com/libimobiledevice/libimobiledevice
 
+Configurator tool
+-----------------
+
+http://help.apple.com/configurator/mac/2.3/
+https://support.apple.com/en-us/HT202430
+https://www.apple.com/support/business/apple-configurator/
+https://www.apple.com/support/business/
+
+Client Certs
+
+https://discussions.apple.com/thread/2409942?start=0&tstart=0
+
+Push Notifications
+------------------
+
+https://developer.apple.com/notifications/
+
+
 Links
 ------
 

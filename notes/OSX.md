@@ -476,6 +476,10 @@ http://www.coconut-flavour.com/coconutbattery/
 Perian is dead - look at this instead.
 https://github.com/jbtule/niceplayer
 
+### App Store Cmd line
+
+ * [Mac App Store command line interface](https://github.com/mas-cli/mas)
+
 launchd
 -------
 
@@ -530,9 +534,52 @@ Code signing etc in this doc
 
  * <http://sourceware.org/gdb/wiki/BuildingOnDarwin>
 
+Power Management
+----------------
+
+https://en.wikipedia.org/wiki/Pmset
+http://osxdaily.com/2010/10/11/sleepimage-mac/
+https://www.cnet.com/news/troubleshooting-sleep-in-os-x/
+
+Log Parsing
+-----------
+
+http://pondini.org/OSX/Logs.html
+https://www.cclgroupltd.com/parsing-apple-system-log-files-osx-ios/
+
 XHyve
 -----
 
 See Virtualization.md
+
+Filesystems
+-----------
+
+FUSE
+
+ * https://github.com/fuse4x/fuse
+ * https://github.com/osxfuse/fuse
+ * [FUSE in Go](https://github.com/bazil/fuse)
+
+Bluetooth
+----------
+
+```
++defaults write "$(find /Library/Preferences -iname 'bluetooth'|sed -Ene's/\.plist//p')" ControllerPowerState -int 0+
+but feel free to use this one ;p :
+*defaults write /Library/Preferences/com.apple.Bluetooth ControllerPowerState -int 0*
+```
+
+```
+sudo mv /System/Library/Extensions/IOBluetooth* /somedir
+```
+
+```
+sudo defaults write /Library/Preferences/com.apple.Bluetooth ControllerPowerState -int 1
+
+sudo launchctl unload /System/Library/LaunchDaemons/com.apple.blued.plist
+sudo launchctl load /System/Library/LaunchDaemons/com.apple.blued.plist
+```
+
 
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

@@ -12,6 +12,11 @@ https://blog.netspi.com/bypassing-airwatch-root-restriction/
 
 https://en.wikipedia.org/wiki/National_Security_Agency#Software_backdoors
 
+Researchers
+-----------
+
+http://www.cs.princeton.edu/~felten/
+
 CVE
 ----
 

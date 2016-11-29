@@ -11,8 +11,32 @@ http://www8.org/w8-papers/2a-webserver/caching/paper2.html
 https://github.com/stathat/consistent
 http://www.tom-e-white.com/2007/11/consistent-hashing.html
 
+https://en.wikipedia.org/wiki/Universal_hashing
+
+https://www.strchr.com/hash_functions
+http://www.cse.yorku.ca/~oz/hash.html
+
+http://www.burtleburtle.net/bob/hash/doobs.html
+http://www.burtleburtle.net/bob/hash/spooky.html
+http://www.burtleburtle.net/bob/c/lookup3.c
+http://en.wikipedia.org/wiki/Fowler%E2%80%93Noll%E2%80%93Vo_hash_function
+http://www.geocities.com/drone115b/Goulburn06.pdf
+http://murmurhash.googlepages.com/
+http://cessu.blogspot.com/
+http://www.burtleburtle.net/bob/c/crc.c
+http://www.burtleburtle.net/bob/c/gencrc.c
+http://www.burtleburtle.net/bob/c/frog.c
+
+Murmur
+------
+
+SMHasher is a test suite designed to test the distribution, collision, and performance properties of non-cryptographic hash functions.
+
+https://github.com/aappleby/smhasher
 
 Crypto hashes
+-------------
+
 https://code.google.com/p/smhasher/wiki/Distribution
 smhasher
 https://code.google.com/p/smhasher/
@@ -98,6 +122,8 @@ http://isthe.com/chongo/tech/comp/fnv/
 http://www.larc.usp.br/~pbarreto/hflounge.html
 https://en.wikipedia.org/wiki/Hash_function
 
+http://willwhim.wpengine.com/2011/09/03/producing-n-hash-functions-by-hashing-only-once/
+http://www.lkozma.net/cuckoo_hashing_visualization/
 
 The CRISP Web cache
 -------------------

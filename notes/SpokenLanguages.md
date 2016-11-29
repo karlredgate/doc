@@ -32,4 +32,10 @@ Translation
 
 https://en.wikipedia.org/wiki/Universal_Networking_Language
 
+Downeast
+---------
+
+How to talk like a Mainer
+http://downeast.com/dialects/
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

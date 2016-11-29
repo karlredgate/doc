@@ -713,4 +713,29 @@ https://galeascience.wordpress.com/2016/04/27/markov-chain-monte-carlo-sampling/
 https://galeascience.wordpress.com/2016/03/11/galtons-peg-board-and-the-central-limit-theorem/
 https://galeascience.wordpress.com/2016/03/02/approximating-pi-with-monte-carlo-simulations/
 
+Artificial Intelligence
+-----------------------
+
+Topics:
+
+https://en.wikipedia.org/wiki/Computational_theory_of_mind
+https://en.wikipedia.org/wiki/Technological_singularity
+https://en.wikipedia.org/wiki/Superintelligence
+https://en.wikipedia.org/wiki/Artificial_general_intelligence
+https://en.wikipedia.org/wiki/Intelligence_explosion
+https://en.wikipedia.org/wiki/Sentience
+
+Nov 14
+----------
+
+Super Resolution for images using deep learning.
+https://github.com/alexjc/neural-enhance
+
+An enhanced self-organizing incremental neural network for online unsupervised learning
+https://github.com/BelBES/ESOINN
+
+Better tools for thought http://witheve.com
+https://github.com/witheve/Eve
+http://witheve.com/
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->
