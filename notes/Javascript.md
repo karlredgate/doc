@@ -2,6 +2,9 @@
 <!--
 -->
 
+http://codeofrob.com/entries/you-have-ruined-javascript.html
+
+
 MVC
 ---
 

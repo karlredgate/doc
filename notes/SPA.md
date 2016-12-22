@@ -1,9 +1,28 @@
 Single Page Apps
 ================
 
+Navigation
+----------
 
-Full Screen Nav
-----------------
+http://blog.teamtreehouse.com/popular-web-design-trends-for-responsive-navigation
+https://codemyviews.com/blog/website-navigation-trends-10-tips-examples
+https://medium.com/@MerciMichel/la-plus-grande-cave-%C3%A0-bi%C3%A8res-du-monde-c2db691104a5#.48azqx8xs
+
+Green Sock GSAP - HTML5 Navigation
+http://greensock.com/gsap
+
+http://merci-michel.com/La-plus-grande-cave-a-biere-du-monde
+
+The HTML5 Creation Engine - 
+Create beautiful digital content with the fastest, most flexible
+2D WebGL renderer.
+
+http://www.pixijs.com/
+http://www.pixijs.com/gallery
+https://pixijs.github.io/examples/#/basics/basic.js
+
+
+### Full Screen Nav
 
 https://github.com/codrops/FullscreenOverlayStyles
 https://github.com/damonbauer/Full-Screen-Nav
@@ -119,6 +138,65 @@ http://angular-js.in/
 http://tympanus.net/codrops/2013/04/17/slide-and-push-menus/
 http://tympanus.net/Blueprints/SlidePushMenus/#
 
+### Select Dropdown
+
+<https://docs.angularjs.org/api/ng/directive/select>
+
+```
+<div ng-controller="ExampleController">
+  <form name="myForm">
+    <label for="singleSelect"> Single select: </label><br>
+    <select name="singleSelect" ng-model="data.singleSelect">
+      <option value="option-1">Option 1</option>
+      <option value="option-2">Option 2</option>
+    </select><br>
+
+    <label for="singleSelect">
+    Single select with "not selected" option
+    and dynamic option values:
+    </label>
+    <br/>
+    <select name="singleSelect" id="singleSelect" ng-model="data.singleSelect">
+      <option value=""> - - -Please select - - - </option>
+      <!-- not selected / blank option -->
+      <option value="{{data.option1}}">Option 1</option>
+      <!-- interpolation -->
+      <option value="option-2">Option 2</option>
+    </select><br>
+    <button ng-click="forceUnknownOption()">Force unknown option</button><br>
+    <tt>singleSelect = {{data.singleSelect}}</tt>
+
+    <hr>
+    <label for="multipleSelect"> Multiple select: </label><br>
+    <select name="multipleSelect"
+            id="multipleSelect"
+            ng-model="data.multipleSelect"
+            multiple>
+      <option value="option-1">Option 1</option>
+      <option value="option-2">Option 2</option>
+      <option value="option-3">Option 3</option>
+    </select><br>
+    <tt>multipleSelect = {{data.multipleSelect}}</tt><br/>
+  </form>
+</div>
+```
+
+```
+<div ng-controller="ExampleController">
+  <form name="myForm">
+      <label for="repeatSelect"> Repeat select: </label>
+      <select name="repeatSelect"
+              id="repeatSelect"
+              ng-model="data.model">
+      <option ng-repeat="option in data.availableOptions"
+              value="{{option.id}}">{{option.name}}</option>
+      </select>
+  </form>
+  <hr/>
+  <tt>model = {{data.model}}</tt><br/>
+</div>
+```
+
 Angular UI
 ----------
 
@@ -127,6 +205,131 @@ Components for Angular
 https://angular-ui.github.io/
 https://angular-ui.github.io/bootstrap/
 https://angular-ui.github.io/bootstrap/#/getting_started
+
+Angular D3 Integration
+----------------------
+
+search: svg map of world angular view
+
+https://medium.com/@tweededbadger/tutorial-dynamic-data-driven-svg-map-with-angularjs-b112fdec421d
+http://jvectormap.com/
+
+http://grokbase.com/t/gg/d3-js/132r1sa1hj/building-an-interactive-map-with-d3-and-angular-js
+
+Open Internet for everyone. Lantern is a free application that
+delivers fast, reliable and secure access to the open Internet for
+users in censored regions. It uses a variety of techniques to stay
+unblocked, including domain fronting, p2p, and pluggable transports.
+https://getlantern.org
+
+https://github.com/getlantern/lantern
+
+This is the repository for the UI of Lantern. It is maintained as
+a separate repository to facilitate development. This code can be
+run independently of Lantern's Java backend with a lightweight
+node.js http server using Faye to implement Lantern's bayeux server.
+
+https://github.com/getlantern/lantern-ui
+http://faye.jcoglan.com/
+
+Angular Components
+------------------
+
+http://www.angularjshub.com/examples/forms/checkboxinput/
+https://docs.angularjs.org/api/ng/directive/ngModel
+https://docs.angularjs.org/api/ng/type/ngModel.NgModelController
+
+http://ng-table.com/#/pagination/demo-api
+https://github.com/samu/angular-table
+http://ngmodules.org/modules/ng-table
+http://ng-table.com/#/
+http://www.w3schools.com/bootstrap/bootstrap_tables.asp
+
+Angluar Dependency Injection
+----------------------------
+
+The key part is
+
+```
+function f($scope,a,b) { ... }
+var s = f.toString();
+/expression to get args/.match(s);
+// find the arg list
+f.call(someObject,args);
+```
+
+http://teropa.info/blog/2014/06/04/angularjs-dependency-injection-from-the-inside-out.html
+http://teropa.info/blog/2014/03/18/using-angular-2-0-dependency-injection-in-a-backbone-app.html
+http://merrickchristensen.com/articles/javascript-dependency-injection.html
+
+Bootstrap Menus
+---------------
+
+[sub-menu on navigation toolbar](https://github.com/twbs/bootstrap/issues/160)
+http://www.w3schools.com/bootstrap/bootstrap_navbar.asp
+http://stackoverflow.com/questions/17380517/bootstrap-3-level-collapsing-menu
+
+http://bootsnipp.com/snippets/featured/multi-level-dropdown-menu-bs3
+[bootstrap 3 slide menu](http://www.bootply.com/71211)
+http://stackoverflow.com/questions/20863288/bootstrap-3-slide-in-menu-navbar-on-mobile
+
+http://www.jasny.net/bootstrap/javascript/#offcanvas
+
+The offcanvas plugin allows you to hide an element from sight and
+than show it by moving either that or any other element. It's
+intended to be used for off canvas navigation, like push menus.
+
+Another example
+https://jsbin.com/seqola/2/edit?html,css,js,output
+
+### Smart Menus
+
+http://www.monolinea.com/responsive-multilevel-menu-with-bootstrap-3/
+
+http://www.smartmenus.org/download/
+http://vadikom.github.io/smartmenus/src/demo/bootstrap-navbar.html
+http://vadikom.github.io/smartmenus/src/demo/index.html
+http://www.smartmenus.org/about/themes/
+
+Angular Scopes
+--------------
+https://github.com/angular/angular.js/wiki/Understanding-Scopes
+
+In AngularJS, a child scope normally prototypically inherits from
+its parent scope. One exception to this rule is a directive that
+uses scope: ```{ ... }``` - this creates an "isolate" scope that
+does not prototypically inherit.（and directive with transclusion）
+This construct is often used when creating a "reusable component"
+directive. In directives, the parent scope is used directly by
+default, which means that whatever you change in your directive
+that comes from the parent scope will also change in the parent
+scope. If you set scope:true (instead of scope: ```{ ... }```),
+then prototypical inheritance will be used for that directive.
+
+Scope inheritance is normally straightforward, and you often don't
+even need to know it is happening... until you try 2-way data binding
+(i.e., form elements, ng-model) to a primitive (e.g., number, string,
+boolean) defined on the parent scope from inside the child scope.
+It doesn't work the way most people expect it should work. What
+happens is that the child scope gets its own property that hides/shadows
+the parent property of the same name. This is not something AngularJS
+is doing – this is how JavaScript prototypal inheritance works. New
+AngularJS developers often do not realize that ng-repeat, ng-switch,
+ng-view, ng-include and ng-if all create new child scopes, so the
+problem often shows up when these directives are involved. (See
+this example for a quick illustration of the problem.)
+
+This issue with primitives can be easily avoided by following the
+"best practice" of always have a '.' in your ng-models – watch 3
+minutes worth. Misko demonstrates the primitive binding issue with
+ng-switch.
+
+Having a '.' in your models will ensure that prototypal inheritance
+is in play. So, use
+```<input type="text" ng-model="someObj.prop1">```
+rather than 
+```<input type="text" ng-model="prop1">```.
+
 
 WOFF
 ----

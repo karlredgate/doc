@@ -417,6 +417,28 @@ tell application "Finder"
 end tell
 ```
 
+```
+defaults read > /tmp/defaults
+cd /Library/Preferences/
+mv com.apple.Bluetooth.plist com.apple.Bluetooth.saved
+netstat -nr | grep awd
+ssh fe80::44d2:66ff:fe5f:6ea%awdl0
+ping6 -I awdl0 ff02::1
+dns-sd -B _airdrop._tcp
+```
+
+http://www.cultofmac.com/275081/better-security-macbook-turn-file-sharing-enable-airdrop-os-x-tips/
+https://discussions.apple.com/thread/7252461?tstart=0
+http://apple.stackexchange.com/questions/250855/airdrop-not-working-in-mac-osx-10-11-6-el-capitan-with-iphone-6s-ios-9-3-5
+http://apple.stackexchange.com/q/212083/5472
+http://apple.stackexchange.com/questions/212083/debug-airdrop-between-macbook-pro-and-iphone-6s-plus/212086#212086
+https://itunes.apple.com/us/app/wifi-explorer/id494803304?mt=12
+
+### Kismet for MAC
+
+https://kismetwireless.net/
+https://en.wikipedia.org/wiki/KisMAC
+https://github.com/IGRSoft/KisMac2
 
  * http://recode.net/2014/10/16/os-x-yosemite-arrives-what-does-it-mean-for-older-macs/
  * https://medium.com/@mariociabarra/wifried-ios-8-wifi-performance-issues-3029a164ce94#.o4glg14bb

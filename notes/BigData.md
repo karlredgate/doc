@@ -5,6 +5,16 @@
 ETL
 ----
 
+Pentaho and CloverETL
+
+http://wiki.pentaho.com/display/EAI/Sorted+Merge
+http://www.cloveretl.com/products/explore/designing-transformation
+https://github.com/CloverETL/CloverETL-Engine
+https://www.youtube.com/user/CloverETL
+
+http://rusanu.com/2011/10/19/understanding-hash-sort-and-exchange-spill-events/
+http://www.essi.upc.edu/~petar/etl-taxonomy.html
+
 Ab Initio
 ---------
 
@@ -63,6 +73,45 @@ a protobuf jar for use in java.
 https://wiki.apache.org/hadoop/ProtocolBuffers
 
 Related to ProtocolBuffers is Apache Thrift and Etch, and Avro
+
+Cascading
+---------
+
+Cascading is the proven application development platform for building
+data applications on Hadoop.
+
+Twitter Scalding
+----------------
+
+Scalding is a Scala library that makes it easy to specify Hadoop
+MapReduce jobs. Scalding is built on top of Cascading, a Java library
+that abstracts away low-level Hadoop details. Scalding is comparable
+to Pig, but offers tight integration with Scala, bringing advantages
+of Scala to your MapReduce jobs.
+
+ * https://github.com/twitter/scalding
+ * http://www.cascading.org/projects/scalding/
+ * https://github.com/twitter/scalding/wiki/Calling-Scalding-from-inside-your-application
+
+### Algebird
+
+Abstract algebra for Scala. This code is targeted at building
+aggregation systems (via Scalding or Apache Storm). It was originally
+developed as part of Scalding's Matrix API, where Matrices had
+values which are elements of Monoids, Groups, or Rings. Subsequently,
+it was clear that the code had broader application within Scalding
+and on other projects within Twitter.
+
+ * https://twitter.github.io/algebird
+
+Project using algebird
+
+ * http://github.com/twitter/scalding
+ * https://github.com/mesos/spark/pull/480  [Spark]
+ * https://github.com/avibryant/simmer
+ * https://github.com/twitter/summingbird
+ * https://www.packetloop.com/
+ * http://www.slideshare.net/VitalyGordon/scalable-and-flexible-machine-learning-with-scala-linkedin
 
 fluentd and Treasure Data
 ----------------

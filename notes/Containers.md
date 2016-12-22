@@ -4,6 +4,23 @@
 
 https://en.wikipedia.org/wiki/Operating-system-level_virtualization#IMPLEMENTATIONS
 
+OSX Docker in Vagrant
+---------------------
+
+You forked this tool:
+
+https://github.com/karlredgate/docker-osx
+
+which also claims that boot2docker is better,
+but you want to read the simpler tool.
+
+https://github.com/boot2docker/boot2docker
+
+which uses a new packaging tool called bpkg
+
+http://www.bpkg.io/
+https://github.com/bpkg/bpkg
+
 Docker and related
 ------------------
 

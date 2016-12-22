@@ -2,6 +2,9 @@
 <!--
 -->
 
+https://en.wikipedia.org/wiki/XMPP
+https://en.wikipedia.org/wiki/Comparison_of_XMPP_server_software
+
 jabber skype gateway
 https://en.wikipedia.org/wiki/XMPP
 https://en.wikipedia.org/wiki/Comparison_of_XMPP_server_software
@@ -32,5 +35,19 @@ library works.
 https://github.com/strophe/strophejs
 
 https://github.com/daltoniam/XMLKit
+
+Apple Chat Server
+-----------------
+
+https://en.wikipedia.org/wiki/Messages_Server
+https://opensource.apple.com/source/ChatServer/
+https://opensource.apple.com/tarballs/ChatServer/
+
+
+https://github.com/frenchie4111/xmpp-chat-server
+https://github.com/goxmpp
+
+https://github.com/node-xmpp/radiowave
+https://github.com/dreamsxin/jabberd2.2
 
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->
