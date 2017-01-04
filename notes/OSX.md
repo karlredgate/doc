@@ -102,6 +102,9 @@ Forensics
 
 https://github.com/jipegit/OSXAuditor
 
+http://forensicswiki.org/wiki/Mac_OS_X_10.9_-_Artifacts_Location
+https://github.com/pstirparo/mac4n6
+
 Security
 --------
 
@@ -171,6 +174,7 @@ Using Frameworks
 ----------------
 
 OSX C program include framework
+
 https://developer.apple.com/library/mac/documentation/MacOSX/Conceptual/BPFrameworks/Tasks/IncludingFrameworks.html
 https://developer.apple.com/library/mac/releasenotes/MacOSX/WhatsNewInOSX/Articles/MacOSX10_10.html#//apple_ref/doc/uid/TP40014484-SW6
 https://developer.apple.com/library/mac/releasenotes/MacOSX/WhatsNewInOSX/Articles/MacOSX10_10.html
@@ -253,6 +257,17 @@ core.pkg/Scripts
 Payload and Scripts are gzipped cpio archives.  Payload contains the
 install files, that should all be listed in the `Bom`.  Scripts contains
 at least `postinstall`
+
+### Package building
+
+These were gathered january 2017 - read them
+and review the source code:
+
+https://macops.ca/rolling-os-x-packages-with-fpm-and-homebrew
+https://github.com/jordansissel/fpm/wiki/OS-X-packages
+https://cauldrondevelopment.com/svn/osxbom/trunk/
+http://stackoverflow.com/questions/2323818/packagemaker-for-creating-mac-packages-on-windows-linux/8016507
+[Help with my first PKGBUILD script](https://bbs.archlinux.org/viewtopic.php?id=12214)
 
 ### Scripts
 
@@ -603,5 +618,73 @@ sudo launchctl unload /System/Library/LaunchDaemons/com.apple.blued.plist
 sudo launchctl load /System/Library/LaunchDaemons/com.apple.blued.plist
 ```
 
+Filesystem Monitor
+------------------
+
+spy - A compact file system watcher for Mac OS X, Linux and Windows
+
+ * https://hackage.haskell.org/package/spy
+ * https://bitbucket.org/ssaasen/spy
+
+### Suspicious Package
+
+An Application for Inspecting OS X Installer Packages
+
+Do you know what files that OS X Installer package actually installs?
+
+Do you know what scripts it runs during installation, and what they do?
+
+Do you know who the package really came from?
+
+With Suspicious Package, you can answer these questions and more.
+Maybe you're quite literally suspicious of a package you have downloaded.
+Or perhaps you're just curious about what some package does. Or
+maybe you want to find out after the fact exactly what files a
+package scattered across your computer. Whatever the reason,
+Suspicious Package allows you to see inside an installer package.
+(And it's completely free.)
+
+ * http://www.mothersruin.com/software/SuspiciousPackage/
+
+Shared Libraries
+----------------
+
+http://stackoverflow.com/questions/21907504/how-to-compile-shared-lib-with-clang-on-osx
+http://stackoverflow.com/questions/31988594/create-dynamic-library-from-cpp-files-and-static-library-with-clang
+
+From - https://developer.apple.com/library/mac/documentation/DeveloperTools/Conceptual/DynamicLibraries/100-Articles/CreatingDynamicLibraries.html
+
+```
+clang -dynamiclib \
+    SortingAbsAlgorithm.cpp SortingTestCase.cpp SortingTestSetIterator.cpp \
+    -stdlib=libc++ -current_version 1.0 -compatibility_version 1.0 \
+    -fvisibility=hidden -L. -lAlgatorc -o libProject.dylib
+```
+
+Memory Devices
+--------------
+
+According to Accessing Kernel Memory on the x86 Version of Mac OS X, /dev/mem and /dev/kmem were removed when Apple released OS X for Intel processors.
+
+The (excellent) article also explains how to reenable the memory devices, namely using the kmem=1 kernel boot argument.
+
+To set it, open Terminal, type:
+
+sudo nvram boot-args="kmem=1"
+and reboot.
+
+http://apple.stackexchange.com/questions/114319/how-to-access-dev-mem-in-osx#122672
+
+Accessing Kernel Memory on the x86 Version of Mac OS X
+http://www.osxbook.com/book/bonus/chapter8/kma/
+
+Read and write physical memory on OS X
+https://github.com/osresearch/rwmem
+
+http://forensicswiki.org/wiki/Tools:Memory_Imaging
+http://forensicswiki.org/wiki/Rekall
+
+This is related page for Windows:
+http://stackoverflow.com/questions/8403610/how-do-you-read-directly-from-physical-memory
 
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

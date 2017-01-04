@@ -221,4 +221,41 @@ with a limited number of sensors is available free of charge.
 
 https://en.wikipedia.org/wiki/Paessler_Router_Traffic_Grapher
 
+PCAP
+----
+
+### CloudShark
+
+CloudShark is a first of it’s kind web application that lets you
+organize, analyze, and collaborate on network packet captures.
+
+CloudShark lets you secure and track valuable network capture assets.
+With tagging and search capabilities, all of your capture data is
+in one place that lets you find what you need when you need it.
+
+In addition, the CloudShark API lets you easily integrate into your
+existing capture tools, letting you upload captures from anywhere,
+or by using the CloudShark Plug-in for Wireshark.
+
+CloudShark enhances the packet analysis process with web technology.
+With a comfortable, clean interface, it lets you perform common
+decode and analysis functions, embed and auto-lookup Wireshark
+filters, and perform faster, better looking, and more direct analysis
+of captures using tools like RTP playback, graphs, and controlled
+decryption.
+
+https://www.cloudshark.org/
+https://ask.wireshark.org/questions/698/wwwcloudsharkorg
+https://support.cloudshark.org/quick-start/installation-instructions.html
+
+
+NOT open source - but they have some tools here:
+
+https://github.com/cloudshark
+
+Scrubbing
+---------
+
+Certain products use PCAP tools to find network signatures
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

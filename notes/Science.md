@@ -30,4 +30,7 @@ https://en.wikipedia.org/wiki/Fat-tailed_distribution
 https://en.wikipedia.org/wiki/Seven_states_of_randomness
 https://en.wikipedia.org/wiki/Black_swan_theory
 
+### Hydrinos
+
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

@@ -646,4 +646,39 @@ slmgr -ipk XXXX-XXXX-XXXX-XXXX (with the X's of course being the Key )
 ```
 
  * <https://techjourney.net/slmgr-commands-and-options-for-windows-product-key-kms-token-ad-activation/>
+
+Administrator
+-------------
+
+How to run cmd as admin
+
+ 1. Click Start.
+ 2. In the Start Search box, type cmd, and then press `CTRL+SHIFT+ENTER`
+ 3. If the User Account Control dialog box appears,
+    confirm that the action it displays is what you want,
+    and then click Continue.
+
+Reading Kernel Memory
+---------------------
+
+<http://stackoverflow.com/questions/8403610/how-do-you-read-directly-from-physical-memory>
+
+In C or C++ (windows), how do you read RAM by giving a physical
+(not virtual) address? That means without going trough virtual
+memory system (mmu tables), and being specific to one process.
+
+I already know the API ReadProcessMemory, which reads from ram (used
+by most trainers) but it is only for a specific process.
+
+I searched on MSDN and found that `Device\PhysicalMemory` seems to
+give such possibility, but I found no practical example and this
+feature seems to have been turned off by Windows service packs (to
+fix some vulnerability).
+
+I know it is possible to do because WinHex does it (if you choose
+"tools" `>` "open ram" `>` "physical memory"). It will then display RAM
+content from `0x00000000` to `your_ram_size` just like when you open a
+traditional file. It requires administrator rights, but there is
+no driver to install (which means WinHex does it from user mode).
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

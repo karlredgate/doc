@@ -208,4 +208,12 @@ this specification. If they do so, they should use a profile to
 cite the conventions used to define the link types. Please see the
 profile attribute of the HEAD element for more details.
 
+ShareThis Performance Problem
+------------------------------
+
+I think this site provides share buttons - this article talks about
+its behavior.
+
+https://benmarshall.me/sharethis-slowing-down-site/
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->
