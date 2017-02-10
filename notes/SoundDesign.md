@@ -8,6 +8,15 @@ http://designingsound.org/
 http://designingsound.org/
 http://www.aact.org/sound-designer
 
+http://www.gamasutra.com/view/feature/131258/audio_prototyping_with_pure_data.php
+http://www.soundonsound.com/techniques/pure-data-introduction
+http://puredata.info/
+https://en.wikipedia.org/wiki/Pure_Data
+https://en.wikipedia.org/wiki/FUDI
+http://msp.ucsd.edu/#s9
+[Pd Repertory Project](http://msp.ucsd.edu/pdrp/latest/files/doc/)
+https://en.wikipedia.org/wiki/RjDj
+https://en.wikipedia.org/wiki/Reactable
 
 Sound Engineering
 -----------------

@@ -26,4 +26,27 @@ Javascript BER
 
 https://github.com/PeculiarVentures/ASN1.js
 
+Jan 7
+
+https://github.com/cloudtools/tinyber
+https://gitlab.com/matthegap/tiny-asn1
+https://github.com/getreu/asn1-tiny-decoder
+
+https://en.wikipedia.org/wiki/Online_Certificate_Status_Protocol
+https://tools.ietf.org/html/rfc6960
+
+https://en.wikipedia.org/wiki/X.509
+https://en.wikipedia.org/wiki/Public_key_certificate
+https://en.wikipedia.org/wiki/Certificate_authority
+
+https://en.wikipedia.org/wiki/Digital_signature
+https://en.wikipedia.org/wiki/Lamport_signature
+https://en.wikipedia.org/wiki/Merkle_tree
+https://en.wikipedia.org/wiki/Certificate_Transparency
+https://en.wikipedia.org/wiki/Rabin_signature_algorithm
+https://en.wikipedia.org/wiki/GMR_(cryptography)
+https://en.wikipedia.org/wiki/Random_oracle
+https://en.wikipedia.org/wiki/Trapdoor_function
+https://en.wikipedia.org/wiki/Undeniable_signature
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

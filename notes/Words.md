@@ -33,4 +33,16 @@ Characters
 https://en.wikipedia.org/wiki/Hobo
 https://en.wikipedia.org/wiki/File:Hobo_signs_and_symbols.jpg
 
+https://en.wikipedia.org/wiki/Hypocorism
+https://en.wikipedia.org/wiki/Diminutive
+https://en.wikipedia.org/wiki/Augmentative
+https://en.wikipedia.org/wiki/Affect_(linguistics)
+https://en.wikipedia.org/wiki/Comparison_(grammar)
+
+
+https://en.wikipedia.org/wiki/Pareidolia
+is a psychological phenomenon involving a stimulus (an image or a
+sound) wherein the mind perceives a familiar pattern of something
+where none actually exists.
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

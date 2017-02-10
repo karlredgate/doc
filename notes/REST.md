@@ -75,6 +75,19 @@ Swagger has been renamed to OpenAPI
 
  * http://www.markus-lanthaler.com/research/a-semantic-description-language-for-restful-data-services-to-combat-semaphobia.pdf
 
+URI Resources
+-------------
+
+https://en.wikipedia.org/wiki/Representational_state_transfer
+http://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm
+
+http://www.ics.uci.edu/~fielding/pubs/dissertation/evaluation.htm#sec_6_2
+http://stackoverflow.com/questions/1929347/rest-multiple-uri-for-the-same-resource
+https://www.w3.org/2001/tag/issues.html#httpRange-14
+https://lists.w3.org/Archives/Public/www-tag/2002Jul/0253
+https://lists.w3.org/Archives/Public/www-tag/2002Apr/0221
+http://archives.neohapsis.com/archives/fulldisclosure/2006-10/0296
+
 References
 ----------
 

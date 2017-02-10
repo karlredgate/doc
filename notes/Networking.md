@@ -15,11 +15,19 @@ Network Testing
 Mininet provides network testing using Linux containerization
 for network namespaces.
 
+http://mininet.org/
 https://github.com/mininet/mininet
 
 [Introduction to Mininet]( https://www.youtube.com/watch?v=jmlgXaocwiE )
 
 Mininet is just cgroups for the network interfaces.
+
+There are now many videos - listed here:
+
+https://github.com/mininet/mininet/wiki/Videos
+
+WiFi version: https://github.com/intrig-unicamp/mininet-wifi
+
 
 Userspace Bridge
 ----------------
@@ -211,7 +219,7 @@ http://wvnetflow.sourceforge.net/
 https://en.wikipedia.org/wiki/Multi_Router_Traffic_Grapher
 
 Paessler Router Traffic Grapher, renamed PRTG Network Monitor from
-version 7 in 2008,[1] is a server up-time and utilisation, network
+version 7 in 2008, is a server up-time and utilisation, network
 monitoring and bandwidth usage software package for server
 infrastructure from Paessler AG. It can monitor and classify bandwidth
 usage in a network using SNMP, packet sniffing and Netflow. It
@@ -257,5 +265,72 @@ Scrubbing
 ---------
 
 Certain products use PCAP tools to find network signatures
+
+Hacking Tunnels
+----------------
+
+### Tunneling IP over ICMP
+
+Good links at the bottom of this:
+https://en.wikipedia.org/wiki/ICMP_tunnel
+
+http://sourceforge.net/projects/itun
+http://code.gerade.org/hans/
+http://icmpshell.sourceforge.net/
+http://phrack.org/issues.html?issue=49&id=6#article
+
+http://thomer.com/icmptx/
+
+### Tunneling IP over DNS
+
+http://thomer.com/howtos/nstx.html
+
+### Broker
+
+https://en.wikipedia.org/wiki/Tunnel_broker
+
+Pseudo-wire
+------------
+
+https://en.wikipedia.org/wiki/Pseudo-wire
+
+Virtual LANs
+------------
+
+### VXLAN
+
+https://en.wikipedia.org/wiki/Virtual_Extensible_LAN
+
+Virtual Extensible LAN (VXLAN) is a network virtualization technology
+that attempts to improve the scalability problems associated with
+large cloud computing deployments. It uses a VLAN-like encapsulation
+technique to encapsulate MAC-based OSI layer 2 Ethernet frames
+within layer 4 UDP packets, using 4789 as the default IANA-assigned
+destination UDP port number. VXLAN endpoints, which terminate VXLAN
+tunnels and may be both virtual or physical switch ports, are known
+as VXLAN tunnel endpoints (VTEPs).
+
+VXLAN is an evolution of efforts to standardize on an overlay
+encapsulation protocol. It increases scalability up to 16 million
+logical networks and allows for layer 2 adjacency across IP networks.
+Multicast or unicast with HER (Head-End Replication) is used to
+flood BUM (broadcast, unknown destination address, multicast)
+traffic.
+
+The VXLAN specification was originally created by VMware, Arista
+Networks and Cisco. Other backers of the VXLAN technology include
+Huawei, Broadcom, Citrix, Pica8, Cumulus Networks, Dell, Mellanox,
+FreeBSD, OpenBSD, Red Hat, Joyent, and Juniper Networks.
+
+VXLAN was officially documented by the IETF in RFC 7348.
+
+Open vSwitch is an example of a software-based virtual network
+switch that supports VXLAN overlay networks.
+
+### NVGRE
+
+microsoft competition for VXLAN
+
+https://en.wikipedia.org/wiki/Network_Virtualization_using_Generic_Routing_Encapsulation
 
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

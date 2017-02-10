@@ -68,4 +68,13 @@ software architects.
 https://en.wikipedia.org/wiki/Virtuoso_Universal_Server
 https://github.com/openlink/virtuoso-opensource
 
+Knowledge Bases
+----------------
+
+https://en.wikipedia.org/wiki/DBpedia
+https://en.wikipedia.org/wiki/Knowledge_Graph
+https://en.wikipedia.org/wiki/Knowledge_engine
+https://en.wikipedia.org/wiki/Wikidata
+https://en.wikipedia.org/wiki/Freebase
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

@@ -38,4 +38,13 @@ http://remotelock.com/product/lockstate-connect-wi-fi-multi-outlet-power-strip-w
 Hacklet: A library, written in Ruby, for controlling the Modlet outlet.
 http://mcolyer.github.io/hacklet/
 
+VLIW
+----
+
+https://en.wikipedia.org/wiki/Very_long_instruction_word
+https://en.wikipedia.org/wiki/Trace_scheduling
+https://en.wikipedia.org/wiki/Microcode#Horizontal_microcode
+http://awards.acm.org/award_winners/ellis_9267768.cfm
+https://en.wikipedia.org/wiki/Itanium
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

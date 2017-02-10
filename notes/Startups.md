@@ -20,9 +20,28 @@ https://github.com/travis-ci
 
 Fulcrum instead of Pivotal
 
+https://github.com/fulcrum-agile/fulcrum
+
+### Auth ?
+
+https://github.com/kaleworsley/omniauth-xero
+https://github.com/omniauth/omniauth/wiki/List-of-Strategies
+
+
+### SCM
+
 gitlib for github
 
 jenkins for other jobs
+
+### Heroku ?
+
+https://www.heroku.com/
+https://en.wikipedia.org/wiki/Heroku
+https://github.com/heroku
+
+https://en.wikipedia.org/wiki/Cocaine_(PaaS)
+https://en.wikipedia.org/wiki/Nodejitsu
 
 Articles
 --------

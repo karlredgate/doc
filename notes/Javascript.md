@@ -4,6 +4,29 @@
 
 http://codeofrob.com/entries/you-have-ruined-javascript.html
 
+Engines
+-------
+
+https://github.com/gfwilliams/tiny-js
+http://www.findbestopensource.com/product/tiny-js
+http://duktape.org/
+https://github.com/svaarala/duktape
+https://code.google.com/archive/p/quad-wheel/
+https://code.google.com/archive/p/quad-wheel/source/default/source
+https://github.com/cesanta/v7
+http://jsish.sourceforge.net/cgi-bin/jsi/doc/tip/jsi/www/home.wiki
+http://jerryscript.net/
+https://github.com/jerryscript-project/jerryscript
+http://mujs.com/
+http://git.ghostscript.com/?p=mujs.git;a=summary
+https://github.com/ndreynolds/flathead
+https://github.com/DigitalMars/DMDScript
+
+https://github.com/liexusong/tiny-js
+
+http://renesd.blogspot.com/2010/06/lets-make-shit-javascript-interpreter.html
+http://renesd.blogspot.com/2010/07/lets-make-shit-javascript-interpreter.html
+http://renesd.blogspot.com/2011/08/lets-make-shit-javascript-interpreter.html
 
 MVC
 ---
@@ -31,6 +54,13 @@ http://www.ecma-international.org/publications/standards/Ecma-262.htm
 
 http://www.crockford.com/javascript/jsmin.html
 https://github.com/douglascrockford/JSMin
+
+Chrome APIs
+------------
+
+https://developer.chrome.com/apps/api_index
+
+https://youtu.be/bmxr75CV36A
 
 Objects
 -------
@@ -136,6 +166,26 @@ https://parall.ax/products/jspdf
 
 http://pdfmake.org/#/gettingstarted
 
+### CreateJS
+
+For generating canvas based UIs or games
+
+https://github.com/CreateJS/EaselJS/wiki/Examples
+http://guineashots.com/2014/04/11/getting-started-with-easeljs/
+http://guineashots.com/2014/04/28/beneath-the-sea-and-ludum-dare-29-results/
+https://www.davrous.com/2012/03/16/html5-gaming-animating-sprites-in-canvas-with-easeljs/
+
+And related sites
+
+http://www.mapeditor.org/
+https://thorbjorn.itch.io/tiled
+http://opengameart.org/
+https://itch.io/
+
+http://snapsvg.io/
+http://impactjs.com/
+http://craftyjs.com/
+https://en.wikipedia.org/wiki/CocoonJS
 
 Frameworks
 -----------
@@ -304,6 +354,15 @@ hands. Customise an array of sync settings from the UI or command line to
 create a personalised test environment. Need more control? Browsersync
 is easily integrated with your web platform, build tools, and other
 *Node.js* projects.
+
+### testharness.js
+
+This document provides a tutorial for W3C's test framework, known
+as testharness.js, which you can download from its GitHub repository.
+
+http://darobin.github.io/test-harness-tutorial/docs/using-testharness.html
+https://github.com/jgraham/testharness.js
+https://github.com/w3c/testharness.js
 
 
 Headless Browser - automation and testing
@@ -713,5 +772,67 @@ https://github.com/verekia/js-stack-from-scratch
 
 Lightweight fuzzy-search, in JavaScript http://fusejs.io/
 https://github.com/krisk/Fuse
+
+WebGL
+-----
+
+https://en.wikipedia.org/wiki/WebGL
+https://en.wikipedia.org/wiki/OpenGL_Shading_Language
+Get the PDFs ^^
+https://en.wikipedia.org/wiki/GLGE_(programming_library)
+
+WebVR
+-----
+
+https://en.wikipedia.org/wiki/WebVR
+https://webvr.info/
+https://en.wikipedia.org/wiki/A-Frame_(VR)
+https://en.wikipedia.org/wiki/Entity%E2%80%93component%E2%80%93system
+https://en.wikipedia.org/wiki/Three.js
+https://en.wikipedia.org/wiki/Unity_(game_engine)
+
+Polyfill
+---------
+
+https://en.wikipedia.org/wiki/Paul_Irish
+https://en.wikipedia.org/wiki/Polyfill
+
+Also see the HTML5 Shiv info in HTML.md
+
+Event Handling
+--------------
+
+https://www.google.com/#safe=off&q=javascript%20event%20listener
+
+http://www.w3schools.com/js/js_htmldom_eventlistener.asp
+http://www.w3schools.com/jsref/met_element_addeventlistener.asp
+https://developer.mozilla.org/en-US/docs/Web/API/EventListener
+http://www.quirksmode.org/js/events_advanced.html
+http://www.quirksmode.org/js/events_access.html
+
+GIS APIs
+---------
+
+https://www.arcgis.com/features/index.html
+
+DoD geo system doc http://earth-info.nga.mil/GandG/publications/tr8350.2/wgs84fin.pdf
+
+Accelerometer APIs
+-------------------
+
+https://duckduckgo.com/?q=javascript+api+for+mobile+accelerometer&ia=about
+
+https://developer.chrome.com/apps/api_index
+
+https://developer.mozilla.org/en-US/docs/Web/API/Detecting_device_orientation
+https://github.com/dorukeker/gyronorm.js
+http://stackoverflow.com/questions/4378435/how-to-access-accelerometer-gyroscope-data-from-javascript
+https://w3c.github.io/deviceorientation/spec-source-orientation.html
+
+Uglify etc
+-----------
+
+https://github.com/mishoo/UglifyJS2
+http://lisperator.net/uglifyjs/
 
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

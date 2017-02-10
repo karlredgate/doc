@@ -109,4 +109,37 @@ https://en.wikipedia.org/wiki/Green_Man
 https://en.wikipedia.org/wiki/Fairy
 https://en.wikipedia.org/wiki/Nordic_aliens
 
+Names
+-----
+
+She was famous for both beauty and loquacity (a trait her parents
+attempted to curb). She was incapable of keeping secrets, and so
+revealed to Jupiter's wife Juno his affair with Juturna (Larunda's
+fellow nymph, and the wife of Janus). For betraying his trust,
+Jupiter cut out Lara's tongue and ordered Mercury, the psychopomp,
+to conduct her to Avernus, the gateway to the Underworld and realm
+of Pluto. Mercury, however, fell in love with Lara and had sex with
+her on the way; this act has also been interpreted as a rape. Lara
+thereby became mother to two children, referred to as the Lares,
+invisible household gods. However, she had to stay in a hidden
+cottage in the woods so that Jupiter would not find her.
+
+https://en.wikipedia.org/wiki/Larunda or Lara
+
+https://en.wikipedia.org/wiki/Dea_Tacita
+
+In Roman mythology, Dea Tacita ("the silent goddess") was a goddess of the dead. Ovid's Fasti includes a passage describing a rite propitiating Dea Tacita in order to "seal up hostile mouths / and unfriendly tongue" at Feralia on 21 February.
+
+In later times, she was equated with the naiad Larunda. In this guise, Dea Tacita was worshipped at a festival called Larentalia on 23 December.
+
+Goddesses Mutae Tacitae were invoked to destroy a hated person: in an inscription from Cambodunum in Raetia, someone asks "ut mutus sit Quartus" and "erret fugiens ut mus".
+
+These silent goddesses are the personification of terror of obscurity.
+
+Hindu
+------
+
+https://en.wikipedia.org/wiki/Rakshasa
+https://en.wikipedia.org/wiki/List_of_Rakshasas
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

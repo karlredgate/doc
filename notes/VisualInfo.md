@@ -73,6 +73,10 @@ https://en.wikipedia.org/wiki/Comparison_of_JavaScript_charting_frameworks
 AngularJS directive for Highcharts
 https://github.com/pablojim/highcharts-ng
 
+Alternative to HighCharts??
+
+http://www.chartjs.org/
+
 ### Types of graphs/charts
 
 https://en.wikipedia.org/wiki/Bullet_graph
@@ -124,5 +128,10 @@ Network Viz
 -----------
 
 http://wvnetflow.sourceforge.net/
+
+Jan 2017
+---------
+
+https://medium.com/@EvanSinar/the-10-best-data-visualization-articles-of-2016-and-why-they-were-awesome-ce30618ea06a#.w55yo4gkr
 
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

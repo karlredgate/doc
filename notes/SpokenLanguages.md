@@ -6,6 +6,14 @@ https://en.wikipedia.org/wiki/Hawaiian_Pidgin
 http://katiedrager.com/papers/Pidgin%20and%20Hawaii%20English.pdf
 https://en.wikipedia.org/wiki/Da_kine
 
+http://articles.latimes.com/1995-05-31/entertainment/ca-7742_1_twelf-nite-o-wateva
+https://en.wikipedia.org/wiki/%CA%BBOkina
+https://en.wikipedia.org/wiki/Copula_(linguistics)
+
+https://duckduckgo.com/?q=mau+kau+kau&ia=videos
+https://duckduckgo.com/?q=hawaiian+hau+le&ia=web
+http://www.alohafriends.com/words.html
+
 Logical Languages
 ------------------
 

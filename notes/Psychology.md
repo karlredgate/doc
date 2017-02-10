@@ -144,4 +144,24 @@ https://en.wikipedia.org/wiki/Thought_blocking
 https://en.wikipedia.org/wiki/Bradyphrenia
 https://en.wikipedia.org/wiki/Sluggish_cognitive_tempo
 
+Bicameralism
+------------
+
+https://en.wikipedia.org/wiki/Bicameralism_(psychology)
+https://en.wikipedia.org/wiki/Julian_Jaynes
+
+https://en.wikipedia.org/wiki/Snow_Crash
+https://en.wikipedia.org/wiki/Epic_of_Gilgamesh
+
+Therapists
+----------
+
+https://therapists.psychologytoday.com/rms/prof_results.php?sid=1483735021.2426_3776&city=Concord&county=Middlesex&state=MA&rec_next=41
+https://therapists.psychologytoday.com/rms/prof_detail.php?profid=310746&sid=1483735021.2426_3776&city=Concord&county=Middlesex&state=MA&ref=12&tr=ResultsRow
+https://therapists.psychologytoday.com/rms/prof_detail.php?profid=51296&sid=1483735021.2426_3776&city=Concord&county=Middlesex&state=MA&ref=17&tr=ResultsRow
+https://therapists.psychologytoday.com/rms/prof_detail.php?profid=191061&sid=1483735021.2426_3776&city=Concord&county=Middlesex&state=MA&rec_next=21&ref=3&tr=ResultsRow
+https://therapists.psychologytoday.com/rms/prof_detail.php?profid=244339&sid=1483735021.2426_3776&city=Concord&county=Middlesex&state=MA&rec_next=21&ref=5&tr=ResultsRow
+https://therapists.psychologytoday.com/rms/prof_detail.php?profid=49225&sid=1483735021.2426_3776&city=Concord&county=Middlesex&state=MA&rec_next=41&ref=15&tr=ResultsRow
+https://therapists.psychologytoday.com/rms/prof_detail.php?profid=125230&sid=1483735021.2426_3776&city=Concord&county=Middlesex&state=MA&rec_next=41&ref=16&tr=ResultsRow
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

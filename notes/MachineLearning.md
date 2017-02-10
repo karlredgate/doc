@@ -542,6 +542,53 @@ and GPUs in an efficient manner.
  * <http://torch.ch/>
  * <https://github.com/torch/torch7>
 
+### mxnet
+
+Acquired by Amazon - now on Apache incubator
+
+http://mxnet.io/
+http://mxnet-tqchen.readthedocs.io/en/latest/get_started/index.html
+http://mxnet.io/tutorials/index.html
+
+### Theano
+
+Theano is a Python library that allows you to define, optimize, and evaluate mathematical expressions involving multi-dimensional arrays efficiently.
+
+http://deeplearning.net/software/theano/
+
+### Caffe
+
+Caffe is a deep learning framework made with expression, speed, and modularity in mind. It is developed by the Berkeley Vision and Learning Center (BVLC) and by community contributors. Yangqing Jia created the project during his PhD at UC Berkeley. Caffe is released under the BSD 2-Clause license.
+
+http://caffe.berkeleyvision.org/
+
+### Convultions
+
+I don't think this is open source software - but an architecture.
+
+We propose a deep convolutional neural network architecture codenamed
+Inception that achieves the new state of the art for classification
+and detection in the ImageNet Large-Scale Visual Recognition Challenge
+2014 (ILSVRC2014). The main hallmark of this architecture is the
+improved utilization of the computing resources inside the network.
+By a carefully crafted design, we increased the depth and width of
+the network while keeping the computational budget constant. To
+optimize quality, the architectural decisions were based on the
+Hebbian principle and the intuition of multi-scale processing. One
+particular incarnation of this architecture, GoogLeNet, a 22 layers
+deep network, was used to assess its quality in the context of
+object detection and classification.
+
+https://research.google.com/pubs/pub43022.html
+
+### convnet-benchmarks
+
+Benchmarks for Convolutional networks?
+
+Easy benchmarking of all publicly accessible implementations of convnets
+
+https://github.com/soumith/convnet-benchmarks
+
 Connectionism
 -------------
 

@@ -91,4 +91,45 @@ Cloud based Monitoring
 
 Google Alerts - <https://www.google.com/alerts>
 
+### Panopta
+
+https://www.panopta.com/
+
+Panopta gives you three dimensions of monitoring in one unified view
+
+ * Monitor public servers and services from around the globe
+ * Monitor private infrastructure securely behind your firewall
+ * Gain more visibility on the root cause of issues with deep
+   server/application metrics using the Panopta agent
+ * Powerful automated alerting workflows and a wide variety of alert types
+ * Robust reporting and dashboard visualizations
+ * Automated "hands-off" onboarding options for large-scale deployments
+
+Activity on the Internet never stops, but Panopta is always watching.
+We’ve created the Performance Index to help you see how the top
+Ecommerce, Fortune 100, SaaS and Media websites are doing—in real
+time. Panopta checks each of these sites every minute, making
+requests from our global network of monitoring locations. We're
+continually gathering information on uptime, speed and outage
+duration.  Data from the last 30 days is combined into our proprietary
+index score.
+
+For more information about Panopta and all that we can do for you
+(and there's a whole lot more!), take 85 seconds to watch our video.
+
+This report was last generated at Jan 13, 2017 09:00 AM.
+See a site that's missing from our list? Tell us and we'll add it.
+
+http://index.panopta.com/f100.html
+
+Argus Panoptes (Ἄργος Πανόπτης), guardian of the heifer-nymph Io
+and son of Arestor,[1] was a primordial giant whose epithet,
+"Panoptes", "all-seeing", led to his being described with multiple,
+often one hundred, eyes. The epithet Panoptes was applied to the
+Titan of the Sun, Helios, and was taken up as an epithet by Zeus,
+Zeus Panoptes. "In a way," Walter Burkert observes, "the power and
+order of Argos the city are embodied in Argos the neatherd, lord
+of the herd and lord of the land, whose name itself is the name of
+the land."
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

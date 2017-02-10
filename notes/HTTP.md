@@ -123,10 +123,57 @@ https://developer.mozilla.org/en-US/docs/Web/Security/Public_Key_Pinning
 WebSocket
 ---------
 
+https://www.websocket.org/
+https://en.wikipedia.org/wiki/WebSocket
+
+### Alternatives
+
+https://en.wikipedia.org/wiki/HTTP_tunnel#HTTP_CONNECT_tunneling
+https://en.wikipedia.org/wiki/BOSH
+
+### Implementations
+
+https://en.wikipedia.org/wiki/Comparison_of_WebSocket_implementations
+
 http://usualcarrot.com/nodejs-and-websocket-simple-chat-tutorial
 http://lucumr.pocoo.org/2012/9/24/websockets-101/
 https://github.com/miksago/node-websocket-server
 https://github.com/theturtle32/WebSocket-Node
 http://socket.io/
+
+PUSH
+----
+
+https://en.wikipedia.org/wiki/Push_technology
+
+WebIDL - W3C
+------------
+
+https://www.w3.org/TR/WebIDL-1/
+https://github.com/heycam/webidl
+
+Secure Contexts - W3C
+---------------------
+
+https://w3c.github.io/webappsec-secure-contexts/
+
+Performance - W3C
+-----------------
+
+https://www.w3.org/TR/navigation-timing/
+http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.69.7329&rep=rep1&type=pdf
+
+https://developer.mozilla.org/en-US/docs/Web/API/Navigation_timing_API
+https://www.html5rocks.com/en/tutorials/webperformance/basics/
+https://www.w3.org/TR/navigation-timing-2/
+https://www.w3.org/TR/performance-timeline/
+https://w3c.github.io/performance-timeline/
+https://www.w3.org/TR/performance-timeline-2/
+https://developer.mozilla.org/en-US/docs/Web/API/Performance_Timeline
+http://siusin.github.io/perf-timing-primer/
+
+https://www.w3.org/TR/hr-time-1/
+https://www.w3.org/TR/hr-time-2/
+https://github.com/w3c/hr-time
 
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

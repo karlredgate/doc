@@ -15,6 +15,17 @@ Subresource Integrity
 https://www.w3.org/TR/SRI/
 https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity
 
+HTML5 Shiv
+----------
+
+https://en.wikipedia.org/wiki/HTML5_Shiv
+https://cdnjs.com/libraries/html5shiv/
+https://www.paulirish.com/2011/the-history-of-the-html5-shiv/
+http://ejohn.org/blog/html5-shiv/
+https://github.com/afarkas/html5shiv
+
+https://en.wikipedia.org/wiki/Paul_Irish
+
 Link vs Script Tags
 -------------------
 

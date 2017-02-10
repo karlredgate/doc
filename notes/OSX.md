@@ -687,4 +687,209 @@ http://forensicswiki.org/wiki/Rekall
 This is related page for Windows:
 http://stackoverflow.com/questions/8403610/how-do-you-read-directly-from-physical-memory
 
+
+```
+tell application "QuickTime Player"
+activate
+start (new movie recording)
+end tell
+```
+
+```
+tell application "QuickTime Player"
+    --activate
+    new screen recording
+    start document 1
+    delay 5
+    stop document 1
+    save document 1 in file "/tmp/test.mov"
+    quit
+end tell
+```
+
+I'm using SOX and VLC for capture, crontab for scheduling, XLD to create m4a and MP4Box for multiplexing. It is quite flexible, but requires knowledge of Bash scripting (perhaps also Apple script) I found my inspiration in Diego Massanti's mkmp4 script.
+
+core processes to launch:
+
+rec -q -c $C -r 48000 -b 16 $AFILE trim 0 $HH:$MM:00 &
+
+VLC -I dummy screen:// --screen-fps=25 --quiet --sout "#transcode{vcodec=h264,vb=3072}:standard{access=file,mux=mp4,dst=$FILE}" --run-time $TIME vlc://quit
+Scheduling recording:
+
+crontab -l
+0       8       *       *       1-5     ~/capture.sh 3 0 recording-name 1
+you can get an idea what the script is doing: record 3h capture, mono sound, every working day at 8AM
+
+I did not find nor compile SOX enabled for MPEG audio streams, hence using FLAC to save some space; I'm using XLD to convert it to AAC-HE 16kbps, which is enough for voice.
+
+Next step: multiplex audio and video to create mp4. If you don't mind to use GUI, then MPEG StreamClip (or QuickTime) serves also well.
+
+MP4Box -add $1.m4a -sbr -add $1.m4v -fps $2.0 -inter 500 $1.mp4
+I'm using this daily to create archive of GoToWebinar, but when next release of FFmpeg supports G2M4 codec, I won't bother anymore. Yes, there's also OSAscript to launch the webinar which also required getting rid of com.apple.quarantine flag to disable warning (Are you sure you want to open it?).
+
+links:
+
+http://blog.massanti.com/2008/09/26/mkmp4-automated-h264-aacplus-encoder-script-mac-linux/
+
+You can use the software ffmpeg. To install it on a Mac, follow the instructions here. Then use the command:
+
+$ffmpeg -f alsa -ac 2 -i hw:0,0 -f x11grab -r 30 -s $(xwininfo -root | grep 'geometry' | awk '{print $2;}') -i :0.0 -acodec pcm_s16le -vcodec libx264 -vpre lossless_ultrafast -threads 0 -y output.mkv
+shareimprove
+
+https://github.com/vorgos/QuickGrab
+http://sox.sourceforge.net/
+http://www.eca.cx/ecasound/
+
+???
+https://github.com/libretro/RetroArch
+
+```
+```
+
+OS X users can use the avfoundation and qtkit input devices for grabbing integrated iSight cameras as well as cameras connected via USB or FireWire:
+
+AVFoundation is available on Mac OS X 10.7 (Lion) and later. Since then, Apple recommends AVFoundation for stream grabbing on OS X and iOS devices.
+QTKit is available on Mac OS X 10.4 (Tiger) and later. QTKit has been marked deprecated since OS X 10.7 (Lion) and may not be available on future releases.
+AVFoundation
+
+To list the supported, connected capture devices:
+
+ffmpeg -f avfoundation -list_devices true -i ""
+To use the default device which is usually the first device in the listing the user can either use an empty name string or default:
+
+ffmpeg -f avfoundation -i "" out.mpg
+or
+
+ffmpeg -f avfoundation -i "default" out.mpg
+To use one of these devices for capturing the user has to specify either the name of the device or the index shown in the device listing. Abbreviations using just the beginning of the device name are possible. Thus, to capture from a device named Integrated iSight-camera:
+
+ffmpeg -f avfoundation -i "Integrated" out.mpg
+To use the device's index provide the index either as the input or use the -video_device_index option that will override any given input name:
+
+ffmpeg -f avfoundation -i "2" out.mpg
+and
+
+ffmpeg -f avfoundation -video_device_index 2 -i "default" out.mpg
+will use the device with the index 2 ignoring the default device in the second case.
+
+QTKit
+
+To list the supported, connected capture devices:
+
+ffmpeg -f qtkit -list_devices true -i ""
+To use the default device which is usually the first device in the listing the user can either use an empty name string or default:
+
+ffmpeg -f qtkit -i "" out.mpg
+or
+
+ffmpeg -f qtkit -i "default" out.mpg
+To use one of these devices for capturing the user has to specify either the name of the device or the index shown in the device listing. Abbreviations using just the beginning of the device name are possible. Thus, to capture from a device named Integrated iSight-camera:
+
+ffmpeg -f qtkit -i "Integrated" out.mpg
+To use the device's index provide the index either as the input or use the -video_device_index option that will override any given input name:
+
+ffmpeg -f qtkit -i "2" out.mpg
+and
+
+ffmpeg -f qtkit -video_device_index 2 -i "default" out.mpg
+will use the device with the index 2 ignoring the default device in the second case.
+
+
+https://trac.ffmpeg.org/wiki/Capture/Webcam#Adjustingcamerafunctions
+
+http://techslaves.org/isight-disabler/
+
+https://github.com/rthomson/isight-disabler
+
+
+Global,
+ 
+I do this by issuing the following command as root when I want it to be 'unplugged' and unavailable:
+ 
+chmod -R 000 /System/Library/Frameworks/CoreMediaIO.framework/Resources/VDC.plugin/Contents/ Resources/VDCAssistant
+ 
+I issue this command when I want to turn it on:
+chmod -R 000 /System/Library/Frameworks/CoreMediaIO.framework/Resources/VDC.plugin/Contents/ Resources/VDCAssistant
+ 
+Or...copy and paste the below script into a document and save it.
+From a terminal, type chmod 755 [Document Name].
+type: bash [Document Name]
+It will ask you for the sysadmin [password to make these changes.
+ 
+Run it once, it kills any cams and disables the device (shows as unplugged) and says so to you. Run it again, it plugs it back in.
+ 
+In the interest of full disclosure it is possible for something else to do the same thing (as root), it's just less likely since your addressing it at the file system layer instead of up at the application layer. This is slightly less secure than physically disconnecting it.
+ 
+#!/bin/bash
+#               WRITTEN BY MJVona        
+#               PURPOSE:
+#
+#               TO 'UNPLUG' THE iSITE CAMERA ON A MAC
+#               FROM THE FILE SYSTEM
+#               IT WILL ASK YOU FOR THE ROOT PASSWORD
+#               USE:
+#               type bash disable_camera.sh, the camera will be disabled.
+#               type it again, the camera is enabled.
+#
+#########################April 2/2014#########################
+ 
+[ "$UID" -eq 0 ] || exec sudo bash "$0" "$@"
+#This script written by Matthew Vona
+#Disables and re-enables the apple I-Sight Camera.
+state=`stat /System/Library/Frameworks/VideoToolbox.framework/Versions/A/XPCServices/VTDeco derXPCService.xpc | awk '{ print $3}'`
+exec=`grep -o "x" <<<"$state" | wc -l `
+#echo "my state is $state"
+if [ "$exec" -gt 0 ]; then
+        {
+                unset -v enabled
+        }
+                else
+        {
+                enabled="1"
+        }
+fi
+#.
+VDC_PATH="/System/Library/PrivateFrameworks/CoreMediaIOServicesPrivate.framework /Versions/A/Resources/AVC.plugin"
+QT_PATH="/System/Library/QuickTime/QuickTimeUSBVDCDigitizer.component"
+if [ -z $enabled ]; then
+{
+        chmod -R 444 $VDC_PATH
+        chmod -R 444 $QT_PATH
+        chmod -R 444 /System/Library/Frameworks/VideoToolbox.framework/Versions/A/XPCServices/VTDeco derXPCService.xpc
+        chmod -R 000 /System/Library/Frameworks/VideoToolbox.framework/Versions/A/XPCServices/VTDeco derXPCService.xpc
+        user_prc=`ps -ef | grep VDCAssistant | grep -v grep | awk '{print $2}'`
+        kill -9 $user_prc
+        chmod -R 000 /System/Library/Frameworks/CoreMediaIO.framework/Resources/VDC.plugin/Contents/ Resources/VDCAssistant
+        say "camera has been disabled"
+}
+else
+{
+        chmod -R 755 $VDC_PATH
+        chmod -R 755 $QT_PATH
+        chmod -R 755 /System/Library/Frameworks/VideoToolbox.framework/Versions/A/XPCServices/VTDeco derXPCService.xpc
+        chmod -R 755 /System/Library/Frameworks/CoreMediaIO.framework/Resources/VDC.plugin/Contents/ Resources/VDCAssistant
+        say "Camera has been enabled"
+}
+fi
+
+http://en.wikipedia.org/wiki/Robbins_v._Lower_Merion_School_District
+
+http://apple.stackexchange.com/questions/18160/how-do-i-take-a-steathy-picture-with-my-isight-camera-from-the-command-line
+http://iharder.sourceforge.net/current/macosx/imagesnap/
+https://www.preyproject.com/
+https://www.preyproject.com/download
+https://github.com/prey
+
+Use imagesnap. It can be installed with brew install imagesnap or by downloading the binary from the website.
+
+One use for it is to take series of snapshots:
+
+while :; do
+    imagesnap ~/Desktop/$(date +%y%m%d%H%M%S).png
+        sleep ${1-1}
+        done
+        It doesn't crop images horizontally either. (Photo Booth changes the aspect ratio to 3:2.)
+
+
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

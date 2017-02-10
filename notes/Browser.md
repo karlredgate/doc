@@ -99,6 +99,14 @@ History Knocking
 
 https://samy.pl/csshack/
 
+Chrome Source
+-------------
+
+Normnally you must use the google tools to clone a repo.
+
+http://stackoverflow.com/questions/6691533/simple-way-to-download-google-chrome-chromium-source-code
+http://chromium-browser-source.commondatastorage.googleapis.com/chromium_tarball.html
+
 Chrome Remote Desktop
 ---------------------
 

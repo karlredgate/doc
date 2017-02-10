@@ -2,6 +2,8 @@
 <!--
 -->
 
+https://github.com/tpn/pdfs
+
 http://lifehacker.com/grab-over-500-free-programming-books-from-github-1447805132
 https://github.com/vhf/free-programming-books
 https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md

@@ -23,6 +23,19 @@ CVE
 At Mitre <http://cve.mitre.org/>
 National vulnerability database <https://nvd.nist.gov/>
 
+NSL - National Security Letter
+------------------------------
+
+https://www.eff.org/issues/national-security-letters/faq
+https://en.wikipedia.org/wiki/National_security_letter
+https://techcrunch.com/2016/12/13/google-national-security-letters/
+https://techcrunch.com/2016/06/01/usa-freedom-act-allows-yahoo-to-disclose-3-national-security-letters/
+https://yahoopolicy.tumblr.com/post/145258843473/yahoo-announces-public-disclosure-of-national
+https://s.yimg.com/ge/tyc/Redacted_NSLs.pdf
+https://blog.archive.org/2016/11/28/the-archive-receives-new-nsl-from-fbi/
+https://blog.google/topics/public-policy/sharing-national-security-letters-public/
+https://vault.fbi.gov/National%20Security%20Letters%20(NSL)
+
 Tools
 ------
 
