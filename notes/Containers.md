@@ -139,6 +139,8 @@ https://github.com/coreos/rkt/blob/master/Documentation/using-rkt-with-nomad.md
 https://github.com/coreos/rkt/blob/master/Documentation/devel/architecture.md
 https://github.com/coreos/rkt/blob/master/Documentation/running-docker-images.md
 
+https://coreos.com/blog/rkt-and-kubernetes.html
+
 ### Networking?
 
 https://github.com/containernetworking/cni
@@ -158,5 +160,13 @@ Docker and Rocket are management tools.
 ### Porto (C++)
 
 https://github.com/yandex/porto
+
+Storage
+--------
+
+CoreOS Torus
+https://github.com/coreos/torus
+
+https://github.com/kubernetes-incubator/bootkube
 
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

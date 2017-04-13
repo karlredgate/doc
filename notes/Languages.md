@@ -102,4 +102,58 @@ http://www.wired.com/2014/02/julia/
 https://github.com/JuliaLang/
 https://www.youtube.com/user/JuliaLanguage
 
+Pascal
+------
+
+Moskow's https://www.mirrorservice.org/sites/www.bitsavers.org/pdf/ithacaInterSystems/software/Ithaca_PascalZ_Ver_4.0_Nov81.pdf
+
+PDFs for others
+http://bitsavers.trailing-edge.com/pdf/westernDigital/WD90_Pascal_Microengine/
+
+http://www.klebsch.de/
+http://ucsd-psystem-vm.sourceforge.net/
+
+https://en.wikipedia.org/wiki/P-code_machine
+
+https://en.wikipedia.org/wiki/Pascal_MicroEngine
+
+Euler
+-----
+
+https://en.wikipedia.org/wiki/Euler_(programming_language)
+
+
+Forth
+-----
+
+Bell's article on threaded code: http://dl.acm.org/citation.cfm?id=362270
+
+http://home.claranet.nl/users/mhx/
+
+Let's build a compiler articles
+http://home.claranet.nl/users/mhx/crenshaw/tiny.html
+
+http://home.claranet.nl/users/mhx/Forth_Kogge.pdf
+
+https://en.wikipedia.org/wiki/Threaded_code#Token_threading
+https://en.wikipedia.org/wiki/Bashforth
+
+http://forthfreak.net/jsforth.html
+
+https://github.com/ForthHub/ForthFreak/wiki/Forthfreak-wiki
+https://web.archive.org/web/20050222174114/http://forthfreak.net/index.cgi?BashForth
+
+https://github.com/ForthHub/ForthFreak
+
+http://www.complang.tuwien.ac.at/misc/pentium-switch/
+http://www.complang.tuwien.ac.at/forth/threaded-code.html#what
+
+B
+----
+
+https://en.wikipedia.org/wiki/B_(programming_language)
+https://www.bell-labs.com/usr/dmr/www/bintro.html
+https://www.bell-labs.com/usr/dmr/www/chist.html
+https://www.bell-labs.com/usr/dmr/www/kbman.html
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

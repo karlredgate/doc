@@ -50,11 +50,13 @@ http://rule.net/
 Hadoop
 ------
 
+ * http://ercoppa.github.io/HadoopInternals/AnatomyMapReduceJob.html
  * https://hadoop.apache.org/docs/r1.2.1/hdfs_design.html
  * http://hadoop.apache.org/docs/r2.6.0/hadoop-project-dist/hadoop-hdfs/WebHDFS.html
  * https://github.com/apache/hadoop/tree/trunk/hadoop-hdfs-project/hadoop-hdfs/src/main/proto
-
-https://ragrawal.wordpress.com/2012/04/28/installing-hadoop-on-mac-osx-lion/
+ * http://stackoverflow.com/questions/35195101/which-runs-first-combiner-or-partitioner-in-a-mapreduce-job
+ * https://community.hortonworks.com/questions/14328/what-is-the-difference-between-partitioner-combine.html
+ * https://ragrawal.wordpress.com/2012/04/28/installing-hadoop-on-mac-osx-lion/
 
 ### HDFS
 

@@ -49,5 +49,15 @@ https://en.wikipedia.org/wiki/Azrael
 https://en.wikipedia.org/wiki/Raphael_(archangel)
 https://en.wikipedia.org/wiki/Abaddon     (demon)
 
+https://en.wikipedia.org/wiki/Adramelech
+https://en.wikipedia.org/wiki/Asmodeus
+https://en.wikipedia.org/wiki/Uriel
+https://en.wikipedia.org/wiki/Raphael_(archangel)
+https://en.wikipedia.org/wiki/Christian_demons_in_popular_culture
+https://en.wikipedia.org/wiki/Category:Deities_in_the_Hebrew_Bible
+https://en.wikipedia.org/wiki/Moloch_in_popular_culture
+https://en.wikipedia.org/wiki/Cult_of_personality
+https://en.wikipedia.org/wiki/Daemon_(classical_mythology)
+
 
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

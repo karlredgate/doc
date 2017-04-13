@@ -785,4 +785,21 @@ Better tools for thought http://witheve.com
 https://github.com/witheve/Eve
 http://witheve.com/
 
+Feb 20
+------
+
+Recent links for deep learning
+
+https://github.com/facebookresearch/deepmask
+http://torch.ch/
+https://github.com/nitishsrivastava/deepnet
+https://github.com/yusugomori/DeepLearning
+https://github.com/zer0n/deepframeworks
+https://github.com/beniz/deepdetect
+https://github.com/jisungk/deepjazz
+https://keras.io/#installation
+http://deeplearning.net/software/theano/index.html
+http://web.mit.edu/music21/doc/installing/index.html
+http://web.mit.edu/music21/doc/about/what.html
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

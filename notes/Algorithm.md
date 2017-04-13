@@ -2,6 +2,14 @@
 <!--
 -->
 
+XOR Swap
+--------
+
+https://en.wikipedia.org/wiki/XOR_swap_algorithm
+
+Bloom Filter
+------------
+
 A Bloom filter is a space-efficient probabilistic data structure,
 conceived by Burton Howard Bloom in 1970, that is used to test
 whether an element is a member of a set. False positive matches are
@@ -67,5 +75,10 @@ Graph Layout - Barnes Hut
 
 http://www.cs.princeton.edu/courses/archive/fall03/cs126/assignments/barnes-hut.html
 http://arborjs.org/docs/barnes-hut
+
+Adaptive Radix Tree
+-------------------
+
+https://github.com/armon/libart
 
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

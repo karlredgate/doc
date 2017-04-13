@@ -141,6 +141,92 @@ osx rpmbuild
 http://stackoverflow.com/questions/5247627/how-can-i-build-an-rpm-on-my-macos-system
 http://rpm4darwin.sourceforge.net/
 
+Applications
+------------
+
+### Icons
+
+https://developer.apple.com/library/content/documentation/GraphicsAnimation/Conceptual/HighResolutionOSX/Optimizing/Optimizing.html
+
+http://stackoverflow.com/questions/12306223/how-to-manually-create-icns-files-using-iconutil
+
+```
+mkdir MyIcon.iconset
+sips -z 16 16     Icon1024.png --out MyIcon.iconset/icon_16x16.png
+sips -z 32 32     Icon1024.png --out MyIcon.iconset/icon_16x16@2x.png
+sips -z 32 32     Icon1024.png --out MyIcon.iconset/icon_32x32.png
+sips -z 64 64     Icon1024.png --out MyIcon.iconset/icon_32x32@2x.png
+sips -z 128 128   Icon1024.png --out MyIcon.iconset/icon_128x128.png
+sips -z 256 256   Icon1024.png --out MyIcon.iconset/icon_128x128@2x.png
+sips -z 256 256   Icon1024.png --out MyIcon.iconset/icon_256x256.png
+sips -z 512 512   Icon1024.png --out MyIcon.iconset/icon_256x256@2x.png
+sips -z 512 512   Icon1024.png --out MyIcon.iconset/icon_512x512.png
+cp Icon1024.png MyIcon.iconset/icon_512x512@2x.png
+iconutil -c icns MyIcon.iconset
+rm -R MyIcon.iconset
+```
+
+### dmg
+
+Bash script that does this:
+
+https://github.com/andreyvit/create-dmg
+
+others
+
+https://pypi.python.org/pypi/dmgbuild
+https://github.com/LinusU/node-appdmg
+http://stackoverflow.com/questions/96882/how-do-i-create-a-nice-looking-dmg-for-mac-os-x-using-command-line-tools
+
+```
+hdiutil create -srcfolder "${source}" -volname "${title}" -fs HFS+ \
+      -fsargs "-c c=64,a=16,e=16" -format UDRW -size ${size}k pack.temp.dmg
+
+device=$(hdiutil attach -readwrite -noverify -noautoopen "pack.temp.dmg" | \
+         egrep '^/dev/' | sed 1q | awk '{print $1}')
+
+```
+
+Store the background picture (in PNG format) in a folder called ".background" in the DMG, and store its name in the "backgroundPictureName" variable.
+
+Use AppleScript to set the visual styles (name of .app must be in bash variable "applicationName", use variables for the other properties as needed):
+
+```
+echo '
+   tell application "Finder"
+       tell disk "'${title}'"
+            open
+            set current view of container window to icon view
+            set toolbar visible of container window to false
+            set statusbar visible of container window to false
+            set the bounds of container window to {400, 100, 885, 430}
+            set theViewOptions to the icon view options of container window
+            set arrangement of theViewOptions to not arranged
+            set icon size of theViewOptions to 72
+            set background picture of theViewOptions to file ".background:'${backgroundPictureName}'"
+            make new alias file at container window to POSIX file "/Applications" with properties {name:"Applications"}
+            set position of item "'${applicationName}'" of container window to {100, 100}
+            set position of item "Applications" of container window to {375, 100}
+            update without registering applications
+            delay 5
+            close
+        end tell
+    end tell
+' | osascript
+```
+
+Finialize the DMG by setting permissions properly, compressing and releasing it:
+
+```
+chmod -Rf go-w /Volumes/"${title}"
+sync
+sync
+hdiutil detach ${device}
+hdiutil convert "/pack.temp.dmg" -format UDZO -imagekey zlib-level=9 -o "${finalDMGName}"
+rm -f /pack.temp.dmg 
+```
+
+
 iWork Format
 ------------
 
@@ -891,5 +977,41 @@ while :; do
         It doesn't crop images horizontally either. (Photo Booth changes the aspect ratio to 3:2.)
 
 
+
+sudo Dialog
+-----------
+
+The following AppleScript will run `/bin/ls -la` with root privileges
+by prompting the user in a standard Authorization Services dialog:
+
+```
+do shell script "/bin/ls -la" with administrator privileges
+```
+
+
+(Note: you do not need to use sudo in there anywhere, that's handled
+for you automatically; simply list the process you want to run and
+the options).
+
+If you knew the user's password prior to running this command, you
+could do the following:
+
+```
+do shell script "/bin/ls -la" with administrator privileges password "myPlainTextPassword"
+```
+
+Note that this isn't as secure as letting `AuthorizationServices`
+handle the password prompt.
+
+You may want to play around in Script Editor (`/Applications/AppleScript/`)
+until you get the command syntax down right. Then, you can use the
+`osascript -e` shell command to execute the script from your widget.
+
+For example, the following shell command would have basically the
+same effect as executing the above-mentioned AppleScript:
+
+```
+osascript -e "do shell script "/bin/ls -la" with administrator privileges"
+```
 
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

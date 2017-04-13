@@ -75,6 +75,15 @@ Swagger has been renamed to OpenAPI
 
  * http://www.markus-lanthaler.com/research/a-semantic-description-language-for-restful-data-services-to-combat-semaphobia.pdf
 
+GraphQL - Facebook
+------------------
+
+How to use
+
+https://en.wikipedia.org/wiki/GraphQL
+http://graphql.org/
+http://facebook.github.io/graphql/
+
 URI Resources
 -------------
 

@@ -59,4 +59,24 @@ http://showcase.ionicframework.com/
 
 https://www.youtube.com/watch?v=O4NnAeJ6d5w
 
+PDF Reader App
+--------------
+
+ * search: open source ios book reader
+ * https://github.com/FolioReader/FolioReaderKit
+ * https://github.com/vfr/Reader
+ * https://github.com/vfr/Viewer
+ * http://www.vfr.org/
+ * search: ios book reader
+ * https://en.wikipedia.org/wiki/Comparison_of_iOS_e-book_reader_software
+ * https://en.wikipedia.org/wiki/Blio
+
+Loopback
+--------
+
+https://strongloop.com/strongblog/part-1-ionic-loopback-node-js-mobile/
+http://loopback.io/
+http://ionicframework.com/
+https://github.com/vkarpov15/stopwatch-server-example
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

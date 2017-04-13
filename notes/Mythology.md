@@ -42,6 +42,15 @@ https://en.wikipedia.org/wiki/Shade_(mythology)
 https://en.wikipedia.org/wiki/Revenant
 https://en.wikipedia.org/wiki/Fetch_(folklore)
 https://en.wikipedia.org/wiki/Themes_in_A_Song_of_Ice_and_Fire#Children_of_the_Forest
+https://en.wikipedia.org/wiki/Lemures
+https://en.wikipedia.org/wiki/Vengeful_ghost
+
+Demons
+------
+
+https://en.wikipedia.org/wiki/Mogwai_(Chinese_culture)
+
+https://en.wikipedia.org/wiki/Chinese_mythology_in_popular_culture
 
 Werewolf
 --------
@@ -102,6 +111,8 @@ https://en.wikipedia.org/wiki/Keening
 https://en.wikipedia.org/wiki/Cailleach
 https://en.wikipedia.org/wiki/The_Morr%C3%ADgan
 
+https://en.wikipedia.org/wiki/Lemures
+
 GreenMan
 --------
 
@@ -141,5 +152,13 @@ Hindu
 
 https://en.wikipedia.org/wiki/Rakshasa
 https://en.wikipedia.org/wiki/List_of_Rakshasas
+
+Hawaii
+------
+
+https://en.wikipedia.org/wiki/Hawaiian_religion
+https://en.wikipedia.org/wiki/List_of_figures_in_the_Hawaiian_religion
+https://en.wikipedia.org/wiki/Kumulipo
+https://en.wikipedia.org/wiki/Kupua
 
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

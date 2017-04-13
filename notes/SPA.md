@@ -297,13 +297,13 @@ https://github.com/angular/angular.js/wiki/Understanding-Scopes
 
 In AngularJS, a child scope normally prototypically inherits from
 its parent scope. One exception to this rule is a directive that
-uses scope: ```{ ... }``` - this creates an "isolate" scope that
+uses scope: `{ ... }` - this creates an "isolate" scope that
 does not prototypically inherit.（and directive with transclusion）
 This construct is often used when creating a "reusable component"
 directive. In directives, the parent scope is used directly by
 default, which means that whatever you change in your directive
 that comes from the parent scope will also change in the parent
-scope. If you set scope:true (instead of scope: ```{ ... }```),
+scope. If you set scope:true (instead of scope: `{ ... }`),
 then prototypical inheritance will be used for that directive.
 
 Scope inheritance is normally straightforward, and you often don't
@@ -326,9 +326,16 @@ ng-switch.
 
 Having a '.' in your models will ensure that prototypal inheritance
 is in play. So, use
-```<input type="text" ng-model="someObj.prop1">```
+
+```
+<input type="text" ng-model="someObj.prop1">
+```
+
 rather than 
-```<input type="text" ng-model="prop1">```.
+
+```
+<input type="text" ng-model="prop1">
+```
 
 
 WOFF
@@ -394,5 +401,40 @@ https://github.com/colthreepv/angular-media-player
 http://stackoverflow.com/questions/17913613/custom-html5-video-player-controls-with-angularjs
 http://www.videogular.com/tutorials/how-to-start/
 http://blog.oxrud.com/posts/creating-youtube-directive/
+
+Drag and Drop tables
+--------------------
+
+https://github.com/RubaXa/Sortable
+http://rubaxa.github.io/Sortable/
+
+http://marceljuenemann.github.io/angular-drag-and-drop-lists/demo/#/nested
+http://stackoverflow.com/questions/18614695/sort-or-rearrange-rows-of-a-table-in-angularjs-drag-and-drop
+
+http://ourcodeworld.com/articles/read/288/how-to-handle-drag-and-drop-file-feature-in-electron-framework
+https://www.npmjs.com/package/electron-drag-drop
+https://github.com/sindresorhus/awesome-electron
+https://blog.dcpos.ch/how-to-make-your-electron-app-sexy
+
+https://github.com/feross/webtorrent-desktop/blob/master/bin/package.js
+https://www.npmjs.com/package/electron-workshop
+
+Routers
+-------
+
+http://rubaxa.github.io/Pilot/
+http://www.funnyant.com/angularjs-ui-router/
+
+Markdown
+--------
+
+https://github.com/yoshuawuyts/vmd
+
+Other Interesting
+-----------------
+
+Maybe?
+
+https://github.com/angular-fullstack/generator-angular-fullstack
 
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

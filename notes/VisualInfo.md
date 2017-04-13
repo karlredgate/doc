@@ -57,6 +57,18 @@ https://github.com/samizdatco/arbor/tree/master/docs/sample-project
 http://arborjs.org/docs/barnes-hut
 http://www.cs.princeton.edu/courses/archive/fall03/cs126/assignments/barnes-hut.html
 
+### Plotly
+
+https://plot.ly/nodejs/
+
+### Google Charts
+
+https://developers.google.com/chart/
+
+### Chartist
+
+http://gionkunz.github.io/chartist-js/
+
 Javascript Graphviz
 -------------------
 
@@ -133,5 +145,28 @@ Jan 2017
 ---------
 
 https://medium.com/@EvanSinar/the-10-best-data-visualization-articles-of-2016-and-why-they-were-awesome-ce30618ea06a#.w55yo4gkr
+
+Flame Graphs
+------------
+
+http://www.brendangregg.com/FlameGraphs/cpuflamegraphs.html
+http://www.brendangregg.com/flamegraphs.html
+https://github.com/brendangregg/FlameGraph
+http://cacm.acm.org/magazines/2016/6/202665-the-flame-graph/fulltext
+#### Still need to pdf these
+https://schani.wordpress.com/2012/11/16/flame-graphs-for-instruments/
+https://randomascii.wordpress.com/2013/03/26/summarizing-xperf-cpu-usage-with-flame-graphs/
+http://www.brendangregg.com/FlameGraphs/memoryflamegraphs.html
+http://www.brendangregg.com/flamegraphs.html#Updates
+
+http://dtrace.org/blogs/dap/2012/01/05/where-does-your-node-program-spend-its-time/
+
+Government Docs
+---------------
+
+(from beutiful viz)
+
+https://www.govtrack.us/developers
+https://www.govtrack.us/developers/data
 
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

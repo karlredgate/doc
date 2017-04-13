@@ -77,4 +77,14 @@ http://www.techrepublic.com/article/data-driven-policy-and-commerce-requires-alg
 http://theleanstartup.com/principles
 
 
+Kendall Square
+--------------
+
+https://bostonstartupsguide.com/neighborhood/kendall-square/page/5/
+
+Security Orchestration - https://www.komand.com/
+Blockchain verified docs - http://www.learningmachine.com/
+code deployment - "blackbird" - https://www.datawire.io/
+ipad doctor workflow - https://www.yosko.com/
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

@@ -78,4 +78,12 @@ https://github.com/opencog
 https://en.wikipedia.org/wiki/Virtuoso_Universal_Server
 https://github.com/openlink/virtuoso-opensource
 
+Clients
+--------
+
+A Polyglot Database Client for Mac OS X http://inductionapp.com/
+written in Obj-C
+
+https://github.com/pothibo/Induction
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

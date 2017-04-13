@@ -189,4 +189,82 @@ http://newosxbook.com/index.php?page=downloads
 https://github.com/rpetrich/deviceconsole
 https://www.theiphonewiki.com/wiki/System_Log
 
+### Feb
+
+Ratchet began as a series of HTML/CSS prototypes of the Twitter for
+iPhone app. These prototypes became invaluable to the process of
+testing new feature designs that ended up being shipped as part of
+the native mobile app.
+
+As it became clear that this was the quickest and most effective
+way to design mobile apps, components were abstracted from these
+prototypes and became the framework you know today.
+
+Released in November 2012, Ratchet quickly became one of the most
+popular prototyping tools on GitHub. Following that initial launch,
+we released v2 – a complete rewrite. With v2 we've abstracted the
+platform specific styles into their own theme CSS files, added an
+icon set called Ratchicons, and offically became part of the Bootstrap
+family.
+
+http://goratchet.com/examples/
+https://github.com/twbs/ratchet
+
+Linking to Apps
+---------------
+
+up vote
+9
+down vote
+favorite
+1
+I want to open apps using a link. So when you tap a link in safari, you open an app.
+
+I had already found these links:
+
+Message  --- sms:
+Maps --- maps://
+App Store --- itms-apps://
+iTunes --- itms://
+Safari --- http://blanksafari.com/
+iBooks --- ibooks://
+Videos --- videos://
+Music --- music://
+Mail --- mailto:
+Reminders --- x-apple-reminder://
+Calendar --- calshow://
+
+-http:
+-https:
+-mailto:
+-about:
+-callto:
+-skype:
+-gtalk:
+-tel:
+-sms:
+-feed:
+-ibooks:
+-itms(-apps):
+-market:
+-maps:
+-geo:
+-comgooglemaps:
+-lastfm:
+-git:
+-dict:
+
+Touch Events - Pencil
+----------------------
+
+https://www.w3.org/TR/touch-events/#touch-interface
+https://developer.mozilla.org/en-US/docs/Web/API/Touch
+https://w3c.github.io/touch-events/#widl-Touch-force
+https://www.w3.org/TR/pointerevents/#the-touch-action-css-property
+PEP: pointer event polyfill - http://jquery.github.io/PEP/
+https://github.com/jquery/PEP
+https://www.w3.org/TR/pointerevents/#h2_intro
+https://github.com/quietshu/apple-pencil-safari-api-test
+
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

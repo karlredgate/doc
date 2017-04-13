@@ -127,4 +127,13 @@ This is a movie by Mark Wahlberg brother about opioid addiction.
 
 http://www.ifonlymovie.org/
 
+Endocrine
+----------
+
+https://en.wikipedia.org/wiki/Melatonin
+https://en.wikipedia.org/wiki/Leptin
+https://en.wikipedia.org/wiki/Ghrelin
+https://en.wikipedia.org/wiki/Suprachiasmatic_nucleus
+https://en.wikipedia.org/wiki/Circadian_rhythm
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

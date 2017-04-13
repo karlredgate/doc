@@ -51,5 +51,24 @@ https://en.wikipedia.org/wiki/Begging_the_question
 https://en.wikipedia.org/wiki/Circular_reasoning
 https://en.wikipedia.org/wiki/Question_dodging
 
+Tools
+------
+
+### Potassco, the Potsdam Answer Set Solving Collection
+
+https://potassco.org/
+https://www.mat.unical.it/aspcomp2013/ASPStandardization
+Answer Set Programming for Systems Biology http://bioasp.github.io/
+
+Managing software complexity
+
+http://www.mancoosi.org/
+
+Fuzzy Logic
+-----------
+
+Grab these papers and references for tablet reading ...
+
+ * https://en.wikipedia.org/wiki/Fuzzy_logic
 
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

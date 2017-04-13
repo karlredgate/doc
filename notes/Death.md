@@ -58,5 +58,13 @@ https://en.wikipedia.org/wiki/Holm,_Inverness
 https://en.wikipedia.org/wiki/Tel_Kabri#Areas
 https://en.wikipedia.org/wiki/Mundo_Perdido,_Tikal
 
+Types of Ghosts
+----------------
+
+https://en.wikipedia.org/wiki/Lemures
+https://en.wikipedia.org/wiki/Manes
+https://en.wikipedia.org/wiki/Vengeful_ghost
+https://en.wikipedia.org/wiki/Glaistig
+
 
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

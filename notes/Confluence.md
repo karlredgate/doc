@@ -1,4 +1,6 @@
 
+And JIRA
+
 http://stackoverflow.com/questions/23523705/how-to-create-new-page-in-confluence-using-their-rest-api
 
 https://docs.atlassian.com/atlassian-confluence/REST/5.5/#d2e120
@@ -11,5 +13,9 @@ curl -v -u admin:admin -X POST \
      -d '{"type":"page","title":"new page","space":{"key":"ATTACH"},"body":{"storage":{"value":"<p>This is a new page</p>","representation":"storage"}}}' \
      "http://localhost:8090/rest/api/content/?os_authType=basic"
 ```
+
+JIRA
+
+https://docs.atlassian.com/jira/REST/server/#api/2/issue-addComment
 
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

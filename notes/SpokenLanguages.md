@@ -14,6 +14,28 @@ https://duckduckgo.com/?q=mau+kau+kau&ia=videos
 https://duckduckgo.com/?q=hawaiian+hau+le&ia=web
 http://www.alohafriends.com/words.html
 
+Epistemic modality deals with a speaker's evaluation/judgment of,
+degree of confidence in, or belief of the knowledge upon which a
+proposition is based.  In other words, epistemic modality refers
+to the way speakers communicate their doubts, certainties, and
+guesses—their "modes of knowing".
+
+In other words, epistemic modality concerns an estimation of the
+likelihood that (some aspect of) a certain state of affairs is/has
+been/will be true (or false) in the context of the possible world
+under consideration. This estimation of likelihood is situated on
+a scale going from certainty that the state of affairs applies, via
+a neutral or agnostic stance towards its occurrence, to certainty
+that it does not apply, with intermediary positions on the positive
+and the negative sides of the scale.
+
+https://en.wikipedia.org/wiki/Epistemic_modality
+
+https://en.wikipedia.org/wiki/Alethic_modality
+https://en.wikipedia.org/wiki/Deontic_modality
+https://en.wikipedia.org/wiki/Epistemic_probability
+https://en.wikipedia.org/wiki/Hedge_(linguistics)
+
 Logical Languages
 ------------------
 

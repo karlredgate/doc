@@ -2,6 +2,8 @@
 <!--
 -->
 
+https://en.wikipedia.org/wiki/The_Committee_of_Sleep
+
 https://github.com/tpn/pdfs
 
 http://lifehacker.com/grab-over-500-free-programming-books-from-github-1447805132
@@ -15,5 +17,10 @@ Graphic Novels
 --------------
 
 https://en.wikipedia.org/wiki/Lost_Girls
+
+SciFi
+------
+
+https://en.wikipedia.org/wiki/The_Legacy_of_Heorot
 
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->
