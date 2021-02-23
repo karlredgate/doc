@@ -6,6 +6,16 @@ update node.js
 http://stackoverflow.com/questions/8191459/how-to-update-node-js
 https://raw.githubusercontent.com/creationix/nvm/master/nvm.sh
 
+Express
+-------
+
+Vhosts
+
+ * https://www.npmjs.com/package/express-vhost
+ * https://github.com/tommymessbauer/express-vhost
+ * https://git.daplie.com/coolaj86/connect-vhoster
+ * https://coolaj86.com/articles/vhosts-with-nodejs.html
+
 Databases
 ---------
 

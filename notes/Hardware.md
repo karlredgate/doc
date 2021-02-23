@@ -2,6 +2,21 @@
 <!--
 -->
 
+Hyperthreading
+--------------
+
+https://en.wikipedia.org/wiki/Hyper-threading
+https://en.wikipedia.org/wiki/Bubble_(computing)
+https://en.wikipedia.org/wiki/Hazard_(computer_architecture)
+https://en.wikipedia.org/wiki/Out-of-order_execution
+https://en.wikipedia.org/wiki/Scoreboarding
+https://en.wikipedia.org/wiki/Tomasulo_algorithm
+https://en.wikipedia.org/wiki/Classic_RISC_pipeline#Hazards
+https://en.wikipedia.org/wiki/Branch_predication
+https://en.wikipedia.org/wiki/Delay_slot
+https://en.wikipedia.org/wiki/Hazard_(computer_architecture)#PIPELINE-FLUSH
+https://en.wikipedia.org/wiki/Wait_state
+
 One Instruction Set Computer (OISC)
 -----------------------------------
 

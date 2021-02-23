@@ -23,4 +23,6 @@ Marshall Crenshaw https://www.youtube.com/watch?v=tpyRvpX7Z7Y
 Clanadonia https://www.youtube.com/watch?v=U2rOZRDCHHM&index=8&list=RDATaXJpPzlHg
 LAGQ https://www.youtube.com/results?search_query=lagq
 
+https://en.wikipedia.org/wiki/Nouvelle_Vague_(band)
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

@@ -20,4 +20,10 @@ SQL Parser for C++. Building C++ object structure from SQL statements. Used in H
 https://github.com/hyrise/sql-parser
 http://torpedro.com/paper/HyriseSQL-03-2015.pdf
 
+Specs
+-----
+
+http://jtc1sc32.org/doc/N2301-2350/
+http://jtc1sc32.org/doc/N1951-2000/
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

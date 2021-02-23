@@ -2,6 +2,25 @@
 <!--
 -->
 
+Tools
+-----
+
+https://github.com/karkhaz/smid
+http://karkhaz.com/smid/
+http://karkhaz.com/smid/refman.html
+http://semicomplete.com/projects/xdotool
+https://semicomplete.com/projects/xdotool/xdotool.xhtml
+https://github.com/jordansissel/xdotool
+
+http://fakeapp.com/
+http://fakeapp.com/about/
+http://fluidapp.com/
+
+http://developer.telerik.com/featured/javascript-os-x-automation-example/
+http://developer.telerik.com/featured/nativescript-a-technical-overview/
+https://macosxautomation.com/index.html
+http://www.automatedworkflows.com/2011/06/07/gui-automation-tools-for-mac-os-x/
+
 Random Input
 ------------
 

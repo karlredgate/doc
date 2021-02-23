@@ -45,4 +45,6 @@ is a psychological phenomenon involving a stimulus (an image or a
 sound) wherein the mind perceives a familiar pattern of something
 where none actually exists.
 
+https://en.wikipedia.org/wiki/Maquette
+
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

@@ -1,6 +1,30 @@
 
-<!--
--->
+LEDs
+----
+
+https://www.amazon.com/LED-Waterproof-Bedroom-RGB-DotStone/dp/B06Y15YVFN/ref=sr_1_2?ie=UTF8&qid=1496580802&sr=8-2-spons&keywords=LED+lights&psc=1
+https://www.youtube.com/watch?v=JorBRTODjGU
+https://www.youtube.com/watch?v=9KI36GTgwuQ
+https://www.youtube.com/watch?v=AsDHEDbyLfg
+https://www.youtube.com/channel/UCLecVrux63S6aYiErxdiy4w
+
+Mosquito MQTT
+http://mosquitto.org/
+https://test.mosquitto.org/
+
+Streaming Radio Station
+-----------------------
+
+http://www.caster.fm/
+http://www.wikihow.com/Create-an-Internet-Radio-Station
+http://rivendellaudio.org/
+http://ross.sourceforge.net/
+https://www.maketecheasier.com/run-a-diy-internet-radio-station-with-icecast-linux/
+https://en.wikipedia.org/wiki/Icecast
+https://en.wikipedia.org/wiki/List_of_streaming_media_systems
+
+Toilet
+------
 
 http://www.instructables.com/id/How-to-fix-leaking-Water-Ridge-dual-flush-toilet-f/
 http://www.sears.com/search=water%20ridge%20toilet
@@ -44,5 +68,12 @@ done
 http://www.theghostbit.com/2015/06/controlling-honeywell-thermostat.html
 http://www.bradgoodman.com/thermostat/therm.py
 https://www.bogleheads.org/forum/viewtopic.php?t=166354
+
+Plastic Repair
+---------------
+
+ * ThermoMorph - https://www.amazon.com/dp/B00D3LAZ9O?psc=1
+ * https://www.youtube.com/results?search_query=thermomorph
+ * PlastiMake - https://www.youtube.com/watch?v=nMAd4FpXpy4
 
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

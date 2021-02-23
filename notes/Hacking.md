@@ -11,6 +11,25 @@ Grab and watch to see if there is value.
 
 https://www.concise-courses.com/hacking-tools/
 
+### June 2017
+
+https://github.com/vanhauser-thc/thc-hydra
+
+Number one of the biggest security holes are passwords, as every password
+security study shows.
+This tool is a proof of concept code, to give researchers and security
+consultants the possibility to show how easy it would be to gain unauthorized
+access from remote to a system.
+
+https://github.com/vanhauser-thc
+https://www.thc.org/
+
+https://github.com/nneonneo/eqgrp-free-file
+
+This repository contains the decrypted and decompressed contents of the eqgrp-free-file.tar.xz file released by "The Shadow Brokers". The contents are supposedly a free sample of the files exfiltrated from the Equation Group, a notorious, highly-sophisticated cyber attack group.
+
+https://github.com/nneonneo
+
 ### Proxy
 
 Fiddler

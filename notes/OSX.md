@@ -4,6 +4,14 @@ OSX Notes
 <!--
 -->
 
+Open Source OSX apps
+--------------------
+
+ * https://github.com/jeffreyjackson/mac-apps
+ * node lib to get app info - https://github.com/gillstrom/osx-app
+
+ * http://www.westwind.com/reference/OS-X/where-files.html
+
 Command Line Notes
 ------------------
 
@@ -1013,5 +1021,17 @@ same effect as executing the above-mentioned AppleScript:
 ```
 osascript -e "do shell script "/bin/ls -la" with administrator privileges"
 ```
+
+XPC
+----
+
+https://github.com/sandeepmistry/node-xpc-connection
+https://qnalist.com/questions/5535586/c-binding-for-xpc-on-os-x
+
+ * https://developer.apple.com/library/content/documentation/MacOSX/Conceptual/BPSystemStartup/Chapters/CreatingXPCServices.html
+ * https://github.com/brenwell/EvenBetterAuthorizationSample
+ * https://gist.github.com/xiao99xiao/0509091001bdd6259249
+ * https://github.com/atnan/SMJobBlessXPC
+ * http://stackoverflow.com/questions/21623565/how-to-send-a-message-from-xpc-helper-app-to-main-application
 
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->

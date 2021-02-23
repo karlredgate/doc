@@ -2,6 +2,18 @@
 <!--
 -->
 
+Ullman - Hadoop
+---------------
+
+http://infolab.stanford.edu/~ullman/
+http://www.mmds.org/
+https://lintool.github.io/MapReduceAlgorithms/
+
+Data Sources
+-------------
+
+ * https://data.cityofchicago.org/Transportation/Chicago-Traffic-Tracker-Historical-Congestion-Esti/emtn-qqdi
+
 ETL
 ----
 

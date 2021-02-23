@@ -4,6 +4,12 @@
 
 http://codeofrob.com/entries/you-have-ruined-javascript.html
 
+June 1
+------
+
+https://github.com/Matt-Esch/virtual-dom
+https://cycle.js.org/
+
 Engines
 -------
 
@@ -834,5 +840,17 @@ Uglify etc
 
 https://github.com/mishoo/UglifyJS2
 http://lisperator.net/uglifyjs/
+
+Database
+--------
+
+http://taffydb.com/
+
+How you ever noticed how JavaScript object literals look a lot like
+records? And that if you wrap a group of them up in an array you
+have something that looks a lot like a database table? TaffyDB is
+a libary to bring powerful database funtionality to that concept
+and rapidly improve the way you work with data inside of JavaScript.
+
 
 <!-- vim: set autoindent expandtab sw=4 syntax=markdown: -->
