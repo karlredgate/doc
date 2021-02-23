@@ -1,0 +1,536 @@
+
+ArrisTuska
+‎08-08-2013 10:17 PM
+
+your in luck..   We re-enabled /60 IA_PD in most areas, and yes your area is one of them..  If your router can do a IA_PD and request a /60 the DHCP server will assign one.
+
+------
+Hi ComcastTuska, thanks for all the fantastic IPv6 support you've been providing.
+ 
+I'm in Berkeley, CA and have been running IPv6 successfully for several months. I'm trying to get a /60 but without success. Any idea whether it's enabled for my site?
+ 
+My WIDE-DHCPv6 config is:
+interface em0 {
+    information-only;
+};
+
+interface em3 {
+    send ia-na 1;
+    send ia-pd 1;
+    send rapid-commit;
+    request domain-name-servers;
+
+    script "/usr/local/bin/dhcp6c-script";
+};
+
+id-assoc pd 1 {
+    prefix-interface em0 {
+        sla-len 4; # ::/60
+        sla-id 0; # subnet 0
+    };
+};
+
+id-assoc na 1 {
+};
+em3 is the public interface, and em0 is one of my LAN interfaces.
+ 
+The script just hard-codes the Comcast router link-local address as I can't use route advertisements to configure local interfaces in OpenBSD when it's configured as a router.
+ 
+/sbin/route -q delete -inet6 default
+/sbin/route add -inet6 default -ifp em3 fe80::201:5cff:fe22:e141%em3
+ Thanks for any help you can provide!
+
+----------
+
+ArrisTuska
+‎08-10-2013 10:37 PM
+
+Totally, you should be good PM me your CM MAC, and a good email address.
+ 
+Did you try a DHCPv6 release\renew?  If you did, I would say one of two things could be happening here..
+ 
+1.) your device isn't releasing the old  2) we aren't releasing the old 3) the IA_PD is not setup correct.
+ 
+So what I would like to try is this do a release\renew, if that doesn't work.  I will schedule a /64 delete on your /64.  You do a reboot so to re-request a DHCPv6 PD and we can see if you get a /60 or /64.
+ 
+If you get a /60 then the OS isn't doing a release correct, if you don't get a /60 at all then the OS isn't requesting the /60 correct.
+
+---------
+
+The wide-dhcpv6-client performs a release on termination, and I'm terminating it cleanly, so I believe it's doing a release, yes. Here's the output from a recent session log:
+ 
+Aug/11/2013 12:18:20: dhcp6_remove_event: removing an event on em3, state=RELEASE
+Aug/11/2013 12:18:20: client6_recvreply: got an expected reply, sleeping.
+Aug/11/2013 12:18:22: copy_option: set client ID (len 14)
+Aug/11/2013 12:18:22: copy_option: set server ID (len 14)
+Aug/11/2013 12:18:22: copy_option: set elapsed time (len 2)
+Aug/11/2013 12:18:22: copyout_option: set IA_PD prefix
+Aug/11/2013 12:18:22: copyout_option: set IA_PD
+Aug/11/2013 12:18:22: client6_send: send release to ff02::1:2%em3
+Aug/11/2013 12:18:22: dhcp6_reset_timer: reset a timer on em3, state=RELEASE, timeo=1, retrans=2230
+Aug/11/2013 12:18:22: client6_recv: receive reply from fe80::201:5cff:fe22:e141%em3 on em3
+Aug/11/2013 12:18:22: dhcp6_get_options: get DHCP option client ID, len 14
+Aug/11/2013 12:18:22:   DUID: 00:01:00:01:19:9a:9f:b7:00:00:24:ce:86:bc
+Aug/11/2013 12:18:22: dhcp6_get_options: get DHCP option server ID, len 14
+Aug/11/2013 12:18:22:   DUID: 00:01:00:01:15:d6:c3:ad:84:2b:2b:fc:6c:e5
+Aug/11/2013 12:18:22: dhcp6_get_options: get DHCP option status code, len 21
+Aug/11/2013 12:18:22:   status code: success
+Aug/11/2013 12:18:22: client6_recvreply: status code: success
+Aug/11/2013 12:18:22: client6_recvreply: executes /usr/local/bin/dhcp6c-script
+add net default: gateway fe80::201:5cff:fe22:e141%em3
+Aug/11/2013 12:18:22: client6_script: script "/usr/local/bin/dhcp6c-script" terminated
+Aug/11/2013 12:18:22: dhcp6_remove_event: removing an event on em3, state=RELEASE
+Aug/11/2013 12:18:22: check_exit: exiting
+ While experimenting this morning, I've gotten 3 different /64's: 2601:9:680:95::/64, 2601:9:680:30e::/64, and 2601:9:680:294::/64, but no /60's.
+ 
+FYI, I'm a business subscriber, if that makes any difference. However, I'm running a SB6121 that I insisted on when I signed up.
+ 
+thanks again!
+
+--------
+
+ArrisTuska
+‎08-11-2013 04:29 PM
+
+Nope that
+| brodieb wrote:
+| 
+| While experimenting this morning, I've gotten 3 different
+| /64's: 2601:9:680:95::/64, 2601:9:680:30e::/64, and
+| 2601:9:680:294::/64, but no /60's.
+| 
+| FYI, I'm a business subscriber, if that makes any difference.
+| However, I'm running a SB6121 that I insisted on when I signed up.
+| 
+| thanks again!
+ 
+ok, so I will get with the DHCP Server team and come up with a plan
+of attack here and email you..  I am at a CableLabs conference, so
+I may be a little delayed getting back with you.
+
+-----------
+
+this is interesting. im running a Cisco 3825. i scrapped everything ipv6 related from the interface and readded it, and also #clear ipv6 dhcp client int g0/1 ...got the same /64. 
+
+adm-rtr-1#sh ipv6 dhcp int g0/1
+GigabitEthernet0/1 is in client mode
+Prefix State is OPEN (0)
+<boring>
+Prefix: 2601:9:5A80:158::/64
+<boring>
+DNS server: 2001:558:FEED::1
+DNS server: 2001:558:FEED::2
+Information refresh time: 0
+Prefix name: COMCAST
+Prefix Rapid-Commit: disabled
+Address Rapid-Commit: disabled
+Prefixes sent as hint:
+::/60
+ 
+thinking im not releasing the binding, i repeat, also #clear ipv6 dhcp bind *
+ 
+I appear stuck in SOLICIT:
+ 
+adm-rtr-1#sh ipv6 dhcp int g0/1
+GigabitEthernet0/1 is in client mode
+Prefix State is SOLICIT (0)
+<boring>
+ 
+the inteface itself is pretty simple:
+ 
+interface GigabitEthernet0/1
+ipv6 address dhcp
+ipv6 address autoconfig default
+ipv6 enable
+ipv6 dhcp client pd hint ::/60
+ipv6 dhcp client pd COMCAST
+ 
+after waiting awhile, i scrapped the interface config again, and started over...(which is one of the many awesome things about ipv6...no disruption to ipv4!)
+ 
+TADA!
+
+GigabitEthernet0/1 is in client mode
+Prefix State is OPEN (0)
+Information refresh timer expires in 23:59:43
+Renew will be sent in 1d23h
+Address State is OPEN
+<booooring>
+Prefix: 2601:9:5A80:450::/60
+preferred lifetime 345600, valid lifetime 345600
+expires at Aug 16 2013 09:00 AM (345584 seconds)
+ 
+SWEET! now the real work begins! thanks again!
+
+----------
+
+ArrisTuska
+‎08-13-2013 11:02 AM
+
+For each interface add this:
+ 
+Interface 1
+ ipv6 address prefix-from-Comcast ::1/64
+ ipv6 enable
+ ipv6 nd other-config-flag
+ ipv6 traffic-filter ipv6_outbound in  (my access list)
+ 
+Interface 2
+ ipv6 address prefix-from-Comcast ::1:0:0:0:1/64
+ ipv6 enable
+ ipv6 nd other-config-flag
+ ipv6 traffic-filter ipv6_outbound in
+ 
+Interface 3
+ ipv6 address prefix-from-Comcast ::2:0:0:0:1/64
+ ipv6 enable
+ ipv6 nd other-config-flag
+ ipv6 traffic-filter ipv6_outbound in
+ 
+And so on for each interface..
+
+---------
+
+I seem to still be having issues with this.  
+ 
+My Setup:
+ 
+Comcast ISP -> Cisco Router -> Cisco ASA -> Multiple Interfaces and VLAN's
+ 
+Now i'm trying to pass the /60 though VLAN1 on the router for the ASA to break apart into /64's for the various network interfaces.
+ 
+Interface Configurations:
+ 
+twr1#sh ru int fa 4
+Building configuration...
+Current configuration : 451 bytes
+!
+interface FastEthernet4
+description WAN
+ip address dhcp
+no ip redirects
+no ip unreachables
+no ip proxy-arp
+ip flow ingress
+ip nat outside
+ip virtual-reassembly in
+zone-member security outside
+duplex auto
+speed auto
+ipv6 address dhcp
+ipv6 enable
+ipv6 nd autoconfig default-route
+ipv6 dhcp client pd hint ::/60
+ipv6 dhcp client pd prefix-from-Comcast
+ipv6 traffic-filter wan-in in
+ipv6 traffic-filter wan-out out
+no cdp enable
+end
+ 
+twr1#sh ru int vlan1
+Building configuration...
+Current configuration : 332 bytes
+!
+interface Vlan1
+description LAN
+ip address 10.10.100.1 255.255.255.252
+no ip redirects
+no ip unreachables
+no ip proxy-arp
+ip accounting output-packets
+ip flow ingress
+ip nat inside
+ip virtual-reassembly in
+zone-member security inside
+ipv6 address prefix-from-Comcast ::1/60
+ipv6 enable
+ipv6 nd other-config-flag
+end
+ 
+ 
+Debugg:
+ 
+twr1#clear ipv6 dhcp binding *
+twr1#clear ipv6 dhcp client fa 4
+000057: *Jan 1 20:15:34.059 EST: IPv6 DHCP: Sending RELEASE to FF02::1:2 on FastEthernet4
+000058: *Jan 1 20:15:34.059 EST: IPv6 DHCP: DHCPv6 changes state from OPEN to RELEASE (SHUTDOWN) on FastEthernet4
+000059: *Jan 1 20:15:34.059 EST: IPv6 DHCP: Sending RELEASE to FF02::1:2 on FastEthernet4
+000060: *Jan 1 20:15:34.063 EST: IPv6 DHCP: DHCPv6 address changes state from OPEN to RELEASE (ADDR_SHUTDOWN) on FastEthernet4
+000061: *Jan 1 20:15:34.799 EST: IPv6 DHCP: Received REPLY from FE80::201:5CFF:FE23:F81 on FastEthernet4
+000062: *Jan 1 20:15:34.799 EST: IPv6 DHCP: Removing prefix 2601:A:3480:29E::/64 from prefix-from-Comcast
+twr1#
+000063: *Jan 1 20:15:34.799 EST: IPv6 DHCP: Unconfiguring DNS server 2001:558:FEED::1
+000064: *Jan 1 20:15:34.799 EST: IPv6 DHCP: Unconfiguring DNS server 2001:558:FEED::2
+000065: *Jan 1 20:15:34.799 EST: IPv6 DHCP: DHCPv6 changes state from RELEASE to IDLE (REPLY_RECEIVED) on FastEthernet4
+000066: *Jan 1 20:15:35.031 EST: IPv6 DHCP: Sending RELEASE to FF02::1:2 on FastEthernet4
+000067: *Jan 1 20:15:35.087 EST: IPv6 DHCP: DHCPv6 address changes state from RELEASE to SOLICIT (ADDR_START) on FastEthernet4
+000068: *Jan 1 20:15:35.087 EST: IPv6 DHCP: DHCPv6 changes state from IDLE to SOLICIT (START) on FastEthernet4
+twr1#
+000069: *Jan 1 20:15:35.747 EST: IPv6 DHCP: Received REPLY from FE80::201:5CFF:FE23:F81 on FastEthernet4
+000070: *Jan 1 20:15:35.747 EST: IPv6 DHCP: No matching transaction ID in REPLY from FE80::201:5CFF:FE23:F81 on FastEthernet4
+000071: *Jan 1 20:15:36.071 EST: IPv6 DHCP: Sending SOLICIT to FF02::1:2 on FastEthernet4
+000072: *Jan 1 20:15:36.127 EST: IPv6 DHCP: Sending SOLICIT to FF02::1:2 on FastEthernet4
+000073: *Jan 1 20:15:36.783 EST: IPv6 DHCP: Received ADVERTISE from FE80::201:5CFF:FE23:F81 on FastEthernet4
+000074: *Jan 1 20:15:36.783 EST: IPv6 DHCP: Adding server FE80::201:5CFF:FE23:F81
+000075: *Jan 1 20:15:36.783 EST: IPv6 DHCP: Sending REQUEST to FF02::1:2 on FastEthernet4
+000076: *Jan 1 20:15:36.831 EST: IPv6 DHCP: Received ADVERTISE from FE80::201:5CFF:FE23:F81 on FastEthernet4
+000077: *Jan 1 20:15:36.831 EST: IPv6 DHCP: No matching transaction ID in ADVERTISE from FE80::201:5CFF:FE23:F81 on FastEthernet4
+000078: *Jan 1 20:15:36.847 EST: IPv6 DHCP: Received ADVERTISE from FE80::201:5CFF:FE23:F81 on FastEthernet4
+twr1#
+000079: *Jan 1 20:15:36.847 EST: IPv6 DHCP: Sending REQUEST to FF02::1:2 on FastEthernet4
+000080: *Jan 1 20:15:36.847 EST: IPv6 DHCP: DHCPv6 changes state from SOLICIT to REQUEST (ADVERTISE_RECEIVED) on FastEthernet4
+000081: *Jan 1 20:15:36.879 EST: IPv6 DHCP: Received ADVERTISE from FE80::201:5CFF:FE23:F81 on FastEthernet4
+000082: *Jan 1 20:15:36.879 EST: IPv6 DHCP: No matching transaction ID in ADVERTISE from FE80::201:5CFF:FE23:F81 on FastEthernet4
+000083: *Jan 1 20:15:37.563 EST: IPv6 DHCP: Received REPLY from FE80::201:5CFF:FE23:F81 on FastEthernet4
+000084: *Jan 1 20:15:37.563 EST: IPv6 DHCP: Processing options
+000085: *Jan 1 20:15:37.563 EST: IPv6 DHCP: Adding address 2001:558:6020:169:489E:F381:1110:5102/128 to FastEthernet4
+000086: *Jan 1 20:15:37.563 EST: IPv6 DHCP: T1 set to expire in 172800 seconds
+000087: *Jan 1 20:15:37.563 EST: IPv6 DHCP: T2 set to expire in 276480 seconds
+000088: *Jan 1 20:15:37.567 EST: IPv6 DHCP: Configuring DNS server 2001:558:FEED::1
+000089: *Jan 1 20:15:37.567 EST: IPv6 DHCP: Configuring DNS server 2001:558:FEED::2
+000090: *Jan 1 20:15:37.739 EST: IPv6 DHCP: Received REPLY from FE80::201:5CFF:FE23:F81 on FastEthernet4
+000091: *Jan 1 20:15:37.739 EST: IPv6 DHCP: Processing options
+twr1#
+000092: *Jan 1 20:15:37.739 EST: IPv6 DHCP: Adding prefix 2601:A:3480:29E::/64 to prefix-from-Comcast
+000093: *Jan 1 20:15:37.739 EST: IPv6 DHCP: T1 set to expire in 172800 seconds
+000094: *Jan 1 20:15:37.739 EST: IPv6 DHCP: T2 set to expire in 276480 seconds
+000095: *Jan 1 20:15:37.739 EST: IPv6 DHCP: DHCPv6 changes state from REQUEST to OPEN (REPLY_RECEIVED) on FastEthernet4
+ 
+ 
+twr1#sh ipv6 dhcp int fa 4
+FastEthernet4 is in client mode
+Prefix State is OPEN
+Renew will be sent in 1d23h
+Address State is OPEN
+Renew for address will be sent in 1d23h
+List of known servers:
+Reachable via address: FE80::201:5CFF:FE23:F81
+DUID: 0001000116E1109714FEB5D80D5E
+Preference: 255
+Configuration parameters:
+IA PD: IA ID 0x00020001, T1 172800, T2 276480
+Prefix: 2601:A:3480:29E::/64
+preferred lifetime 345600, valid lifetime 345600
+expires at Jan 05 2006 08:15 PM (345561 seconds)
+IA NA: IA ID 0x00020001, T1 172800, T2 276480
+Address: 2001:558:6020:169:489E:F381:1110:5102/128
+preferred lifetime 345600, valid lifetime 345600
+expires at Jan 05 2006 08:15 PM (345561 seconds)
+DNS server: 2001:558:FEED::1
+DNS server: 2001:558:FEED::2
+Information refresh time: 0
+Prefix name: prefix-from-Comcast
+Prefix Rapid-Commit: disabled
+Address Rapid-Commit: disabled
+Prefixes sent as hint:
+::/60
+
+
+-----------
+
+ArrisTuska
+‎08-16-2013 12:32 PM
+
+I would try what "souped" tried "after waiting awhile, i scrapped the interface config again, and started over...(which is one of the many awesome things about ipv6...no disruption to ipv4!"
+ 
+---------
+
+My wide-dhcpv6-client configuration is working now, and I'm readily obtaining /60's from Comcast. The trick is that you need to specify a prefix in the client configuration. I had thought that simply specifying a sla-len in each prefix-interface stanza was sufficient.
+ 
+Here's my working dhcp6c.conf, for reference. I'm listening for DHCPv6 offers on em3, requesting a generic /60 prefix, and assigning /64 subnets to em0 and em2.
+ 
+interface em3 {
+    send ia-na 1;
+    send ia-pd 1;
+    send rapid-commit;
+    request domain-name-servers;
+
+    script "/usr/local/bin/dhcp6c-script";
+};
+
+id-assoc pd 1 {
+    prefix ::/60 infinity;
+
+    prefix-interface em0 {
+        sla-len 4;
+        sla-id 1;
+    };
+
+    prefix-interface em2 {
+        sla-len 4;
+        sla-id 2;
+    };
+};
+
+id-assoc na 1 {
+};
+For the contents of the script and my reason for needing it, see my original post in this thread.
+ 
+Thanks for the IPv6 service, Comcast! And thanks again to ComcastTuska for the great support.
+
+-------------
+
+Hi Do you know if IA_PD is supported in the Freedom Region of Comcast? I live in NJ and my router supports it but I can't seem to pull anything larger than /64. If it is not available do you have a date on when it might be supported?
+
+--------
+
+ArrisTuska
+‎08-27-2013 07:20 PM
+
+That is a GREAT question, we do have two major areas where it is NOT supported due to upgrades that need to be completed..  Feel free to PM me your Public IPv4 address or CM(HFC) MAC address and I will take a look.
+
+
+---------
+
+After further digging in the sparse documentation I determined that I could force a release with a SIGTERM. I also figured out how to add the PD option to specifically request a ::/60. For some reason it looks like I'm getting two advertisements back from the DHCP server now though, a ::/60 followed by a ::/64 which causes some problems with the wide-dhcp6c client and prevents proper assignment of the ::/60. See the log:
+ 
+Sep 24 01:53:11 OpenWrt daemon.debug dhcp6c[2965]: client6_send: send solicit to ff02::1:2
+Sep 24 01:53:11 OpenWrt daemon.debug dhcp6c[2965]: dhcp6_reset_timer: reset a timer on eth0, state=SOLICIT, timeo=0, retrans=1012
+Sep 24 01:53:11 OpenWrt daemon.debug dhcp6c[2965]: client6_recv: receive advertise from fe80::214:f1ff:fee8:b1e2 on eth0
+Sep 24 01:53:11 OpenWrt daemon.debug dhcp6c[2965]: dhcp6_get_options: get DHCP option client ID, len 10
+Sep 24 01:53:11 OpenWrt daemon.debug dhcp6c[2965]:   DUID: 00:03:00:06:00:15:6d:c1:3c:84
+Sep 24 01:53:11 OpenWrt daemon.debug dhcp6c[2965]: dhcp6_get_options: get DHCP option server ID, len 14
+Sep 24 01:53:11 OpenWrt daemon.debug dhcp6c[2965]:   DUID: 00:01:00:01:16:e9:ad:15:14:fe:b5:d5:a6:a0
+Sep 24 01:53:11 OpenWrt daemon.debug dhcp6c[2965]: dhcp6_get_options: get DHCP option identity association, len 40
+Sep 24 01:53:11 OpenWrt daemon.debug dhcp6c[2965]:   IA_NA: ID=0, T1=172800, T2=276480
+Sep 24 01:53:11 OpenWrt daemon.debug dhcp6c[2965]: copyin_option: get DHCP option IA address, len 24
+Sep 24 01:53:11 OpenWrt daemon.debug dhcp6c[2965]: copyin_option:   IA_NA address: 2001:558:6014:a:1c2b:4e03:7539:e5b3 pltime=345600 vltime=345600
+Sep 24 01:53:11 OpenWrt daemon.debug dhcp6c[2965]: dhcp6_get_options: get DHCP option IA_PD, len 41
+Sep 24 01:53:11 OpenWrt daemon.debug dhcp6c[2965]:   IA_PD: ID=0, T1=172800, T2=276480
+Sep 24 01:53:11 OpenWrt daemon.debug dhcp6c[2965]:   DUID: 00:01:00:01:16:e9:ad:0d:14:fe:b5:d5:b6:f9
+Sep 24 01:53:11 OpenWrt daemon.debug dhcp6c[2965]: dhcp6_get_options: get DHCP option identity association, len 40
+Sep 24 01:53:11 OpenWrt daemon.debug dhcp6c[2965]:   IA_NA: ID=0, T1=172800, T2=276480
+Sep 24 01:53:11 OpenWrt daemon.debug dhcp6c[2965]: copyin_option: get DHCP option IA address, len 24
+Sep 24 01:53:11 OpenWrt daemon.debug dhcp6c[2965]: copyin_option:   IA_NA address: 2001:558:6014:a:859d:bd39:6473:46f1 pltime=345600 vltime=345600
+Sep 24 01:53:11 OpenWrt daemon.debug dhcp6c[2965]: dhcp6_get_options: get DHCP option IA_PD, len 41
+Sep 24 01:53:11 OpenWrt daemon.debug dhcp6c[2965]:   IA_PD: ID=0, T1=172800, T2=276480
+Sep 24 01:53:11 OpenWrt daemon.debug dhcp6c[2965]: copyin_option: get DHCP option IA_PD prefix, len 25
+Sep 24 01:53:11 OpenWrt daemon.debug dhcp6c[2965]: copyin_option:   IA_PD prefix: 2601:2:4540:130::/60 pltime=345600 vltime=345600
+Sep 24 01:53:11 OpenWrt daemon.debug dhcp6c[2965]: dhcp6_get_options: get DHCP option preference, len 1
+Sep 24 01:53:11 OpenWrt daemon.debug dhcp6c[2965]:   preference: 0
+Sep 24 01:53:11 OpenWrt daemon.debug dhcp6c[2965]: dhcp6_get_options: get DHCP option DNS, len 32
+Sep 24 01:53:11 OpenWrt daemon.info dhcp6c[2965]: client6_recvadvert: XID mismatch
+Sep 24 01:53:11 OpenWrt daemon.debug dhcp6c[2965]: client6_recv: receive reply from fe80::214:f1ff:fee8:b1e2 on eth0
+Sep 24 01:53:11 OpenWrt daemon.debug dhcp6c[2965]: dhcp6_get_options: get DHCP option client ID, len 10
+Sep 24 01:53:11 OpenWrt daemon.debug dhcp6c[2965]:   DUID: 00:03:00:06:00:15:6d:c1:3c:84
+Sep 24 01:53:11 OpenWrt daemon.debug dhcp6c[2965]: dhcp6_get_options: get DHCP option server ID, len 14
+Sep 24 01:53:11 OpenWrt daemon.debug dhcp6c[2965]:   DUID: 00:01:00:01:16:e9:ad:15:14:fe:b5:d5:a6:a0
+Sep 24 01:53:11 OpenWrt daemon.debug dhcp6c[2965]: dhcp6_get_options: get DHCP option identity association, len 40
+Sep 24 01:53:11 OpenWrt daemon.debug dhcp6c[2965]:   IA_NA: ID=0, T1=172800, T2=276480
+Sep 24 01:53:11 OpenWrt daemon.debug dhcp6c[2965]: copyin_option: get DHCP option IA address, len 24
+Sep 24 01:53:11 OpenWrt daemon.debug dhcp6c[2965]: copyin_option:   IA_NA address: 2001:558:6014:a:1c2b:4e03:7539:e5b3 pltime=345600 vltime=345600
+Sep 24 01:53:11 OpenWrt daemon.debug dhcp6c[2965]: dhcp6_get_options: get DHCP option IA_PD, len 41
+Sep 24 01:53:11 OpenWrt daemon.debug dhcp6c[2965]:   IA_PD: ID=0, T1=172800, T2=276480
+Sep 24 01:53:11 OpenWrt daemon.debug dhcp6c[2965]: copyin_option: get DHCP option IA_PD prefix, len 25
+Sep 24 01:53:11 OpenWrt daemon.debug dhcp6c[2965]: copyin_option:   IA_PD prefix: 2601:2:4500:c78::/64 pltime=345600 vltime=345600
+Sep 24 01:53:11 OpenWrt daemon.debug dhcp6c[2965]: dhcp6_get_options: get DHCP option DNS, len 32
+Sep 24 01:53:11 OpenWrt daemon.debug dhcp6c[2965]: info_printf: nameserver[0] 2001:558:feed::2
+Sep 24 01:53:11 OpenWrt daemon.debug dhcp6c[2965]: info_printf: nameserver[1] 2001:558:feed::1
+Sep 24 01:53:11 OpenWrt daemon.debug dhcp6c[2965]: client6_recvreply: executes /usr/bin/dhcp6c-state
+Sep 24 01:53:11 OpenWrt daemon.debug dhcp6c[2965]: client6_script: script "/usr/bin/dhcp6c-state" terminated
+Sep 24 01:53:11 OpenWrt daemon.debug dhcp6c[2965]: get_ia: make an IA: PD-0
+Sep 24 01:53:11 OpenWrt daemon.debug dhcp6c[2965]: update_prefix: create a prefix 2601:2:4500:c78::/64 pltime=345600, vltime=345600
+Sep 24 01:53:11 OpenWrt daemon.info dhcp6c[2965]: add_ifprefix: invalid prefix length 64 + 4 + 64
+Sep 24 01:53:11 OpenWrt daemon.info dhcp6c[2965]: add_ifprefix: invalid prefix length 64 + 4 + 64
+Sep 24 01:53:11 OpenWrt daemon.debug dhcp6c[2965]: get_ia: make an IA: NA-0
+Sep 24 01:53:11 OpenWrt daemon.debug dhcp6c[2965]: update_address: create an address 2001:558:6014:a:1c2b:4e03:7539:e5b3 pltime=345600, vltime=345600
+Sep 24 01:53:11 OpenWrt daemon.debug dhcp6c[2965]: ifaddrconf: add an address 2001:558:6014:a:1c2b:4e03:7539:e5b3/128 on eth0
+Sep 24 01:53:11 OpenWrt daemon.debug dhcp6c[2965]: dhcp6_remove_event: removing an event on eth0, state=REQUEST
+Sep 24 01:53:11 OpenWrt daemon.debug dhcp6c[2965]: dhcp6_remove_event: removing server (ID: 00:01:00:01:16:e9:ad:15:14:fe:b5:d5:a6:a0)
+Sep 24 01:53:11 OpenWrt daemon.debug dhcp6c[2965]: client6_recvreply: got an expected reply, sleeping.
+
+----------
+
+After playing around with the config on my 2851, I was finally able to get a ::/60 prefix to advertise and install. I'm not sure what the deal was, as my debugs kept showing only ::/64 advertisements until earlier today when an unsolicited advertisement for a ::/60 showed up. Attempting to clear the DHCP client on only resulted in the same ::/64 prefix I had all weekend until I blew the entire IPv6 configuration away on all interfaces and let things sit for about 30 minutes. Putting the same configuration back resulted in the desired ::/60 PD, and all seems to be working fine.
+ 
+There is a question that I have concerning the PD lease. How frequently can I expect the PD to change going forward, and is does Comcast allow me to hint for the same prefix that was just assigned? I ask because I run an internal DNS to make my home network and services, and I would like to avoid having to rebuild my DNS zones and DHCP name-server statements every time it changes.
+ 
+Current working config:
+ 
+ipv6 dhcp pool DHCP-LAN-IPv6
+dns-server <internal DNS IPv6 address>
+domain-name <internal domain-name>
+ 
+interface GigabitEthernet0/0
+description $FW_OUTSIDE$
+ip address dhcp
+no ip redirects
+no ip unreachables
+ip nat outside
+ip virtual-reassembly in
+zone-member security out-zone
+load-interval 30
+duplex auto
+speed auto
+ipv6 address dhcp
+ipv6 enable
+ipv6 nd autoconfig default-route
+ipv6 dhcp client pd hint ::/60
+ipv6 dhcp client pd COMCAST_PREFIX
+ipv6 virtual-reassembly in
+no cdp enable
+no mop enabled
+crypto map CRYP_MAP
+end
+ 
+interface GigabitEthernet1/0.108
+description Home-VLAN
+encapsulation dot1Q 108
+ip address 192.168.8.1 255.255.255.0
+no ip redirects
+ip nat inside
+ip virtual-reassembly in
+zone-member security in-zone
+ipv6 address COMCAST_PREFIX ::8:0:0:0:1/64
+ipv6 enable
+ipv6 nd other-config-flag
+ipv6 dhcp server DHCP-LAN-IPv6
+ipv6 virtual-reassembly in
+end
+ 
+
+--------
+
+ArrisTuska
+‎10-08-2013 10:26 AM
+
+| zelouki wrote: 
+| There is a question that I have concerning the PD lease. How
+| frequently can I expect the PD to change going forward, and is does
+| Comcast allow me to hint for the same prefix that was just assigned?
+| I ask because I run an internal DNS to make my home network and
+| services, and I would like to avoid having to rebuild my DNS zones
+| and DHCP name-server statements every time it changes.
+ 
+As long as you keep the router online and the renews work correctly, you shouldnt have any issues.  I have had the same /60 for about a year now..  So you should receive the same PD each time you do a renew..
+ 
+Now if you have network issues you may pull from the back DHCP server.  Bottom line is you have the same config as I do so you should be good to go.   If you have issues please post again with details..
+
+-------
+
+ArrisTuska
+‎10-08-2013 10:29 AM
+
+| madbavarian99 wrote:
+| I found that the /64 that I was receiving changed much too
+| frequently to be useful for using for traffic within my network.
+| After a half dozen address changes I stopped updating my internal
+| DNS zone with the Comcast provided address and simply started using
+| LUA addresses (eg. fdxx::/64).
+ 
+| I think Comcast is doing a disservice to IPv6 adoption by handing
+| out such short leases.  How are they expecting folks to tie their
+| printers and fileservers together if the addresses change every few
+| days?  At least with NAT on ipv4 we had fixed addresses that we
+| could count on.  With 2 day leases we are supposed to update
+| /etc/hosts or our dns zones every few days?  Preposterous.
+
+This is incorrect information, maybe you should post a new topic
+with your issue..  Maybe post some details like Modem, Router,
+Firmware versions and your config on the router so other people can
+take a look..  I know some router firmwares in the field have an
+issue sending a new DUID for each release, that would get you a new
+PD each time.  But that is not a Comcast issue..
+
+--------
+
+
